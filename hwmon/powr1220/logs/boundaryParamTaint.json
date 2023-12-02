@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "command",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L143",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L314",
+    "drv caller (param)": "[ powr1220_read_adc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L148 ], ",
+    "call path (param)": " [powr1220_read_adc->i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L542 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "1",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "command",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L164",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L314",
+    "drv caller (param)": "[ powr1220_read_adc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L129 ], ",
+    "call path (param)": " [powr1220_read_adc->i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L542 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "3",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1052",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L763",
+    "drv caller (param)": "[ powr1220_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L308 ], ",
+    "call path (param)": " [powr1220_probe->devm_hwmon_device_register_with_info->hwmon_device_register_with_info->__hwmon_device_register] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_hwmon_device_register_with_info->hwmon_device_register_with_info->__hwmon_device_register] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L910 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L910 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L910 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L814 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L814 | ",
+    "isControl": "0"
+  }
+]

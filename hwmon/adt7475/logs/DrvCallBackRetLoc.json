@@ -1,0 +1,37 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L566",
+    "Drv func": "adt7475_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1631"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2313",
+    "Drv func": "adt7475_detect",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1313"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "vrm_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1051"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2358",
+    "Drv func": "vrm_store",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1058"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "cpu0_vid_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1073"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "pwm_use_point2_pwm_at_crit_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1014"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2358",
+    "Drv func": "pwm_use_point2_pwm_at_crit_store",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1026"
+  }
+]

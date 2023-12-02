@@ -1,0 +1,192 @@
+{
+  "id": 0,
+  "acc_path": "resource->start",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L454],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L214],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L452],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L207], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1266], "
+}
+{
+  "id": 3,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L55 | platform_get_resource",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L55 | platform_get_resource",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L576 | platform_device_alloc",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L604 | platform_device_add_resources",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "msecs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L2086 | msleep",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L958 | abituguru3_probe",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L958 | abituguru3_probe",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L958 | abituguru3_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L958 | abituguru3_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L958 | abituguru3_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L958 | abituguru3_probe",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/abituguru3.c#L1130 | abituguru3_suspend",
+  "Drv update": ""
+}

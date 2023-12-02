@@ -1,0 +1,105 @@
+[
+  {
+    "Total Bugon": 14,
+    "Controlled Bugon": 14,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ pch_vbus_gpio_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L1389 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "irq_set_irq_type->__irq_set_trigger->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3089 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_try_set_mwi->pci_set_mwi->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3051 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "pcim_enable_device->get_pci_dr->devres_get->devres_free"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3051 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "pcim_enable_device->get_pci_dr->devres_get->add_dr"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3051 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pcim_enable_device->pci_enable_device->pci_enable_device_flags->do_pci_enable_device->pci_set_power_state->pci_set_low_power_state->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3088 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_set_master->__pci_set_master->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ pch_vbus_gpio_work_rise | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L1330 ], [ pch_udc_dev_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2682 ], [ pch_udc_dev_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2679 ], [ pch_udc_dev_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2675 ], [ pch_udc_dev_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2644 ], [ pch_udc_dev_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2639 ], [ pch_udc_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2705 ], [ pch_vbus_gpio_work_fall | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L1292 ], [ pch_udc_dev_isr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L2685 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3071 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "pcim_iomap_table->devres_get->devres_free"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3071 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "pcim_iomap_table->devres_get->add_dr"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3067 ], ",
+    "Trans func name": "pcim_iounmap",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/devres.c#L404",
+    "Check": "No check",
+    "Call Path": "pcim_iomap_regions->pcim_iounmap"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3067 ], ",
+    "Trans func name": "pcim_iomap",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/devres.c#L378",
+    "Check": "No check",
+    "Call Path": "pcim_iomap_regions->pcim_iomap"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3067 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "pcim_iomap_regions->pcim_iomap_table->devres_get->devres_free"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3067 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "pcim_iomap_regions->pcim_iomap_table->devres_get->add_dr"
+  },
+  {
+    "Drv caller": "[ pch_udc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pch_udc.c#L3078 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "pci_enable_msi->__pci_enable_msi_range->pci_setup_msi_context->pcim_setup_msi_release->devm_add_action->devres_add->add_dr"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L566",
+    "Drv func": "mcp3021_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L122"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L404",
+    "Drv func": "mcp3021_is_visible",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L92"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L269",
+    "Drv func": "mcp3021_is_visible",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L92"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L321",
+    "Drv func": "mcp3021_read",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L60"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L161",
+    "Drv func": "mcp3021_read",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L60"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2525",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L76",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L769",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L56",
+    "loop form": "list iteration/container_of"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L566",
+    "Drv func": "gl520_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L857"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2313",
+    "Drv func": "gl520_detect",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L798"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "beep_mask_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L592"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2358",
+    "Drv func": "beep_mask_store",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L624"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "beep_enable_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L585"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2358",
+    "Drv func": "beep_enable_store",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L599"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "alarms_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L578"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "fan1_off_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L367"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2358",
+    "Drv func": "fan1_off_store",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L464"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "cpu0_vid_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L189"
+  }
+]

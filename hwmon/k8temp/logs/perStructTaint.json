@@ -1,0 +1,33 @@
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_dev",
+    "No.Fields": 115,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_device_id",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L324",
+    "Drv func": "fam15h_power_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L446"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L671",
+    "Drv func": "fam15h_power_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L377"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "power1_average_interval_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L255"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2358",
+    "Drv func": "power1_average_interval_store",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L264"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "power1_average_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L199"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "power1_input_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L70"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "power1_crit_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L125"
+  }
+]

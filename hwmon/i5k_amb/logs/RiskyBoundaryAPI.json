@@ -1,0 +1,320 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "pci_dev_put",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [4]i5k_channel_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L452 )->pci_dev_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1541 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )( [4]i5k_find_amb_registers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L416 )->pci_dev_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1541 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "platform_device_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [5]i5k_amb_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L597 )->platform_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L791 )->platform_device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L746 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "platform_device_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]i5k_amb_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L597 )->platform_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L791 )->platform_device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L746 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "platform_device_unregister",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [6]i5k_amb_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L597 )->platform_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L791 )->platform_device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L746 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "platform_device_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [6]i5k_amb_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L597 )->platform_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L791 )->platform_device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L746 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "i5k_amb_hwmon_init(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L392) | i5k_amb_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L570) | i5k_amb_probe(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L554) | i5k_amb_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L567) | "
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "__request_region",
+    "risky func": "alloc_resource",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]i5k_amb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L498 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "__request_region",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [4]i5k_amb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L498 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "__request_region",
+    "risky func": "kzalloc.289",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "call path": "( [4]i5k_amb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L498 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 )->kzalloc.289 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "__release_region",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [4]i5k_amb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L558 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]i5k_amb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L498 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]i5k_amb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L558 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [5]i5k_amb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L558 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [6]i5k_amb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L558 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 10,
+    "call path": "( [6]i5k_amb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L558 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.81",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->kzalloc.81 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 44,
+    "call path": "( [5]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->hwmon_dev_release ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L127 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 21,
+    "call path": "( [7]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 27,
+    "call path": "( [6]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 30,
+    "call path": "( [6]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 66,
+    "call path": "( [7]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3758 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.34",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [7]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->device_private_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3506 )->kzalloc.34 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 71,
+    "call path": "( [10]i5k_amb_hwmon_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L250 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "platform_device_alloc",
+    "risky func": "kzalloc.58",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "call path": "( [3]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L576 )->kzalloc.58 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 35,
+    "call path": "( [4]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 18,
+    "call path": "( [4]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 25,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 21,
+    "call path": "( [4]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 26,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 42,
+    "call path": "( [5]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 27,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 57,
+    "call path": "( [5]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3758 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 28,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "kzalloc.34",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 17,
+    "call path": "( [5]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->device_private_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3506 )->kzalloc.34 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 29,
+    "kernel boundary func name": "platform_device_add",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 62,
+    "call path": "( [8]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L656 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 30,
+    "kernel boundary func name": "platform_device_put",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [4]i5k_amb_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L397 )->platform_device_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L548 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 31,
+    "kernel boundary func name": "pci_get_device",
+    "risky func": "pci_get_subsys",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]i5k_channel_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L452 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]i5k_find_amb_registers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L416 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )"
+  },
+  {
+    "id": 32,
+    "kernel boundary func name": "pci_get_device",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [7]i5k_channel_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L452 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 )->pci_get_dev_by_id ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L268 )->pci_dev_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1541 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )( [7]i5k_find_amb_registers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L416 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 )->pci_get_dev_by_id ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L268 )->pci_dev_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1541 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 33,
+    "kernel boundary func name": "pci_read_config_dword",
+    "risky func": "pci_bus_read_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i5k_find_amb_registers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L416 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5k_find_amb_registers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L416 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )"
+  },
+  {
+    "id": 34,
+    "kernel boundary func name": "pci_read_config_word",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i5k_channel_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L452 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5k_channel_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L452 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 35,
+    "kernel boundary func name": "iounmap",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 6,
+    "call path": "( [3]i5k_amb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L558 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]i5k_amb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L498 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

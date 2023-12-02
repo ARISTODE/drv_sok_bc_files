@@ -1,0 +1,342 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1110",
+    "Drv func": "ci_hdrc_imx_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L327"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1422",
+    "Drv func": "ci_hdrc_imx_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L327"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1400",
+    "Drv func": "ci_hdrc_imx_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L327"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1110",
+    "Drv func": "ci_hdrc_imx_remove",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L510"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1422",
+    "Drv func": "ci_hdrc_imx_remove",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L510"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1400",
+    "Drv func": "ci_hdrc_imx_remove",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L510"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1440",
+    "Drv func": "ci_hdrc_imx_shutdown",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L534"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1420",
+    "Drv func": "ci_hdrc_imx_shutdown",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L534"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4815",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1223",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2307",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L492",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2297",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4207",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1147",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1205",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4178",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1129",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1936",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L395",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1879",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1187",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1169",
+    "Drv func": "ci_hdrc_imx_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L603"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4815",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1223",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2307",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L492",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2297",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4207",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1147",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1205",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4178",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1129",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1936",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L395",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1879",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1187",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1169",
+    "Drv func": "ci_hdrc_imx_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L630"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4815",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1223",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2307",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L492",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2297",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4207",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1147",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1205",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4178",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1129",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1936",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L395",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1879",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1187",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1169",
+    "Drv func": "ci_hdrc_imx_runtime_suspend",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L646"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4815",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1223",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2307",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L492",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2297",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4207",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1147",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1205",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4178",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1129",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1936",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L395",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1879",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1187",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1169",
+    "Drv func": "ci_hdrc_imx_runtime_resume",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_imx.c#L665"
+  }
+]

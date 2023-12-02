@@ -1,0 +1,54 @@
+{
+  "id": 3,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L762 | max6650_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L692 | max6650_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L692 | max6650_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L519 | max6650_read",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L519 | max6650_read",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L610 | max6650_write",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L610 | max6650_write",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max6650.c#L610 | max6650_write",
+  "Drv update": ""
+}

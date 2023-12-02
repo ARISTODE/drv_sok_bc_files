@@ -1,0 +1,325 @@
+[
+  {
+    "No. entry": 64
+  },
+  {
+    "Drv func": "unmap_dma_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L88 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L88 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L96 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L91 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L105"
+  },
+  {
+    "Drv func": "musb_handle_intr_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L951 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L956 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_handle_intr_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_handle_intr_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L860 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_handle_intr_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L674 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_handle_intr_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L869 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_handle_intr_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "vbus_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_gadget_wakeup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_init_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2507 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2510"
+  },
+  {
+    "Drv func": "forward_to_driver",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L628 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "musb_g_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1927 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1933 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1933 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "musb_pm_runtime_check_session",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2065 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "ep_config_from_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1530 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1530"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L355 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L355"
+  },
+  {
+    "Drv func": "ep_config_from_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1516 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1516"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L330"
+  },
+  {
+    "Drv func": "forward_to_driver",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L628 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L129"
+  },
+  {
+    "Drv func": "musb_state_needs_recheck",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1991 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1991 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_g_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1996 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1996 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "musb_g_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1953 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1960 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1960 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ep_config_from_hw",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1583 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1583"
+  },
+  {
+    "Drv func": "musb_gadget_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1067 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1067"
+  },
+  {
+    "Drv func": "ep_config_from_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1522 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1522"
+  },
+  {
+    "Drv func": "musb_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1648 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1648"
+  },
+  {
+    "Drv func": "musb_set_peripheral",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L529 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L537"
+  },
+  {
+    "Drv func": "musb_handle_intr_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1009 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1022"
+  },
+  {
+    "Drv func": "ep_config_from_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1501 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1501"
+  },
+  {
+    "Drv func": "musb_set_peripheral",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L537 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L537"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L349 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L349"
+  },
+  {
+    "Drv func": "musb_default_read_fifo",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L366 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L366"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L320 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L320"
+  },
+  {
+    "Drv func": "musb_g_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1996 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1996 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "musb_g_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L2043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L2043 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L315 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L315"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L149 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L150"
+  },
+  {
+    "Drv func": "musb_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1631 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1631"
+  },
+  {
+    "Drv func": "musb_default_write_fifo",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L324"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L325 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L325"
+  },
+  {
+    "Drv func": "musb_set_host",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L478 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L482 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L490"
+  },
+  {
+    "Drv func": "ep_config_from_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1536 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1536"
+  },
+  {
+    "Drv func": "musb_irq_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2084 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2092 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2094"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L337 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L337"
+  },
+  {
+    "Drv func": "musb_set_host",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L490 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L490 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L490"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L132"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L141"
+  },
+  {
+    "Drv func": "musb_g_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L2043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L2043 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L126"
+  },
+  {
+    "Drv func": "musb_regdump_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L92 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L93 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L103"
+  },
+  {
+    "Drv func": "musb_regdump_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L92 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L93 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L95"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L138"
+  },
+  {
+    "Drv func": "musb_regdump_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L92 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L93 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L99"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L135"
+  },
+  {
+    "Drv func": "musb_handle_intr_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L144"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L146 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L147"
+  },
+  {
+    "Drv func": "musb_test_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L149 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L152 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L125 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L153"
+  },
+  {
+    "Drv func": "musb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2619 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2622"
+  },
+  {
+    "Drv func": "musb_g_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1933 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1933 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1927 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "service_zero_data_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L343 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L343"
+  },
+  {
+    "Drv func": "musb_g_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1953 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1960 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1960 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "musb_gadget_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1813 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1816"
+  },
+  {
+    "Drv func": "map_dma_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L51 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L54 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L72"
+  }
+]

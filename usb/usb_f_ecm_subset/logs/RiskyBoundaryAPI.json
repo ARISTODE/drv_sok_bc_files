@@ -1,0 +1,36 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]geth_free_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L417 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [4]geth_free_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L417 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "geth_free_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L426) | geth_alloc(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L484) | geth_alloc_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L441) | geth_free(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L456) | "
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "config_group_init_type_name",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]geth_alloc_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_subset.c#L429 )->config_group_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L92 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "No. entry": 15
+  },
+  {
+    "Drv func": "g762_of_clock_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L602 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L608 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L613"
+  },
+  {
+    "Drv func": "do_set_fan_target",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L507 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L515"
+  },
+  {
+    "Drv func": "g762_of_prop_import_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L646 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L646"
+  },
+  {
+    "Drv func": "g762_of_clock_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L598 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L601"
+  },
+  {
+    "Drv func": "g762_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L218 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L227"
+  },
+  {
+    "Drv func": "g762_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L218 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L222"
+  },
+  {
+    "Drv func": "g762_fan_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1025 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1032"
+  },
+  {
+    "Drv func": "do_set_pwm",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L487 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L491"
+  },
+  {
+    "Drv func": "do_set_pwm_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L416 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L430"
+  },
+  {
+    "Drv func": "g762_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L217"
+  },
+  {
+    "Drv func": "g762_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L218 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L228 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L232"
+  },
+  {
+    "Drv func": "g762_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L208 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L212"
+  },
+  {
+    "Drv func": "g762_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L207"
+  },
+  {
+    "Drv func": "g762_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1057 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1062 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1065 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1069 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L1072"
+  },
+  {
+    "Drv func": "g762_of_clock_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L602 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L615 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L608 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g762.c#L623"
+  }
+]

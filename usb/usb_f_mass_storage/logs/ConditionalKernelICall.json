@@ -1,0 +1,485 @@
+[
+  {
+    "No. entry": 96
+  },
+  {
+    "Drv func": "fsg_common_create_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2884 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2895"
+  },
+  {
+    "Drv func": "fsg_common_create_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2884 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2892"
+  },
+  {
+    "Drv func": "fsg_common_create_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2931 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2932"
+  },
+  {
+    "Drv func": "fsg_common_remove_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2763 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2764"
+  },
+  {
+    "Drv func": "fsg_common_release",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2992 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2994 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2997 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2998"
+  },
+  {
+    "Drv func": "fsg_common_create_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2915 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2916"
+  },
+  {
+    "Drv func": "fsg_lun_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L193"
+  },
+  {
+    "Drv func": "fsg_lun_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L231 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L235"
+  },
+  {
+    "Drv func": "sleep_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580"
+  },
+  {
+    "Drv func": "fsg_bind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3101 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3103"
+  },
+  {
+    "Drv func": "do_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L647 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L654 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L667"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L861 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L866"
+  },
+  {
+    "Drv func": "fsg_lun_fsync_sub",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L288 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L288 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L290"
+  },
+  {
+    "Drv func": "fsg_store_cdrom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L474 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L477"
+  },
+  {
+    "Drv func": "do_scsi_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1859 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1865"
+  },
+  {
+    "Drv func": "do_start_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1369 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1378 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1387"
+  },
+  {
+    "Drv func": "check_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1765 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1765"
+  },
+  {
+    "Drv func": "wedge_bulk_in_endpoint",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1476 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1476"
+  },
+  {
+    "Drv func": "fsg_common_release",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2987 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2989"
+  },
+  {
+    "Drv func": "fsg_bind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3047 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3047"
+  },
+  {
+    "Drv func": "fsg_store_file",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L442 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L442"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L758 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L762 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L762 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "fsg_lun_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L268"
+  },
+  {
+    "Drv func": "fsg_store_ro",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L400 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L407"
+  },
+  {
+    "Drv func": "received_cbw",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2179 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2179"
+  },
+  {
+    "Drv func": "fsg_lun_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L268"
+  },
+  {
+    "Drv func": "check_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1777 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1777"
+  },
+  {
+    "Drv func": "handle_exception",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2489 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "handle_exception",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2424 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L732 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "fsg_common_release",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3003 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3004"
+  },
+  {
+    "Drv func": "do_start_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1369 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1378 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1388"
+  },
+  {
+    "Drv func": "halt_bulk_in_endpoint",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1457 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1458 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1465"
+  },
+  {
+    "Drv func": "handle_exception",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2436 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "bulk_in_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L419 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L419"
+  },
+  {
+    "Drv func": "fsg_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3508"
+  },
+  {
+    "Drv func": "do_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L678 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L678"
+  },
+  {
+    "Drv func": "handle_exception",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2489 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "fsg_unbind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3115 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3115"
+  },
+  {
+    "Drv func": "fsg_lun_close",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L171 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L171"
+  },
+  {
+    "Drv func": "fsg_lun_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L198"
+  },
+  {
+    "Drv func": "fsg_show_file",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L340"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "fsg_common_create_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2905 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "fsg_unbind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3119"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "sleep_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576"
+  },
+  {
+    "Drv func": "fsg_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L487 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L487"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L605"
+  },
+  {
+    "Drv func": "_fsg_store_ro",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L388 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L388"
+  },
+  {
+    "Drv func": "sleep_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L580"
+  },
+  {
+    "Drv func": "__raise_exception",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L376 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L380 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L381"
+  },
+  {
+    "Drv func": "do_set_interface",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2291 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2291"
+  },
+  {
+    "Drv func": "fsg_common_set_num_buffers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "fsg_lun_make",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3297 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3297 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3303 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3314"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "fsg_bind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3029 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3037 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3023 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3040"
+  },
+  {
+    "Drv func": "do_verify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1013 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1013"
+  },
+  {
+    "Drv func": "fsg_lun_make",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3297 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3297 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3303 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3321"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L758 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L762 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L762 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "fsg_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3510"
+  },
+  {
+    "Drv func": "_fsg_store_ro",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L388 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L388"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L732 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "fsg_common_set_num_buffers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "do_verify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L993 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1004"
+  },
+  {
+    "Drv func": "_fsg_store_ro",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L382 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L382"
+  },
+  {
+    "Drv func": "_fsg_common_free_buffers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2713 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2714"
+  },
+  {
+    "Drv func": "check_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1797"
+  },
+  {
+    "Drv func": "do_start_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1379 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1379"
+  },
+  {
+    "Drv func": "handle_exception",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2429 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2429"
+  },
+  {
+    "Drv func": "bulk_out_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L436 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L436"
+  },
+  {
+    "Drv func": "fsg_unbind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L3119"
+  },
+  {
+    "Drv func": "fsg_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L356 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L356"
+  },
+  {
+    "Drv func": "do_verify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1013 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1013"
+  },
+  {
+    "Drv func": "send_status",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1674 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1674"
+  },
+  {
+    "Drv func": "send_status",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1670 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1670"
+  },
+  {
+    "Drv func": "received_cbw",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2203"
+  },
+  {
+    "Drv func": "sleep_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L576"
+  },
+  {
+    "Drv func": "do_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L675 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L675"
+  },
+  {
+    "Drv func": "do_start_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1369 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1378 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1391"
+  },
+  {
+    "Drv func": "fsg_lun_close",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L171 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L171"
+  },
+  {
+    "Drv func": "fsg_common_create_lun",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2905 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "do_verify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1016 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1016"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L874 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L874"
+  },
+  {
+    "Drv func": "do_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L675 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L675"
+  },
+  {
+    "Drv func": "_fsg_store_ro",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L382 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L382"
+  },
+  {
+    "Drv func": "do_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L678 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L678"
+  },
+  {
+    "Drv func": "fsg_store_file",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L442 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/storage_common.c#L442"
+  },
+  {
+    "Drv func": "do_verify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1016 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1016"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L878 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L878"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L878 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L878"
+  },
+  {
+    "Drv func": "do_start_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1379 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1379"
+  },
+  {
+    "Drv func": "wedge_bulk_in_endpoint",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1480 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1481 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1488"
+  },
+  {
+    "Drv func": "do_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L874 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L874"
+  },
+  {
+    "Drv func": "do_start_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1369 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1378 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L1390"
+  }
+]

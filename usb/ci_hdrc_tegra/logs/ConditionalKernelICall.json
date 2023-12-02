@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "tegra_usb_reset_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L136 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L140 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L143"
+  },
+  {
+    "Drv func": "tegra_usb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L281 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L294"
+  },
+  {
+    "Drv func": "fsleep",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/delay.h#L83 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/delay.h#L84 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/delay.h#L84 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/delay.h#L84"
+  },
+  {
+    "Drv func": "tegra_usb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L281 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L298 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L305 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L310 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L313"
+  },
+  {
+    "Drv func": "tegra_usb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L281 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L298 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L305 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L308"
+  },
+  {
+    "Drv func": "tegra_usb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L281 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L297"
+  }
+]

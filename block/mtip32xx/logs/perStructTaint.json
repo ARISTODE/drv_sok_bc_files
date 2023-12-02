@@ -1,0 +1,626 @@
+[
+  {
+    "struct name": "scatterlist",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_tag_set",
+    "No.Fields": 15,
+    "No.Shared fields": 10,
+    "No.KRDU fields": 9,
+    "No.classified fields": 6,
+    "No.unclassified fields": 3,
+    "PTR_READ": 2,
+    "ARR_IDX": 3,
+    "DIV_BY_ZERO": 1,
+    "BRANCH": 3,
+    "RISKY_KERNEL_FUNC": 3,
+    "UNCLASSIFY": 3
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "blk_mq_tag_set->ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4443",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4443",
+    "drv caller (param)": "[ mtip_block_initialize | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3427 ], ",
+    "call path (param)": " [mtip_block_initialize->blk_mq_alloc_tag_set] ",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3417 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set] ",
+    "num condition checks": 4,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4433 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4435 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4440 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4440 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4435 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4433 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4443 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4443 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "1",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "blk_mq_tag_set->nr_hw_queues",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4300",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4300",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3418 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4300 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "1",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "blk_mq_tag_set->nr_hw_queues",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4474",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L671",
+    "drv caller (param)": "[ mtip_block_initialize | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3427 ], ",
+    "call path (param)": " [mtip_block_initialize->blk_mq_alloc_tag_set->kcalloc_node] ",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3418 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->kcalloc_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4397 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "arr-idx",
+    "acc_path": "blk_mq_tag_set->nr_hw_queues",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4710",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3231",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3418 ], ",
+    "call path (type)": " [blk_mq_free_tag_set->__blk_mq_free_map_and_rqs->blk_mq_free_map_and_rqs->blk_mq_free_rqs] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3228 | ",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4721 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4718 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3801 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3228 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3225 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "val-sen-branch (loop)",
+    "acc_path": "blk_mq_tag_set->queue_depth",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4341",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4341",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3419 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4341 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "2",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "blk_mq_tag_set->queue_depth",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4295",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L671",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3419 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->kcalloc_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4292 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3316 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3310 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "4",
+    "risky": "arr-idx",
+    "acc_path": "blk_mq_tag_set->cmd_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3414",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3421 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3409 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "4",
+    "risky": "div-by-zero",
+    "acc_path": "blk_mq_tag_set->cmd_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3402",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3421 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "4",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "blk_mq_tag_set->cmd_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3421 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3403 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "val-sen-api (alloc_pages)",
+    "acc_path": "blk_mq_tag_set->numa_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3357",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L260",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3422 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs->alloc_pages_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3356 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3388 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "arr-idx",
+    "acc_path": "blk_mq_tag_set->numa_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3357",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3422 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs->alloc_pages_node->__alloc_pages_node->warn_if_node_offline->node_state.383] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "cond_num": "12",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3356 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3388 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "8",
+    "risky": "ptr-read",
+    "acc_path": "blk_mq_tag_set->driver_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3635",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3635",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3424 ], ",
+    "call path (type)": " [__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_alloc_and_init_hctx->blk_mq_init_hctx] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3634 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3634 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "blk_mq_tags",
+    "No.Fields": 9,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_queue_data",
+    "No.Fields": 2,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_ops",
+    "No.Fields": 18,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_ctx",
+    "No.Fields": 7,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_hw_ctx",
+    "No.Fields": 32,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "request",
+    "No.Fields": 32,
+    "No.Shared fields": 8,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "BRANCH": 1,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "9",
+    "risky": "val-sen-branch (mod_time)",
+    "acc_path": "request->timeout",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L142",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L153",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_exec_internal_command) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L1003 ], ",
+    "call path (type)": " [pci_unregister_driver->pci_free_dynids->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->sched_submit_work->blk_flush_plug.1294->__blk_flush_plug->blk_mq_flush_plug_list->blk_mq_plug_issue_direct->blk_mq_request_issue_directly->__blk_mq_try_issue_directly->__blk_mq_issue_directly->mtip_queue_rq->mtip_issue_reserved_cmd->blk_mq_start_request->blk_add_timer] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L152 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L152 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "request->timeout",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L142",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L164",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (mtip_exec_internal_command) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L1003 ], ",
+    "call path (type)": " [pci_unregister_driver->pci_free_dynids->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->sched_submit_work->blk_flush_plug.1294->__blk_flush_plug->blk_mq_flush_plug_list->blk_mq_plug_issue_direct->blk_mq_request_issue_directly->__blk_mq_try_issue_directly->__blk_mq_issue_directly->mtip_queue_rq->mtip_issue_reserved_cmd->blk_mq_start_request->blk_add_timer] ",
+    "num condition checks": 4,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L152 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L152 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L163 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L163 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L163 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L163 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L152 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-timeout.c#L152 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "block_device_operations",
+    "No.Fields": 19,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "gendisk",
+    "No.Fields": 33,
+    "No.Shared fields": 6,
+    "No.KRDU fields": 4,
+    "No.classified fields": 2,
+    "No.unclassified fields": 2,
+    "PTR_READ": 1,
+    "ARR_IDX": 1,
+    "BRANCH": 1,
+    "UNCLASSIFY": 2
+  },
+  {
+    "id": "11",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "gendisk->first_minor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L574",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239",
+    "drv caller (param)": "[ mtip_block_initialize | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3501 ], ",
+    "call path (param)": " [mtip_block_initialize->ida_free] ",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3456 ], ",
+    "call path (type)": " [ida_free] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "9",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L573 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L500 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "11",
+    "risky": "arr-idx",
+    "acc_path": "gendisk->first_minor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L574",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L44",
+    "drv caller (param)": "[ mtip_block_initialize | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3501 ], ",
+    "call path (param)": " [mtip_block_initialize->ida_free] ",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3456 ], ",
+    "call path (type)": " [ida_free] ",
+    "num condition checks": 11,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L500 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | ",
+    "cond_num": "14",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L500 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L573 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L511 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L513 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "13",
+    "risky": "ptr-read",
+    "acc_path": "gendisk->fops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211",
+    "drv_update loc (shared field)": "[ (mtip_block_initialize) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3458 ], ",
+    "call path (type)": "",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1211 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "request_queue",
+    "No.Fields": 62,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_device_id",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_dev",
+    "No.Fields": 115,
+    "No.Shared fields": 5,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "block_device",
+    "No.Fields": 23,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dentry",
+    "No.Fields": 16,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "work_struct",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "task_struct",
+    "No.Fields": 211,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "cpumask",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "ida",
+    "No.Fields": 1,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_bus",
+    "No.Fields": 25,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "workqueue_struct",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_entry",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

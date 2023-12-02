@@ -1,0 +1,440 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "usb_remove_hcd",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [3]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "usb_remove_hcd",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [3]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 23,
+    "call path": "( [3]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 24,
+    "call path": "( [3]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 24,
+    "call path": "( [6]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pme_acpi_rtd3_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L358 )->acpi_os_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 30,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_hcd_poll_rh_status ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L752 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 22,
+    "call path": "( [8]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 26,
+    "call path": "( [7]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 28,
+    "call path": "( [7]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "pci_bus_write_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 28,
+    "call path": "( [8]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "acpi_evaluate_dsm",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]xhci_pme_acpi_rtd3_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L358 )->acpi_evaluate_dsm ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L690 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "pci_set_power_state",
+    "Risky API Class": "bus",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "xhci_pci_shutdown(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L697) | xhci_pci_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L544) | "
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "usb_acpi_port_lpm_incapable",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 6,
+    "call path": "( [6]xhci_find_lpm_incapable_ports ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L370 )->usb_acpi_port_lpm_incapable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb-acpi.c#L59 )->acpi_check_dsm ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L739 )->acpi_evaluate_dsm ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L690 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "usb_put_hcd",
+    "risky func": "kref_put.462",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.462 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [3]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.462 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "usb_create_shared_hcd",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_create_shared_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2649 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "usb_create_shared_hcd",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_create_shared_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2649 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "usb_create_shared_hcd",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_create_shared_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2649 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "usb_create_shared_hcd",
+    "risky func": "kzalloc.472",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_create_shared_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2649 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kzalloc.472 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "pci_read_config_byte",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "pci_set_mwi",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [4]xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "pci_set_mwi",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "pci_set_mwi",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [5]xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "pci_set_mwi",
+    "risky func": "pci_bus_write_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [5]xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "usb_hcd_pci_shutdown",
+    "risky func": "pci_disable_device",
+    "Risky API Class": "bus"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "usb_hcd_pci_shutdown",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus"
+  },
+  {
+    "id": 25,
+    "kernel boundary func name": "usb_hcd_pci_shutdown",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus"
+  },
+  {
+    "id": 26,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "pci_disable_device",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [3]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->pci_disable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L2238 ) )( [3]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->pci_disable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L2238 ) )"
+  },
+  {
+    "id": 27,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [4]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_lock ( Unknown Loc ) )( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 28,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [4]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_unlock ( Unknown Loc ) )( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 29,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "kref_put.462",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.462 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.462 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 30,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [9]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [9]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 31,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 11,
+    "call path": "( [8]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [8]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 32,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [8]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [8]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )"
+  },
+  {
+    "id": 33,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [7]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pme_acpi_rtd3_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L358 )->acpi_os_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( Unknown Loc ) )( [7]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pme_acpi_rtd3_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L358 )->acpi_os_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 34,
+    "kernel boundary func name": "usb_hcd_pci_remove",
+    "risky func": "pci_bus_write_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 13,
+    "call path": "( [9]xhci_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L525 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [9]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L311 )->usb_hcd_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2478 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )"
+  },
+  {
+    "id": 35,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_enable_device",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->pci_enable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L2050 ) )"
+  },
+  {
+    "id": 36,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_disable_device",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [3]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->pci_disable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L2238 ) )"
+  },
+  {
+    "id": 37,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 6,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 38,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 35,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 39,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "kref_put.462",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [4]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.462 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 40,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 35,
+    "call path": "( [7]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pme_acpi_rtd3_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L358 )->acpi_os_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 41,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 41,
+    "call path": "( [5]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_hcd_poll_rh_status ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L752 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 42,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "kzalloc.472",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [5]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2672 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kzalloc.472 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 43,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 33,
+    "call path": "( [9]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 44,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_set_power_state",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [6]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->pci_enable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L2050 )->pci_enable_device_flags ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1976 )->do_pci_enable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1905 )->pci_set_power_state ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1416 ) )"
+  },
+  {
+    "id": 45,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 11,
+    "call path": "( [8]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 46,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [8]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )"
+  },
+  {
+    "id": 47,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_bus_write_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 39,
+    "call path": "( [9]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->xhci_pci_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L404 )->xhci_pci_reinit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L91 )->pci_set_mwi ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4498 )->pci_set_cacheline_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L4462 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )"
+  },
+  {
+    "id": 48,
+    "kernel boundary func name": "usb_hcd_pci_probe",
+    "risky func": "pci_platform_power_transition",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [7]xhci_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L447 )->usb_hcd_pci_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd-pci.c#L172 )->pci_enable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L2050 )->pci_enable_device_flags ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1976 )->do_pci_enable_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1905 )->pci_set_power_state ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1416 )->pci_platform_power_transition ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1119 ) )"
+  },
+  {
+    "id": 49,
+    "kernel boundary func name": "pci_unregister_driver",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]xhci_pci_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L760 )->pci_unregister_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1456 )->pci_free_dynids ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L81 )->kfree ( Unknown Loc ) )"
+  }
+]

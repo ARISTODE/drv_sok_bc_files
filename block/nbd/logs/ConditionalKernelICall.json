@@ -1,0 +1,465 @@
+[
+  {
+    "No. entry": 92
+  },
+  {
+    "Drv func": "recv_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L868 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L869"
+  },
+  {
+    "Drv func": "nbd_handle_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L997 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1024"
+  },
+  {
+    "Drv func": "nbd_requeue_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L183 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L184"
+  },
+  {
+    "Drv func": "nbd_set_cmd_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1450 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1453"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1810"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1809"
+  },
+  {
+    "Drv func": "nbd_parse_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1253 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1252 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1256"
+  },
+  {
+    "Drv func": "nbd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2519 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2509 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2526"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1807"
+  },
+  {
+    "Drv func": "nbd_parse_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1252 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1253 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1254"
+  },
+  {
+    "Drv func": "nbd_parse_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1252 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1259"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1315"
+  },
+  {
+    "Drv func": "nbd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2519 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2509 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2525"
+  },
+  {
+    "Drv func": "nbd_start_device_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1425"
+  },
+  {
+    "Drv func": "nbd_start_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1378 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1374 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1388 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1389"
+  },
+  {
+    "Drv func": "nbd_disconnect_and_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2113"
+  },
+  {
+    "Drv func": "nbd_mcast_index",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2458 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2460"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1812"
+  },
+  {
+    "Drv func": "sock_xmit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L525"
+  },
+  {
+    "Drv func": "send_disconnects",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1273 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1276"
+  },
+  {
+    "Drv func": "nbd_clear_que",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L910 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L910"
+  },
+  {
+    "Drv func": "nbd_send_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L615 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L615"
+  },
+  {
+    "Drv func": "nbd_handle_reply",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L789 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L789"
+  },
+  {
+    "Drv func": "nbd_genl_connect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2042 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2073 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2075 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2083"
+  },
+  {
+    "Drv func": "nbd_genl_reconfigure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2166 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2169 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2183"
+  },
+  {
+    "Drv func": "nbd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2509 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2519 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2520"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1326 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1327"
+  },
+  {
+    "Drv func": "nbd_set_size",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L337 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L334 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L339"
+  },
+  {
+    "Drv func": "nbd_reconnect_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1195 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1233"
+  },
+  {
+    "Drv func": "nbd_send_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L656 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L657 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L661"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1811"
+  },
+  {
+    "Drv func": "nbd_genl_connect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1952 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1955"
+  },
+  {
+    "Drv func": "nbd_dbg_flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1643 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1644"
+  },
+  {
+    "Drv func": "nbd_set_cmd_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1450 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1451"
+  },
+  {
+    "Drv func": "nbd_reconnect_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1190 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1191"
+  },
+  {
+    "Drv func": "nbd_dev_dbg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1668 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1676"
+  },
+  {
+    "Drv func": "nbd_reconnect_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1202 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1206"
+  },
+  {
+    "Drv func": "nbd_mark_nsock_dead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L302 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L303"
+  },
+  {
+    "Drv func": "nbd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2509 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2512 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2515"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1787"
+  },
+  {
+    "Drv func": "nbd_genl_connect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2042 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2073 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2075 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2076"
+  },
+  {
+    "Drv func": "sock_xmit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L527"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1794"
+  },
+  {
+    "Drv func": "nbd_set_size",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L346 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L347"
+  },
+  {
+    "Drv func": "nbd_send_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L653 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L653"
+  },
+  {
+    "Drv func": "nbd_start_device_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1418 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1418"
+  },
+  {
+    "Drv func": "nbd_start_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1353 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1355 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1366"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1311 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1312"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1768 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1772 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1773"
+  },
+  {
+    "Drv func": "nbd_dev_dbg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1664 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1667"
+  },
+  {
+    "Drv func": "nbd_dbg_flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1649 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1650"
+  },
+  {
+    "Drv func": "nbd_send_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L589 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L590 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L598"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1319"
+  },
+  {
+    "Drv func": "nbd_start_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1353 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1355 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1361"
+  },
+  {
+    "Drv func": "nbd_parse_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1249"
+  },
+  {
+    "Drv func": "wait_for_reconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L962 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L962"
+  },
+  {
+    "Drv func": "nbd_add_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1133 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1133 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1150 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1133 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1151"
+  },
+  {
+    "Drv func": "nbd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2519 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2509 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2512 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2524"
+  },
+  {
+    "Drv func": "nbd_handle_reply",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L795 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L796"
+  },
+  {
+    "Drv func": "nbd_clear_req",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L890 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L894 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L901"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "nbd_dev_dbg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1668 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1675"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1326 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1328"
+  },
+  {
+    "Drv func": "nbd_genl_reconfigure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2166 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2169 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2175"
+  },
+  {
+    "Drv func": "nbd_add_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1133 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1133 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1133 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1148"
+  },
+  {
+    "Drv func": "nbd_dev_dbg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1668 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1679"
+  },
+  {
+    "Drv func": "nbd_genl_status",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2410"
+  },
+  {
+    "Drv func": "nbd_dbg_flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1651 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1652"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1320"
+  },
+  {
+    "Drv func": "nbd_mark_nsock_dead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "wait_for_reconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L962 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L962"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nbd_mark_nsock_dead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nbd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2509 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2518"
+  },
+  {
+    "Drv func": "nbd_bdev_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1240 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1242"
+  },
+  {
+    "Drv func": "nbd_dev_dbg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1668 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1678"
+  },
+  {
+    "Drv func": "nbd_start_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1374 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1378 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1392"
+  },
+  {
+    "Drv func": "nbd_add_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1117 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1120 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1127"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1797 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1806"
+  },
+  {
+    "Drv func": "nbd_complete_rq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L355 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L355"
+  },
+  {
+    "Drv func": "nbd_config_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1306 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1310"
+  },
+  {
+    "Drv func": "nbd_parse_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1251"
+  },
+  {
+    "Drv func": "nbd_genl_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2137"
+  },
+  {
+    "Drv func": "nbd_start_device_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1418 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1418"
+  },
+  {
+    "Drv func": "nbd_dev_dbg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1668 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1677"
+  },
+  {
+    "Drv func": "nbd_dev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1768 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1772 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1778"
+  },
+  {
+    "Drv func": "nbd_reconnect_socket",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1195 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1234"
+  },
+  {
+    "Drv func": "nbd_genl_status",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L2403"
+  },
+  {
+    "Drv func": "nbd_handle_reply",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L814 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L814"
+  },
+  {
+    "Drv func": "nbd_dbg_flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1647 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1648"
+  },
+  {
+    "Drv func": "nbd_dbg_flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1645 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1646"
+  },
+  {
+    "Drv func": "nbd_dbg_tasks_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1626 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1627"
+  }
+]

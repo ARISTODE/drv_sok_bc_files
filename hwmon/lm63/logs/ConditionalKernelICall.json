@@ -1,0 +1,140 @@
+[
+  {
+    "No. entry": 27
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L277 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L280"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1040 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1054"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L981"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1079 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1079"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1026 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1026"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1085 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1085"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1082 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1082"
+  },
+  {
+    "Drv func": "temp2_type_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L709 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L709 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L707 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L714"
+  },
+  {
+    "Drv func": "lm63_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1107 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1110"
+  },
+  {
+    "Drv func": "lm63_update_lut",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L210 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L211"
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L241"
+  },
+  {
+    "Drv func": "lm63_update_lut",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L210 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L213"
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L237"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L992 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L992"
+  },
+  {
+    "Drv func": "temp2_type_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L707 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L709 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L709 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L715"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L982"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1064 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1066"
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L243"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L985"
+  },
+  {
+    "Drv func": "pwm1_enable_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L434 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L438"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L979"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L983"
+  },
+  {
+    "Drv func": "lm63_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L978"
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L239"
+  },
+  {
+    "Drv func": "lm63_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1040 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L1050"
+  },
+  {
+    "Drv func": "lm63_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L277 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm63.c#L278"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "struct name": "device_driver",
+    "No.Fields": 19,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "BRANCH": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "device->driver",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1215",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1223",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (aem_init_aem1_inst) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L549 ], [ (aem_init_aem2_inst) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L691 ], ",
+    "call path (type)": "",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1218 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1221 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1222 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1222 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1221 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1218 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-write",
+    "acc_path": "device->driver",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1215",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1213 |   %4 = alloca %struct.device_driver*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (aem_init_aem1_inst) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L549 ], [ (aem_init_aem2_inst) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L691 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->driver",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1435",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1435",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (aem_init_aem1_inst) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L549 ], [ (aem_init_aem2_inst) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L691 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 2,
+    "No.classified fields": 0,
+    "No.unclassified fields": 2,
+    "UNCLASSIFY": 2
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 2,
+    "No.classified fields": 1,
+    "No.unclassified fields": 1,
+    "PTR_READ": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "3",
+    "risky": "ptr-read",
+    "acc_path": "attribute->name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3019",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3016",
+    "drv caller (param)": "[ aem_register_sensors | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L958 ], ",
+    "call path (param)": " [aem_register_sensors->device_create_file] ",
+    "drv_update loc (shared field)": "[ (aem_register_sensors) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L948 ], [ (aem_register_sensors) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L923 ], [ (aem_register_sensors) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L940 ], [ (aem_register_sensors) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L930 ], ",
+    "call path (type)": " [device_create_file] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3016 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "swait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "completion",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "mutex",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "ida",
+    "No.Fields": 1,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

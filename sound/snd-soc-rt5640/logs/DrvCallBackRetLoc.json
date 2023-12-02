@@ -1,0 +1,67 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L566",
+    "Drv func": "rt5640_i2c_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2989"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L192",
+    "Drv func": "rt5640_readable_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L208"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2637",
+    "Drv func": "rt5640_readable_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L208"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L181",
+    "Drv func": "rt5640_readable_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L208"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L96",
+    "Drv func": "rt5640_readable_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L208"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L153",
+    "Drv func": "rt5640_readable_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L208"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L139",
+    "Drv func": "rt5640_readable_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L208"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L192",
+    "Drv func": "rt5640_volatile_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2637",
+    "Drv func": "rt5640_volatile_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L181",
+    "Drv func": "rt5640_volatile_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L96",
+    "Drv func": "rt5640_volatile_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L153",
+    "Drv func": "rt5640_volatile_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L139",
+    "Drv func": "rt5640_volatile_register",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L172"
+  }
+]

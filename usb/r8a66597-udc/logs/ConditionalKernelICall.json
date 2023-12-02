@@ -1,0 +1,110 @@
+[
+  {
+    "No. entry": 21
+  },
+  {
+    "Drv func": "r8a66597_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1848 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1851"
+  },
+  {
+    "Drv func": "init_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L806 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L839"
+  },
+  {
+    "Drv func": "clear_feature",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "r8a66597_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1478 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1484 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "set_feature",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1253 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1252"
+  },
+  {
+    "Drv func": "r8a66597_timer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1527 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "init_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L806 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L835"
+  },
+  {
+    "Drv func": "irq_device_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1342 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "r8a66597_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1879 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1881"
+  },
+  {
+    "Drv func": "disable_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L851 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L873"
+  },
+  {
+    "Drv func": "r8a66597_change_curpipe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L286 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L292"
+  },
+  {
+    "Drv func": "disable_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L851 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L875"
+  },
+  {
+    "Drv func": "disable_controller",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L851 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L876"
+  },
+  {
+    "Drv func": "clear_feature",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "pipe_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L400 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L403"
+  },
+  {
+    "Drv func": "irq_ep0_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L958 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L951 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L957"
+  },
+  {
+    "Drv func": "r8a66597_start",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1728 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1729 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1727 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1731 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1739 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "sudmac_finish",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1410 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1411"
+  },
+  {
+    "Drv func": "r8a66597_timer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1527 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1529 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "irq_device_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1342 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "irq_control_stage",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1368 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/r8a66597-udc.c#L1381 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  }
+]

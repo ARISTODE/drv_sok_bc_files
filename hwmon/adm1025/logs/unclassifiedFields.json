@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon-vid.c#L69 | vid_from_reg",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "vrm",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon-vid.c#L69 | vid_from_reg",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm1025.c#L520 | adm1025_probe",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm1025.c#L441 | adm1025_detect",
+  "Drv update": ""
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "ibmpex_find_sensors(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L435) | ibmpex_register_bmc(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L510) | ibmpex_bmc_delete(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L533) | ibmpex_bmc_delete(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L534) | create_sensor(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L355) | ibmpex_find_sensors(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L438) | ibmpex_bmc_delete(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L526) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.13",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->kzalloc.13 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [5]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->hwmon_dev_release ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L127 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 21,
+    "call path": "( [7]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 35,
+    "call path": "( [6]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 37,
+    "call path": "( [6]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 66,
+    "call path": "( [7]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3758 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.33",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [7]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->device_private_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3506 )->kzalloc.33 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 71,
+    "call path": "( [10]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 10,
+    "call path": "( [5]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )( [5]ibmpex_bmc_delete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L513 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [5]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )( [5]ibmpex_bmc_delete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L513 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [6]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )( [6]ibmpex_bmc_delete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L513 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 10,
+    "call path": "( [6]ibmpex_register_bmc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L442 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [6]ibmpex_bmc_delete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmpex.c#L513 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "2",
+    "risky": "arr-idx",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2197",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2628",
+    "drv caller (param)": "[ rndis_rm_hdr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L1086 ], ",
+    "call path (param)": " [rndis_rm_hdr->skb_pull->skb_pull_inline->__skb_pull.633] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_pull->skb_pull_inline->__skb_pull.633] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2620 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2633 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "8",
+    "risky": "val-sen-api (kzalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "drv caller (param)": "[ rndis_get_nr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L872 ], ",
+    "call path (param)": " [rndis_get_nr->ida_alloc_range] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ida_alloc_range] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]

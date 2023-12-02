@@ -1,0 +1,155 @@
+[
+  {
+    "No. entry": 30
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L341"
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L350 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L351"
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L356 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L357"
+  },
+  {
+    "Drv func": "aout_output_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L257 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L260"
+  },
+  {
+    "Drv func": "adm9240_intrusion_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L426 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L428"
+  },
+  {
+    "Drv func": "adm9240_write_fan_div",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L141 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L146"
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L343 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L345"
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L356 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L364"
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L320 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L322"
+  },
+  {
+    "Drv func": "adm9240_chip_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L387 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L389"
+  },
+  {
+    "Drv func": "adm9240_temp_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L566 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L569 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L572"
+  },
+  {
+    "Drv func": "adm9240_intrusion_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L431 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L431"
+  },
+  {
+    "Drv func": "adm9240_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L288 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L292"
+  },
+  {
+    "Drv func": "adm9240_intrusion_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L408"
+  },
+  {
+    "Drv func": "adm9240_fan_min_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L184 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L184"
+  },
+  {
+    "Drv func": "adm9240_write_fan_div",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L149 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L149"
+  },
+  {
+    "Drv func": "adm9240_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L796 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L800 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L803"
+  },
+  {
+    "Drv func": "adm9240_fan_min_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L199 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L199"
+  },
+  {
+    "Drv func": "adm9240_fan_min_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L179 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L179"
+  },
+  {
+    "Drv func": "adm9240_temp_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L566 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L585"
+  },
+  {
+    "Drv func": "adm9240_temp_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L566 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L579"
+  },
+  {
+    "Drv func": "adm9240_temp_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L566 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L591"
+  },
+  {
+    "Drv func": "adm9240_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L284 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L288"
+  },
+  {
+    "Drv func": "adm9240_fan_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L526"
+  },
+  {
+    "Drv func": "adm9240_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L320 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L323 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L327"
+  },
+  {
+    "Drv func": "adm9240_fan_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L532"
+  },
+  {
+    "Drv func": "cpu0_vid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L230"
+  },
+  {
+    "Drv func": "adm9240_fan_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L505"
+  },
+  {
+    "Drv func": "cpu0_vid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L226"
+  },
+  {
+    "Drv func": "adm9240_temp_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L566 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm9240.c#L568"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "pci_write_config_dword",
+    "risky func": "pci_bus_write_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "pci_enable_device",
+    "Risky API Class": "bus",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "e752x_init_one(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1390) | "
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "pci_write_config_word",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_init_sysbus_parity_mask ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1211 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [3]e752x_init_sysbus_parity_mask ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1211 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [3]set_sdram_scrub_rate ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L988 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [3]pci_write_bits16 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L115 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "pci_read_config_dword",
+    "risky func": "pci_bus_read_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_init_csrows ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1065 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "pci_read_config_word",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]pci_write_bits16 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L115 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]get_sdram_scrub_rate ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1017 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "pci_read_config_byte",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_init_csrows ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1065 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_init_csrows ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1065 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_init_mem_map_table ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1138 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_init_mem_map_table ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1138 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "pci_write_config_byte",
+    "risky func": "pci_bus_write_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L838 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )( [3]e752x_init_error_reporting_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1232 )->pci_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L573 )->pci_bus_write_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L69 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "pci_get_device",
+    "risky func": "pci_get_subsys",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_get_slot",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_get_slot ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L194 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "kzalloc.310",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [5]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2299 )->kzalloc.310 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_find_capability",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [5]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->pci_find_capability ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L491 ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_bus_read_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [6]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_bus_read_dev_vendor_id ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2390 )->pci_bus_generic_read_dev_vendor_id ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2373 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [6]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_bus_write_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 5,
+    "call path": "( [6]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->pci_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L581 )->pci_bus_write_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L70 ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 8,
+    "call path": "( [8]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->pci_find_capability ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L491 )->__pci_find_next_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L437 )->__pci_find_next_cap_ttl ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L413 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_find_vsec_capability",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [6]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->set_pcie_thunderbolt ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1584 )->pci_find_vsec_capability ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L716 ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_find_ext_capability",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [6]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2527 )->pci_configure_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2256 )->pci_configure_ltr ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2151 )->pci_find_ext_capability ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L596 ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_find_next_ext_capability",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [7]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->set_pcie_thunderbolt ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1584 )->pci_find_vsec_capability ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L716 )->pci_find_next_ext_capability ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L541 ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "pci_scan_single_device",
+    "risky func": "pci_bus_write_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 17,
+    "call path": "( [8]e752x_get_devs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1174 )->pci_scan_single_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2573 )->pci_scan_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2413 )->pci_setup_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L1821 )->pci_read_bases ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L322 )->__pci_read_base ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L177 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "pci_unregister_driver",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]e752x_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1455 )->pci_unregister_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1456 )->pci_free_dynids ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L81 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "edac_mc_del_mc",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]e752x_remove_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1396 )->edac_mc_del_mc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L684 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "edac_mc_del_mc",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]e752x_remove_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1396 )->edac_mc_del_mc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L684 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "edac_mc_add_mc_with_groups",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->edac_mc_add_mc_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L600 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "edac_mc_add_mc_with_groups",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->edac_mc_add_mc_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L600 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 25,
+    "kernel boundary func name": "edac_mc_alloc",
+    "risky func": "kzalloc",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [3]e752x_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1255 )->edac_mc_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L334 )->kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "id": 0,
+  "acc_path": "devfn",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L71 | pci_bus_write_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "pos",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L71 | pci_bus_write_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L71 | pci_bus_write_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L562 | pci_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "devfn",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L68 | pci_bus_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "pos",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L68 | pci_bus_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "address",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/arch/x86/kernel/amd_nb.c#L193 | amd_smn_read",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k10temp.c#L391 | k10temp_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k10temp.c#L262 | k10temp_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k10temp.c#L262 | k10temp_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k10temp.c#L251 | k10temp_read",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k10temp.c#L251 | k10temp_read",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k10temp.c#L190 | k10temp_read_labels",
+  "Drv update": ""
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "Total Bugon": 2,
+    "Controlled Bugon": 2,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ zero_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/zero.c#L196 ], [ zero_suspend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/zero.c#L191 ], [ zero_suspend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/zero.c#L186 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ zero_suspend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/zero.c#L184 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mod_timer->__mod_timer"
+  }
+]

@@ -1,0 +1,216 @@
+{
+  "id": 0,
+  "acc_path": "err",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/core.c#L5000 | dev_err_probe",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "xloops",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/arch/x86/lib/delay.c#L207 | __const_udelay",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 | tegra_usb_probe",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 | tegra_usb_probe",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 | tegra_usb_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 | tegra_usb_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 | tegra_usb_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 | tegra_usb_probe",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 | tegra_usb_runtime_suspend",
+  "Drv update": ""
+}

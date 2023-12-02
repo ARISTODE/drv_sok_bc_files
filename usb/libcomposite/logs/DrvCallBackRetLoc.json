@@ -1,0 +1,122 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1329",
+    "Drv func": "gadgets_make",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1585"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "gadgets_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1651"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "gadgets_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1651"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2342",
+    "Drv func": "suspended_show",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2150"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1329",
+    "Drv func": "function_make",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L588"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "function_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L637"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "function_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L637"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "gadget_info_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L387"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1329",
+    "Drv func": "gadget_strings_strings_make",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L787"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "gadget_strings_strings_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L787"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "gadget_strings_strings_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L787"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "gadget_strings_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L774"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1329",
+    "Drv func": "config_desc_make",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L682"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "config_desc_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L746"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "config_desc_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L746"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1329",
+    "Drv func": "gadget_config_name_strings_make",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L680"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "gadget_config_name_strings_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L680"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "gadget_config_name_strings_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L680"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "gadget_config_name_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L669"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "gadget_config_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L403"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1338",
+    "Drv func": "ext_prop_make",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1067"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "ext_prop_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1112"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "ext_prop_drop",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1112"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "usb_os_desc_ext_prop_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1056"
+  }
+]

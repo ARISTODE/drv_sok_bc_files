@@ -1,0 +1,207 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [4]usb_role_switch_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L366 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [6]usb_role_switch_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L366 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 29,
+    "call path": "( [6]usb_role_switch_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L366 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 20,
+    "call path": "( [6]usb_role_switch_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L366 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "kzalloc.93",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 17,
+    "call path": "( [6]usb_role_switch_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L366 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->kzalloc.93 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "usb_role_switch_release(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L293) | "
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "kobject_uevent",
+    "risky func": "kzalloc.93",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [4]usb_role_switch_set_role ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L42 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->kzalloc.93 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "kobject_uevent",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [4]usb_role_switch_set_role ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L42 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "kobject_uevent",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 19,
+    "call path": "( [4]usb_role_switch_set_role ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L42 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "kobject_uevent",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 20,
+    "call path": "( [4]usb_role_switch_set_role ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L42 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "put_device",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )( [3]usb_role_switch_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L170 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "device_register",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 25,
+    "call path": "( [6]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "device_register",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 8,
+    "call path": "( [6]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "device_register",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 30,
+    "call path": "( [6]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "device_register",
+    "risky func": "kzalloc.14",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [5]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->device_private_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3506 )->kzalloc.14 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "device_register",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 47,
+    "call path": "( [8]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fwnode_get_next_parent_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/property.c#L643 )->get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3758 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "device_register",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 32,
+    "call path": "( [9]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->__fw_devlink_relax_cycles ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1918 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "device_register",
+    "risky func": "kzalloc.93",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 18,
+    "call path": "( [6]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kobject_uevent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L640 )->kobject_uevent_env ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 )->kzalloc.93 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "device_register",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 52,
+    "call path": "( [8]usb_role_switch_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L318 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "__class_create",
+    "risky func": "kzalloc.53",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [4]usb_roles_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L394 )->__class_create ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L231 )->__class_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L153 )->kzalloc.53 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "__class_create",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]usb_roles_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L394 )->__class_create ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L231 )->__class_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "__class_create",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 6,
+    "call path": "( [6]usb_roles_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L394 )->__class_create ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L231 )->__class_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L153 )->class_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L108 )->kset_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kobject.h#L191 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "__class_create",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [6]usb_roles_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L394 )->__class_create ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L231 )->__class_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L153 )->class_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/class.c#L115 )->kset_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kobject.h#L196 )->kobject_put ( Unknown Loc ) )"
+  }
+]

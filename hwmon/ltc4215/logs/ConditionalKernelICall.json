@@ -1,0 +1,15 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Drv func": "ltc4215_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4215.c#L58 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4215.c#L59"
+  },
+  {
+    "Drv func": "ltc4215_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4215.c#L55 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4215.c#L55"
+  }
+]

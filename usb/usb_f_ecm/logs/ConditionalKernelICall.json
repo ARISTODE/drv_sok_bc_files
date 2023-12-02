@@ -1,0 +1,120 @@
+[
+  {
+    "No. entry": 23
+  },
+  {
+    "Drv func": "ecm_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L516 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L516"
+  },
+  {
+    "Drv func": "ecm_bind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L705 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L693 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L737 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L728 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L749 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L754 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L771 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L719 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L763 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "ecm_unbind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L909 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L909"
+  },
+  {
+    "Drv func": "ecm_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L930 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L940 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L941"
+  },
+  {
+    "Drv func": "ecm_free_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L864 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L867"
+  },
+  {
+    "Drv func": "ecm_set_alt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L587 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L587"
+  },
+  {
+    "Drv func": "ecm_set_alt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L564 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L564"
+  },
+  {
+    "Drv func": "ecm_do_notify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L428"
+  },
+  {
+    "Drv func": "ecm_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L881 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L883"
+  },
+  {
+    "Drv func": "ecm_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L489 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L489"
+  },
+  {
+    "Drv func": "ecm_set_alt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L558 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L558"
+  },
+  {
+    "Drv func": "ecm_do_notify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L401 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L401"
+  },
+  {
+    "Drv func": "ecm_close",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L672 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L672"
+  },
+  {
+    "Drv func": "ecm_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L625 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L625"
+  },
+  {
+    "Drv func": "ecm_notify_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L460 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L460"
+  },
+  {
+    "Drv func": "ecm_bind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L814 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L815"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "ecm_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L881 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L887"
+  },
+  {
+    "Drv func": "ecm_do_notify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L417 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L417"
+  },
+  {
+    "Drv func": "ecm_bind",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L705 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L693 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L737 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L728 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L749 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L754 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L771 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L719 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L763 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "ecm_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L662 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L662"
+  },
+  {
+    "Drv func": "ecm_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L509 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L509"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  }
+]

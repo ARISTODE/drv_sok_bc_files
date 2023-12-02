@@ -1,0 +1,96 @@
+{
+  "id": 0,
+  "acc_path": "irq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/devres.c#L51 | devm_request_threaded_irq",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "irqflags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/devres.c#L51 | devm_request_threaded_irq",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "msecs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L2086 | msleep",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L641 | hwmon_notify_event",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "attr",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L641 | hwmon_notify_event",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "channel",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L641 | hwmon_notify_event",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2910 | regmap_read",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L238 | adt7x10_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L238 | adt7x10_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L262 | adt7x10_read",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L262 | adt7x10_read",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L293 | adt7x10_write",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L293 | adt7x10_write",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7x10.c#L293 | adt7x10_write",
+  "Drv update": ""
+}

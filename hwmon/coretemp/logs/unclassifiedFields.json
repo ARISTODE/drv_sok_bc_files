@@ -1,0 +1,42 @@
+{
+  "id": 1,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L487 | ida_free",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "msr_no",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/arch/x86/lib/msr-smp.c#L169 | rdmsr_safe_on_cpu",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "msr_no",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/arch/x86/lib/msr-smp.c#L36 | rdmsr_on_cpu",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "domain",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/search.c#L228 | pci_get_domain_bus_and_slot",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "bus",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/search.c#L228 | pci_get_domain_bus_and_slot",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "devfn",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/search.c#L228 | pci_get_domain_bus_and_slot",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L576 | platform_device_alloc",
+  "Drv update": ""
+}

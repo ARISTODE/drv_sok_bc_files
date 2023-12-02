@@ -1,0 +1,145 @@
+[
+  {
+    "No. entry": 28
+  },
+  {
+    "Drv func": "fschmd_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1052 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1058"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1306 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1307"
+  },
+  {
+    "Drv func": "fschmd_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1152 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1158 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1159 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1161"
+  },
+  {
+    "Drv func": "alert_led_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L574 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L579"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1352 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1353"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1330 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1340"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1314"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1331"
+  },
+  {
+    "Drv func": "fschmd_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1052 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1057"
+  },
+  {
+    "Drv func": "fschmd_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1052 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1056"
+  },
+  {
+    "Drv func": "fschmd_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1174 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1181 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1191"
+  },
+  {
+    "Drv func": "fschmd_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1145 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1146"
+  },
+  {
+    "Drv func": "fschmd_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1174 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1184"
+  },
+  {
+    "Drv func": "fschmd_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1152 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1158 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1168"
+  },
+  {
+    "Drv func": "fschmd_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1174 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1197"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1306 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1309"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1345 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1345 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1347"
+  },
+  {
+    "Drv func": "fschmd_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1287 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1288"
+  },
+  {
+    "Drv func": "fschmd_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1282 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1283"
+  },
+  {
+    "Drv func": "watchdog_trigger",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L757 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L763"
+  },
+  {
+    "Drv func": "fschmd_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1284 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1285"
+  },
+  {
+    "Drv func": "fschmd_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1278 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1279"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1333"
+  },
+  {
+    "Drv func": "watchdog_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L819 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L826"
+  },
+  {
+    "Drv func": "watchdog_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1322 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1325"
+  },
+  {
+    "Drv func": "fschmd_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L1335"
+  },
+  {
+    "Drv func": "watchdog_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L776 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fschmd.c#L786"
+  }
+]

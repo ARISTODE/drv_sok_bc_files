@@ -1,0 +1,280 @@
+[
+  {
+    "No. entry": 55
+  },
+  {
+    "Drv func": "load_attenuators",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1575 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1587"
+  },
+  {
+    "Drv func": "adt7475_read_pwm",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1852 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1854 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1856 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1869"
+  },
+  {
+    "Drv func": "adt7475_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1339"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1779 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1780"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1431 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1447"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1393 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1410"
+  },
+  {
+    "Drv func": "adt7475_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1320 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1323"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1946 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1948 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1952"
+  },
+  {
+    "Drv func": "adt7475_read_pwm",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1852 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1854 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1856 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1866"
+  },
+  {
+    "Drv func": "cpu0_vid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1078 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1081"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1393 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1395"
+  },
+  {
+    "Drv func": "point2_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L661 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L667"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1452"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1457"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1938"
+  },
+  {
+    "Drv func": "point2_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L661 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L671"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1748 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1752"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1432 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1432 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1435 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1439"
+  },
+  {
+    "Drv func": "load_config3",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1472 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1473"
+  },
+  {
+    "Drv func": "load_config4",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1498 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1499"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1977"
+  },
+  {
+    "Drv func": "temp_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L456 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L462"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1905 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1910 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1914"
+  },
+  {
+    "Drv func": "adt7475_read_word",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L315"
+  },
+  {
+    "Drv func": "pwm_use_point2_pwm_at_crit_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1034 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1036 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1036 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1040"
+  },
+  {
+    "Drv func": "pwm_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L787 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L791"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1661 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1668"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1926 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1927 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1929"
+  },
+  {
+    "Drv func": "point2_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L661 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L669"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1678 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1681"
+  },
+  {
+    "Drv func": "load_attenuators",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1575 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1594"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1661 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1674"
+  },
+  {
+    "Drv func": "temp_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L483"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1661 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1669 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1670"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1432 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1432 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1434"
+  },
+  {
+    "Drv func": "adt7475_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1320 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1324"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1393 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1401 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1405"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1905 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1909"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1748 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1751"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1714 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1715"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1946 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1948 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1953 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1957"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1366 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1381 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1383 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1387"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1983 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1984"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1905 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1910 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1915 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1920"
+  },
+  {
+    "Drv func": "adt7475_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1661 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1664"
+  },
+  {
+    "Drv func": "adt7475_update_measure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1946 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1947"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1367 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1366 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1375"
+  },
+  {
+    "Drv func": "adt7475_set_pwm_polarity",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1613 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1614"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1393 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1406 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1411 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1415"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1357 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1361"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1366 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1370"
+  },
+  {
+    "Drv func": "temp_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L511 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L536"
+  },
+  {
+    "Drv func": "adt7475_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1320 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1325 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1325 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1329"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1366 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1381 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1382"
+  },
+  {
+    "Drv func": "adt7475_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1393 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1396 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7475.c#L1400"
+  }
+]

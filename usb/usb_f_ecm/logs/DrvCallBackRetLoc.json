@@ -1,0 +1,7 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "ecm_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L831"
+  }
+]

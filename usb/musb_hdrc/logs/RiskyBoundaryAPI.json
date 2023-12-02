@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "del_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "musb_handle_intr_reset(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1022) | musb_handle_intr_connect(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L927) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "mod_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "musb_handle_intr_reset(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1018) | musb_handle_intr_suspend(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L863) | "
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "single_release",
+    "risky func": "kfree",
+    "Risky API Class": "memory"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "single_open",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [3]musb_regdump_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L113 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]musb_test_mode_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L158 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]musb_softconnect_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L258 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [4]musb_gadget_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1774 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]musb_gadget_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1774 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [5]musb_gadget_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1774 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "device_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [5]musb_gadget_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1774 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "musb_free_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1156) | "
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "seq_read",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "seq_read",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "seq_lseek",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "seq_lseek",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "free_irq",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 13,
+    "call path": "( [3]musb_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2191 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "free_irq",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 13,
+    "call path": "( [4]musb_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2191 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "free_irq",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]musb_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2191 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "cancel_delayed_work_sync",
+    "risky func": "del_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [5]musb_init_controller ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2314 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )( [5]musb_init_controller ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2314 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )( [5]musb_gadget_cleanup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1811 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )( [5]musb_init_controller ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2314 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )( [5]musb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2629 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )( [5]musb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2629 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )( [5]musb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2629 )->cancel_delayed_work_sync ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3302 )->__cancel_work_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3115 )->try_to_grab_pending ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L1261 )->del_timer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1251 ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "pm_runtime_set_autosuspend_delay",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 49,
+    "call path": "( [13]musb_init_controller ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2314 )->pm_runtime_set_autosuspend_delay ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1673 )->update_autosuspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1636 )->rpm_idle ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L437 )->rpm_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L560 )->rpm_callback ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L512 )->__rpm_callback ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L363 )->musb_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2854 )->musb_run_resume_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2218 )->devm_kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1047 )->devres_destroy ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L387 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "devm_kfree",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [5]musb_run_resume_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2218 )->devm_kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1047 )->devres_destroy ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L387 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

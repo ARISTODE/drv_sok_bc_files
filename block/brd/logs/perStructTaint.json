@@ -1,0 +1,136 @@
+[
+  {
+    "struct name": "block_device_operations",
+    "No.Fields": 19,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "bio",
+    "No.Fields": 21,
+    "No.Shared fields": 5,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "gendisk",
+    "No.Fields": 33,
+    "No.Shared fields": 6,
+    "No.KRDU fields": 4,
+    "No.classified fields": 1,
+    "No.unclassified fields": 3,
+    "PTR_READ": 1,
+    "UNCLASSIFY": 3
+  },
+  {
+    "id": "3",
+    "risky": "ptr-read",
+    "acc_path": "gendisk->fops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L589",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L589",
+    "drv_update loc (shared field)": "[ (brd_alloc) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/brd.c#L404 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L586 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L586 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "request_queue",
+    "No.Fields": 62,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "block_device",
+    "No.Fields": 23,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dentry",
+    "No.Fields": 16,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "task_struct",
+    "No.Fields": 211,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "xarray",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

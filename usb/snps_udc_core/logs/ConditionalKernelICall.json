@@ -1,0 +1,370 @@
+[
+  {
+    "No. entry": 73
+  },
+  {
+    "Drv func": "udc_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1315 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1315"
+  },
+  {
+    "Drv func": "udc_enable_dev_setup_interrupts",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L261 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L261"
+  },
+  {
+    "Drv func": "udc_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1344 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1344"
+  },
+  {
+    "Drv func": "udc_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1213"
+  },
+  {
+    "Drv func": "udc_ep_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L440 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L440"
+  },
+  {
+    "Drv func": "udc_soft_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1683 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1683"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L208 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L208"
+  },
+  {
+    "Drv func": "udc_remote_wakeup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1395 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1395"
+  },
+  {
+    "Drv func": "udc_free_dma_chain",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L568 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L568"
+  },
+  {
+    "Drv func": "udc_rxfifo_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L732 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L732"
+  },
+  {
+    "Drv func": "prep_dma",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L892 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L892"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2917 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2917"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2927 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2927"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L191 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L191"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L197"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2948 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2948"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L196 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L196"
+  },
+  {
+    "Drv func": "udc_ep_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L501 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L501"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L186 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L186"
+  },
+  {
+    "Drv func": "udc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3173"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L188 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L188"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L193 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L193"
+  },
+  {
+    "Drv func": "udc_timer_function",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1711 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1716 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1722 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1729 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1730"
+  },
+  {
+    "Drv func": "udc_enable_ep0_interrupts",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L244"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2919 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "udc_ep_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L337 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L337"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L199 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L199"
+  },
+  {
+    "Drv func": "activate_control_endpoints",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1883 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1885"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L195 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L195"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L194 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L194"
+  },
+  {
+    "Drv func": "usb_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1649 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "udc_pollstall_timer_function",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1814 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1815"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L187"
+  },
+  {
+    "Drv func": "udc_data_out_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2180 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2180"
+  },
+  {
+    "Drv func": "udc_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3041 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3042"
+  },
+  {
+    "Drv func": "udc_control_out_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2528"
+  },
+  {
+    "Drv func": "udc_timer_function",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1749 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1750"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L203"
+  },
+  {
+    "Drv func": "udc_data_out_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2231 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2230 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2236 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2237"
+  },
+  {
+    "Drv func": "udc_control_out_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2516"
+  },
+  {
+    "Drv func": "udc_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3036 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3037"
+  },
+  {
+    "Drv func": "udc_control_in_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2672 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2672"
+  },
+  {
+    "Drv func": "UDC_QUEUE_CNAK",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L309"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2919 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "udc_basic_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1459"
+  },
+  {
+    "Drv func": "activate_control_endpoints",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1823 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1823"
+  },
+  {
+    "Drv func": "usb_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1649 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2861 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2861"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L190 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L190"
+  },
+  {
+    "Drv func": "udc_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1136 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1138 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1140"
+  },
+  {
+    "Drv func": "init_dma_pools",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3090 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3090"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L192"
+  },
+  {
+    "Drv func": "udc_alloc_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L527 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L533 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L537 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L538"
+  },
+  {
+    "Drv func": "init_dma_pools",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3079 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3079"
+  },
+  {
+    "Drv func": "udc_ep0_set_rde",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2031 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2047 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2036 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2036 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2048"
+  },
+  {
+    "Drv func": "udc_pollstall_timer_function",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1806 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1810"
+  },
+  {
+    "Drv func": "udc_timer_function",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1711 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1716 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1722 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1742 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1743"
+  },
+  {
+    "Drv func": "activate_control_endpoints",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1888 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1889"
+  },
+  {
+    "Drv func": "udc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3172"
+  },
+  {
+    "Drv func": "udc_process_cnak_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2006 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2006"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2816 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2816"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L213"
+  },
+  {
+    "Drv func": "udc_basic_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1469 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1470"
+  },
+  {
+    "Drv func": "udc_basic_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1466"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2958 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2958"
+  },
+  {
+    "Drv func": "udc_set_rde",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1036 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1038"
+  },
+  {
+    "Drv func": "udc_process_cnak_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2017 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2017"
+  },
+  {
+    "Drv func": "udc_data_out_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2073 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2073"
+  },
+  {
+    "Drv func": "udc_process_cnak_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2003 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2003"
+  },
+  {
+    "Drv func": "udc_setup_endpoints",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1527 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1527"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2899 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2899"
+  },
+  {
+    "Drv func": "udc_dev_isr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2757 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2757"
+  },
+  {
+    "Drv func": "print_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L189 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L189"
+  }
+]

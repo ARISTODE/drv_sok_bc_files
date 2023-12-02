@@ -1,0 +1,80 @@
+[
+  {
+    "No. entry": 15
+  },
+  {
+    "Drv func": "i3000_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L517 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L519"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L216 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L217"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L216 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L219"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L205"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L207"
+  },
+  {
+    "Drv func": "i3000_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L447 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L448"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L208"
+  },
+  {
+    "Drv func": "i3000_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L258 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L259"
+  },
+  {
+    "Drv func": "i3000_exit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L551 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L553"
+  },
+  {
+    "Drv func": "i3000_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L465"
+  },
+  {
+    "Drv func": "i3000_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L480 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L483"
+  },
+  {
+    "Drv func": "i3000_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L239 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L242 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L245 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L246"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L206"
+  },
+  {
+    "Drv func": "pci_write_bits16",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L118 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L121"
+  },
+  {
+    "Drv func": "i3000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L216 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i3000_edac.c#L218"
+  }
+]

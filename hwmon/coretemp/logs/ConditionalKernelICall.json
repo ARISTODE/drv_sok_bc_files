@@ -1,0 +1,80 @@
+[
+  {
+    "No. entry": 15
+  },
+  {
+    "Drv func": "coretemp_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L561 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L568 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L573"
+  },
+  {
+    "Drv func": "coretemp_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L561 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L567"
+  },
+  {
+    "Drv func": "adjust_tjmax",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L243 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L243 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L251"
+  },
+  {
+    "Drv func": "create_core_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L483 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L489"
+  },
+  {
+    "Drv func": "coretemp_remove_core",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L540 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L549 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L550"
+  },
+  {
+    "Drv func": "create_core_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L501 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L490 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L501 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L483 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L502"
+  },
+  {
+    "Drv func": "get_tjmax",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L364 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L364"
+  },
+  {
+    "Drv func": "adjust_tjmax",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L270 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L270 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L278"
+  },
+  {
+    "Drv func": "adjust_tjmax",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L311 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L312"
+  },
+  {
+    "Drv func": "coretemp_cpu_online",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L608 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L624 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L633"
+  },
+  {
+    "Drv func": "coretemp_remove_core",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L540 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L546"
+  },
+  {
+    "Drv func": "adjust_tjmax",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L245 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L246"
+  },
+  {
+    "Drv func": "coretemp_remove_core",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L540 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L544"
+  },
+  {
+    "Drv func": "create_core_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L523 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L524"
+  },
+  {
+    "Drv func": "show_temp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L160 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L161"
+  }
+]

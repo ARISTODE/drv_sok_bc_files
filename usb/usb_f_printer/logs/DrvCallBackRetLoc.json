@@ -1,0 +1,27 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "printer_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1200"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/read_write.c#L759",
+    "Drv func": "printer_read",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L428"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/read_write.c#L756",
+    "Drv func": "printer_read",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L428"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/read_write.c#L759",
+    "Drv func": "printer_write",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L570"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/read_write.c#L756",
+    "Drv func": "printer_write",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L570"
+  }
+]

@@ -1,0 +1,408 @@
+{
+  "id": 1,
+  "acc_path": "num_clks",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/clk/clk-bulk.c#L227 | clk_bulk_enable",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "num_clks",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/clk/clk-bulk.c#L211 | clk_bulk_disable",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L33 | dwc3_of_simple_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L33 | dwc3_of_simple_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L33 | dwc3_of_simple_probe",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L33 | dwc3_of_simple_probe",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L33 | dwc3_of_simple_probe",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L33 | dwc3_of_simple_probe",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/dwc3/dwc3-of-simple.c#L147 | dwc3_of_simple_suspend",
+  "Drv update": ""
+}

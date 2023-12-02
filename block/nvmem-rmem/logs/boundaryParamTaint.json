@@ -1,0 +1,40 @@
+[
+  {
+    "id": "0",
+    "risky": "arr-idx",
+    "acc_path": "offset",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/iomem.c#L95",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/iomem.c#L36",
+    "drv caller (param)": "[ rmem_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvmem/rmem.c#L39 ], ",
+    "call path (param)": " [rmem_read->memremap->try_ram_remap] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [memremap->try_ram_remap] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/iomem.c#L36 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/iomem.c#L36 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "3",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "count",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L838",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L838",
+    "drv caller (param)": "[ rmem_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvmem/rmem.c#L45 ], ",
+    "call path (param)": " [rmem_read->memory_read_from_buffer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [memory_read_from_buffer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]

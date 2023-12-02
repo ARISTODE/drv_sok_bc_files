@@ -1,0 +1,525 @@
+[
+  {
+    "No. entry": 104
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3249 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3259 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264"
+  },
+  {
+    "Drv func": "crypt_iv_elephant",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L954 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L966"
+  },
+  {
+    "Drv func": "crypt_convert_block_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1451"
+  },
+  {
+    "Drv func": "crypt_dtr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2722 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2723"
+  },
+  {
+    "Drv func": "crypt_ctr_optional",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3087 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3088"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3273 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3273 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3280"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3273 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3273 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3280"
+  },
+  {
+    "Drv func": "crypt_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3403"
+  },
+  {
+    "Drv func": "kcryptd_io_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1845 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1854 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1856"
+  },
+  {
+    "Drv func": "crypt_alloc_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1684 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1686"
+  },
+  {
+    "Drv func": "crypt_dec_pending",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1778 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1784"
+  },
+  {
+    "Drv func": "kcryptd_crypt_write_io_submit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1965 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1965 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1965 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1964 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966"
+  },
+  {
+    "Drv func": "crypt_integrity_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1197"
+  },
+  {
+    "Drv func": "crypt_convert_block_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1449"
+  },
+  {
+    "Drv func": "crypt_dtr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2703 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2704"
+  },
+  {
+    "Drv func": "crypt_dtr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2705 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2706"
+  },
+  {
+    "Drv func": "dm_crypt_integrity_io_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1145 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1145 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1148"
+  },
+  {
+    "Drv func": "crypt_ctr_cipher_old",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2970 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2970 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "kcryptd_crypt_write_io_submit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1952 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1954"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2297 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298"
+  },
+  {
+    "Drv func": "crypt_iv_tcw_whitening",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L652 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L654 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L656"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3175 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "kcryptd_crypt_write_continue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2025 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2027"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "kcryptd_io_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1845 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1854 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860"
+  },
+  {
+    "Drv func": "crypt_alloc_req_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1470 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1471"
+  },
+  {
+    "Drv func": "crypt_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3424 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3425"
+  },
+  {
+    "Drv func": "kcryptd_queue_crypt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2226 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2234"
+  },
+  {
+    "Drv func": "crypt_ctr_auth_cipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2824 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2833 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2838"
+  },
+  {
+    "Drv func": "crypt_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "crypt_ctr_cipher_old",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2976 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2979 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2979 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2980 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2982"
+  },
+  {
+    "Drv func": "crypt_iv_lmk_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L492 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L495 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L496"
+  },
+  {
+    "Drv func": "crypt_ctr_cipher_old",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2991 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2991 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3003"
+  },
+  {
+    "Drv func": "crypt_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3412 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3415"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3175 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2312 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2312 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2312"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2535"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2322 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337"
+  },
+  {
+    "Drv func": "crypt_dec_pending",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1763 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1766"
+  },
+  {
+    "Drv func": "crypt_ctr_auth_cipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2824 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2833 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2525"
+  },
+  {
+    "Drv func": "crypt_ctr_cipher_old",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2991 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2991 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2992"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2521"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3343 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344"
+  },
+  {
+    "Drv func": "crypt_page_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2672 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2672 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2676"
+  },
+  {
+    "Drv func": "crypt_setkey",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2395 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2399 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2400"
+  },
+  {
+    "Drv func": "crypt_integrity_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1189 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1189"
+  },
+  {
+    "Drv func": "crypt_free_req_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1525 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1526"
+  },
+  {
+    "Drv func": "crypt_ctr_cipher_old",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2970 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2970 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2530"
+  },
+  {
+    "Drv func": "crypt_alloc_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1699 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1701"
+  },
+  {
+    "Drv func": "crypt_ctr_auth_cipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2824 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2833 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837"
+  },
+  {
+    "Drv func": "kcryptd_crypt_write_convert",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2082 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2082 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2084"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2531"
+  },
+  {
+    "Drv func": "crypt_ctr_cipher_old",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2991 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2991 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3000"
+  },
+  {
+    "Drv func": "crypt_integrity_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1197"
+  },
+  {
+    "Drv func": "crypt_wipe_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2635 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2635 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2641"
+  },
+  {
+    "Drv func": "crypt_integrity_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1189 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1189"
+  },
+  {
+    "Drv func": "crypt_dec_pending",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1763 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1764"
+  },
+  {
+    "Drv func": "crypt_convert",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1579 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1585 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1586"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2543 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2548"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3358"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L605"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2333 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2333"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2529"
+  },
+  {
+    "Drv func": "crypt_ctr_auth_cipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2824 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2833 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "crypt_convert_block_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1337 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1354 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1357"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "skcipher_request_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "crypt_convert_block_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1337 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1354 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1364"
+  },
+  {
+    "Drv func": "crypt_alloc_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1682 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1683"
+  },
+  {
+    "Drv func": "crypt_convert",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1579 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1585 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1602"
+  },
+  {
+    "Drv func": "crypt_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3409 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "kcryptd_async_done",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2165 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2166"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_skcipher",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2312 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2312"
+  },
+  {
+    "Drv func": "crypt_free_req_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1534 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1535"
+  },
+  {
+    "Drv func": "crypt_iv_elephant",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L967 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L973"
+  },
+  {
+    "Drv func": "kcryptd_async_done",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2173 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2176"
+  },
+  {
+    "Drv func": "crypt_set_keyring_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2536"
+  },
+  {
+    "Drv func": "kcryptd_crypt_write_io_submit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1971 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1972"
+  },
+  {
+    "Drv func": "crypt_iv_tcw_whitening",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L652 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L654 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L657 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L659"
+  },
+  {
+    "Drv func": "crypt_setkey",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2395 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2399 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2404"
+  },
+  {
+    "Drv func": "dmcrypt_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1910 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1915"
+  },
+  {
+    "Drv func": "crypt_convert_block_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1370"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2333 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2333"
+  },
+  {
+    "Drv func": "skcipher_request_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3313"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3249 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3258"
+  },
+  {
+    "Drv func": "crypt_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3175 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3202"
+  },
+  {
+    "Drv func": "crypt_alloc_req_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1493"
+  },
+  {
+    "Drv func": "crypto_wait_req",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/crypto.h#L608 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/crypto.h#L611"
+  },
+  {
+    "Drv func": "crypt_iv_lmk_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L492 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L495 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L503 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L511"
+  },
+  {
+    "Drv func": "crypt_iv_lmk_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L492 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L495 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L502"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "crypt_iv_lmk_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433"
+  },
+  {
+    "Drv func": "crypt_alloc_tfms_aead",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "crypt_setkey",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2395 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2396 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2397"
+  },
+  {
+    "Drv func": "kcryptd_async_done",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2198 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2199"
+  },
+  {
+    "Drv func": "crypt_convert",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1567 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1568"
+  },
+  {
+    "Drv func": "crypt_iv_tcw_ctr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L591 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L596"
+  }
+]

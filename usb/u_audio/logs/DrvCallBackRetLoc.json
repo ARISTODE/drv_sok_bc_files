@@ -1,0 +1,142 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2708",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L874",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L2155",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2742",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L618",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1953",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L838",
+    "Drv func": "uac_pcm_open",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L385"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2708",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L874",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L2155",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2742",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L618",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1953",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L838",
+    "Drv func": "uac_pcm_null",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L427"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1694",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1436",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2064",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1429",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1611",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1809",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1801",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1621",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1236",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1231",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1281",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1501",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1278",
+    "Drv func": "uac_pcm_trigger",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L314"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L279",
+    "Drv func": "uac_pcm_pointer",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L353"
+  }
+]

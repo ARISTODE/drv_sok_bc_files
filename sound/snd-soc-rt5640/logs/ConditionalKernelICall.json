@@ -1,0 +1,445 @@
+[
+  {
+    "No. entry": 88
+  },
+  {
+    "Drv func": "rt5640_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3010 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3017 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3030 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3038"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1987 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1991"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1987 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1988"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1984"
+  },
+  {
+    "Drv func": "rt5640_enable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2518 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2519"
+  },
+  {
+    "Drv func": "rt5640_enable_micbias1_for_ovcd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2108 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2109"
+  },
+  {
+    "Drv func": "rt5640_disable_micbias1_for_ovcd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2122"
+  },
+  {
+    "Drv func": "rt5640_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3053 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2679"
+  },
+  {
+    "Drv func": "rt5640_button_press_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "rt5640_jd_gpio_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2674"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2714 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2715"
+  },
+  {
+    "Drv func": "rt5640_jack_inserted",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2174 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2174"
+  },
+  {
+    "Drv func": "rt5640_set_dai_pll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1890 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1880 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1892"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1962 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1963"
+  },
+  {
+    "Drv func": "rt5640_sel_asrc_clk_src",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2087 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2092"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1746 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1750 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1754"
+  },
+  {
+    "Drv func": "rt5640_set_dai_pll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1890 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1900"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1758 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1762"
+  },
+  {
+    "Drv func": "rt5640_set_dai_fmt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1825 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1826"
+  },
+  {
+    "Drv func": "rt5640_button_press_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2231 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "rt5640_start_button_press_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "get_sdp_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1652 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1655"
+  },
+  {
+    "Drv func": "rt5640_hp_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L983"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1982"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2693"
+  },
+  {
+    "Drv func": "rt5640_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2820 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2821 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2822"
+  },
+  {
+    "Drv func": "rt5640_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2820 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2821 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2836"
+  },
+  {
+    "Drv func": "rt5640_enable_hda_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2624 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2633"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2685"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1962 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1974"
+  },
+  {
+    "Drv func": "rt5640_disable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2476 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2479"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1985"
+  },
+  {
+    "Drv func": "rt5640_lout_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1001"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1758 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1764"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2315 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2319"
+  },
+  {
+    "Drv func": "rt5640_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3010 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3017 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3029"
+  },
+  {
+    "Drv func": "rt5640_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2812 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2814"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2710 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2711"
+  },
+  {
+    "Drv func": "rt5640_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2403 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2404"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1708 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1713"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2682"
+  },
+  {
+    "Drv func": "rt5640_button_press_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2238"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1962 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1972"
+  },
+  {
+    "Drv func": "rt5640_disable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2471 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2472"
+  },
+  {
+    "Drv func": "rt5640_lout_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1003"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2672"
+  },
+  {
+    "Drv func": "rt5640_enable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2518 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2521 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2522"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2357 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2357"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2690"
+  },
+  {
+    "Drv func": "rt5640_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3010 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3017 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3030 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3036"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2371 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2371"
+  },
+  {
+    "Drv func": "rt5640_set_dai_sysclk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1864 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1864"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1986"
+  },
+  {
+    "Drv func": "rt5640_sel_asrc_clk_src",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2087 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2089"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1983"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2374 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2374"
+  },
+  {
+    "Drv func": "set_dmic_clk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L470 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L473"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2718 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2719"
+  },
+  {
+    "Drv func": "rt5640_lout_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1008"
+  },
+  {
+    "Drv func": "rt5640_disable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2465 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2468 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2469"
+  },
+  {
+    "Drv func": "rt5640_lout_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1011"
+  },
+  {
+    "Drv func": "rt5640_enable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2526 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2529 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2530"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2673"
+  },
+  {
+    "Drv func": "rt5640_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2821 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2820 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2826 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2827"
+  },
+  {
+    "Drv func": "rt5640_set_dai_pll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1881 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1881"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1980"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1962 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1969"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1746 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1750 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1756"
+  },
+  {
+    "Drv func": "rt5640_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2665 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676"
+  },
+  {
+    "Drv func": "rt5640_jack_inserted",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2169 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2172"
+  },
+  {
+    "Drv func": "rt5640_detect_headset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2295 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2295"
+  },
+  {
+    "Drv func": "rt5640_hp_post_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1046 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1044 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1047"
+  },
+  {
+    "Drv func": "rt5640_micbias1_ovcd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2159 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2159"
+  },
+  {
+    "Drv func": "rt5640_set_bias_level",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1937 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1981"
+  },
+  {
+    "Drv func": "rt5640_detect_headset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2289 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2289"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1726 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1726"
+  },
+  {
+    "Drv func": "rt5640_set_dai_pll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1890 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1880 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1896"
+  },
+  {
+    "Drv func": "rt5640_button_press_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2246 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2246"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2333 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2333"
+  },
+  {
+    "Drv func": "rt5640_hw_params",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1724 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1724"
+  },
+  {
+    "Drv func": "rt5640_set_dai_fmt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1820 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1816 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1821"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2321 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2321"
+  },
+  {
+    "Drv func": "rt5640_jack_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2347 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2350 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2351"
+  },
+  {
+    "Drv func": "rt5640_enable_jack_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2526 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2527"
+  },
+  {
+    "Drv func": "rt5640_detect_headset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2272"
+  },
+  {
+    "Drv func": "rt5640_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3010 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3017 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3021 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3026"
+  }
+]

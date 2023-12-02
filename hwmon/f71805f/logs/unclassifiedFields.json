@@ -1,0 +1,156 @@
+{
+  "id": 0,
+  "acc_path": "resource->start",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L563],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L592],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/osl.c#L1474],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L207],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L454],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L619],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L221],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L886],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L942],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L587],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L173],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L244],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L887],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L794],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L569],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L616],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L362],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L341],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L617],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L598],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L466],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L955],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L612],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L669],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L238],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L238],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L244],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L939],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L609],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L452],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L602],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1267],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L214],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1272],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L886],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L612],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L592],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L593],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L680],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L179],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508], "
+}
+{
+  "id": 1,
+  "acc_path": "resource->end",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L955],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L467],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L794],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L472],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L670],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L244],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L221],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L888],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L244],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L949],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L625],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L889],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L388],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L238],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ioport.h#L238],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L593],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L347],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L363],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L888],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L939],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L571],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L598],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L174],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1267],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1272],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L602],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L629],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L193],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L625],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L617],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L600],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L610],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L681],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L181],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L620], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508], "
+}
+{
+  "id": 4,
+  "acc_path": "resource->desc",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1173],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L352],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1183],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L365],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L506], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508], "
+}
+{
+  "id": 8,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/sysfs/file.c#L413 | sysfs_chmod_file",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1251 | __release_region",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1251 | __release_region",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1558 | __devm_request_region",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1558 | __devm_request_region",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L55 | platform_get_resource",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L55 | platform_get_resource",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L576 | platform_device_alloc",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L604 | platform_device_add_resources",
+  "Drv update": ""
+}
+{
+  "id": 20,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L632 | platform_device_add_data",
+  "Drv update": ""
+}
+{
+  "id": 21,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f71805f.c#L1369 | f71805f_probe",
+  "Drv update": ""
+}
+{
+  "id": 21,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f71805f.c#L1369 | f71805f_probe",
+  "Drv update": ""
+}
+{
+  "id": 21,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f71805f.c#L1369 | f71805f_probe",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f71805f.c#L1369 | f71805f_probe",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f71805f.c#L1369 | f71805f_probe",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f71805f.c#L1369 | f71805f_probe",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L70 | name_show.38",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L70 | name_show.38",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L70 | name_show.38",
+  "Drv update": ""
+}
+{
+  "id": 26,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L70 | name_show.38",
+  "Drv update": ""
+}

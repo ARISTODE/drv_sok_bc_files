@@ -1,0 +1,46 @@
+[
+  {
+    "Total Bugon": 5,
+    "Controlled Bugon": 1,
+    "Uncontrolled Bugon": 4
+  },
+  {
+    "Drv caller": "[ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L348 ], [ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L328 ], ",
+    "Trans func name": "kzalloc.372",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "usb_add_hcd->usb_alloc_dev->kzalloc.372",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L348 ], [ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L328 ], ",
+    "Trans func name": "dma_unmap_sg_attrs",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L285",
+    "Call Path": "usb_add_hcd->usb_hcd_poll_rh_status->usb_hcd_giveback_urb->__usb_hcd_giveback_urb->unmap_urb_for_dma->usb_hcd_unmap_urb_for_dma->dma_unmap_sg_attrs",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L285 | "
+  },
+  {
+    "Drv caller": "[ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L348 ], [ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L328 ], ",
+    "Trans func name": "dma_unmap_page_attrs",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L172",
+    "Call Path": "usb_add_hcd->usb_hcd_poll_rh_status->usb_hcd_giveback_urb->__usb_hcd_giveback_urb->unmap_urb_for_dma->usb_hcd_unmap_urb_for_dma->dma_unmap_page_attrs",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L172 | "
+  },
+  {
+    "Drv caller": "[ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L333 ], [ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L230 ], ",
+    "Trans func name": "__usb_create_hcd",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__usb_create_hcd"
+  },
+  {
+    "Drv caller": "[ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L333 ], [ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L230 ], ",
+    "Trans func name": "kzalloc.334",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__usb_create_hcd->kzalloc.334",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  }
+]

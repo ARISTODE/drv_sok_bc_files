@@ -1,0 +1,30 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Drv func": "ad7414_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L194 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L198"
+  },
+  {
+    "Drv func": "ad7414_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L58 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L61"
+  },
+  {
+    "Drv func": "ad7414_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L83 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L83"
+  },
+  {
+    "Drv func": "ad7414_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L79 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L79"
+  },
+  {
+    "Drv func": "ad7414_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L91 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7414.c#L91"
+  }
+]

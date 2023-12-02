@@ -1,0 +1,207 @@
+[
+  {
+    "struct name": "class",
+    "No.Fields": 15,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 3,
+    "No.classified fields": 1,
+    "No.unclassified fields": 2,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "BRANCH": 1,
+    "UNCLASSIFY": 2
+  },
+  {
+    "id": "1",
+    "risky": "ptr-read",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2490",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2490",
+    "drv_update loc (shared field)": "[ (hidg_alloc) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1276 ], ",
+    "call path (type)": "",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (hidg_alloc) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1276 ], ",
+    "call path (type)": " [cdev_device_add->device_add->device_add_class_symlinks] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "1",
+    "risky": "ptr-write",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4852",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4845 |   %5 = alloca i8*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (hidg_alloc) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1276 ], ",
+    "call path (type)": " [cdev_device_add->device_add->device_add_class_symlinks->_dev_warn->__dev_printk->dev_printk_emit->dev_vprintk_emit->set_dev_info] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4851 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "cdev",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "inode",
+    "No.Fields": 50,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "config_group",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "config_item",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "mutex",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_entry",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "xarray",
+    "No.Fields": 3,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "ida",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

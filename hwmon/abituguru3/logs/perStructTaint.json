@@ -1,0 +1,87 @@
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 3,
+    "No.classified fields": 2,
+    "No.unclassified fields": 1,
+    "PTR_READ": 1,
+    "BRANCH": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "1",
+    "risky": "ptr-read",
+    "acc_path": "resource->name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L431",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L431",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (abituguru3_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1268 ], ",
+    "call path (type)": "",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L431 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L425 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "resource->flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191",
+    "drv_update loc (shared field)": "[ (abituguru3_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1233 ], ",
+    "call path (type)": "",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

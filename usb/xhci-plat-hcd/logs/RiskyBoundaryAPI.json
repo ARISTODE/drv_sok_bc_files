@@ -1,0 +1,157 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "pm_runtime_forbid",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 29,
+    "call path": "( [10]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->pm_runtime_forbid ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1545 )->rpm_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L763 )->rpm_idle ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L437 )->xhci_plat_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L424 )->clk_disable_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1083 )->clk_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L941 )->clk_core_unprepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L923 )->clk_prepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L126 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "pm_runtime_forbid",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 30,
+    "call path": "( [10]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->pm_runtime_forbid ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1545 )->rpm_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L763 )->rpm_idle ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L437 )->xhci_plat_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L424 )->clk_disable_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1083 )->clk_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L941 )->clk_core_unprepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L923 )->clk_prepare_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L141 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "usb_put_hcd",
+    "risky func": "kref_put.326",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]xhci_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L390 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.326 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [3]xhci_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L390 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.326 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.326 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.326 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "usb_hcd_platform_shutdown",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "usb_hcd_platform_shutdown",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "usb_remove_hcd",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [3]xhci_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L390 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_lock ( Unknown Loc ) )( [3]xhci_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L390 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_lock ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "usb_remove_hcd",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [3]xhci_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L390 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_unlock ( Unknown Loc ) )( [3]xhci_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L390 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_unlock ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_remove_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L3036 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 31,
+    "call path": "( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_lock ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 32,
+    "call path": "( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_unlock ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "kzalloc.372",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [4]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->kzalloc.372 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->kzalloc.372 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [4]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->kfree ( Unknown Loc ) )( [4]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 30,
+    "call path": "( [4]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_hcd_poll_rh_status ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L752 )->mod_timer ( Unknown Loc ) )( [4]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_hcd_poll_rh_status ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L752 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "kref_get.330",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [5]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->usb_get_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2706 )->kref_get.330 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )( [5]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->usb_get_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2706 )->kref_get.330 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "usb_add_hcd",
+    "risky func": "kref_put.326",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 15,
+    "call path": "( [5]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.326 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [5]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->usb_add_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2815 )->usb_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/usb.c#L650 )->usb_put_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2714 )->kref_put.326 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "__usb_create_hcd",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->mutex_lock ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "__usb_create_hcd",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->mutex_unlock ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "__usb_create_hcd",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kfree ( Unknown Loc ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "__usb_create_hcd",
+    "risky func": "kzalloc.334",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "call path": "( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kzalloc.334 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [3]xhci_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L176 )->__usb_create_hcd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2571 )->kzalloc.334 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  }
+]

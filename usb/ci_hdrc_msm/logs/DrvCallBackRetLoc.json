@@ -1,0 +1,32 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1110",
+    "Drv func": "ci_hdrc_msm_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1422",
+    "Drv func": "ci_hdrc_msm_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1400",
+    "Drv func": "ci_hdrc_msm_probe",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L172"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1110",
+    "Drv func": "ci_hdrc_msm_remove",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L277"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1422",
+    "Drv func": "ci_hdrc_msm_remove",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L277"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1400",
+    "Drv func": "ci_hdrc_msm_remove",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L277"
+  }
+]

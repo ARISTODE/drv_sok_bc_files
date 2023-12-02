@@ -1,0 +1,55 @@
+[
+  {
+    "No. entry": 10
+  },
+  {
+    "Drv func": "aem_init_aem2_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L688"
+  },
+  {
+    "Drv func": "aem_init_aem1_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L543 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L546"
+  },
+  {
+    "Drv func": "aem_init_aem2_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L685 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L689 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L702 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L694 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L706"
+  },
+  {
+    "Drv func": "aem_init_aem1_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L543 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L547 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L560 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L552 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L564"
+  },
+  {
+    "Drv func": "aem_register_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L938 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L956 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L958"
+  },
+  {
+    "Drv func": "aem_init_aem1_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L547 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L543 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L551"
+  },
+  {
+    "Drv func": "aem_register_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L938 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L955"
+  },
+  {
+    "Drv func": "aem_remove_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L1000"
+  },
+  {
+    "Drv func": "aem_show_power",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "aem_init_aem2_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L689 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L693"
+  }
+]

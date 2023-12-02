@@ -1,0 +1,10 @@
+[
+  {
+    "No. entry": 1
+  },
+  {
+    "Drv func": "g760a_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g760a.c#L91 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/g760a.c#L91"
+  }
+]

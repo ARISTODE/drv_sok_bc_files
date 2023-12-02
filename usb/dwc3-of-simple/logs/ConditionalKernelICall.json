@@ -1,0 +1,20 @@
+[
+  {
+    "No. entry": 3
+  },
+  {
+    "Drv func": "clk_bulk_prepare_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1095 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1097"
+  },
+  {
+    "Drv func": "dwc3_of_simple_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L64 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L67"
+  },
+  {
+    "Drv func": "dwc3_of_simple_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L64 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L73 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L68 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L77 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L81"
+  }
+]

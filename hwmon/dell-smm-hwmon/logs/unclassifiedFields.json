@@ -1,0 +1,84 @@
+{
+  "id": 1,
+  "acc_path": "phys",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/smp.c#L1238 | smp_call_on_cpu",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "msecs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L2086 | msleep",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/devres.c#L817 | devm_kmalloc",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "gfp",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/devres.c#L817 | devm_kmalloc",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "n_res",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L972 | __platform_create_bundle",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L972 | __platform_create_bundle",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L658 | dell_smm_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L658 | dell_smm_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L739 | dell_smm_read",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L739 | dell_smm_read",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L834 | dell_smm_read_string",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L865 | dell_smm_write",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L865 | dell_smm_write",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/dell-smm-hwmon.c#L865 | dell_smm_write",
+  "Drv update": ""
+}

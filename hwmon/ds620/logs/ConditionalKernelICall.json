@@ -1,0 +1,10 @@
+[
+  {
+    "No. entry": 1
+  },
+  {
+    "Drv func": "ds620_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds620.c#L107 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds620.c#L107"
+  }
+]

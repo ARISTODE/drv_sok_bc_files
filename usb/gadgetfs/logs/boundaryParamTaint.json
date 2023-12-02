@@ -1,0 +1,76 @@
+[
+  {
+    "id": "22",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "bytes",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L524",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/highmem.h#L403",
+    "drv caller (param)": "[ ep_user_copy_worker | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uio.h#L179 ], ",
+    "call path (param)": " [ep_user_copy_worker->_copy_to_iter->copy_pipe_to_iter->memcpy_to_page] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [_copy_to_iter->copy_pipe_to_iter->memcpy_to_page] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L468 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L473 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L471 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L465 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L474 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "22",
+    "risky": "arr-idx",
+    "acc_path": "bytes",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L524",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L477",
+    "drv caller (param)": "[ ep_user_copy_worker | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uio.h#L179 ], ",
+    "call path (param)": " [ep_user_copy_worker->_copy_to_iter->copy_pipe_to_iter] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [_copy_to_iter->copy_pipe_to_iter] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L474 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L468 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L473 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L471 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L465 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L474 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "31",
+    "risky": "arr-idx",
+    "acc_path": "band",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1017",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L760",
+    "drv caller (param)": "[ ep0_readable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L850 ], ",
+    "call path (param)": " [ep0_readable->kill_fasync->kill_fasync_rcu->send_sigio->send_sigio_to_task] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kill_fasync->kill_fasync_rcu->send_sigio->send_sigio_to_task] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L757 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1002 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1002 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L793 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L757 | ",
+    "isControl": "1",
+    "t_trace": "[ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INband ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1003 ] -> [ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INband ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L794 ] -> [ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INreason ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L760 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L760 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L760 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "31",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "band",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1017",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L757",
+    "drv caller (param)": "[ ep0_readable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L850 ], ",
+    "call path (param)": " [ep0_readable->kill_fasync->kill_fasync_rcu->send_sigio->send_sigio_to_task] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kill_fasync->kill_fasync_rcu->send_sigio->send_sigio_to_task] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1002 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1002 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L793 | ",
+    "isControl": "1",
+    "t_trace": "[ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INband ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L1003 ] -> [ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INband ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L794 ] -> [ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INreason ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L757 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L757 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]

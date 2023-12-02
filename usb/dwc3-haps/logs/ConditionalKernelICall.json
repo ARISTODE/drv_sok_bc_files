@@ -1,0 +1,30 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Drv func": "dwc3_haps_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L61 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L76 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L84"
+  },
+  {
+    "Drv func": "dwc3_haps_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L49 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L54"
+  },
+  {
+    "Drv func": "dwc3_haps_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L61 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L75"
+  },
+  {
+    "Drv func": "dwc3_haps_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L57 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L60"
+  },
+  {
+    "Drv func": "dwc3_haps_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L61 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L76 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L85 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-haps.c#L88"
+  }
+]

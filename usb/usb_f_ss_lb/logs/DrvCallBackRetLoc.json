@@ -1,0 +1,12 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "ss_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L880"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "lb_attr_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L462"
+  }
+]

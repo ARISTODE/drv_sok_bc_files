@@ -1,0 +1,12 @@
+{
+  "id": 0,
+  "acc_path": "m",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/time.c#L552 | __msecs_to_jiffies",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L865 | init_timer_key",
+  "Drv update": ""
+}

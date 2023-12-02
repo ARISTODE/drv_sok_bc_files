@@ -1,0 +1,200 @@
+[
+  {
+    "No. entry": 39
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1185"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1180"
+  },
+  {
+    "Drv func": "i5100_refresh_scrubbing",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L575 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L579 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L581"
+  },
+  {
+    "Drv func": "i5100_do_inject",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L895 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L896"
+  },
+  {
+    "Drv func": "i5100_check_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L546 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L554"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1015 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1021 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1029 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1035 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1046"
+  },
+  {
+    "Drv func": "i5100_read_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L523"
+  },
+  {
+    "Drv func": "i5100_do_inject",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L895 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L899"
+  },
+  {
+    "Drv func": "i5100_read_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L493 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L501"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1004"
+  },
+  {
+    "Drv func": "i5100_refresh_scrubbing",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L575 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L577"
+  },
+  {
+    "Drv func": "i5100_refresh_scrubbing",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L575 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L579 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L582"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1179"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1015 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1020"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1183"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1182"
+  },
+  {
+    "Drv func": "i5100_read_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L518"
+  },
+  {
+    "Drv func": "i5100_set_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L598 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L606"
+  },
+  {
+    "Drv func": "i5100_read_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L487 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L488"
+  },
+  {
+    "Drv func": "i5100_read_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L487 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L490"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L996"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1172"
+  },
+  {
+    "Drv func": "i5100_read_spd_byte",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L706 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L709"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1008"
+  },
+  {
+    "Drv func": "i5100_init_interleaving",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L819 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L822"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1010"
+  },
+  {
+    "Drv func": "i5100_read_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L493 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L496"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1181"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1015 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1021 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1029 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1034"
+  },
+  {
+    "Drv func": "i5100_read_spd_byte",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L717 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L719"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1175"
+  },
+  {
+    "Drv func": "i5100_read_spd_byte",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L706 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L714"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1178"
+  },
+  {
+    "Drv func": "i5100_check_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L546 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L548"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1021 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1029 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1015 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1048 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L997 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1057 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L990 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1035 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1062"
+  },
+  {
+    "Drv func": "i5100_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L986 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L989"
+  },
+  {
+    "Drv func": "i5100_do_inject",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L895 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L900"
+  },
+  {
+    "Drv func": "i5100_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1167 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L1177"
+  },
+  {
+    "Drv func": "i5100_do_inject",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L895 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5100_edac.c#L897"
+  }
+]

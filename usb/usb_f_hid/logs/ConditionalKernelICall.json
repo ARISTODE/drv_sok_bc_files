@@ -1,0 +1,130 @@
+[
+  {
+    "No. entry": 25
+  },
+  {
+    "Drv func": "ghid_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1349 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1350"
+  },
+  {
+    "Drv func": "ghid_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1328 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1334"
+  },
+  {
+    "Drv func": "hidg_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1279 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1294"
+  },
+  {
+    "Drv func": "ghid_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1328 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1335 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1336"
+  },
+  {
+    "Drv func": "hidg_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1222 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1212 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1224"
+  },
+  {
+    "Drv func": "f_hidg_ssreport_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L378 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L378"
+  },
+  {
+    "Drv func": "f_hidg_intout_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "f_hidg_intout_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L340"
+  },
+  {
+    "Drv func": "f_hid_opts_report_desc_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1124 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1126 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1135"
+  },
+  {
+    "Drv func": "hidg_free_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1191 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1192"
+  },
+  {
+    "Drv func": "f_hidg_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L452 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L452"
+  },
+  {
+    "Drv func": "f_hidg_ssreport_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L378 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L378 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L378"
+  },
+  {
+    "Drv func": "hidg_get_minor",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1028 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1029"
+  },
+  {
+    "Drv func": "hidg_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1214 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1216"
+  },
+  {
+    "Drv func": "hidg_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1279 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1289 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1290"
+  },
+  {
+    "Drv func": "hidg_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1278"
+  },
+  {
+    "Drv func": "f_hidg_intout_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L309"
+  },
+  {
+    "Drv func": "hidg_ssreport_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L625 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L636"
+  },
+  {
+    "Drv func": "f_hidg_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L452 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L452 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L452"
+  },
+  {
+    "Drv func": "hidg_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1274"
+  },
+  {
+    "Drv func": "hidg_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L783 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L786"
+  },
+  {
+    "Drv func": "f_hidg_ssreport_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "f_hidg_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "f_hidg_intout_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L309"
+  },
+  {
+    "Drv func": "hidg_alloc_inst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1222 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1229"
+  }
+]

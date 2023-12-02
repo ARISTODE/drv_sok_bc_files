@@ -1,0 +1,115 @@
+[
+  {
+    "No. entry": 22
+  },
+  {
+    "Drv func": "asb100_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L849 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L851"
+  },
+  {
+    "Drv func": "asb100_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L894 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L896"
+  },
+  {
+    "Drv func": "asb100_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L918 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L919"
+  },
+  {
+    "Drv func": "asb100_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L996 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L996"
+  },
+  {
+    "Drv func": "asb100_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L793 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L806 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809"
+  },
+  {
+    "Drv func": "asb100_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L898 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L899"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L756 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L756"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L742 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L748"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L755 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L767"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L743 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L743"
+  },
+  {
+    "Drv func": "asb100_detect_subclients",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L700 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L708"
+  },
+  {
+    "Drv func": "asb100_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L946 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L946"
+  },
+  {
+    "Drv func": "asb100_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L793 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L805"
+  },
+  {
+    "Drv func": "asb100_detect_subclients",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L700 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L709 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L717"
+  },
+  {
+    "Drv func": "asb100_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L877 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L878"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L755 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L766"
+  },
+  {
+    "Drv func": "asb100_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L853 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L854"
+  },
+  {
+    "Drv func": "asb100_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L860 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L865"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L755 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L761"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L753 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L755 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L751 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L762"
+  },
+  {
+    "Drv func": "asb100_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L905 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L907"
+  },
+  {
+    "Drv func": "asb100_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L742 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L747"
+  }
+]

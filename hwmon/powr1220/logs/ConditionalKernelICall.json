@@ -1,0 +1,25 @@
+[
+  {
+    "No. entry": 4
+  },
+  {
+    "Drv func": "powr1220_read_adc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L138"
+  },
+  {
+    "Drv func": "powr1220_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L296"
+  },
+  {
+    "Drv func": "powr1220_read_adc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L141"
+  },
+  {
+    "Drv func": "powr1220_read_adc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L142 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/powr1220.c#L148"
+  }
+]

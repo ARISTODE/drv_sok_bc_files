@@ -1,0 +1,55 @@
+[
+  {
+    "No. entry": 10
+  },
+  {
+    "Drv func": "i5500_temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L121 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L128 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L128 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L133"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L56"
+  },
+  {
+    "Drv func": "i5500_temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L127"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L72"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L64"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L60"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L52"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L51"
+  },
+  {
+    "Drv func": "i5500_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L48 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L68"
+  },
+  {
+    "Drv func": "i5500_temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5500_temp.c#L126"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "No. entry": 33
+  },
+  {
+    "Drv func": "ulpi_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L299 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L300"
+  },
+  {
+    "Drv func": "__ulpi_register_driver",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L155 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L161"
+  },
+  {
+    "Drv func": "ulpi_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L307 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L307"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L268"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L266"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L265 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L265"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L257 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L257"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L259 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L259"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L250 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L250"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L264 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L264"
+  },
+  {
+    "Drv func": "ulpi_uevent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L64 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L67"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L267 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L267"
+  },
+  {
+    "Drv func": "ulpi_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L299 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L305"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L252 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L252"
+  },
+  {
+    "Drv func": "ulpi_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L298"
+  },
+  {
+    "Drv func": "ulpi_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L286 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L286"
+  },
+  {
+    "Drv func": "ulpi_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L299 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L304"
+  },
+  {
+    "Drv func": "ulpi_register_interface",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L328 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L334 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L335"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L253 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L253"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L255 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L255"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L254 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L254"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L251 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L251"
+  },
+  {
+    "Drv func": "ulpi_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L366"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L256 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L256"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L248"
+  },
+  {
+    "Drv func": "ulpi_read_id",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L216 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L226 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L229"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L249 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L249"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L258 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L258"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L261 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L261"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L247 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L247"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L260 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L260"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L262 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L262"
+  },
+  {
+    "Drv func": "ulpi_regs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L263 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L263"
+  }
+]

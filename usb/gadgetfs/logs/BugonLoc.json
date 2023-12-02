@@ -1,0 +1,346 @@
+[
+  {
+    "Total Bugon": 48,
+    "Controlled Bugon": 45,
+    "Uncontrolled Bugon": 3
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "iput",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1805",
+    "Check": "No check",
+    "Call Path": "d_make_root->iput"
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "d_instantiate",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L2032",
+    "Check": "No check",
+    "Call Path": "d_make_root->d_instantiate"
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "__d_alloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "d_make_root->d_alloc_anon->__d_alloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1771 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "evict",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L643 |   unreachable",
+    "Check": "No check",
+    "Call Path": "d_make_root->iput->iput_final->evict"
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "fsnotify_update_flags",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/fsnotify_backend.h#L580",
+    "Check": "No check",
+    "Call Path": "d_make_root->d_instantiate->__d_instantiate->fsnotify_update_flags"
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "clear_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L603 |   unreachable",
+    "Check": "No check",
+    "Call Path": "d_make_root->iput->iput_final->evict->clear_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L306",
+    "Check": "No check",
+    "Call Path": "d_make_root->iput->iput_final->evict->destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_fill_super | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "Trans func name": "__destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L282",
+    "Check": "No check",
+    "Call Path": "d_make_root->iput->iput_final->evict->destroy_inode->__destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1990 ], ",
+    "Trans func name": "__d_alloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "d_alloc_name->d_alloc->__d_alloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1771 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2000 ], ",
+    "Trans func name": "fsnotify_update_flags",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/fsnotify_backend.h#L580",
+    "Check": "No check",
+    "Call Path": "d_add->__d_add->fsnotify_update_flags"
+  },
+  {
+    "Drv caller": "[ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2000 ], ",
+    "Trans func name": "__bit_spin_unlock",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bit_spinlock.h#L77",
+    "Check": "No check",
+    "Call Path": "d_add->__d_add->__d_lookup_unhash->hlist_bl_unlock->__bit_spin_unlock"
+  },
+  {
+    "Drv caller": "[ ep_write_iter | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uio.h#L197 ], ",
+    "Trans func name": "iov_iter_revert",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/iov_iter.c#L949",
+    "Check": "No check",
+    "Call Path": "iov_iter_revert"
+  },
+  {
+    "Drv caller": "[ get_ready_ep | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L323 ], [ dev_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1902 ], [ gadgetfs_cleanup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2133 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ ep0_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L970 ], [ ep0_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1065 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ epio_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L284 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "complete->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1576 ], [ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1997 ], ",
+    "Trans func name": "iput",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1805",
+    "Check": "No check",
+    "Call Path": "dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1576 ], [ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1997 ], ",
+    "Trans func name": "__bit_spin_unlock",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bit_spinlock.h#L77",
+    "Check": "No check",
+    "Call Path": "dput->dentry_kill->__dentry_kill->__d_drop->___d_drop->hlist_bl_unlock->__bit_spin_unlock"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1576 ], [ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1997 ], ",
+    "Trans func name": "evict",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L643 |   unreachable",
+    "Check": "No check",
+    "Call Path": "dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1576 ], [ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1997 ], ",
+    "Trans func name": "clear_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L603 |   unreachable",
+    "Check": "No check",
+    "Call Path": "dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict->clear_inode"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1576 ], [ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1997 ], ",
+    "Trans func name": "destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L306",
+    "Check": "No check",
+    "Call Path": "dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict->destroy_inode"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1576 ], [ gadgetfs_create_file | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1997 ], ",
+    "Trans func name": "__destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L282",
+    "Check": "No check",
+    "Call Path": "dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict->destroy_inode->__destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "vfs_get_super",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1192",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "kzalloc.166",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "get_tree_single->vfs_get_super->sget_fc->alloc_super->kzalloc.166",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "put_dev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L162",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->deactivate_locked_super->gadgetfs_kill_sb->put_dev"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "iput",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1805",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "d_walk",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1447",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->deactivate_locked_super->gadgetfs_kill_sb->kill_litter_super->d_genocide->d_walk"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "__bit_spin_unlock",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bit_spinlock.h#L77",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->dput->dentry_kill->__dentry_kill->__d_drop->___d_drop->hlist_bl_unlock->__bit_spin_unlock"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "evict",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L643 |   unreachable",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "clear_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L603 |   unreachable",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict->clear_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L306",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict->destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "__destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L282",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->dput->dentry_kill->__dentry_kill->dentry_unlink_inode->iput->iput_final->evict->destroy_inode->__destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->sget_fc->destroy_unused_super->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ gadgetfs_get_tree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2080 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "get_tree_single->vfs_get_super->sget_fc->grab_super->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "d_walk",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1447",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->d_genocide->d_walk"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "put_dev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L162",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->kill_anon_super->generic_shutdown_super->gadgetfs_kill_sb->put_dev"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "evict",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L643 |   unreachable",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->kill_anon_super->generic_shutdown_super->evict_inodes->dispose_list->evict"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "clear_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L603 |   unreachable",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->kill_anon_super->generic_shutdown_super->evict_inodes->dispose_list->evict->clear_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L306",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->kill_anon_super->generic_shutdown_super->evict_inodes->dispose_list->evict->destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "__destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L282",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->kill_anon_super->generic_shutdown_super->evict_inodes->dispose_list->evict->destroy_inode->__destroy_inode"
+  },
+  {
+    "Drv caller": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "kill_litter_super->kill_anon_super->generic_shutdown_super->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ gadgetfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2123 ], ",
+    "Trans func name": "register_filesystem",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/filesystems.c#L81",
+    "Check": "No check",
+    "Call Path": "register_filesystem"
+  },
+  {
+    "Drv caller": "[ ep0_readable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L850 ], ",
+    "Trans func name": "send_sigio_to_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/fcntl.c#L756",
+    "Check": "No check",
+    "Call Path": "kill_fasync->kill_fasync_rcu->send_sigio->send_sigio_to_task"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1575 ], ",
+    "Trans func name": "iput",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1805",
+    "Check": "No check",
+    "Call Path": "d_delete->dentry_unlink_inode->iput"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1575 ], ",
+    "Trans func name": "__bit_spin_unlock",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bit_spinlock.h#L77",
+    "Check": "No check",
+    "Call Path": "d_delete->__d_drop->___d_drop->hlist_bl_unlock->__bit_spin_unlock"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1575 ], ",
+    "Trans func name": "evict",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L643 |   unreachable",
+    "Check": "No check",
+    "Call Path": "d_delete->dentry_unlink_inode->iput->iput_final->evict"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1575 ], ",
+    "Trans func name": "clear_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L603 |   unreachable",
+    "Check": "No check",
+    "Call Path": "d_delete->dentry_unlink_inode->iput->iput_final->evict->clear_inode"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1575 ], ",
+    "Trans func name": "destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L306",
+    "Check": "No check",
+    "Call Path": "d_delete->dentry_unlink_inode->iput->iput_final->evict->destroy_inode"
+  },
+  {
+    "Drv caller": "[ destroy_ep_files | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1575 ], ",
+    "Trans func name": "__destroy_inode",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L282",
+    "Check": "No check",
+    "Call Path": "d_delete->dentry_unlink_inode->iput->iput_final->evict->destroy_inode->__destroy_inode"
+  }
+]

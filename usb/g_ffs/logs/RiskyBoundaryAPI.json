@@ -1,0 +1,9 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "gfs_init(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/g_ffs.c#L236) | gfs_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/g_ffs.c#L468) | gfs_init(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/g_ffs.c#L234) | gfs_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/g_ffs.c#L425) | gfs_exit(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/g_ffs.c#L256) | gfs_exit(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/g_ffs.c#L251) | "
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "id": 6,
+  "acc_path": "super_block->s_blocksize_bits",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L163], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2031], "
+}
+{
+  "id": 8,
+  "acc_path": "super_block->s_magic",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L44], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2032], "
+}
+{
+  "id": 10,
+  "acc_path": "super_block->s_time_gran",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L2460], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2034], "
+}
+{
+  "id": 14,
+  "acc_path": "inode->i_ino",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/fs.h#L3586],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1672],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L944],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L3263],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L2319],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/fs.h#L3462],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1383],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1679],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1660], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1968], "
+}
+{
+  "id": 17,
+  "acc_path": "completion->done",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L311],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L312],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L331],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L92],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L93],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L35],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L305],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L34],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L89],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L309],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L87],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/completion.c#L74], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333], "
+}
+{
+  "id": 18,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/usercopy.c#L34 | _copy_to_user",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/usercopy.c#L11 | _copy_from_user",
+  "Drv update": ""
+}
+{
+  "id": 20,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock.c#L192 | _raw_spin_unlock_irqrestore",
+  "Drv update": ""
+}
+{
+  "id": 21,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L1663 | dup_iter",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "unroll",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L914 | iov_iter_revert",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "bytes",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L623 | _copy_from_iter",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L296 | init_wait_entry",
+  "Drv update": ""
+}
+{
+  "id": 26,
+  "acc_path": "state",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L305 | prepare_to_wait_event",
+  "Drv update": ""
+}
+{
+  "id": 27,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L157 | __wake_up",
+  "Drv update": ""
+}
+{
+  "id": 28,
+  "acc_path": "nr_exclusive",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L157 | __wake_up",
+  "Drv update": ""
+}
+{
+  "id": 29,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 30,
+  "acc_path": "sig",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/fcntl.c#L1010 | kill_fasync",
+  "Drv update": ""
+}
+{
+  "id": 32,
+  "acc_path": "fd",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/fcntl.c#L973 | fasync_helper",
+  "Drv update": ""
+}
+{
+  "id": 33,
+  "acc_path": "on",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/fcntl.c#L973 | fasync_helper",
+  "Drv update": ""
+}
+{
+  "id": 34,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/inode.c#L2087 | gadgetfs_init_fs_context",
+  "Drv update": ""
+}
+{
+  "id": 34,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/inode.c#L2087 | gadgetfs_init_fs_context",
+  "Drv update": ""
+}
+{
+  "id": 35,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/inode.c#L2087 | gadgetfs_init_fs_context",
+  "Drv update": ""
+}
+{
+  "id": 35,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/inode.c#L2087 | gadgetfs_init_fs_context",
+  "Drv update": ""
+}

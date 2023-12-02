@@ -1,0 +1,79 @@
+[
+  {
+    "Total Bugon": 10,
+    "Controlled Bugon": 8,
+    "Uncontrolled Bugon": 2
+  },
+  {
+    "Drv caller": "[ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2107 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2107 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2084 ], ",
+    "Trans func name": "__devm_ioremap_resource",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/devres.c#L129",
+    "Check": "No check",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource"
+  },
+  {
+    "Drv caller": "[ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2084 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource->__devm_ioremap->devres_free"
+  },
+  {
+    "Drv caller": "[ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2084 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource->devm_kasprintf->devm_kvasprintf->devm_kmalloc->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ xudc_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1103 ], [ xudc_ep_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L768 ], [ xudc_write_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L714 ], [ xudc_startup_handler | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1477 ], [ xudc_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1084 ], [ xudc_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L908 ], [ xudc_startup_handler | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1522 ], [ __xudc_ep0_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1006 ], [ __xudc_ep0_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1010 ], [ xudc_done | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L561 ], [ xudc_read_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L632 ], [ xudc_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1090 ], [ xudc_ep_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L948 ], [ xudc_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1112 ], [ xudc_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1116 ], [ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2094 ], [ xudc_ep_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L763 ], [ xudc_write_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L703 ], [ xudc_read_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L595 ], [ xudc_read_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L621 ], [ xudc_read_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L652 ], [ __xudc_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L822 ], [ __xudc_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L830 ], [ __xudc_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L855 ], [ __xudc_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L839 ], [ xudc_startup_handler | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1500 ], [ xudc_startup_handler | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L1540 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ xudc_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L900 ], [ xudc_ep_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L933 ], [ xudc_ep_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L757 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ xudc_dma_send | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L388 ], ",
+    "Trans func name": "dma_sync_single_for_device",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L347",
+    "Call Path": "dma_sync_single_for_device",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L347 | "
+  },
+  {
+    "Drv caller": "[ xudc_read_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L639 ], ",
+    "Trans func name": "dma_sync_single_for_cpu",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L333",
+    "Call Path": "dma_sync_single_for_cpu",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L333 | "
+  },
+  {
+    "Drv caller": "[ xudc_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/udc-xilinx.c#L2088 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "platform_get_irq->dev_err_probe->__dynamic_dev_dbg"
+  }
+]

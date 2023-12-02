@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "pci_read_config_byte",
+    "risky func": "pci_bus_read_config_byte",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]i5000_get_dimm_and_channel_counts ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1331 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )( [3]i5000_get_dimm_and_channel_counts ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1331 )->pci_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L542 )->pci_bus_read_config_byte ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "calculate_dimm_size(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1122) | "
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "pci_write_config_dword",
+    "risky func": "pci_bus_write_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i5000_enable_error_reporting ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1307 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "pci_read_config_dword",
+    "risky func": "pci_bus_read_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_enable_error_reporting ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1307 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "pci_read_config_word",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_error_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L385 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i5000_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1131 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "edac_mc_del_mc",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]i5000_remove_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1502 )->edac_mc_del_mc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L684 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "edac_mc_del_mc",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [3]i5000_remove_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1502 )->edac_mc_del_mc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L684 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "edac_mc_add_mc_with_groups",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]i5000_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1354 )->edac_mc_add_mc_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L600 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "edac_mc_add_mc_with_groups",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [3]i5000_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1354 )->edac_mc_add_mc_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L600 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "edac_mc_alloc",
+    "risky func": "kzalloc",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [3]i5000_probe1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1354 )->edac_mc_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L334 )->kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "pci_get_device",
+    "risky func": "pci_get_subsys",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]i5000_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L779 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]i5000_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L779 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]i5000_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L779 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]i5000_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L779 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "pci_enable_device",
+    "Risky API Class": "bus",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "i5000_init_one(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1490) | "
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "pci_unregister_driver",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]i5000_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1566 )->pci_unregister_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1456 )->pci_free_dynids ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L81 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

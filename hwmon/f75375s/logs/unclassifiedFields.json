@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/sysfs/file.c#L413 | sysfs_chmod_file",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f75375s.c#L816 | f75375_probe",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/f75375s.c#L875 | f75375_detect",
+  "Drv update": ""
+}

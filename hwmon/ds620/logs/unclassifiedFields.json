@@ -1,0 +1,6 @@
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/ds620.c#L214 | ds620_probe",
+  "Drv update": ""
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "No. entry": 1
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1288",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/atomic/atomic-arch-fallback.h#L1245",
+    "loop form": "Loop"
+  }
+]

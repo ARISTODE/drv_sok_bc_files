@@ -1,0 +1,95 @@
+[
+  {
+    "Total Bugon": 12,
+    "Controlled Bugon": 8,
+    "Uncontrolled Bugon": 4
+  },
+  {
+    "Drv caller": "[ gprinter_get_minor | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1319 ], ",
+    "Trans func name": "kzalloc.584",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "ida_alloc_range->kzalloc.584",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ printer_func_unbind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1420 ], [ printer_func_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1151 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_destroy->device_unregister->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ printer_func_unbind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1420 ], [ printer_func_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1151 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_destroy->device_unregister->device_del->device_links_purge->__device_link_del->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ printer_func_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1128 ], ",
+    "Trans func name": "kzalloc.14",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "device_create->device_create_groups_vargs->kzalloc.14",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ printer_func_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1128 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_create->device_create_groups_vargs->device_add->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ printer_func_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1128 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_create->device_create_groups_vargs->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ gprinter_cleanup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1550 ], [ gprinter_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1533 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "class_destroy->class_unregister->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ printer_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L579 ], [ printer_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L561 ], [ printer_soft_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L927 ], [ printer_soft_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L893 ], [ printer_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L445 ], [ set_printer_interface | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L821 ], [ printer_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L367 ], [ printer_reset_interface | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L851 ], [ printer_soft_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L929 ], [ printer_soft_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L895 ], [ printer_func_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1011 ], [ printer_func_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L992 ], [ printer_ioctl | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L761 ], [ printer_close | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L385 ], [ setup_rx_reqs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L417 ], [ rx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L301 ], [ printer_func_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1188 ], [ set_printer_interface | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L827 ], [ rx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L292 ], [ printer_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L680 ], [ printer_ioctl | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L781 ], [ rx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L277 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ printer_fsync | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L710 ], [ printer_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L611 ], [ printer_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L492 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ gprinter_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1522 ], ",
+    "Trans func name": "kzalloc.149",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__class_create->__class_register->kzalloc.149",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ gprinter_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1522 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__class_create->__class_register->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ gprinter_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1530 ], ",
+    "Trans func name": "kzalloc.49",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_chrdev_region->__register_chrdev_region->kzalloc.49",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L497",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L44",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1288",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/atomic/atomic-arch-fallback.h#L1245",
+    "loop form": "Loop"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L166",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L168",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L395",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L28",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L132",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L142",
+    "loop form": "list iteration/container_of"
+  }
+]

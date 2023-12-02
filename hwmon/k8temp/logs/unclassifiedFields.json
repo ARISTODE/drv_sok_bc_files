@@ -1,0 +1,54 @@
+{
+  "id": 0,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L573 | pci_write_config_byte",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L573 | pci_write_config_byte",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L562 | pci_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L542 | pci_read_config_byte",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k8temp.c#L132 | k8temp_probe",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k8temp.c#L71 | k8temp_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k8temp.c#L71 | k8temp_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k8temp.c#L86 | k8temp_read",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/k8temp.c#L86 | k8temp_read",
+  "Drv update": ""
+}

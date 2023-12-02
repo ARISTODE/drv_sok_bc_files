@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/hid.c#L243 | hidg_plat_driver_remove",
+  "Drv update": ""
+}
+{
+  "id": 0,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/hid.c#L243 | hidg_plat_driver_remove",
+  "Drv update": ""
+}
+{
+  "id": 0,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/legacy/hid.c#L243 | hidg_plat_driver_remove",
+  "Drv update": ""
+}

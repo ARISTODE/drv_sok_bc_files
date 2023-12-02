@@ -1,0 +1,145 @@
+[
+  {
+    "Total Bugon": 19,
+    "Controlled Bugon": 14,
+    "Uncontrolled Bugon": 5
+  },
+  {
+    "Drv caller": "[ __isp1760_udc_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L464 ], [ isp1760_ep0_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L737 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1367 ], [ isp1760_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L960 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1384 ], [ isp1760_ep_set_wedge | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1080 ], [ isp1760_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L928 ], [ isp1760_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L910 ], [ isp1760_udc_get_status | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L554 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1375 ], [ __isp1760_udc_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L460 ], [ isp1760_ep_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1064 ], [ __isp1760_ep_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1022 ], [ isp1760_udc_request_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L188 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1389 ], [ isp1760_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L791 ], [ isp1760_udc_receive | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L281 ], [ isp1760_ep0_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L754 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1401 ], [ isp1760_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L811 ], [ isp1760_ep_tx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L405 ], [ isp1760_udc_transmit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L310 ], [ isp1760_ep_rx_ready | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L353 ], [ isp1760_ep_rx_ready | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L361 ], [ isp1760_ep_dequeue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L985 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1406 ], [ isp1760_ep_tx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L387 ], [ isp1760_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L919 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1417 ], [ isp1760_udc_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1395 ], [ isp1760_ep_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L845 ], [ isp1760_ep_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L850 ], [ isp1760_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L781 ], [ isp1760_udc_stop | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1315 ], [ isp1760_udc_wakeup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1239 ], [ isp1760_udc_set_address | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L568 ], [ isp1760_udc_start | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1290 ], [ isp1760_udc_start | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1303 ], [ isp1760_ep_tx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L418 ], [ __isp1760_ep_set_halt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1030 ], [ isp1760_ep_rx_ready | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L346 ], [ isp1760_udc_disconnect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1139 ], [ isp1760_udc_ctrl_send_stall | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L213 ], [ isp1760_udc_set_address | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L562 ], [ isp1760_udc_receive | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L245 ], [ isp1760_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L946 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ isp1761_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L142 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_set_master->__pci_set_master->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ isp1761_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L101 ], [ isp1761_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L49 ], ",
+    "Trans func name": "kzalloc.447",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__request_region->alloc_resource->kzalloc.447",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ isp1760_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L200 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "platform_get_irq->dev_err_probe->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L540 ], ",
+    "Trans func name": "__devm_ioremap_resource",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/devres.c#L129",
+    "Check": "No check",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L540 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource->__devm_request_region->devres_free"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L540 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource->devm_kasprintf->devm_kvasprintf->devm_kmalloc->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L540 ], ",
+    "Trans func name": "kzalloc.447",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_ioremap_resource->__devm_ioremap_resource->__devm_request_region->__request_region->alloc_resource->kzalloc.447",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ isp1761_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L120 ], [ isp1761_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L86 ], ",
+    "Trans func name": "iounmap",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L495",
+    "Check": "No check",
+    "Call Path": "iounmap"
+  },
+  {
+    "Drv caller": "[ isp1760_init_core | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L38 ], [ isp1760_init_core | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L47 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ isp1760_udc_connect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1130 ], [ isp1760_udc_vbus_poll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1434 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mod_timer->__mod_timer"
+  },
+  {
+    "Drv caller": "[ isp1761_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L135 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_enable_device->pci_enable_device_flags->do_pci_enable_device->pci_set_power_state->pci_set_low_power_state->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], [ isp1760_udc_write_raw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L82 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], [ isp1760_udc_write_raw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L82 ], ",
+    "Trans func name": "kzalloc.158",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L561 ], [ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L549 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_regmap_field_alloc->devm_kzalloc.143->devm_kmalloc->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L556 ], [ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L544 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "__devm_regmap_init_mmio_clk->__devm_regmap_init->devres_free"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L556 ], [ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L544 ], ",
+    "Trans func name": "kzalloc.152",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__devm_regmap_init_mmio_clk->regmap_mmio_gen_context->kzalloc.152",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L556 ], [ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L544 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "__devm_regmap_init_mmio_clk->__devm_regmap_init->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L556 ], [ isp1760_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L544 ], ",
+    "Trans func name": "kzalloc.158",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__devm_regmap_init_mmio_clk->__devm_regmap_init->__regmap_init->kzalloc.158",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  }
+]

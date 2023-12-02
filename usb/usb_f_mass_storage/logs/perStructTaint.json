@@ -1,0 +1,348 @@
+[
+  {
+    "struct name": "wait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "sighand_struct",
+    "No.Fields": 4,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kernel_siginfo",
+    "No.Fields": 1,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "thread_info",
+    "No.Fields": 4,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "block_device",
+    "No.Fields": 23,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "address_space",
+    "No.Fields": 15,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute",
+    "No.Fields": 2,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute_group",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "config_group",
+    "No.Fields": 5,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "config_item",
+    "No.Fields": 8,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "completion",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "rw_semaphore",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "task_struct",
+    "No.Fields": 211,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "swait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "mutex",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_entry",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "inode",
+    "No.Fields": 50,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 5,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 5,
+    "No.KRDU fields": 3,
+    "No.classified fields": 2,
+    "No.unclassified fields": 1,
+    "PTR_READ": 2,
+    "PTR_WRITE": 1,
+    "BRANCH": 1,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (fsg_common_create_lun) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2889 ], ",
+    "call path (type)": " [device_register->device_add->device_add_class_symlinks] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3389 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-read",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (fsg_common_create_lun) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2889 ], ",
+    "call path (type)": " [device_register->device_add->device_add_class_symlinks] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3389 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-write",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L929",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L702 |   %2 = alloca i8*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (fsg_common_create_lun) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2889 ], ",
+    "call path (type)": " [__dynamic_dev_dbg->dev_name.751] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L922 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L922 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L705 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-api (kobject_put)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3809",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3772",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (fsg_common_create_lun) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2889 ], ",
+    "call path (type)": " [put_device] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "device->groups",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2878",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2878",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (fsg_common_create_lun) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L2890 ], ",
+    "call path (type)": " [device_register->device_add->device_add_attrs] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2872 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2866 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

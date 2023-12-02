@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "devm_clk_get",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [5]tegra_usb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 )->devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L63 )->__devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L22 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "pm_runtime_force_suspend",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 25,
+    "call path": "( [8]tegra_usb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L365 )->pm_runtime_force_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1867 )->tegra_usb_runtime_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 )->clk_disable_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1083 )->clk_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L941 )->clk_core_unprepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L923 )->clk_prepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L126 )->mutex_lock ( Unknown Loc ) )( [8]tegra_usb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 )->pm_runtime_force_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1867 )->tegra_usb_runtime_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 )->clk_disable_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1083 )->clk_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L941 )->clk_core_unprepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L923 )->clk_prepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L126 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "pm_runtime_force_suspend",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [8]tegra_usb_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L365 )->pm_runtime_force_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1867 )->tegra_usb_runtime_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 )->clk_disable_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1083 )->clk_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L941 )->clk_core_unprepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L923 )->clk_prepare_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L141 )->mutex_unlock ( Unknown Loc ) )( [8]tegra_usb_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L274 )->pm_runtime_force_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L1867 )->tegra_usb_runtime_suspend ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L392 )->clk_disable_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/clk.h#L1083 )->clk_unprepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L941 )->clk_core_unprepare_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L923 )->clk_prepare_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L141 )->mutex_unlock ( Unknown Loc ) )"
+  }
+]

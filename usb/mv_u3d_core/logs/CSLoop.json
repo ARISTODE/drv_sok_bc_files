@@ -1,0 +1,11 @@
+[
+  {
+    "No. entry": 1
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L861",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L906",
+    "loop form": "list iteration/container_of"
+  }
+]

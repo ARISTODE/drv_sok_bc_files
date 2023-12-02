@@ -1,0 +1,180 @@
+[
+  {
+    "No. entry": 35
+  },
+  {
+    "Drv func": "i7core_create_sysfs_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1191"
+  },
+  {
+    "Drv func": "i7core_create_sysfs_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1189"
+  },
+  {
+    "Drv func": "i7core_rdimm_update_ce_count",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1568 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1569"
+  },
+  {
+    "Drv func": "i7core_rdimm_update_ce_count",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1576 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1577"
+  },
+  {
+    "Drv func": "i7core_xeon_pci_fixup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1270 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1271"
+  },
+  {
+    "Drv func": "get_dimm_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L498 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L502"
+  },
+  {
+    "Drv func": "i7core_get_onedevice",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1326"
+  },
+  {
+    "Drv func": "set_sdram_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1966 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1971 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1994 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1994 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2000"
+  },
+  {
+    "Drv func": "i7core_create_sysfs_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1163 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1168"
+  },
+  {
+    "Drv func": "i7core_get_onedevice",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1330 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1332"
+  },
+  {
+    "Drv func": "set_sdram_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1966 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1971 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1979"
+  },
+  {
+    "Drv func": "i7core_rdimm_update_ce_count",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1572 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1573"
+  },
+  {
+    "Drv func": "i7core_create_sysfs_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1163 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1170"
+  },
+  {
+    "Drv func": "i7core_mce_output_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1778 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1778 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1779"
+  },
+  {
+    "Drv func": "set_sdram_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1966 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1971 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1994 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1994 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2004"
+  },
+  {
+    "Drv func": "i7core_udimm_check_mc_ecc_err",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1633 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1639"
+  },
+  {
+    "Drv func": "get_dimm_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L498 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L505"
+  },
+  {
+    "Drv func": "alloc_i7core_dev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L459 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L465"
+  },
+  {
+    "Drv func": "i7core_get_onedevice",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1396"
+  },
+  {
+    "Drv func": "i7core_get_onedevice",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1330 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1333"
+  },
+  {
+    "Drv func": "i7core_delete_sysfs_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1218 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1219"
+  },
+  {
+    "Drv func": "disable_inject",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L666 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L669"
+  },
+  {
+    "Drv func": "i7core_get_onedevice",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1363 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1365 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1338 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1366"
+  },
+  {
+    "Drv func": "i7core_get_onedevice",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1325"
+  },
+  {
+    "Drv func": "set_sdram_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1966 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1969"
+  },
+  {
+    "Drv func": "get_dimm_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L498 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L504"
+  },
+  {
+    "Drv func": "get_sdram_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2030 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2034"
+  },
+  {
+    "Drv func": "get_dimm_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L533 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L540 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L546"
+  },
+  {
+    "Drv func": "i7core_udimm_check_mc_ecc_err",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1633 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1640"
+  },
+  {
+    "Drv func": "i7core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2368"
+  },
+  {
+    "Drv func": "i7core_delete_sysfs_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1218 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1220"
+  },
+  {
+    "Drv func": "i7core_inject_enable_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1022 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1025"
+  },
+  {
+    "Drv func": "write_and_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L875 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L876"
+  },
+  {
+    "Drv func": "get_dimm_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L498 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L503"
+  },
+  {
+    "Drv func": "i7core_xeon_pci_fixup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1273 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1274"
+  }
+]

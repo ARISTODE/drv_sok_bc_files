@@ -1,0 +1,382 @@
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dev_archdata",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_driver",
+    "No.Fields": 19,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "device_driver->bus",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L234",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L234",
+    "drv caller (param)": "[ __ulpi_register_driver | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L161 ], ",
+    "call path (param)": " [__ulpi_register_driver->driver_register] ",
+    "drv_update loc (shared field)": "[ (__ulpi_register_driver) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L159 ], ",
+    "call path (type)": " [driver_register] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L233 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L233 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L233 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L233 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/driver.c#L227 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "bus_type",
+    "No.Fields": 24,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_type",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 9,
+    "No.KRDU fields": 5,
+    "No.classified fields": 4,
+    "No.unclassified fields": 1,
+    "PTR_READ": 4,
+    "PTR_WRITE": 4,
+    "BRANCH": 2,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "1",
+    "risky": "ptr-read",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3393",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3393",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L281 ], ",
+    "call path (type)": " [device_register->device_add->device_add_class_symlinks] ",
+    "num condition checks": 4,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3383 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/acpi_bus.h#L463",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/acpi_bus.h#L463",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L281 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-write",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4592",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4564 |   %11 = alloca %struct.device*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L281 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-api (kobject_put)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4592",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3772",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L281 ], ",
+    "call path (type)": " [device_register->device_add->put_device] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4587 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4611 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4602 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "device->type",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2474",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2474",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L283 ], ",
+    "call path (type)": "",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2472 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2474 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-write",
+    "acc_path": "device->type",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2863",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2860 |   %5 = alloca %struct.device_type*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L283 ], ",
+    "call path (type)": " [device_register->device_add->device_add_attrs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "3",
+    "risky": "ptr-read",
+    "acc_path": "device->bus",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L921",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L921",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L282 ], ",
+    "call path (type)": " [device_register->device_add->device_add_attrs->device_supports_offline] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L921 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L921 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L921 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L921 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "3",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->bus",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L282 ], ",
+    "call path (type)": " [device_register->device_add] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "3",
+    "risky": "ptr-write",
+    "acc_path": "device->bus",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4854",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4884",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L282 ], ",
+    "call path (type)": " [device_register->device_add->device_add_class_symlinks->_dev_warn->__dev_printk->dev_printk_emit->dev_vprintk_emit->set_dev_info] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4867 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4877 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4877 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4867 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "ptr-read",
+    "acc_path": "device->of_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5120",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5120",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_of_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L198 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "ptr-write",
+    "acc_path": "device->of_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L863",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L859 |   %2 = alloca %struct.device_node*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ulpi_of_register) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L198 ], ",
+    "call path (type)": " [device_register->device_add->device_remove_class_symlinks->dev_of_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "fwnode_handle",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "acpi_device",
+    "No.Fields": 24,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "module",
+    "No.Fields": 48,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobj_uevent_env",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "seq_file",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "inode",
+    "No.Fields": 50,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dentry",
+    "No.Fields": 16,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_node",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

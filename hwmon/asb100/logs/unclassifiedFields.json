@@ -1,0 +1,84 @@
+{
+  "id": 0,
+  "acc_path": "address",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-base.c#L1051 | i2c_new_dummy_device",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon-vid.c#L69 | vid_from_reg",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "vrm",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon-vid.c#L69 | vid_from_reg",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L777 | asb100_probe",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L736 | asb100_detect",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L566 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L573 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L566 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L573 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L566 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L566 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L573 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/asb100.c#L566 | pwm1_enable_show",
+  "Drv update": ""
+}

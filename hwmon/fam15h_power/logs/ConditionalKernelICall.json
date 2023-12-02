@@ -1,0 +1,30 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Drv func": "fam15h_power_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L465 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L469 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L461 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L476"
+  },
+  {
+    "Drv func": "power1_average_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "tweak_runavg_range",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L360 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L363"
+  },
+  {
+    "Drv func": "tweak_runavg_range",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L360 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L366 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L371"
+  },
+  {
+    "Drv func": "read_registers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L164 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/fam15h_power.c#L169"
+  }
+]

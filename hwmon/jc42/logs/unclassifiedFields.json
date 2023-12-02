@@ -1,0 +1,186 @@
+{
+  "id": 0,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2910 | regmap_read",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "enable",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regcache.c#L507 | regcache_cache_only",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L503 | jc42_probe",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L422 | jc42_detect",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L235 | jc42_read",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L235 | jc42_read",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L326 | jc42_write",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L326 | jc42_write",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L326 | jc42_write",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L481 | jc42_writable_reg",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L387 | jc42_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/jc42.c#L387 | jc42_is_visible",
+  "Drv update": ""
+}

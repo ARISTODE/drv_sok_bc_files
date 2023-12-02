@@ -1,0 +1,72 @@
+[
+  {
+    "Total Bugon": 9,
+    "Controlled Bugon": 7,
+    "Uncontrolled Bugon": 2
+  },
+  {
+    "Drv caller": "[ gadget_cfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1692 ], ",
+    "Trans func name": "configfs_register_subsystem",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1886",
+    "Check": "No check",
+    "Call Path": "configfs_register_subsystem"
+  },
+  {
+    "Drv caller": "[ gadget_cfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1692 ], ",
+    "Trans func name": "new_fragment",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "configfs_register_subsystem->new_fragment",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | "
+  },
+  {
+    "Drv caller": "[ gadget_cfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1692 ], ",
+    "Trans func name": "link_group",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L789",
+    "Check": "No check",
+    "Call Path": "configfs_register_subsystem->link_group"
+  },
+  {
+    "Drv caller": "[ gadget_cfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1692 ], ",
+    "Trans func name": "configfs_create_dir",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L290",
+    "Check": "No check",
+    "Call Path": "configfs_register_subsystem->configfs_attach_group->configfs_attach_item->configfs_create_dir"
+  },
+  {
+    "Drv caller": "[ gadget_cfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1692 ], ",
+    "Trans func name": "create_default_group",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L683",
+    "Check": "No check",
+    "Call Path": "configfs_register_subsystem->configfs_attach_group->populate_groups->create_default_group"
+  },
+  {
+    "Drv caller": "[ gadget_cfs_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1692 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "configfs_register_subsystem->configfs_attach_group->configfs_detach_item->detach_attrs->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ usb_get_function_instance | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/functions.c#L50 ], ",
+    "Trans func name": "call_modprobe",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__request_module->call_modprobe",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | "
+  },
+  {
+    "Drv caller": "[ set_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L947 ], [ composite_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2436 ], [ composite_setup_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1487 ], [ composite_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1871 ], [ composite_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2099 ], [ set_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L943 ], [ composite_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1826 ], [ composite_suspend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2411 ], [ usb_add_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1023 ], [ composite_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1828 ], [ usb_add_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1071 ], [ remove_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1100 ], [ reset_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L850 ], [ usb_composite_setup_continue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2545 ], [ usb_composite_setup_continue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2557 ], [ set_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L935 ], [ purge_configs_funcs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1266 ], [ set_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L894 ], [ usb_add_function | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L319 ], [ usb_add_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1044 ], [ usb_composite_setup_continue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2552 ], [ composite_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1867 ], [ usb_add_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1055 ], [ usb_add_function | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L361 ], [ usb_add_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L1081 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ gadget_cfs_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L1699 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "configfs_unregister_subsystem->configfs_detach_group->configfs_detach_item->detach_attrs->__dynamic_pr_debug"
+  }
+]

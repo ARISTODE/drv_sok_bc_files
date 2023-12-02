@@ -1,0 +1,12 @@
+{
+  "id": 0,
+  "acc_path": "len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/skbuff.c#L2154 | skb_put",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}

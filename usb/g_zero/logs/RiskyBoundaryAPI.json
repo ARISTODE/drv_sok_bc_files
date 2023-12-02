@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "del_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "zero_resume(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/zero.c#L197) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "mod_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "zero_suspend(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/zero.c#L184) | "
+  }
+]

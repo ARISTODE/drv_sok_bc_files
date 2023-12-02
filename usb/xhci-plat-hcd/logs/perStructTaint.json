@@ -1,0 +1,153 @@
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "fwnode_handle",
+    "No.Fields": 6,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dev_archdata",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wakeup_source",
+    "No.Fields": 20,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "clk",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 11,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "bus_type",
+    "No.Fields": 24,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "hc_driver",
+    "No.Fields": 46,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "usb_hcd",
+    "No.Fields": 41,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 2,
+    "No.classified fields": 1,
+    "No.unclassified fields": 1,
+    "BRANCH": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "0",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "usb_hcd->rh_registered",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2414",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2414",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (xhci_plat_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L340 ], [ (xhci_plat_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L323 ], [ (xhci_plat_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L345 ], [ (xhci_plat_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L320 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2414 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2414 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/core/hcd.c#L2414 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "fwnode_operations",
+    "No.Fields": 22,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

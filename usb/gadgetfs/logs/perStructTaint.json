@@ -1,0 +1,776 @@
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "workqueue_struct",
+    "No.Fields": 21,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "work_struct",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "rw_semaphore",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 2,
+    "No.classified fields": 2,
+    "No.unclassified fields": 0,
+    "PTR_READ": 2,
+    "PTR_WRITE": 2,
+    "BRANCH": 2,
+    "RISKY_KERNEL_FUNC": 2,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "1",
+    "risky": "ptr-write",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L62 |   %13 = getelementptr %struct.list_head, %struct.list_head* @kmalloced_params, i32 0, i32 0",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L114",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L68 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L67 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L134 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-read",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L62 |   %13 = getelementptr %struct.list_head, %struct.list_head* @kmalloced_params, i32 0, i32 0",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L88",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L62 |   %13 = getelementptr %struct.list_head, %struct.list_head* @kmalloced_params, i32 0, i32 0",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L70",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": "",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L67 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L68 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L68 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L67 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-branch (kfree)",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L62 |   %13 = getelementptr %struct.list_head, %struct.list_head* @kmalloced_params, i32 0, i32 0",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L68",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L67 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L68 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L67 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-write",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1182",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/refcount.h#L134 |   %8 = alloca i32, align 4",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [d_make_root->iput->iput_final->evict->destroy_inode->__destroy_inode->posix_acl_release->refcount_dec_and_test.90->__refcount_dec_and_test.91->__refcount_sub_and_test.92->refcount_warn_saturate->refcount_set.926] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "35",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1189 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1185 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1199 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/posix_acl.h#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/refcount.h#L282 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1807 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L606 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L597 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L594 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1182",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1779",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [d_make_root->iput->iput_final] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "25",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1189 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L597 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1763 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1764 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1807 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1199 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1185 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1763 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L606 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1182",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [_raw_spin_lock_irq->__raw_spin_lock_irq->do_raw_spin_lock->debug_spin_lock_before] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L85 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-sen-api (kmem_cache_free)",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1182",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L298",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [dput->dentry_kill->__dentry_kill->dentry_free->__d_free] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1189 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1199 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L1185 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L368 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L374 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L366 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "raw_spinlock",
+    "No.Fields": 4,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 3,
+    "No.classified fields": 3,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "BRANCH": 3,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "3",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "raw_spinlock->magic",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L99",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L99",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [_raw_spin_unlock->__raw_spin_unlock->do_raw_spin_unlock->debug_spin_unlock] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "4",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "raw_spinlock->owner_cpu",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [_raw_spin_lock_irq->__raw_spin_lock_irq->do_raw_spin_lock->debug_spin_lock_before] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> [ INST || UNKNOWN Edge Type || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "5",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "raw_spinlock->owner",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [_raw_spin_lock_irq->__raw_spin_lock_irq->do_raw_spin_lock->debug_spin_lock_before] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "5",
+    "risky": "ptr-write",
+    "acc_path": "raw_spinlock->owner",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L83 |   %9 = alloca i8*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [_raw_spin_lock_irq->__raw_spin_lock_irq->do_raw_spin_lock->debug_spin_lock_before] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "ptr-read",
+    "acc_path": "raw_spinlock->owner",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (ep_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L333 ], ",
+    "call path (type)": " [_raw_spin_lock_irq->__raw_spin_lock_irq->do_raw_spin_lock->debug_spin_lock_before] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "qspinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "fasync_struct",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "super_block",
+    "No.Fields": 58,
+    "No.Shared fields": 6,
+    "No.KRDU fields": 5,
+    "No.classified fields": 2,
+    "No.unclassified fields": 3,
+    "PTR_READ": 2,
+    "PTR_WRITE": 2,
+    "BRANCH": 1,
+    "UNCLASSIFY": 3
+  },
+  {
+    "id": "7",
+    "risky": "ptr-read",
+    "acc_path": "super_block->s_op",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L143",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L143",
+    "drv_update loc (shared field)": "[ (gadgetfs_fill_super) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2033 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L143 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L143 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L143 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L143 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "7",
+    "risky": "ptr-write",
+    "acc_path": "super_block->s_op",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1752",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1749 |   %8 = alloca %struct.super_operations.1690*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadgetfs_fill_super) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2033 ], ",
+    "call path (type)": " [d_make_root->iput->iput_final] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "super_block->s_root",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1409",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1409",
+    "drv_update loc (shared field)": "[ (gadgetfs_fill_super) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "call path (type)": "",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1406 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1406 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1389 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "ptr-read",
+    "acc_path": "super_block->s_root",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1409",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1409",
+    "drv_update loc (shared field)": "[ (gadgetfs_fill_super) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "call path (type)": "",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1389 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1406 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1406 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1389 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "ptr-write",
+    "acc_path": "super_block->s_root",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1125",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L54 |   %24 = alloca i32, align 4",
+    "drv caller (param)": "[ gadgetfs_kill_sb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2097 ], ",
+    "call path (param)": " [gadgetfs_kill_sb->kill_litter_super->d_genocide->d_walk->read_seqbegin_or_lock->read_seqlock_excl->_raw_spin_lock->__raw_spin_lock->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump] ",
+    "drv_update loc (shared field)": "[ (gadgetfs_fill_super) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2043 ], ",
+    "call path (type)": " [_raw_spin_lock_irq->__raw_spin_lock_irq->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1124 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L85 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L74 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "kiocb",
+    "No.Fields": 7,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "timespec64",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "inode_operations",
+    "No.Fields": 23,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file_operations",
+    "No.Fields": 34,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "user_namespace",
+    "No.Fields": 17,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "super_operations",
+    "No.Fields": 22,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "fs_context_operations",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "fs_context",
+    "No.Fields": 22,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "11",
+    "risky": "ptr-read",
+    "acc_path": "fs_context->ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1562",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1562",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadgetfs_init_fs_context) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2089 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1556 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/super.c#L1556 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "inode",
+    "No.Fields": 50,
+    "No.Shared fields": 11,
+    "No.KRDU fields": 4,
+    "No.classified fields": 3,
+    "No.unclassified fields": 1,
+    "PTR_READ": 2,
+    "BRANCH": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "12",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "inode->i_mode",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1948",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1948",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadgetfs_make_inode) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1969 ], ",
+    "call path (type)": "",
+    "num condition checks": 7,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1938 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1941 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1932 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1943 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1943 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1946 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1948 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1948 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1946 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1943 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1943 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1932 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1941 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1938 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "13",
+    "risky": "ptr-read",
+    "acc_path": "inode->i_op",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1913",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1913",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadgetfs_fill_super) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L2042 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1912 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1912 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "15",
+    "risky": "ptr-read",
+    "acc_path": "inode->i_private",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L389",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L389",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadgetfs_make_inode) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1974 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "BRANCH": 1,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "16",
+    "risky": "ptr-write",
+    "acc_path": "file->private_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L91",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/refcount.h#L134 |   %8 = alloca i32, align 4",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadget_dev_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1918 ], [ (ep_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L828 ], ",
+    "call path (type)": " [d_make_root->iput->iput_final->evict->destroy_inode->__destroy_inode->posix_acl_release->refcount_dec_and_test.90->__refcount_dec_and_test.91->__refcount_sub_and_test.92->refcount_warn_saturate->refcount_set.926] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "43",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L908 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L744 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L722 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L727 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L900 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L720 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/posix_acl.h#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/refcount.h#L282 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1807 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L606 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L597 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L594 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "16",
+    "risky": "ptr-read",
+    "acc_path": "file->private_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L91",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/percpu-refcount.h#L174",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadget_dev_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1918 ], [ (ep_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L828 ], ",
+    "call path (type)": " [d_make_root->iput->iput_final->evict->destroy_inode->__destroy_inode->inode_detach_wb->wb_put->wb_put_many->percpu_ref_put_many->__ref_is_percpu] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "40",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L908 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L744 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L722 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L900 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L720 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/backing-dev-defs.h#L246 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/percpu-refcount.h#L334 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L727 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/percpu-refcount.h#L332 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1807 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L1808 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L396 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/backing-dev-defs.h#L238 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L606 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L597 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/inode.c#L295 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "16",
+    "risky": "ptr-sen-api (kmem_cache_free)",
+    "acc_path": "file->private_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L91",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L298",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadget_dev_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1918 ], [ (ep_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L828 ], ",
+    "call path (type)": " [dput->dentry_kill->__dentry_kill->dentry_free->__d_free] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "19",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L908 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L900 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L366 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L744 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L722 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L720 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L374 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L368 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L727 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "16",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "file->private_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/libfs.c#L91",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L570",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (gadget_dev_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L1918 ], [ (ep_open) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/inode.c#L828 ], ",
+    "call path (type)": " [dput->dentry_kill->__dentry_kill->dentry_unlist] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "21",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L908 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L900 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L742 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L727 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L597 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L598 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L548 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L744 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L722 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/dcache.c#L720 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dentry",
+    "No.Fields": 16,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "mm_struct",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "task_struct",
+    "No.Fields": 211,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "completion",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "swait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_entry",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "iov_iter",
+    "No.Fields": 8,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "refcount_struct",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "mutex",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

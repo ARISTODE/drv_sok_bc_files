@@ -1,0 +1,78 @@
+{
+  "id": 0,
+  "acc_path": "irq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/devres.c#L51 | devm_request_threaded_irq",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "irqflags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/devres.c#L51 | devm_request_threaded_irq",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock.c#L192 | _raw_spin_unlock_irqrestore",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "index",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L122 | devm_platform_ioremap_resource",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L2093 | gr_remove",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/gr_udc.c#L347 | gr_alloc_request",
+  "Drv update": ""
+}

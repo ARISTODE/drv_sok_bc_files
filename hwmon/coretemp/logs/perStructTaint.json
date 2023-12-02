@@ -1,0 +1,205 @@
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute_group",
+    "No.Fields": 5,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "BRANCH": 1,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "attribute_group->attrs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L131",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L131",
+    "drv_update loc (shared field)": "[ (create_core_attrs) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L404 ], ",
+    "call path (type)": " [hwmon_device_register_with_groups->__hwmon_device_register->hwmon_dev_release] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-write",
+    "acc_path": "attribute_group->attrs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/sysfs/group.c#L341",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/sysfs/group.c#L325 |   %10 = alloca %struct.attribute**, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (create_core_attrs) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L404 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "attribute_group->attrs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L132",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L122",
+    "drv_update loc (shared field)": "[ (create_core_attrs) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L404 ], ",
+    "call path (type)": " [hwmon_device_register_with_groups->__hwmon_device_register->hwmon_dev_release->hwmon_free_attrs] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L118 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L118 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-branch (kfree)",
+    "acc_path": "attribute_group->attrs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L132",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L118",
+    "drv_update loc (shared field)": "[ (create_core_attrs) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L404 ], ",
+    "call path (type)": " [hwmon_device_register_with_groups->__hwmon_device_register->hwmon_dev_release->hwmon_free_attrs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L131 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_dev",
+    "No.Fields": 115,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "cpumask",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "xarray",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "ida",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "cpuinfo_x86",
+    "No.Fields": 38,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

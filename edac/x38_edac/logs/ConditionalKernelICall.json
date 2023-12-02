@@ -1,0 +1,65 @@
+[
+  {
+    "No. entry": 12
+  },
+  {
+    "Drv func": "x38_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L436 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L439"
+  },
+  {
+    "Drv func": "x38_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L344"
+  },
+  {
+    "Drv func": "x38_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L436 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L441"
+  },
+  {
+    "Drv func": "x38_map_mchbar",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L261 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L268"
+  },
+  {
+    "Drv func": "x38_exit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L509 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L511"
+  },
+  {
+    "Drv func": "x38_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L423 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L424"
+  },
+  {
+    "Drv func": "x38_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L475 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L477"
+  },
+  {
+    "Drv func": "x38_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L212 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L213"
+  },
+  {
+    "Drv func": "x38_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L221 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L222"
+  },
+  {
+    "Drv func": "x38_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L221 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L228"
+  },
+  {
+    "Drv func": "x38_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L407 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/x38_edac.c#L408"
+  },
+  {
+    "Drv func": "pci_write_bits16",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L118 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L121"
+  }
+]

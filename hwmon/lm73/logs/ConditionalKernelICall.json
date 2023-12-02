@@ -1,0 +1,30 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Drv func": "lm73_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L208 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L212"
+  },
+  {
+    "Drv func": "lm73_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L243"
+  },
+  {
+    "Drv func": "lm73_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L235 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L247"
+  },
+  {
+    "Drv func": "lm73_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L235 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L251"
+  },
+  {
+    "Drv func": "lm73_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L235 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L252 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L252 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lm73.c#L256"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Total Bugon": 1,
+    "Controlled Bugon": 1,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ uac2_cs_control_sam_freq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1704 ], [ in_rq_range | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1626 ], [ in_rq_range | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1632 ], [ out_rq_cur | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1777 ], [ set_ep_max_packet_size_bint | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L764 ], [ out_rq_cur_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1726 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "No. entry": 12
+  },
+  {
+    "Drv func": "dwc3_pci_quirks",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L232 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L232"
+  },
+  {
+    "Drv func": "dwc3_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L316 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L321"
+  },
+  {
+    "Drv func": "dwc3_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L316 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L328 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L343 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L350"
+  },
+  {
+    "Drv func": "dwc3_byt_enable_ulpi_refclock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L112 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L118"
+  },
+  {
+    "Drv func": "dwc3_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L350 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L350"
+  },
+  {
+    "Drv func": "dwc3_pci_quirks",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L216"
+  },
+  {
+    "Drv func": "dwc3_pci_quirks",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L212 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L287"
+  },
+  {
+    "Drv func": "dwc3_pci_dsm",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L506 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L512"
+  },
+  {
+    "Drv func": "dwc3_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L316 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L327"
+  },
+  {
+    "Drv func": "dwc3_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L316 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L328 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L342"
+  },
+  {
+    "Drv func": "dwc3_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L356"
+  },
+  {
+    "Drv func": "dwc3_pci_quirks",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L279 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L280"
+  }
+]

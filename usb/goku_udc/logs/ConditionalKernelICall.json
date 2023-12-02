@@ -1,0 +1,55 @@
+[
+  {
+    "No. entry": 10
+  },
+  {
+    "Drv func": "goku_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1732 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1733"
+  },
+  {
+    "Drv func": "goku_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1725 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1726"
+  },
+  {
+    "Drv func": "goku_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1607 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1608 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1606 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "goku_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1805 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1812 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1813"
+  },
+  {
+    "Drv func": "goku_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1727 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1728"
+  },
+  {
+    "Drv func": "goku_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1607 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1608 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1606 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "goku_dequeue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L842 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "goku_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1592 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1593 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1591 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "goku_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1783 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1790"
+  },
+  {
+    "Drv func": "goku_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1592 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1593 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/goku_udc.c#L1591 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  }
+]

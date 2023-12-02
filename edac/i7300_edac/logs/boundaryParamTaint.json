@@ -1,0 +1,58 @@
+[
+  {
+    "id": "20",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "msg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L1085",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L977",
+    "drv caller (param)": "[ i7300_process_fbd_error | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L496 ], ",
+    "call path (param)": " [i7300_process_fbd_error->edac_mc_handle_error] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [edac_mc_handle_error] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L943 |   %54 = getelementptr [24 x i8], [24 x i8]* @.str.43.101, i64 0, i64 0 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L977 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "28",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "vendor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i7300_get_devices | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L996 ], ",
+    "call path (param)": " [i7300_get_devices->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "29",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "device",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i7300_get_devices | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L996 ], ",
+    "call path (param)": " [i7300_get_devices->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

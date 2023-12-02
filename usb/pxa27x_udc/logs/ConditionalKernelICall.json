@@ -1,0 +1,140 @@
+[
+  {
+    "No. entry": 27
+  },
+  {
+    "Drv func": "udc_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1696 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1711"
+  },
+  {
+    "Drv func": "handle_ep0_ctrl_req",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1852 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1852"
+  },
+  {
+    "Drv func": "read_ep0_fifo",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L980 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L980"
+  },
+  {
+    "Drv func": "irq_udc_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2247 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2247"
+  },
+  {
+    "Drv func": "handle_ep0",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1947 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1947"
+  },
+  {
+    "Drv func": "write_fifo",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L952 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L952"
+  },
+  {
+    "Drv func": "handle_ep0",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1942 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1942"
+  },
+  {
+    "Drv func": "handle_ep0_ctrl_req",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1876 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1876"
+  },
+  {
+    "Drv func": "write_ep0_fifo",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1023 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1023"
+  },
+  {
+    "Drv func": "pxa_eps_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L556 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L556"
+  },
+  {
+    "Drv func": "pxa27x_change_configuration",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2082 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2082"
+  },
+  {
+    "Drv func": "pxa_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1086 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1086"
+  },
+  {
+    "Drv func": "pxa_ep_fifo_flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1289 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1289"
+  },
+  {
+    "Drv func": "pxa_ep_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1396 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1396"
+  },
+  {
+    "Drv func": "udc_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1635 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1645"
+  },
+  {
+    "Drv func": "set_ep0state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L482 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L482"
+  },
+  {
+    "Drv func": "pxa27x_change_interface",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2112 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2112"
+  },
+  {
+    "Drv func": "handle_ep",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2040 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2040"
+  },
+  {
+    "Drv func": "pxa_ep_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1365"
+  },
+  {
+    "Drv func": "pxa_ep_fifo_flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1288 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1288"
+  },
+  {
+    "Drv func": "read_fifo",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L878 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L878"
+  },
+  {
+    "Drv func": "pxa_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1071 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1071"
+  },
+  {
+    "Drv func": "pxa_udc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2378 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2380"
+  },
+  {
+    "Drv func": "udc_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1696 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1699"
+  },
+  {
+    "Drv func": "req_done",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L672 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L672"
+  },
+  {
+    "Drv func": "pxa_ep_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1219 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L1219"
+  },
+  {
+    "Drv func": "pxa_udc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2403 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/pxa27x_udc.c#L2406"
+  }
+]

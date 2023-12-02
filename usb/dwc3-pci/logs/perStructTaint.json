@@ -1,0 +1,200 @@
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "BRANCH": 1,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L714",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kobject.h#L90",
+    "drv caller (param)": "[ dwc3_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L356 ], ",
+    "call path (param)": " [dwc3_pci_probe->platform_device_add->dev_name.189->kobject_name.193] ",
+    "drv_update loc (shared field)": "[ (dwc3_pci_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L349 ], ",
+    "call path (type)": " [platform_device_add->dev_name.189->kobject_name.193] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L705 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-write",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L714",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L702 |   %2 = alloca i8*, align 8",
+    "drv caller (param)": "[ dwc3_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L356 ], ",
+    "call path (param)": " [dwc3_pci_probe->platform_device_add->dev_name.189] ",
+    "drv_update loc (shared field)": "[ (dwc3_pci_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L349 ], ",
+    "call path (type)": " [platform_device_add->dev_name.189] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L705 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L848",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L42",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dwc3_pci_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L349 ], ",
+    "call path (type)": " [platform_device_add->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->__fw_devlink_relax_cycles->fw_devlink_relax_link->pm_runtime_drop_link->pm_request_idle.250->__pm_runtime_idle->rpm_idle->__rpm_get_callback] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "59",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L815 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L804 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L829 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L849 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L800 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L890 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L878 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L871 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L847 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L801 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L847 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L847 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L504 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L475 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L871 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L32 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L455 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L805 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L863 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L904 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L30 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L921 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L471 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L42 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L26 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L32 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L30 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L448 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L828 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L42 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L42 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L28 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L37 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L444 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L930 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L28 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L494 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L471 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L487 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L462 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L455 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L930 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/power/runtime.c#L926 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-api (kobject_put)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4592",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3772",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dwc3_pci_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-pci.c#L349 ], ",
+    "call path (type)": " [platform_device_add->device_add->put_device] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4587 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4611 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4602 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "fwnode_handle",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "acpi_device",
+    "No.Fields": 24,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "software_node",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_device_id",
+    "No.Fields": 8,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_dev",
+    "No.Fields": 115,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "work_struct",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "workqueue_struct",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

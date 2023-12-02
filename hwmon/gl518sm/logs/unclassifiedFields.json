@@ -1,0 +1,210 @@
+{
+  "id": 2,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L570 | gl518_detect",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L614 | gl518_probe",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 20,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 21,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 26,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 27,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 28,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 29,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 30,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 31,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 32,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 33,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 34,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 35,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L326 | set_temp_max1",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/gl518sm.c#L234 | show_temp_input1",
+  "Drv update": ""
+}

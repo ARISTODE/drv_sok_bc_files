@@ -1,0 +1,899 @@
+[
+  {
+    "Total Bugon": 119,
+    "Controlled Bugon": 60,
+    "Uncontrolled Bugon": 59
+  },
+  {
+    "Drv caller": "[ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2525 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "down_read->rwsem_down_read_slowpath->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2525 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "down_read->rwsem_down_read_slowpath->schedule_preempt_disabled->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2525 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "down_read->rwsem_down_read_slowpath->schedule_preempt_disabled->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2535 ], [ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2529 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "up_read->__up_read->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337 ], ",
+    "Trans func name": "kzalloc.485",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_workqueue->alloc_workqueue_attrs->kzalloc.485",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337 ], ",
+    "Trans func name": "init_pwq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3802",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->alloc_and_link_pwqs->init_pwq"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337 ], ",
+    "Trans func name": "kzalloc_node.499",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->kzalloc_node.499",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->pwq_adjust_max_active->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "alloc_workqueue->free_workqueue_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3347 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3344 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3337 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->put_unbound_pool->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_iv_elephant | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1009 ], [ crypt_iv_lmk_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L419 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2726 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2727 ], [ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2521 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2728 ], [ crypt_iv_tcw_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L571 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2733 ], [ crypt_iv_elephant | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1008 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2725 ], [ crypt_set_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2609 ], [ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2531 ], [ crypt_wipe_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2641 ], [ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2545 ], [ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2548 ], [ crypt_iv_tcw_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L573 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "kfree_sensitive->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr_cipher_old | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3000 ], [ crypt_ctr_cipher_old | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2992 ], [ crypt_ctr_cipher_old | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2982 ], [ crypt_free_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2274 ], [ crypt_free_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2257 ], [ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2838 ], [ crypt_dec_pending | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1766 ], [ crypt_ctr_cipher_old | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3003 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_page_free | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2687 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_map | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546 ], [ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546 ], [ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546 ], [ crypt_ctr_cipher_old | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "kmalloc_large->__kmalloc_large_node->alloc_pages_node.1274->__alloc_pages_node.1276->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558 ], [ crypt_ctr_cipher_old | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558 ], [ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558 ], [ crypt_map | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "__kmalloc->__kmalloc_large_node->alloc_pages_node.1274->__alloc_pages_node.1276->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2530 ], [ crypt_set_keyring_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2536 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "key_put->schedule_work.1351->queue_work.1352->queue_work_on->__queue_work->insert_work->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1972 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3358 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ dmcrypt_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1915 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ dmcrypt_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1915 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2333 ], [ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2312 ], [ crypt_integrity_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1197 ], [ crypt_integrity_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1189 ], [ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3313 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ crypt_page_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2676 ], ",
+    "Trans func name": "apply_policy_zone",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempolicy.c#L1820",
+    "Call Path": "alloc_pages->policy_nodemask->apply_policy_zone",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempolicy.c#L1820 | "
+  },
+  {
+    "Drv caller": "[ crypt_page_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2676 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "alloc_pages->alloc_page_interleave->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2714 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2713 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2712 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "mempool_exit->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2714 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2713 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2712 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "mempool_exit->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3258 ], ",
+    "Trans func name": "mempool_init_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L123",
+    "Call Path": "mempool_init->mempool_init_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L179 |   br i1 %31, label %44, label %23, !llvm.loop !164834 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L123 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L202 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3258 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "mempool_init->mempool_init_node->mempool_exit->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3258 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "mempool_init->mempool_init_node->kmalloc_array_node->__kmalloc_node->__kmalloc_large_node->alloc_pages_node.1274->__alloc_pages_node.1276->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_req_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1471 ], [ crypt_alloc_req_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1493 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1683 ], [ crypt_map | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3426 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "mempool_alloc->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], [ crypt_iv_tcw_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L596 ], ",
+    "Trans func name": "kzalloc_node.182",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_create_tfm_node->kzalloc_node.182",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], [ crypt_iv_tcw_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L596 ], ",
+    "Trans func name": "kzalloc.175",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->crypto_larval_alloc->kzalloc.175",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], [ crypt_iv_tcw_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L596 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], [ crypt_iv_tcw_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L596 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], [ crypt_iv_tcw_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L596 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "Trans func name": "kzalloc_node.182",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_create_tfm_node->kzalloc_node.182",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "Trans func name": "kzalloc.175",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->crypto_larval_alloc->kzalloc.175",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "Trans func name": "kzalloc_node.182",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_create_tfm_node->kzalloc_node.182",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "Trans func name": "kzalloc.175",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->crypto_larval_alloc->kzalloc.175",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2400 ], [ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2397 ], ",
+    "Trans func name": "setkey_unaligned",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_aead_setkey->setkey_unaligned",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2400 ], [ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2397 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "crypto_aead_setkey->setkey_unaligned->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ kcryptd_async_done | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2199 ], [ kcryptd_async_done | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2166 ], [ crypt_convert | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1568 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "complete->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ dm_crypt_integrity_io_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1148 ], ",
+    "Trans func name": "bio_integrity_alloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "bio_integrity_alloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L59 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L56 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L59 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ dm_crypt_integrity_io_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1148 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "bio_integrity_alloc->mempool_alloc->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ dm_crypt_integrity_io_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1148 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bio_integrity_alloc->bvec_alloc->biovec_slab"
+  },
+  {
+    "Drv caller": "[ dm_crypt_integrity_io_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1148 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "bio_integrity_alloc->__bio_integrity_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ dm_crypt_integrity_io_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1148 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "bio_integrity_alloc->kmalloc_large->__kmalloc_large_node->alloc_pages_node.1274->__alloc_pages_node.1276->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2706 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2704 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "destroy_workqueue->put_pwq_unlocked->put_pwq->schedule_work.463->queue_work.464->queue_work_on->__queue_work->insert_work->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2706 ], [ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2704 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "destroy_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "__submit_bio_noacct",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L620",
+    "Check": "No check",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "bio_remaining_done",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1494",
+    "Check": "No check",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->bio_queue_enter->__bio_queue_enter->bio_wouldblock_error->bio_endio->bio_remaining_done"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "bio_put",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L739",
+    "Check": "No check",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->bio_queue_enter->__bio_queue_enter->bio_wouldblock_error->bio_endio->__bio_chain_endio->bio_put"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->bio_queue_enter->__bio_queue_enter->bio_wouldblock_error->bio_endio->__bio_chain_endio->bio_put->bio_alloc_cache_prune->bio_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->bio_queue_enter->__bio_queue_enter->bio_wouldblock_error->bio_endio->__bio_chain_endio->bio_put->bio_alloc_cache_prune->bio_free->bvec_free->biovec_slab"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->bio_queue_enter->__bio_queue_enter->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_write | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1886 ], [ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1966 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1860 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "dm_submit_bio_remap->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->bio_queue_enter->__bio_queue_enter->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ kcryptd_io_bio_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1744 ], [ crypt_dec_pending | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1784 ], ",
+    "Trans func name": "bio_remaining_done",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1494",
+    "Check": "No check",
+    "Call Path": "bio_endio->bio_remaining_done"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_bio_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1744 ], [ crypt_dec_pending | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1784 ], ",
+    "Trans func name": "bio_put",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L739",
+    "Check": "No check",
+    "Call Path": "bio_endio->__bio_chain_endio->bio_put"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_bio_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1744 ], [ crypt_dec_pending | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1784 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "bio_endio->__bio_chain_endio->bio_put->bio_alloc_cache_prune->bio_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_bio_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1744 ], [ crypt_dec_pending | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1784 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bio_endio->__bio_chain_endio->bio_put->bio_alloc_cache_prune->bio_free->bvec_free->biovec_slab"
+  },
+  {
+    "Drv caller": "[ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1954 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1701 ], [ crypt_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1818 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1686 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1856 ], ",
+    "Trans func name": "bio_put",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L739",
+    "Check": "No check",
+    "Call Path": "bio_put"
+  },
+  {
+    "Drv caller": "[ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1954 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1701 ], [ crypt_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1818 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1686 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1856 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "bio_put->bio_alloc_cache_prune->bio_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ kcryptd_crypt_write_io_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1954 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1701 ], [ crypt_endio | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1818 ], [ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1686 ], [ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1856 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bio_put->bio_alloc_cache_prune->bio_free->bvec_free->biovec_slab"
+  },
+  {
+    "Drv caller": "[ crypt_map | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3425 ], [ crypt_map | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3403 ], ",
+    "Trans func name": "dm_accept_partial_bio",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm.c#L1311 |   unreachable",
+    "Check": "No check",
+    "Call Path": "dm_accept_partial_bio"
+  },
+  {
+    "Drv caller": "[ dm_crypt_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3670 ], ",
+    "Trans func name": "dm_unregister_target",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-target.c#L101",
+    "Check": "No check",
+    "Call Path": "dm_unregister_target"
+  },
+  {
+    "Drv caller": "[ dm_crypt_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3670 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "dm_unregister_target->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ dm_crypt_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3670 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "dm_unregister_target->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ dm_crypt_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3670 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "dm_unregister_target->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ dm_crypt_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3661 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "dm_register_target->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ dm_crypt_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3661 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "dm_register_target->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ dm_crypt_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3661 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "dm_register_target->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2723 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "dm_put_device->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3280 ], ",
+    "Trans func name": "dm_get_device",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-table.c#L342 |   unreachable",
+    "Check": "No check",
+    "Call Path": "dm_get_device"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3280 ], ",
+    "Trans func name": "open_table_device",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "dm_get_device->dm_get_table_device->open_table_device",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3280 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "dm_get_device->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], [ crypt_iv_elephant_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L783 ], ",
+    "Trans func name": "kzalloc_node.182",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_create_tfm_node->kzalloc_node.182",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], [ crypt_iv_elephant_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L783 ], ",
+    "Trans func name": "kzalloc.175",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->crypto_larval_alloc->kzalloc.175",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], [ crypt_iv_elephant_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L783 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->up_write->__up_write->rwsem_wake->wake_up_q->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], [ crypt_iv_elephant_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L783 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], [ crypt_iv_elephant_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L783 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_start_test->down_write->__down_write->__down_write_common->rwsem_down_write_slowpath->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_iv_elephant_wipe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1051 ], [ crypt_iv_elephant_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1042 ], [ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2404 ], ",
+    "Trans func name": "skcipher_setkey_unaligned",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "crypto_skcipher_setkey->skcipher_setkey_unaligned",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_iv_elephant_wipe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1051 ], [ crypt_iv_elephant_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1042 ], [ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2404 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "crypto_skcipher_setkey->skcipher_setkey_unaligned->kfree_sensitive->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "kzalloc.485",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "bioset_init->alloc_workqueue->alloc_workqueue_attrs->kzalloc.485",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "init_pwq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3802",
+    "Check": "No check",
+    "Call Path": "bioset_init->alloc_workqueue->alloc_and_link_pwqs->init_pwq"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "mempool_init_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L123",
+    "Call Path": "bioset_init->biovec_init_pool->mempool_init_slab_pool.11->mempool_init->mempool_init_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L179 |   br i1 %31, label %44, label %23, !llvm.loop !164834 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L123 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L202 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "kzalloc.337",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "bioset_init->bio_find_or_create_slab->create_bio_slab->kzalloc.337",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "bioset_init->biovec_init_pool->mempool_init_slab_pool.11->mempool_init->mempool_init_node->mempool_exit->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "kzalloc_node.499",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "bioset_init->alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->kzalloc_node.499",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "kmem_cache_create_usercopy",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L348",
+    "Call Path": "bioset_init->bio_find_or_create_slab->create_bio_slab->kmem_cache_create->kmem_cache_create_usercopy",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L346 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L347 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "cpuhp_issue_call",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L1989",
+    "Check": "No check",
+    "Call Path": "bioset_init->cpuhp_state_add_instance_nocalls->__cpuhp_state_add_instance->__cpuhp_state_add_instance_cpuslocked->cpuhp_issue_call"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "__cpuhp_state_remove_instance",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L2173",
+    "Check": "No check",
+    "Call Path": "bioset_init->bioset_exit->bio_alloc_cache_destroy->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "bioset_init->bioset_exit->bio_alloc_cache_destroy->bio_alloc_cache_prune->bio_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "bioset_init->alloc_workqueue->pwq_adjust_max_active->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bioset_init->bioset_exit->bio_alloc_cache_destroy->bio_alloc_cache_prune->bio_free->bvec_free->biovec_slab"
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "bioset_init->alloc_workqueue->free_workqueue_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3264 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "bioset_init->alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->put_unbound_pool->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "bioset_exit->mempool_exit->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "__cpuhp_state_remove_instance",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L2173",
+    "Check": "No check",
+    "Call Path": "bioset_exit->bio_alloc_cache_destroy->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "bioset_exit->bio_alloc_cache_destroy->bio_alloc_cache_prune->bio_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "cpuhp_issue_call",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L1989",
+    "Check": "No check",
+    "Call Path": "bioset_exit->bio_alloc_cache_destroy->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance->cpuhp_issue_call"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bioset_exit->bio_alloc_cache_destroy->bio_alloc_cache_prune->bio_free->bvec_free->biovec_slab"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "bioset_exit->destroy_workqueue->put_pwq_unlocked->put_pwq->schedule_work.463->queue_work.464->queue_work_on->__queue_work->insert_work->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_dtr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2710 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "bioset_exit->mempool_exit->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "bio_put",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L739",
+    "Check": "No check",
+    "Call Path": "bio_alloc_clone->bio_put"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "bvec_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L160",
+    "Check": "No check",
+    "Call Path": "bio_alloc_clone->bio_put->bio_alloc_cache_prune->bio_free->bvec_free"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "bio_alloc_clone->bio_alloc_bioset->mempool_alloc->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bio_alloc_clone->bio_put->bio_alloc_cache_prune->bio_free->bvec_free->biovec_slab"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "kzalloc_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "bio_alloc_clone->bio_alloc_bioset->bio_alloc_percpu_cache->bio_init->bio_associate_blkg->bio_associate_blkg_from_css->blkg_tryget_closest->blkg_lookup_create->blkg_create->blkg_alloc->kzalloc_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "bio_alloc_clone->bio_alloc_bioset->bio_alloc_percpu_cache->bio_init->bio_associate_blkg->bio_associate_blkg_from_css->blkg_tryget_closest->blkg_lookup_create->blkg_create->blkg_alloc->blkg_free->schedule_work->queue_work.56->queue_work_on->__queue_work->insert_work->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ kcryptd_io_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1844 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "bio_alloc_clone->bio_alloc_bioset->bio_alloc_percpu_cache->bio_init->bio_associate_blkg->bio_associate_blkg_from_css->blkg_tryget_closest->blkg_lookup_create->blkg_create->blkg_alloc->kzalloc_node->kmalloc_large_node->__kmalloc_large_node->alloc_pages_node.1274->__alloc_pages_node.1276->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1675 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "bio_alloc_bioset->mempool_alloc->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1675 ], ",
+    "Trans func name": "biovec_slab",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L57",
+    "Check": "No check",
+    "Call Path": "bio_alloc_bioset->bvec_alloc->biovec_slab"
+  },
+  {
+    "Drv caller": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1675 ], ",
+    "Trans func name": "kzalloc_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "bio_alloc_bioset->bio_alloc_percpu_cache->bio_init->bio_associate_blkg->bio_associate_blkg_from_css->blkg_tryget_closest->blkg_lookup_create->blkg_create->blkg_alloc->kzalloc_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1675 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "bio_alloc_bioset->bio_alloc_percpu_cache->bio_init->bio_associate_blkg->bio_associate_blkg_from_css->blkg_tryget_closest->blkg_lookup_create->blkg_create->blkg_alloc->blkg_free->schedule_work->queue_work.56->queue_work_on->__queue_work->insert_work->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1675 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "bio_alloc_bioset->bio_alloc_percpu_cache->bio_init->bio_associate_blkg->bio_associate_blkg_from_css->blkg_tryget_closest->blkg_lookup_create->blkg_create->blkg_alloc->kzalloc_node->kmalloc_large_node->__kmalloc_large_node->alloc_pages_node.1274->__alloc_pages_node.1276->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  }
+]

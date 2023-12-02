@@ -1,0 +1,48 @@
+{
+  "id": 2,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1251 | __release_region",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1251 | __release_region",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "irq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/manage.c#L2018 | free_irq",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/amd5536udc_pci.c#L81 | udc_pci_probe",
+  "Drv update": ""
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "No. entry": 27
+  },
+  {
+    "Drv func": "abituguru3_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1070 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1071"
+  },
+  {
+    "Drv func": "abituguru3_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1058 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1059"
+  },
+  {
+    "Drv func": "abituguru3_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1072 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1073"
+  },
+  {
+    "Drv func": "abituguru3_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1056 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1057"
+  },
+  {
+    "Drv func": "abituguru3_wait_while_busy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L638 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L647 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L648"
+  },
+  {
+    "Drv func": "abituguru3_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1039"
+  },
+  {
+    "Drv func": "abituguru3_wait_for_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L662 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L668 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L669"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L715 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L715"
+  },
+  {
+    "Drv func": "abituguru3_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1238 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1245 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1255 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1260 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1270"
+  },
+  {
+    "Drv func": "abituguru3_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1238 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1245 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1254"
+  },
+  {
+    "Drv func": "abituguru3_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1042 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1043"
+  },
+  {
+    "Drv func": "abituguru3_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1238 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1245 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1255 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1258"
+  },
+  {
+    "Drv func": "abituguru3_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1238 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1255 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1260 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1271 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1245 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1276"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L684 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L684"
+  },
+  {
+    "Drv func": "abituguru3_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L970 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L973"
+  },
+  {
+    "Drv func": "abituguru3_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L749 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L749"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L723 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L723"
+  },
+  {
+    "Drv func": "abituguru3_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1042 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1047"
+  },
+  {
+    "Drv func": "abituguru3_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L758 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L758"
+  },
+  {
+    "Drv func": "abituguru3_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1217 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L1217"
+  },
+  {
+    "Drv func": "abituguru3_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L776 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L776"
+  },
+  {
+    "Drv func": "abituguru3_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L767 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L767"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L720 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L722 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L728"
+  },
+  {
+    "Drv func": "abituguru3_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L785 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L785"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L692 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L692"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L700 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L700"
+  },
+  {
+    "Drv func": "abituguru3_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L708 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/abituguru3.c#L708"
+  }
+]

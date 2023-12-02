@@ -1,0 +1,2510 @@
+[
+  {
+    "No. entry": 501
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10795 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10801"
+  },
+  {
+    "Drv func": "ixgbe_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7084 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7085"
+  },
+  {
+    "Drv func": "__ixgbe_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7040"
+  },
+  {
+    "Drv func": "__ixgbe_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7047"
+  },
+  {
+    "Drv func": "ixgbe_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7084 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7086"
+  },
+  {
+    "Drv func": "ixgbe_dbg_common_ops_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L22 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L25"
+  },
+  {
+    "Drv func": "ixgbe_sw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6499 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6500"
+  },
+  {
+    "Drv func": "ixgbe_reassign_macvlan_pool",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9205 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9216"
+  },
+  {
+    "Drv func": "ixgbe_fwd_ring_up",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5368"
+  },
+  {
+    "Drv func": "ixgbe_io_error_detected",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11456 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11460"
+  },
+  {
+    "Drv func": "ixgbe_msca_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L677 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L677 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L677"
+  },
+  {
+    "Drv func": "ixgbe_napi_disable_all",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4999 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5000"
+  },
+  {
+    "Drv func": "ixgbe_service_task",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8033 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8024 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8034 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8034 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8034 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8034 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8034 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8035"
+  },
+  {
+    "Drv func": "ixgbe_up_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5719 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5719"
+  },
+  {
+    "Drv func": "ixgbe_check_fan_failure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2829 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2829"
+  },
+  {
+    "Drv func": "ixgbe_check_overtemp_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2877 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2877"
+  },
+  {
+    "Drv func": "ixgbe_phy_interrupt_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7963 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7963"
+  },
+  {
+    "Drv func": "ixgbe_poll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3195 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3199"
+  },
+  {
+    "Drv func": "ixgbe_clean_rx_irq_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L354"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L110 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L111"
+  },
+  {
+    "Drv func": "__ixgbe_setup_tc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9807 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9809"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2215 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2238"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L141"
+  },
+  {
+    "Drv func": "ixgbe_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6987 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6988"
+  },
+  {
+    "Drv func": "ixgbe_del_sanmac_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9039"
+  },
+  {
+    "Drv func": "ixgbe_write_ee_hostif_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1205 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1205"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L341 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L341"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L107 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L107"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L86 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L86"
+  },
+  {
+    "Drv func": "ixgbe_write_i2c_combined_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L213"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10802 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10813 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10822"
+  },
+  {
+    "Drv func": "ixgbe_read_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L502"
+  },
+  {
+    "Drv func": "ixgbe_get_swfw_sync_semaphore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L681 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L681"
+  },
+  {
+    "Drv func": "ixgbe_mta_vector",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2014 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2014"
+  },
+  {
+    "Drv func": "ixgbe_set_soft_rate_select_speed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4381 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4381"
+  },
+  {
+    "Drv func": "ixgbe_init_rx_addrs_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1964 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1964"
+  },
+  {
+    "Drv func": "ixgbe_update_flash_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L517 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L517"
+  },
+  {
+    "Drv func": "ixgbe_validate_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L395 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L395"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1367"
+  },
+  {
+    "Drv func": "ixgbe_init_rx_addrs_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1951 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1951"
+  },
+  {
+    "Drv func": "ixgbe_ready_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1505 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1505"
+  },
+  {
+    "Drv func": "ixgbe_init_rx_addrs_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1947 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1947"
+  },
+  {
+    "Drv func": "ixgbe_device_supports_autoneg_fc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L102 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L102"
+  },
+  {
+    "Drv func": "ixgbe_init_eeprom_params_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L644 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L644"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_X550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3503 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3503"
+  },
+  {
+    "Drv func": "ixgbe_calc_checksum_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1009 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1009"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2215 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2232"
+  },
+  {
+    "Drv func": "ixgbe_clear_vmdq_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L816 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L816"
+  },
+  {
+    "Drv func": "ixgbe_del_sanmac_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9040"
+  },
+  {
+    "Drv func": "ixgbe_write_i2c_combined_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L215 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L215"
+  },
+  {
+    "Drv func": "ixgbe_update_eeprom_checksum_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1323 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1323"
+  },
+  {
+    "Drv func": "ixgbe_set_mta",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2039 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2039"
+  },
+  {
+    "Drv func": "ixgbe_write_ee_hostif_buffer_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1362 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1362"
+  },
+  {
+    "Drv func": "ixgbe_fdir_set_input_mask_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1597 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1597"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L326 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L326"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L217 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L217"
+  },
+  {
+    "Drv func": "ixgbe_update_mc_addr_list_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2079 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2079"
+  },
+  {
+    "Drv func": "ixgbe_identify_qsfp_module_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1829 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1829"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_byte_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2081 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2081"
+  },
+  {
+    "Drv func": "ixgbe_fc_enable_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2157 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2157"
+  },
+  {
+    "Drv func": "ixgbe_fc_autoneg_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3015 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3015"
+  },
+  {
+    "Drv func": "ixgbe_negotiate_fc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2292 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2292"
+  },
+  {
+    "Drv func": "ixgbe_negotiate_fc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2287 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2287"
+  },
+  {
+    "Drv func": "ixgbe_read_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L529 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L529"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_multispeed_fiber",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4228 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4228"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L565 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L565"
+  },
+  {
+    "Drv func": "ixgbe_check_overtemp_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2818 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2818"
+  },
+  {
+    "Drv func": "ixgbe_set_soft_rate_select_speed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4372 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4372"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L257 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L257"
+  },
+  {
+    "Drv func": "ixgbe_reinit_fdir_tables_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1157 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1157"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L731 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L731"
+  },
+  {
+    "Drv func": "ixgbe_hic_unlocked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3611 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3611"
+  },
+  {
+    "Drv func": "ixgbe_write_i2c_byte_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2184 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2184"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L524"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L502"
+  },
+  {
+    "Drv func": "ixgbe_fdir_set_input_mask_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1564 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1564"
+  },
+  {
+    "Drv func": "ixgbe_update_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L453 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L453"
+  },
+  {
+    "Drv func": "ixgbe_checksum_ptr_x550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L976 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L976"
+  },
+  {
+    "Drv func": "ixgbe_fwd_ring_up",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5359 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5359"
+  },
+  {
+    "Drv func": "ixgbe_disable_pcie_primary",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2532 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2532"
+  },
+  {
+    "Drv func": "ixgbe_start_mac_link_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L442 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L442"
+  },
+  {
+    "Drv func": "ixgbe_get_i2c_ack",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2385 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2385"
+  },
+  {
+    "Drv func": "ixgbe_set_soft_rate_select_speed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4362 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4362"
+  },
+  {
+    "Drv func": "ixgbe_clear_rar_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1899 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1899"
+  },
+  {
+    "Drv func": "ixgbe_fc_autoneg_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3028 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3028"
+  },
+  {
+    "Drv func": "ixgbe_disable_pcie_primary",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2577 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2577"
+  },
+  {
+    "Drv func": "ixgbe_fdir_enable_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1207 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1207"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L582 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L582"
+  },
+  {
+    "Drv func": "ixgbe_validate_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1781 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1781"
+  },
+  {
+    "Drv func": "ixgbe_set_rar_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1847 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1847"
+  },
+  {
+    "Drv func": "ixgbe_fdir_write_perfect_filter_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1687 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1687"
+  },
+  {
+    "Drv func": "ixgbe_restart_an_internal_phy_x550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1515"
+  },
+  {
+    "Drv func": "ixgbe_fc_enable_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L371 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L371"
+  },
+  {
+    "Drv func": "ixgbe_acquire_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1366 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1366"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L866 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L866"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L459"
+  },
+  {
+    "Drv func": "ixgbe_configure_tx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3556 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3556"
+  },
+  {
+    "Drv func": "ixgbe_validate_eeprom_checksum_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1152 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1152"
+  },
+  {
+    "Drv func": "ixgbe_set_soft_rate_select_speed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4391 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4391"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L528"
+  },
+  {
+    "Drv func": "ixgbe_validate_link_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L480 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L480"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_X550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3523 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3523"
+  },
+  {
+    "Drv func": "ixgbe_iosf_wait",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L677 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L677"
+  },
+  {
+    "Drv func": "ixgbe_restart_an_internal_phy_x550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1533 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1533"
+  },
+  {
+    "Drv func": "ixgbe_write_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L634 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L634"
+  },
+  {
+    "Drv func": "ixgbe_fdir_set_input_mask_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1548 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1548"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_multispeed_fiber",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4279 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4279"
+  },
+  {
+    "Drv func": "ixgbe_disable_rx_buff_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2704 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2704"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L778 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L778 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L779"
+  },
+  {
+    "Drv func": "ixgbe_fdir_add_signature_filter_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1409 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1409"
+  },
+  {
+    "Drv func": "ixgbe_fdir_add_signature_filter_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1389 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1389"
+  },
+  {
+    "Drv func": "ixgbe_get_sfp_init_sequence_offsets",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1925 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1925"
+  },
+  {
+    "Drv func": "ixgbe_clock_out_i2c_bit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2457 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2457"
+  },
+  {
+    "Drv func": "ixgbe_fdir_erase_perfect_filter_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1715 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1715"
+  },
+  {
+    "Drv func": "ixgbe_check_reset_blocked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L324"
+  },
+  {
+    "Drv func": "ixgbe_checksum_ptr_x550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L939 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L939"
+  },
+  {
+    "Drv func": "ixgbe_set_i2c_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2553 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2553"
+  },
+  {
+    "Drv func": "ixgbe_fdir_set_input_mask_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1557 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1557"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_byte_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L2089 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L2089"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L126 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L126"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_combined_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L150 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L150"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L234"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1726 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1726"
+  },
+  {
+    "Drv func": "ixgbe_update_flash_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L494 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L494"
+  },
+  {
+    "Drv func": "ixgbe_update_flash_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L503 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L503"
+  },
+  {
+    "Drv func": "ixgbe_write_eewr_buffer_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1286 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1286"
+  },
+  {
+    "Drv func": "ixgbe_start_mac_link_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L545"
+  },
+  {
+    "Drv func": "ixgbe_validate_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1769 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1769"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1708 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1708"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1717 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1717"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1735 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1735"
+  },
+  {
+    "Drv func": "ixgbe_reset_pipeline_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L2040 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L2040"
+  },
+  {
+    "Drv func": "ixgbe_detect_eeprom_page_size_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1229 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1229"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L978 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L978"
+  },
+  {
+    "Drv func": "ixgbe_setup_sfp_modules_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L146 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L146"
+  },
+  {
+    "Drv func": "ixgbe_get_sfp_init_sequence_offsets",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1912 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1912"
+  },
+  {
+    "Drv func": "ixgbe_get_eeprom_semaphore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1406"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1347 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1347"
+  },
+  {
+    "Drv func": "ixgbe_get_eeprom_semaphore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1421 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1421"
+  },
+  {
+    "Drv func": "ixgbe_get_eeprom_semaphore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1448"
+  },
+  {
+    "Drv func": "ixgbe_poll_for_ack",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L145 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L147 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L149 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L149"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_combined_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L148 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L148"
+  },
+  {
+    "Drv func": "ixgbe_poll_for_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L120 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L122 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L124 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L124"
+  },
+  {
+    "Drv func": "ixgbe_vf_reset_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L889 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L889"
+  },
+  {
+    "Drv func": "ixgbe_clean_tx_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1238"
+  },
+  {
+    "Drv func": "ixgbe_watchdog_link_is_down",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7619 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7619"
+  },
+  {
+    "Drv func": "ixgbe_set_priv_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3541"
+  },
+  {
+    "Drv func": "ixgbe_set_features",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9897 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9897"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2210 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2210"
+  },
+  {
+    "Drv func": "ixgbe_ndo_set_vf_trust",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1833 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1833"
+  },
+  {
+    "Drv func": "ixgbe_service_task",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8024 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8026"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2200"
+  },
+  {
+    "Drv func": "ixgbe_negotiate_vf_api",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1053 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1053"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2224 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2224"
+  },
+  {
+    "Drv func": "ixgbe_disable_pcie_primary",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2556 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2556"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2205 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2205"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2238"
+  },
+  {
+    "Drv func": "ixgbe_update_rsc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2405 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2405"
+  },
+  {
+    "Drv func": "ixgbe_ptp_set_ts_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_smartspeed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L758 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L758"
+  },
+  {
+    "Drv func": "ixgbe_alloc_mapped_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1543 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1549"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L514 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L514"
+  },
+  {
+    "Drv func": "ixgbe_down",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6158 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6165"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L778 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L778 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L779"
+  },
+  {
+    "Drv func": "ixgbe_configure_bridge_mode",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10035 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10035"
+  },
+  {
+    "Drv func": "ixgbe_update_rsc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2411 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2411"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1357 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1357"
+  },
+  {
+    "Drv func": "ixgbe_delete_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9341 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9635 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9635"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L588 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L594"
+  },
+  {
+    "Drv func": "ixgbe_set_vmdq_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L791 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L791"
+  },
+  {
+    "Drv func": "ixgbe_exit_module",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11607 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11608"
+  },
+  {
+    "Drv func": "ixgbe_xdp_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10300 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10303 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10305"
+  },
+  {
+    "Drv func": "ixgbe_txrx_ring_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10571 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10572"
+  },
+  {
+    "Drv func": "ixgbe_clean_tx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6082 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6083"
+  },
+  {
+    "Drv func": "ixgbe_set_eee",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3464"
+  },
+  {
+    "Drv func": "ixgbe_setup_all_rx_resources",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6683 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6683"
+  },
+  {
+    "Drv func": "ixgbe_set_hard_rate_select_speed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L644 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L644"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L121 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L126 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L129 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_clean_rx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5307 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5310 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5311"
+  },
+  {
+    "Drv func": "ixgbe_clean_tx_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1180 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1181"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1355 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1355"
+  },
+  {
+    "Drv func": "ixgbe_xmit_frame_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8877 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8880"
+  },
+  {
+    "Drv func": "ixgbe_reinit_fdir_tables_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1118 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1118"
+  },
+  {
+    "Drv func": "ixgbe_xdp_xmit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10394 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_irq_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3433 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3441"
+  },
+  {
+    "Drv func": "ixgbe_free_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3385 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3386"
+  },
+  {
+    "Drv func": "__skb_header_pointer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4007 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4010 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4010"
+  },
+  {
+    "Drv func": "ixgbe_request_msix_irqs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3270"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_lpe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L554 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L554"
+  },
+  {
+    "Drv func": "ixgbe_dma_sync_frag",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1850 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1851"
+  },
+  {
+    "Drv func": "ixgbe_tx_csum",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8173 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8181 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8195"
+  },
+  {
+    "Drv func": "ixgbe_disable_sriov",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L220 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L217 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L223"
+  },
+  {
+    "Drv func": "ixgbe_change_mtu",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6811 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6811"
+  },
+  {
+    "Drv func": "__ixgbe_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7059 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7060"
+  },
+  {
+    "Drv func": "ixgbe_dbg_reg_ops_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L72 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L70 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L75"
+  },
+  {
+    "Drv func": "ixgbe_io_error_detected",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11465 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11470 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11471"
+  },
+  {
+    "Drv func": "ixgbe_fdir_set_input_mask_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1585 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1585"
+  },
+  {
+    "Drv func": "ixgbe_write_pci_cfg_word",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L413 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L415"
+  },
+  {
+    "Drv func": "ixgbe_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6864 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6869 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6875 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6881 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6885"
+  },
+  {
+    "Drv func": "ixgbe_get_ts_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3170 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3171"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11194 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11194"
+  },
+  {
+    "Drv func": "ixgbe_setup_rx_resources",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6625 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6626"
+  },
+  {
+    "Drv func": "ixgbe_setup_all_tx_resources",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6583 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6583"
+  },
+  {
+    "Drv func": "ixgbe_disable_tx_laser_multispeed_fiber",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L569 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L576"
+  },
+  {
+    "Drv func": "ixgbe_ptp_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L1533 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L1534"
+  },
+  {
+    "Drv func": "ixgbe_ptp_check_pps_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L684 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L687 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L689"
+  },
+  {
+    "Drv func": "ixgbe_dbg_common_ops_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L22 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L27 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L30 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L35"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3633 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3633"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1305 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1305"
+  },
+  {
+    "Drv func": "ixgbe_clean_rx_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2431 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2432"
+  },
+  {
+    "Drv func": "ixgbe_hic_unlocked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3628 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3628"
+  },
+  {
+    "Drv func": "ixgbe_negotiate_fc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2296 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2296"
+  },
+  {
+    "Drv func": "ixgbe_host_interface_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3688 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3688"
+  },
+  {
+    "Drv func": "ixgbe_fc_enable_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L294 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L294"
+  },
+  {
+    "Drv func": "ixgbe_set_soft_rate_select_speed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4353"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1394 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1396"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1362 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1362"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1360 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1360"
+  },
+  {
+    "Drv func": "ixgbe_clear_vmdq_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2965 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2965"
+  },
+  {
+    "Drv func": "ixgbe_update_flash_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L505 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L505"
+  },
+  {
+    "Drv func": "ixgbe_io_slot_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11490 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11490"
+  },
+  {
+    "Drv func": "ixgbe_reset_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7968 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7976"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10935 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10935"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_mac_addr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L954 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L954"
+  },
+  {
+    "Drv func": "ixgbe_iosf_wait",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L668 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L670 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L672"
+  },
+  {
+    "Drv func": "ixgbe_fdir_filter_restore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5266"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L969 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L971 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L973"
+  },
+  {
+    "Drv func": "ixgbe_down",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6158 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6172 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6173"
+  },
+  {
+    "Drv func": "ixgbe_check_phy_link_tnx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1173 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1174"
+  },
+  {
+    "Drv func": "ixgbe_fdir_set_input_mask_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1538 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1538"
+  },
+  {
+    "Drv func": "ixgbe_poll_eerd_eewr_done",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1326 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1329"
+  },
+  {
+    "Drv func": "ixgbe_clean_test_rings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2018 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2025"
+  },
+  {
+    "Drv func": "ixgbe_write_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L625 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L626"
+  },
+  {
+    "Drv func": "ixgbe_disable_rx_buff_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2693 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2695 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2699"
+  },
+  {
+    "Drv func": "ixgbe_xdp_ring_update_tail_locked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10363 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_reset_interrupt_capability",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1157"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L508 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L508"
+  },
+  {
+    "Drv func": "ixgbe_put_rx_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2072 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2068 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2072 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2077"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_X550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3516 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3518"
+  },
+  {
+    "Drv func": "ixgbe_poll_for_ack",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L145 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L147 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L149 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L149 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L149"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L132 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6860"
+  },
+  {
+    "Drv func": "ixgbe_start_mac_link_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L539 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L541"
+  },
+  {
+    "Drv func": "ixgbe_reassign_macvlan_pool",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9205 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9195 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9212"
+  },
+  {
+    "Drv func": "ixgbe_ndo_bridge_getlink",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10083 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10086"
+  },
+  {
+    "Drv func": "ixgbe_ready_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1489 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1493 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1496"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_macvlan_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1029 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1029"
+  },
+  {
+    "Drv func": "ixgbe_get_first_secondary_devfn",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L856 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L859"
+  },
+  {
+    "Drv func": "ixgbe_read_reg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L357 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L357"
+  },
+  {
+    "Drv func": "ixgbe_read_eerd_buffer_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1185 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1185"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1330"
+  },
+  {
+    "Drv func": "ixgbe_reset_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L205"
+  },
+  {
+    "Drv func": "ixgbe_set_link_ksettings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L515"
+  },
+  {
+    "Drv func": "ixgbe_dbg_netdev_ops_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L155 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L153 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L158"
+  },
+  {
+    "Drv func": "ixgbe_irq_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3436 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3437"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2218 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2218"
+  },
+  {
+    "Drv func": "ixgbe_i2c_bus_clear",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2601 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2610"
+  },
+  {
+    "Drv func": "ixgbe_get_sfp_init_sequence_offsets",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1887 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1888"
+  },
+  {
+    "Drv func": "ixgbe_check_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L308 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L310"
+  },
+  {
+    "Drv func": "ixgbe_disable_sriov",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L439"
+  },
+  {
+    "Drv func": "ixgbe_acquire_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1357 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1359"
+  },
+  {
+    "Drv func": "ixgbe_host_interface_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3718 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3718"
+  },
+  {
+    "Drv func": "ixgbe_delete_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9347 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_free_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3393 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3398 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3404"
+  },
+  {
+    "Drv func": "ixgbe_configure_rx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4067 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4073"
+  },
+  {
+    "Drv func": "ixgbe_fdir_check_cmd_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1091 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1089 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L1093"
+  },
+  {
+    "Drv func": "ixgbe_xdp_ring_update_tail_locked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10366 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_read_reg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L345 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L347 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L349 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L353"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_smartspeed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L704 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L704"
+  },
+  {
+    "Drv func": "ixgbe_reset_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7968 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7985"
+  },
+  {
+    "Drv func": "ixgbe_disable_pcie_primary",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2542 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2543"
+  },
+  {
+    "Drv func": "ixgbe_acquire_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1363 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1377"
+  },
+  {
+    "Drv func": "ixgbe_write_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L597 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L598"
+  },
+  {
+    "Drv func": "ixgbe_intr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3326 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3326"
+  },
+  {
+    "Drv func": "ixgbe_fc_enable_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2214 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2214"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L588 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L597"
+  },
+  {
+    "Drv func": "ixgbe_reassign_macvlan_pool",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9205 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9219"
+  },
+  {
+    "Drv func": "ixgbe_poll_for_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L120 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L122 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L124 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L124 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_mbx.c#L124"
+  },
+  {
+    "Drv func": "ixgbe_read_iosf_sb_reg_x550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L717 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L717"
+  },
+  {
+    "Drv func": "ixgbe_watchdog_flush_tx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7691 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7691"
+  },
+  {
+    "Drv func": "ixgbe_read_pci_cfg_word",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L386"
+  },
+  {
+    "Drv func": "ixgbe_get_i2c_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2572 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2576"
+  },
+  {
+    "Drv func": "ixgbe_init_rx_addrs_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1950 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1950"
+  },
+  {
+    "Drv func": "ixgbe_poll_flash_update_done_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L539 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L541"
+  },
+  {
+    "Drv func": "ixgbe_set_eee",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3475 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3475"
+  },
+  {
+    "Drv func": "ixgbe_update_flash_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L519 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L519"
+  },
+  {
+    "Drv func": "ixgbe_i2c_bus_clear",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2601 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2605"
+  },
+  {
+    "Drv func": "ixgbe_reinit_locked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5754 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5755"
+  },
+  {
+    "Drv func": "ixgbe_alloc_q_vector",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L849 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L849 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L851 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L852"
+  },
+  {
+    "Drv func": "ixgbe_read_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L520 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L521"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2170 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2169 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2171"
+  },
+  {
+    "Drv func": "ixgbe_read_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L493"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L859 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L861"
+  },
+  {
+    "Drv func": "ixgbe_init_module",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11570 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11577"
+  },
+  {
+    "Drv func": "ixgbe_defrag_macvlan_pools",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L476 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L475 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L474 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480"
+  },
+  {
+    "Drv func": "ixgbe_write_phy_reg_mdi",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L606 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L606"
+  },
+  {
+    "Drv func": "ixgbe_write_eewr_buffer_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1278 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1278"
+  },
+  {
+    "Drv func": "ixgbe_identify_sfp_module_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1650 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1650"
+  },
+  {
+    "Drv func": "ixgbe_tx_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8438 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8439"
+  },
+  {
+    "Drv func": "ixgbe_write_iosf_sb_reg_x550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1417 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1417"
+  },
+  {
+    "Drv func": "ixgbe_negotiate_fc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2284 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2284"
+  },
+  {
+    "Drv func": "ixgbe_delete_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9347 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9348 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_validate_link_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L468 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L472 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L476"
+  },
+  {
+    "Drv func": "ixgbe_xmit_xdp_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8719 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8720"
+  },
+  {
+    "Drv func": "ixgbe_start_mac_link_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L436 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L438"
+  },
+  {
+    "Drv func": "ixgbe_raise_i2c_clk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2483 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2488"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L588 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L594"
+  },
+  {
+    "Drv func": "napi_synchronize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/netdevice.h#L546 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/netdevice.h#L547"
+  },
+  {
+    "Drv func": "ixgbe_get_swfw_sync_semaphore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L698 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L698"
+  },
+  {
+    "Drv func": "ixgbe_napi_enable_all",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4991 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4992"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10813 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10802 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10819"
+  },
+  {
+    "Drv func": "ixgbe_clean_tx_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1157"
+  },
+  {
+    "Drv func": "ixgbe_get_first_secondary_devfn",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L856 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L862"
+  },
+  {
+    "Drv func": "ixgbe_xdp_xmit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10410 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_ptp_tx_hang",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L802 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L795 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L803"
+  },
+  {
+    "Drv func": "ixgbe_clock_out_i2c_bit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2444 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2448"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_mac_addr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L960 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L960"
+  },
+  {
+    "Drv func": "ixgbe_run_loopback_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2108 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2114"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_nl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1334 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1334"
+  },
+  {
+    "Drv func": "ixgbe_disable_pcie_primary",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2568 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2569"
+  },
+  {
+    "Drv func": "ixgbe_add_sanmac_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9014 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9017"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_phy_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L995 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L995"
+  },
+  {
+    "Drv func": "ixgbe_add_ethtool_fdir_entry",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2815 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2815"
+  },
+  {
+    "Drv func": "ixgbe_reset_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L173 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L177 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L165 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L185 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L169 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L199"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1386 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1388"
+  },
+  {
+    "Drv func": "ixgbe_validate_eeprom_checksum_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1132 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1132"
+  },
+  {
+    "Drv func": "ixgbe_add_sanmac_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9014 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9016"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L432 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L438 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L441 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L442"
+  },
+  {
+    "Drv func": "ixgbe_get_first_secondary_devfn",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L856 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L858"
+  },
+  {
+    "Drv func": "ixgbe_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6864 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6869 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6857 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6875 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6880"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L98 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L100 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L102"
+  },
+  {
+    "Drv func": "ixgbe_get_i2c_ack",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2375 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2379"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11064 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11070 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11076"
+  },
+  {
+    "Drv func": "ixgbe_check_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L236"
+  },
+  {
+    "Drv func": "ixgbe_negotiate_fc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2299 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2299"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_multispeed_fiber",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4249 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L4251"
+  },
+  {
+    "Drv func": "ixgbe_add_sanmac_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9014 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9015"
+  },
+  {
+    "Drv func": "ixgbe_check_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L242 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L242 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L245 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L245 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L250"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2215 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2220 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_read_ee_hostif_buffer_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L890 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L890"
+  },
+  {
+    "Drv func": "ixgbe_get_module_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3318 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3318"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L432 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L448 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L451 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L452"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1386 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1387"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "ixgbe_write_i2c_byte_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2182"
+  },
+  {
+    "Drv func": "ixgbe_fc_autoneg_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2998 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2999"
+  },
+  {
+    "Drv func": "ixgbe_setup_mac_link_smartspeed",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L739 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L739"
+  },
+  {
+    "Drv func": "ixgbe_fc_autoneg_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3037 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3037"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9642 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9648 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9656 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9640 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9651 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9666 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9671"
+  },
+  {
+    "Drv func": "ixgbe_reassign_macvlan_pool",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9205 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9217"
+  },
+  {
+    "Drv func": "ixgbe_reset_phy_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L432 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L433"
+  },
+  {
+    "Drv func": "ixgbe_hic_unlocked",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3622 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3622"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_x550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2920 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2944"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2186 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2186"
+  },
+  {
+    "Drv func": "ixgbe_acquire_swfw_sync_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3771 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3773"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_byte_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2075 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2077"
+  },
+  {
+    "Drv func": "ixgbe_reset_hw_82598",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L723 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L725 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82598.c#L727"
+  },
+  {
+    "Drv func": "ixgbe_fdir_filter_exit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6141 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6144"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L571 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L571"
+  },
+  {
+    "Drv func": "ixgbe_update_vf_xcast_mode",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1209 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1209"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_macvlan_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1011 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1011"
+  },
+  {
+    "Drv func": "ixgbe_clock_out_i2c_bit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2444 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2455"
+  },
+  {
+    "Drv func": "ixgbe_init_eeprom_params_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L203"
+  },
+  {
+    "Drv func": "skb_tx_timestamp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4318"
+  },
+  {
+    "Drv func": "ixgbe_xdp_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10318 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10319"
+  },
+  {
+    "Drv func": "ixgbe_delete_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9341 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2226 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_set_vmdq_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3016 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3016"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9736 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_init_rx_addrs_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1974 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1974"
+  },
+  {
+    "Drv func": "ixgbe_atr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8481 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8487 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8494 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8496 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8496 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8518 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8522 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8487 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8530"
+  },
+  {
+    "Drv func": "ixgbe_add_ethtool_fdir_entry",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2890 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "ixgbe_rcv_msg_from_vf",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1330"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp_zc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L588 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L590"
+  },
+  {
+    "Drv func": "ixgbe_check_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L253 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L276 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L277"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L588 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L597"
+  },
+  {
+    "Drv func": "ixgbe_setup_tx_resources",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6525"
+  },
+  {
+    "Drv func": "ixgbe_ptp_get_ts_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "ixgbe_ptp_set_ts_config",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1398 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1400"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1394 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1395"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1390 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1392"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1390 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1391"
+  },
+  {
+    "Drv func": "ixgbe_reset_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7968 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7971"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1383 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1384"
+  },
+  {
+    "Drv func": "ixgbe_disable_tx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5954 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5954"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1379 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1380"
+  },
+  {
+    "Drv func": "ixgbe_read_i2c_byte_generic_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2083 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L2083"
+  },
+  {
+    "Drv func": "ixgbe_reset_interrupt_capability",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1159 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1161"
+  },
+  {
+    "Drv func": "ixgbe_find_vlvf_slot",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3116 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3116"
+  },
+  {
+    "Drv func": "ixgbe_run_loopback_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2076 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2081"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L362 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L362"
+  },
+  {
+    "Drv func": "ixgbe_dbg_common_ops_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L22 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L27 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L30 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L31"
+  },
+  {
+    "Drv func": "ixgbe_configure_msi_and_legacy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3459"
+  },
+  {
+    "Drv func": "ixgbe_dbg_common_ops_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L22 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L27 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L30 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L37"
+  },
+  {
+    "Drv func": "ixgbe_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8987 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8997"
+  },
+  {
+    "Drv func": "ixgbe_init_eeprom_params_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L883 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L883"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11252 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11252 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11253"
+  },
+  {
+    "Drv func": "ixgbe_diag_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2154"
+  },
+  {
+    "Drv func": "ixgbe_run_xdp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L588 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/filter.h#L590"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_vlan_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L978 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L978"
+  },
+  {
+    "Drv func": "ixgbe_add_ethtool_fdir_entry",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2831 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2831"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9648 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9656 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9640 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9651 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9666 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9642 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9673"
+  },
+  {
+    "Drv func": "ixgbe_write_i2c_byte_82599",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L2143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_82599.c#L2143"
+  },
+  {
+    "Drv func": "ixgbe_reg_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1598 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1598"
+  },
+  {
+    "Drv func": "ixgbe_disable_rxr_hw",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10535 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10535"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9642 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9648 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9656 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9640 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9651 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9666 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9641 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9672"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11064 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11081 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11091"
+  },
+  {
+    "Drv func": "ixgbe_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11326"
+  },
+  {
+    "Drv func": "ixgbe_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11325"
+  },
+  {
+    "Drv func": "ixgbe_fdir_filter_restore",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5272 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5272"
+  },
+  {
+    "Drv func": "ixgbe_read_ee_hostif_buffer_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L865 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L865"
+  },
+  {
+    "Drv func": "ixgbe_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11340"
+  },
+  {
+    "Drv func": "ixgbe_ptp_tx_hang",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L806 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L806"
+  },
+  {
+    "Drv func": "ixgbe_configure_tx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3527 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3530 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3531"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9703 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9703"
+  },
+  {
+    "Drv func": "ixgbe_alloc_mapped_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1543 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1558 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1559"
+  },
+  {
+    "Drv func": "ixgbe_ndo_fdb_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9956 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9956 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9964"
+  },
+  {
+    "Drv func": "ixgbe_identify_qsfp_module_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1826 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1826"
+  },
+  {
+    "Drv func": "ixgbe_set_rss_hash_opt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3005 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3005"
+  },
+  {
+    "Drv func": "ixgbe_hpbthresh",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5154"
+  },
+  {
+    "Drv func": "ixgbe_fwd_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10099 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10099"
+  },
+  {
+    "Drv func": "ixgbe_disable_txr_hw",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10489 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10489"
+  },
+  {
+    "Drv func": "ixgbe_ptp_rx_hang",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L759 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L759"
+  },
+  {
+    "Drv func": "ixgbe_tx_timeout_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1069 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1069"
+  },
+  {
+    "Drv func": "ixgbe_ptp_tx_hwtstamp_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L875 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L875"
+  },
+  {
+    "Drv func": "ixgbe_io_error_detected",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11456 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11459"
+  },
+  {
+    "Drv func": "ixgbe_get_strings",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1398 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1399"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_macvlan_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1002 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L1002"
+  },
+  {
+    "Drv func": "ixgbe_set_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1044 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1047 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "ixgbe_clean_tx_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L1155"
+  },
+  {
+    "Drv func": "ixgbe_read_pba_string_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L560 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L560"
+  },
+  {
+    "Drv func": "ixgbe_add_ethtool_fdir_entry",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2880 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2880"
+  },
+  {
+    "Drv func": "ixgbe_disable_rx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5873 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5873"
+  },
+  {
+    "Drv func": "ixgbe_reset_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L207 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L214"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L605"
+  },
+  {
+    "Drv func": "ixgbe_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11305 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11306"
+  },
+  {
+    "Drv func": "ixgbe_set_eeprom",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1044 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1047 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "ixgbe_validate_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L420 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L420"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "ixgbe_del_sanmac_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9041"
+  },
+  {
+    "Drv func": "ixgbe_read_pe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L125 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L126"
+  },
+  {
+    "Drv func": "ixgbe_service_task",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8024 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8025 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L8028"
+  },
+  {
+    "Drv func": "ixgbe_io_error_detected",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11465 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11466"
+  },
+  {
+    "Drv func": "ixgbe_init_thermal_sensor_thresh_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3987 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3991 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3992"
+  },
+  {
+    "Drv func": "ixgbe_identify_sfp_module_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1647 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_phy.c#L1647"
+  },
+  {
+    "Drv func": "ixgbe_fc_autoneg_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2998 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3004 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3005"
+  },
+  {
+    "Drv func": "ixgbe_update_mc_addr_list_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2097 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2097"
+  },
+  {
+    "Drv func": "ixgbe_sw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6369 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6372 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6375"
+  },
+  {
+    "Drv func": "ixgbe_check_mac_link_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3333 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3333"
+  },
+  {
+    "Drv func": "ixgbe_check_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L253 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L255 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L256"
+  },
+  {
+    "Drv func": "ixgbe_intr_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1708 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1708"
+  },
+  {
+    "Drv func": "ixgbe_sfp_detection_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7873 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7873"
+  },
+  {
+    "Drv func": "ixgbe_clean_tx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6055 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6055 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6055 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6055 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6055 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6056"
+  },
+  {
+    "Drv func": "ixgbe_init_module",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11570 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11578 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L11579"
+  },
+  {
+    "Drv func": "ixgbe_update_eeprom_checksum_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1814 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L1814"
+  },
+  {
+    "Drv func": "ixgbe_msix_other",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3088"
+  },
+  {
+    "Drv func": "ixgbe_request_msix_irqs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3244"
+  },
+  {
+    "Drv func": "ixgbe_change_mtu",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6824 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6824"
+  },
+  {
+    "Drv func": "ixgbe_set_sriov_queues",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L605 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L606"
+  },
+  {
+    "Drv func": "ixgbe_get_san_mac_addr_offset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2848 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2849"
+  },
+  {
+    "Drv func": "ixgbe_get_ts_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3145 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3159"
+  },
+  {
+    "Drv func": "ixgbe_init_rss_key",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3790 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3792 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3795"
+  },
+  {
+    "Drv func": "ixgbe_change_mtu",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6826 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6826"
+  },
+  {
+    "Drv func": "ixgbe_configure_rx_ring",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4067 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4068"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9589 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9589"
+  },
+  {
+    "Drv func": "ixgbe_get_san_mac_addr_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2885 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2888 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2889"
+  },
+  {
+    "Drv func": "ixgbe_setup_fw_link",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L566 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L566 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L569 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L569 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L570"
+  },
+  {
+    "Drv func": "ixgbe_setup_all_tx_resources",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6575 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6575"
+  },
+  {
+    "Drv func": "ixgbe_reset_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7968 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7975 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7973 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7974 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7981"
+  },
+  {
+    "Drv func": "ixgbe_write_ee_hostif_buffer_X550",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1370 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L1370"
+  },
+  {
+    "Drv func": "reg_pattern_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1524 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1524"
+  },
+  {
+    "Drv func": "ixgbe_reg_test",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1565 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1565"
+  },
+  {
+    "Drv func": "ixgbe_fdir_reinit_subtask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7391 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7391"
+  },
+  {
+    "Drv func": "ixgbe_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10795 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10802 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10813 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10821"
+  },
+  {
+    "Drv func": "ixgbe_calc_eeprom_checksum_X540",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L351 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x540.c#L351"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_lpe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L480 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L480"
+  },
+  {
+    "Drv func": "ixgbe_add_ethtool_fdir_entry",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2876 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L2876"
+  },
+  {
+    "Drv func": "ixgbe_request_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3376 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3376"
+  },
+  {
+    "Drv func": "ixgbe_update_mc_addr_list_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2084 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L2084"
+  },
+  {
+    "Drv func": "ixgbe_up_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5705 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L5705"
+  },
+  {
+    "Drv func": "ixgbe_set_vf_lpe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L539 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_sriov.c#L539"
+  },
+  {
+    "Drv func": "ixgbe_check_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L253 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L263 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L264"
+  },
+  {
+    "Drv func": "reg_set_and_check",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1548 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L1548"
+  },
+  {
+    "Drv func": "ixgbe_reset_interrupt_capability",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L1156"
+  },
+  {
+    "Drv func": "ixgbe_request_msix_irqs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3259 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3259"
+  },
+  {
+    "Drv func": "ixgbe_rx_desc_queue_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4051 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L4051"
+  },
+  {
+    "Drv func": "ixgbe_write_pe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L145"
+  },
+  {
+    "Drv func": "ixgbe_read_pci_cfg_word_parent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L194 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L200"
+  },
+  {
+    "Drv func": "ixgbe_set_eee",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3469 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ethtool.c#L3469"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_x550em",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2908 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2908 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L2909"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3616 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3617"
+  },
+  {
+    "Drv func": "ixgbe_configure_clsu32",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9610 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9680 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9688 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9683 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9688 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9711 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L9716 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "ixgbe_setup_fc_backplane_x550em_a",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3632 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3646 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L3674"
+  },
+  {
+    "Drv func": "ixgbe_check_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L235"
+  },
+  {
+    "Drv func": "ixgbe_down",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6158 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6162"
+  },
+  {
+    "Drv func": "ixgbe_reset_cs4227",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L207 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_x550.c#L208"
+  },
+  {
+    "Drv func": "ixgbe_get_wwn_prefix_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3425 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_common.c#L3426"
+  }
+]

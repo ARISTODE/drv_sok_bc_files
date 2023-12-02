@@ -1,0 +1,36 @@
+[
+  {
+    "id": "2",
+    "risky": "arr-idx",
+    "acc_path": "cpu",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/lib/msr-smp.c#L181",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "drv caller (param)": "[ adjust_tjmax | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L312 ], ",
+    "call path (param)": " [adjust_tjmax->rdmsr_safe_on_cpu->smp_call_function_single_async->generic_exec_single->cpu_online.387] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [rdmsr_safe_on_cpu->smp_call_function_single_async->generic_exec_single->cpu_online.387] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/smp.c#L526 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/smp.c#L508 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "4",
+    "risky": "arr-idx",
+    "acc_path": "cpu",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/lib/msr-smp.c#L44",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "drv caller (param)": "[ show_temp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/coretemp.c#L161 ], ",
+    "call path (param)": " [show_temp->rdmsr_on_cpu->smp_call_function_single->cpu_online.387] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [rdmsr_safe_on_cpu->smp_call_function_single_async->generic_exec_single->cpu_online.387] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/smp.c#L526 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/smp.c#L508 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "isControl": "0"
+  }
+]

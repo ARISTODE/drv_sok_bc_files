@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock.c#L192 | _raw_spin_unlock_irqrestore",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L865 | init_timer_key",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/snps_udc_core.c#L514 | udc_alloc_request",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/snps_udc_core.c#L1305 | udc_set_halt",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/snps_udc_core.c#L1305 | udc_set_halt",
+  "Drv update": ""
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "No. entry": 17
+  },
+  {
+    "Drv func": "i5400_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1395 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1401"
+  },
+  {
+    "Drv func": "i5400_get_mc_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1095 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1099"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L453 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L459"
+  },
+  {
+    "Drv func": "i5400_get_mc_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1105 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1111"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L479 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L487"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L479 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L489"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L453 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L461"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L453 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L457"
+  },
+  {
+    "Drv func": "i5400_get_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L802 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L805"
+  },
+  {
+    "Drv func": "calculate_dimm_size",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L479 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L493"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L453 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L465"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L479 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L483"
+  },
+  {
+    "Drv func": "i5400_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1395 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1403"
+  },
+  {
+    "Drv func": "i5400_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1283"
+  },
+  {
+    "Drv func": "i5400_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L479 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L485"
+  },
+  {
+    "Drv func": "calculate_dimm_size",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  }
+]

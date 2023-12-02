@@ -1,0 +1,18 @@
+[
+  {
+    "id": "6",
+    "risky": "arr-idx",
+    "acc_path": "node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/kernel/amd_nb.c#L195",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/kernel/amd_nb.c#L145",
+    "drv caller (param)": "[ k10temp_read_temp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L224 ], ",
+    "call path (param)": " [k10temp_read_temp->amd_pci_dev_to_node_id->node_to_amd_nb] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [amd_smn_read->__amd_smn_rw->node_to_amd_nb] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/kernel/amd_nb.c#L145 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/kernel/amd_nb.c#L165 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/kernel/amd_nb.c#L145 | ",
+    "isControl": "0"
+  }
+]

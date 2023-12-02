@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "num",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2171",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2039",
+    "drv caller (param)": "[ hih6130_update_measurements | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L127 ], ",
+    "call path (param)": " [hih6130_update_measurements->i2c_master_send->i2c_transfer_buffer_flags->i2c_transfer->__i2c_transfer->i2c_check_for_quirks] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [i2c_transfer->__i2c_transfer->i2c_check_for_quirks] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2015 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2039 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2087 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2084 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2080 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2039 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L2015 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "2",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1012",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L763",
+    "drv caller (param)": "[ hih6130_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L228 ], ",
+    "call path (param)": " [hih6130_probe->devm_hwmon_device_register_with_groups->hwmon_device_register_with_groups->__hwmon_device_register] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_hwmon_device_register_with_groups->hwmon_device_register_with_groups->__hwmon_device_register] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L883 | ",
+    "isControl": "0"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "Total Bugon": 18,
+    "Controlled Bugon": 16,
+    "Uncontrolled Bugon": 2
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L760 ], [ gether_setup_name_default | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L831 ], ",
+    "Trans func name": "alloc_netdev_mqs",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10566",
+    "Check": "No check",
+    "Call Path": "alloc_etherdev_mqs->alloc_netdev_mqs"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L760 ], [ gether_setup_name_default | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L831 ], ",
+    "Trans func name": "netif_alloc_rx_queues",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9858",
+    "Check": "No check",
+    "Call Path": "alloc_etherdev_mqs->alloc_netdev_mqs->netif_alloc_rx_queues"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L760 ], [ gether_setup_name_default | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L831 ], ",
+    "Trans func name": "free_netdev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10730",
+    "Check": "No check",
+    "Call Path": "alloc_etherdev_mqs->alloc_netdev_mqs->free_netdev"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L760 ], [ gether_setup_name_default | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L831 ], ",
+    "Trans func name": "__hw_addr_create",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_etherdev_mqs->alloc_netdev_mqs->dev_addr_init->__hw_addr_add->__hw_addr_add_ex->__hw_addr_create",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | "
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L808 ], [ gether_cleanup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1069 ], ",
+    "Trans func name": "free_netdev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10730",
+    "Check": "No check",
+    "Call Path": "free_netdev"
+  },
+  {
+    "Drv caller": "[ rx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L297 ], ",
+    "Trans func name": "__skb_pull.920",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2626",
+    "Check": "No check",
+    "Call Path": "eth_type_trans->skb_pull_inline.913->__skb_pull.920"
+  },
+  {
+    "Drv caller": "[ rx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L266 ], ",
+    "Trans func name": "skb_put",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2157",
+    "Check": "No check",
+    "Call Path": "skb_put"
+  },
+  {
+    "Drv caller": "[ rx_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L266 ], ",
+    "Trans func name": "skb_panic",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L120",
+    "Check": "No check",
+    "Call Path": "skb_put->skb_over_panic->skb_panic"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L807 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L886 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ gether_cleanup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1067 ], ",
+    "Trans func name": "unregister_netdevice_many",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 |   unreachable",
+    "Check": "No check",
+    "Call Path": "unregister_netdev->unregister_netdevice->unregister_netdevice_queue->unregister_netdevice_many"
+  },
+  {
+    "Drv caller": "[ gether_cleanup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1067 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "unregister_netdev->unregister_netdevice->unregister_netdevice_queue->unregister_netdevice_many->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "register_netdevice",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdev->register_netdevice"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "dev_get_valid_name",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1130",
+    "Check": "No check",
+    "Call Path": "register_netdev->register_netdevice->dev_get_valid_name"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "__dynamic_netdev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L908 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdev->register_netdevice->__netdev_update_features->netdev_fix_features->__dynamic_netdev_dbg"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "unregister_netdevice_many",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdev->register_netdevice->unregister_netdevice_queue->unregister_netdevice_many"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "dev_alloc_name_ns",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1100",
+    "Check": "No check",
+    "Call Path": "register_netdev->register_netdevice->dev_get_valid_name->dev_alloc_name_ns"
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "netdev_name_node_alloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "register_netdev->register_netdevice->netdev_name_node_head_alloc->netdev_name_node_alloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  },
+  {
+    "Drv caller": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L805 ], [ gether_register_netdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdev->register_netdevice->unregister_netdevice_queue->unregister_netdevice_many->__dynamic_pr_debug"
+  }
+]

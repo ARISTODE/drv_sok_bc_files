@@ -1,0 +1,196 @@
+[
+  {
+    "Total Bugon": 26,
+    "Controlled Bugon": 19,
+    "Uncontrolled Bugon": 7
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L717 ], [ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L708 ], ",
+    "Trans func name": "kzalloc.286",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "i2c_new_dummy_device->i2c_new_client_device->kzalloc.286",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L717 ], [ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L708 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_new_dummy_device->i2c_new_client_device->device_register->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->__fw_devlink_relax_cycles->fw_devlink_relax_link->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L717 ], [ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L708 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_new_dummy_device->i2c_new_client_device->device_register->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->__fw_devlink_relax_cycles->__fwnode_link_cycle->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L717 ], [ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L708 ], ",
+    "Trans func name": "kzalloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "i2c_new_dummy_device->i2c_new_client_device->device_register->device_add->device_private_init->kzalloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "kzalloc.144",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->kzalloc.144",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->device_register->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->__fw_devlink_relax_cycles->__fwnode_link_cycle->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "kmalloc_array",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->kcalloc->kmalloc_array",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "kzalloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->device_register->device_add->device_private_init->kzalloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "remove_nodes",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L432 |   unreachable",
+    "Check": "No check",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->device_unregister->device_del->devres_release_all->remove_nodes"
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->device_register->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->__fw_devlink_relax_cycles->fw_devlink_relax_link->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->hwmon_thermal_register_sensors->hwmon_thermal_add_sensor->devm_add_action->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L809 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "hwmon_device_register->__hwmon_device_register->hwmon_thermal_register_sensors->hwmon_thermal_add_sensor->devm_kfree->devres_destroy->devres_free"
+  },
+  {
+    "Drv caller": "[ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L829 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "hwmon_device_unregister->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L829 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "hwmon_device_unregister->device_unregister->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L829 ], ",
+    "Trans func name": "remove_nodes",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L432 |   unreachable",
+    "Check": "No check",
+    "Call Path": "hwmon_device_unregister->device_unregister->device_del->devres_release_all->remove_nodes"
+  },
+  {
+    "Drv caller": "[ asb100_update_device | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L996 ], [ asb100_update_device | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L946 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L756 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L743 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L730 ], [ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L821 ], [ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L820 ], [ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L833 ], [ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L832 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_unregister_device->device_unregister->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L730 ], [ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L821 ], [ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L820 ], [ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L833 ], [ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L832 ], ",
+    "Trans func name": "remove_nodes",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L432 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_unregister_device->device_unregister->device_del->devres_release_all->remove_nodes"
+  },
+  {
+    "Drv caller": "[ asb100_detect_subclients | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L730 ], [ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L821 ], [ asb100_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L820 ], [ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L833 ], [ asb100_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L832 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_unregister_device->device_unregister->device_del->device_links_purge->__device_link_del->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L865 ], [ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L854 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L767 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L766 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L762 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L748 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L747 ], ",
+    "Trans func name": "kzalloc.457",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf->kzalloc.457",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L865 ], [ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L854 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L767 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L766 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L762 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L748 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L747 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_check_pec->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L899 ], [ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L919 ], [ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L896 ], [ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L878 ], [ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L851 ], [ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L907 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L761 ], ",
+    "Trans func name": "kzalloc.457",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "i2c_smbus_write_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf->kzalloc.457",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L899 ], [ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L919 ], [ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L896 ], [ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L878 ], [ asb100_read_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L851 ], [ asb100_write_value | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L907 ], [ asb100_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L761 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_smbus_write_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_check_pec->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_driver_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L1004 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_register_driver->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ asb100_driver_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asb100.c#L1004 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_del_driver->__dynamic_pr_debug"
+  }
+]

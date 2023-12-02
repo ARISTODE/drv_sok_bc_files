@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "acc_path": "attribute->mode",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/sysfs/file.c#L398],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/sysfs/file.c#L355],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/sysfs/file.c#L568],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L101],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3016],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3019], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L635],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L640], "
+}
+{
+  "id": 8,
+  "acc_path": "m",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/time.c#L552 | __msecs_to_jiffies",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/acpi/event.c#L94 | acpi_bus_generate_netlink_event",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "data",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/acpi/event.c#L94 | acpi_bus_generate_netlink_event",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/acpi_power_meter.c#L930 | acpi_power_meter_resume",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/acpi_power_meter.c#L930 | acpi_power_meter_resume",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/acpi_power_meter.c#L930 | acpi_power_meter_resume",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/acpi_power_meter.c#L930 | acpi_power_meter_resume",
+  "Drv update": ""
+}

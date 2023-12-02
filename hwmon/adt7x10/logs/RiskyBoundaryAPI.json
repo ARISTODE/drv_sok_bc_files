@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "devm_request_threaded_irq",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [4]adt7x10_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L338 )->devm_request_threaded_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/devres.c#L51 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "devm_hwmon_device_register_with_info",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 19,
+    "call path": "( [4]adt7x10_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L338 )->devm_hwmon_device_register_with_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1038 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "devm_hwmon_device_register_with_info",
+    "risky func": "kzalloc.51",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [5]adt7x10_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L338 )->devm_hwmon_device_register_with_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1038 )->hwmon_device_register_with_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L905 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->kzalloc.51 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  }
+]

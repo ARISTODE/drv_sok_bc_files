@@ -1,0 +1,261 @@
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 8,
+    "No.KRDU fields": 8,
+    "No.classified fields": 5,
+    "No.unclassified fields": 3,
+    "PTR_READ": 4,
+    "PTR_WRITE": 3,
+    "BRANCH": 3,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 3
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "resource->name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L694",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L694",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], [ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1522 ], ",
+    "call path (type)": " [platform_device_add] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L691 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L691 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "3",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "resource->flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": "",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "ptr-read",
+    "acc_path": "resource->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L727",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L727",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "5",
+    "risky": "ptr-write",
+    "acc_path": "resource->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L64",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L59 |   %2 = alloca %struct.resource*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L61 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L63 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "6",
+    "risky": "ptr-write",
+    "acc_path": "resource->sibling",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L788",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L171 |   %8 = alloca %struct.resource*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": " [__devm_request_region->__request_region->__request_region_locked->__request_resource] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L779 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L177 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L803 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "6",
+    "risky": "ptr-read",
+    "acc_path": "resource->sibling",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L788",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": " [__devm_request_region->__request_region->__request_region_locked->__request_resource] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | ",
+    "cond_num": "16",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L779 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L177 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L803 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "6",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "resource->sibling",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1274",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L161",
+    "drv caller (param)": "[ superio_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L102 ], ",
+    "call path (param)": " [superio_exit->__release_region->free_resource] ",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": " [__release_region->free_resource] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "9",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1272 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1272 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1268 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1267 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1267 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L161 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "6",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "resource->sibling",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1274",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L162",
+    "drv caller (param)": "[ superio_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L102 ], ",
+    "call path (param)": " [superio_exit->__release_region->free_resource] ",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": " [__release_region->free_resource] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L161 | ",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1272 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1272 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1268 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1267 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1267 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L161 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L161 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "7",
+    "risky": "ptr-write",
+    "acc_path": "resource->child",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L806",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L171 |   %8 = alloca %struct.resource*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": " [__devm_request_region->__request_region->__request_region_locked->__request_resource] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L779 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L181 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L177 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L803 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "7",
+    "risky": "ptr-read",
+    "acc_path": "resource->child",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L806",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": " [__devm_request_region->__request_region->__request_region_locked->__request_resource] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | ",
+    "cond_num": "16",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L779 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L177 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L186 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L803 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L790 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "7",
+    "risky": "ptr-sen-branch (memcpy)",
+    "acc_path": "resource->child",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L674",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L674",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (f71805f_device_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71805f.c#L1508 ], ",
+    "call path (type)": "",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L665 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L668 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L668 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L665 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

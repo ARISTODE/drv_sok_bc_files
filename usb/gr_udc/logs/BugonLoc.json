@@ -1,0 +1,35 @@
+[
+  {
+    "Total Bugon": 4,
+    "Controlled Bugon": 4,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ gr_request_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L2119 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_request_threaded_irq->devres_free"
+  },
+  {
+    "Drv caller": "[ gr_request_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L2119 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_request_threaded_irq->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ gr_handle_state_changes | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1325 ], [ gr_ep_halt_wedge | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L726 ], [ gr_handle_state_changes | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1374 ], [ gr_handle_state_changes | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1339 ], [ gr_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1594 ], [ gr_handle_state_changes | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1348 ], [ gr_ep_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1619 ], [ gr_ep0_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1147 ], [ gr_ep_halt_wedge | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L720 ], [ gr_handle_state_changes | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1356 ], [ gr_finish_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L315 ], [ gr_handle_state_changes | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1332 ], [ gr_ep0_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1069 ], [ gr_ep0_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1082 ], [ gr_ep0_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1143 ], [ gr_device_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L895 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ gr_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L2146 ], [ gr_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L2144 ], [ gr_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L2139 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "platform_get_irq->dev_err_probe->__dynamic_dev_dbg"
+  }
+]

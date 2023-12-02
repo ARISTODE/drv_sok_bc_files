@@ -1,0 +1,303 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "acpi_power_meter_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L926) | acpi_power_meter_add(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L908) | remove_domain_devices(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L542) | free_capabilities(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L733) | read_capabilities(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L815) | read_domain_devices(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L620) | read_domain_devices(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L618) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "kobject_create_and_add",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 13,
+    "call path": "( [3]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->kobject_create_and_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L781 )->kobject_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L722 ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "kobject_create_and_add",
+    "risky func": "kref_put.800",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->kobject_create_and_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L781 )->kobject_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L722 )->kref_put.800 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "kobject_create_and_add",
+    "risky func": "kzalloc.836",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "call path": "( [4]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->kobject_create_and_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L781 )->kobject_create ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L756 )->kzalloc.836 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "kobject_create_and_add",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [6]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->kobject_create_and_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L781 )->kobject_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L402 )->kobject_add_varg ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L354 )->kobject_add_internal ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L201 )->kobject_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L628 ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "kobject_create_and_add",
+    "risky func": "kref_get.829",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 16,
+    "call path": "( [7]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->kobject_create_and_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L781 )->kobject_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L402 )->kobject_add_varg ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L354 )->kobject_add_internal ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L201 )->kobject_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L628 )->kref_get.829 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "kobject_put",
+    "Risky API Class": "refCount",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "remove_domain_devices(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L543) | "
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [7]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_links_purge ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1669 )->device_links_write_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L253 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [7]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_links_purge ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1669 )->device_links_write_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L258 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [6]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L722 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 23,
+    "call path": "( [6]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kref_put.800",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 5,
+    "call path": "( [7]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L722 )->kref_put.800 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kzalloc.268",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 19,
+    "call path": "( [10]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_platform_notify_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2300 )->acpi_power_meter_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L930 )->read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "hwmon_device_unregister",
+    "risky func": "kzalloc.242",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 16,
+    "call path": "( [10]acpi_power_meter_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L913 )->hwmon_device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L968 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_platform_notify_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2300 )->acpi_power_meter_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L930 )->read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_extract_package ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L32 )->acpi_os_allocate_zeroed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.242 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.526",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->kzalloc.526 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 48,
+    "call path": "( [5]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->hwmon_dev_release ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L127 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 37,
+    "call path": "( [7]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L722 ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 27,
+    "call path": "( [8]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_links_purge ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1669 )->device_links_write_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L253 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 37,
+    "call path": "( [8]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_links_purge ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1669 )->device_links_write_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L258 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kref_put.800",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 23,
+    "call path": "( [8]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->cleanup_glue_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3307 )->kobject_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L722 )->kref_put.800 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 33,
+    "call path": "( [9]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kobject_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L402 )->kobject_add_varg ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L354 )->kobject_add_internal ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L201 )->kobject_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L628 ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.407",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [7]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->device_private_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3506 )->kzalloc.407 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kref_get.829",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 68,
+    "call path": "( [10]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kobject_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L402 )->kobject_add_varg ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L354 )->kobject_add_internal ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L201 )->kobject_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L628 )->kref_get.829 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.836",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 28,
+    "call path": "( [10]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->get_device_parent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3211 )->virtual_device_parent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3149 )->kobject_create_and_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L781 )->kobject_create ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject.c#L756 )->kzalloc.836 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 71,
+    "call path": "( [10]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 25,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.268",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 44,
+    "call path": "( [11]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_platform_notify_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2300 )->acpi_power_meter_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L930 )->read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 26,
+    "kernel boundary func name": "hwmon_device_register",
+    "risky func": "kzalloc.242",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 41,
+    "call path": "( [11]acpi_power_meter_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L864 )->hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L954 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3892 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_platform_notify_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2300 )->acpi_power_meter_resume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L930 )->read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_extract_package ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L32 )->acpi_os_allocate_zeroed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.242 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 27,
+    "kernel boundary func name": "acpi_evaluate_object",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [4]read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 28,
+    "kernel boundary func name": "acpi_evaluate_object",
+    "risky func": "kzalloc.268",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [4]read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 29,
+    "kernel boundary func name": "acpi_evaluate_integer",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [5]update_meter ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L315 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [5]update_avg_interval ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L108 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [5]set_avg_interval ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L139 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [5]set_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L213 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [5]update_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L182 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [5]set_acpi_trip ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L255 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_free.261 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L60 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 30,
+    "kernel boundary func name": "acpi_evaluate_integer",
+    "risky func": "kzalloc.268",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 8,
+    "call path": "( [5]update_meter ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L315 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [5]update_avg_interval ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L108 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [5]set_avg_interval ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L139 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [5]set_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L213 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [5]update_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L182 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [5]set_acpi_trip ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L255 )->acpi_evaluate_integer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L247 )->acpi_evaluate_object ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/nsxfeval.c#L163 )->acpi_os_allocate_zeroed.266 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.268 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 31,
+    "kernel boundary func name": "acpi_evaluation_failure_warn",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]update_avg_interval ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L108 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]set_avg_interval ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L139 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]update_meter ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L315 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]set_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L213 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]update_cap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L182 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]set_acpi_trip ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L255 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_evaluation_failure_warn ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L572 )->acpi_handle_printk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L515 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 32,
+    "kernel boundary func name": "acpi_extract_package",
+    "risky func": "kzalloc.242",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [4]read_capabilities ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L738 )->acpi_extract_package ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L32 )->acpi_os_allocate_zeroed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/acpi/platform/aclinuxex.h#L55 )->kzalloc.242 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 33,
+    "kernel boundary func name": "acpi_get_acpi_dev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [5]read_domain_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L547 )->acpi_get_acpi_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/scan.c#L612 )->handle_to_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/scan.c#L568 )->__acpi_handle_debug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L546 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "id": "81",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "phys_addr",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ ixgbe_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10849 ], ",
+    "call path (param)": " [ixgbe_probe->unregister_netdev->unregister_netdevice->unregister_netdevice_queue->unregister_netdevice_many->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->ixgbe_init_interrupt_scheme->ixgbe_set_interrupt_capability->ixgbe_acquire_msix_vectors->pci_enable_msix_range->__pci_enable_msix_range->__pci_enable_msix->msix_capability_init->msix_map_region->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "82",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ ixgbe_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10849 ], ",
+    "call path (param)": " [ixgbe_probe->unregister_netdev->unregister_netdevice->unregister_netdevice_queue->unregister_netdevice_many->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->ixgbe_init_interrupt_scheme->ixgbe_set_interrupt_capability->ixgbe_acquire_msix_vectors->pci_enable_msix_range->__pci_enable_msix_range->__pci_enable_msix->msix_capability_init->msix_map_region->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "85",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "offset",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2529",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4052",
+    "drv caller (param)": "[ ixgbe_ptp_rx_pktstamp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L897 ], ",
+    "call path (param)": " [ixgbe_ptp_rx_pktstamp->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "85",
+    "risky": "arr-idx",
+    "acc_path": "offset",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2529",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4052",
+    "drv caller (param)": "[ ixgbe_ptp_rx_pktstamp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L897 ], ",
+    "call path (param)": " [ixgbe_ptp_rx_pktstamp->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "86",
+    "risky": "ptr-read",
+    "acc_path": "to",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2581",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1599",
+    "drv caller (param)": "[ ixgbe_ptp_rx_pktstamp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L897 ], ",
+    "call path (param)": " [ixgbe_ptp_rx_pktstamp->skb_copy_bits->skb_end_pointer.2974] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_end_pointer.2974] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "86",
+    "risky": "ptr-sen-api (memcpy)",
+    "acc_path": "to",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2581",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4052",
+    "drv caller (param)": "[ ixgbe_ptp_rx_pktstamp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L897 ], ",
+    "call path (param)": " [ixgbe_ptp_rx_pktstamp->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2551 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2559 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "86",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "to",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2581",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536",
+    "drv caller (param)": "[ ixgbe_ptp_rx_pktstamp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L897 ], ",
+    "call path (param)": " [ixgbe_ptp_rx_pktstamp->skb_copy_bits] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_copy_bits] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2529 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2533 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2533 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "86",
+    "risky": "ptr-write",
+    "acc_path": "to",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2581",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2516 |   %11 = alloca %struct.sk_buff.19869*, align 8",
+    "drv caller (param)": "[ ixgbe_ptp_rx_pktstamp | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_ptp.c#L897 ], ",
+    "call path (param)": " [ixgbe_ptp_rx_pktstamp->skb_copy_bits] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_copy_bits] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "95",
+    "risky": "ptr-sen-api (memcpy)",
+    "acc_path": "buffer",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L1053",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L1053",
+    "drv caller (param)": "[ ixgbe_init_rss_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3795 ], ",
+    "call path (param)": " [ixgbe_init_rss_key->netdev_rss_key_fill] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [netdev_rss_key_fill] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "96",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L1053",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L1053",
+    "drv caller (param)": "[ ixgbe_init_rss_key | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L3795 ], ",
+    "call path (param)": " [ixgbe_init_rss_key->netdev_rss_key_fill] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [netdev_rss_key_fill] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "100",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "expires",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "drv caller (param)": "[ ixgbe_service_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7941 ], ",
+    "call path (param)": " [ixgbe_service_timer->mod_timer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->netif_device_attach->__netdev_watchdog_up->mod_timer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "102",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "i",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/cpumask.c#L136",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitops.h#L261",
+    "drv caller (param)": "[ ixgbe_alloc_q_vector | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L852 ], ",
+    "call path (param)": " [ixgbe_alloc_q_vector->cpumask_local_spread->cpumask_nth->find_nth_bit.1909->fns.1906] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->ixgbe_init_interrupt_scheme->ixgbe_alloc_q_vectors->ixgbe_alloc_q_vector->cpumask_local_spread->cpumask_nth->find_nth_bit.1909->fns.1906] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L222 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L222 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L222 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L219 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "103",
+    "risky": "arr-idx",
+    "acc_path": "node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/cpumask.c#L143",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/topology.h#L72",
+    "drv caller (param)": "[ ixgbe_alloc_q_vector | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_lib.c#L852 ], ",
+    "call path (param)": " [ixgbe_alloc_q_vector->cpumask_local_spread->cpumask_of_node.1905] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->ixgbe_init_interrupt_scheme->ixgbe_alloc_q_vectors->ixgbe_alloc_q_vector->cpumask_local_spread->cpumask_of_node.1905] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "104",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "nbits",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1395",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1388",
+    "drv caller (param)": "[ ixgbe_sw_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L6375 ], ",
+    "call path (param)": " [ixgbe_sw_init->bitmap_zalloc->bitmap_alloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [bitmap_zalloc->bitmap_alloc] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "106",
+    "risky": "ptr-read",
+    "acc_path": "map",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "drv caller (param)": "[ ixgbe_defrag_macvlan_pools | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480 ], ",
+    "call path (param)": " [ixgbe_defrag_macvlan_pools->__bitmap_clear] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__bitmap_clear] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "106",
+    "risky": "ptr-write",
+    "acc_path": "map",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "drv caller (param)": "[ ixgbe_defrag_macvlan_pools | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480 ], ",
+    "call path (param)": " [ixgbe_defrag_macvlan_pools->__bitmap_clear] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__bitmap_clear] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "114",
+    "risky": "val-sen-api (vzalloc)",
+    "acc_path": "sizeof_priv",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethernet/eth.c#L394",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10587",
+    "drv caller (param)": "[ ixgbe_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10833 ], ",
+    "call path (param)": " [ixgbe_probe->alloc_etherdev_mqs->alloc_netdev_mqs] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_etherdev_mqs->alloc_netdev_mqs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10579 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10573 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10568 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "120",
+    "risky": "arr-idx",
+    "acc_path": "i",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L715",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2409",
+    "drv caller (param)": "[ ixgbe_construct_skb | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L2133 ], ",
+    "call path (param)": " [ixgbe_construct_skb->skb_add_rx_frag->skb_fill_page_desc->__skb_fill_page_desc->__skb_fill_page_desc_noacc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_clone->skb_orphan_frags.3026->skb_copy_ubufs->__skb_fill_page_desc->__skb_fill_page_desc_noacc] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "124",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L656",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L454",
+    "drv caller (param)": "[ ixgbe_construct_skb_zc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L223 ], ",
+    "call path (param)": " [ixgbe_construct_skb_zc->__napi_alloc_skb->__alloc_skb->kmalloc_reserve] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_checksum_help->__skb_linearize->__pskb_pull_tail->skb_clone->skb_orphan_frags.3026->skb_copy_ubufs->skb_unclone->pskb_expand_head->kmalloc_reserve] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "124",
+    "risky": "arr-idx",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L656",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L522",
+    "drv caller (param)": "[ ixgbe_construct_skb_zc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L223 ], ",
+    "call path (param)": " [ixgbe_construct_skb_zc->__napi_alloc_skb->__alloc_skb] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->nlmsg_new->alloc_skb.293->__alloc_skb] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L516 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "125",
+    "risky": "val-sen-api (alloc_pages)",
+    "acc_path": "gfp_mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L681",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L260",
+    "drv caller (param)": "[ ixgbe_construct_skb_zc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_xsk.c#L223 ], ",
+    "call path (param)": " [ixgbe_construct_skb_zc->__napi_alloc_skb->page_frag_alloc_1k->alloc_pages_node.3158] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->ixgbe_init_interrupt_scheme->ixgbe_alloc_q_vectors->ixgbe_alloc_q_vector->netif_napi_add->netif_napi_add_weight->napi_get_frags_check->napi_get_frags->napi_alloc_skb.351->__napi_alloc_skb->page_frag_alloc_1k->alloc_pages_node.3158] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L160 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "129",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "mode",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L4805",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/nlattr.c#L1009",
+    "drv caller (param)": "[ ixgbe_ndo_bridge_getlink | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10086 ], ",
+    "call path (param)": " [ixgbe_ndo_bridge_getlink->ndo_dflt_bridge_getlink->nla_put->__nla_put] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->nla_put->__nla_put] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/nlattr.c#L1064 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "130",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L4842",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/nlattr.c#L1009",
+    "drv caller (param)": "[ ixgbe_ndo_bridge_getlink | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L10086 ], ",
+    "call path (param)": " [ixgbe_ndo_bridge_getlink->ndo_dflt_bridge_getlink->nla_put->__nla_put] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->nla_put->__nla_put] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L4750 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/nlattr.c#L1064 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "151",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L59",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L25",
+    "drv caller (param)": "[ ixgbe_dbg_common_ops_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_debugfs.c#L25 ], ",
+    "call path (param)": " [ixgbe_dbg_common_ops_read->kasprintf->kvasprintf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kasprintf->kvasprintf] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "153",
+    "risky": "arr-idx",
+    "acc_path": "state",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1463",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/pci.h#L185",
+    "drv caller (param)": "[ ixgbe_shutdown | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7086 ], ",
+    "call path (param)": " [ixgbe_shutdown->pci_set_power_state->pci_set_full_power_state->pci_power_up->pci_power_name.234] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->pci_enable_device_mem->pci_enable_device_flags->do_pci_enable_device->pci_set_power_state->pci_set_full_power_state->pci_power_up->pci_power_name.234] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "153",
+    "risky": "val-sen-api (pci_set_power_state)",
+    "acc_path": "state",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1465",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1123",
+    "drv caller (param)": "[ ixgbe_shutdown | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7086 ], ",
+    "call path (param)": " [ixgbe_shutdown->pci_set_power_state->pci_platform_power_transition] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ndo_dflt_fdb_add->dev_uc_add_excl->__dev_set_rx_mode->__dev_set_promiscuity->__dev_notify_flags->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->if_nlmsg_size->rtnl_vfinfo_size->dev_num_vf->ixgbe_resume->pci_enable_device_mem->pci_enable_device_flags->do_pci_enable_device->pci_set_power_state->pci_platform_power_transition] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

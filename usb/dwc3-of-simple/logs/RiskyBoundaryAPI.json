@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "clk_bulk_put_all",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]__dwc3_of_simple_teardown ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L98 )->clk_bulk_put_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-bulk.c#L128 )->kfree ( Unknown Loc ) )( [3]dwc3_of_simple_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L33 )->clk_bulk_put_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-bulk.c#L128 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "clk_bulk_get_all",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]dwc3_of_simple_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc3/dwc3-of-simple.c#L33 )->clk_bulk_get_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-bulk.c#L139 )->of_clk_bulk_get_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-bulk.c#L46 )->kfree ( Unknown Loc ) )"
+  }
+]

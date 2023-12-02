@@ -1,0 +1,65 @@
+[
+  {
+    "No. entry": 12
+  },
+  {
+    "Drv func": "i5k_amb_hwmon_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L271 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L376"
+  },
+  {
+    "Drv func": "i5k_amb_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L587 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L591 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L592"
+  },
+  {
+    "Drv func": "i5k_amb_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L565 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L566"
+  },
+  {
+    "Drv func": "i5k_amb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L522 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L529"
+  },
+  {
+    "Drv func": "i5k_amb_hwmon_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L271 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L377 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L380"
+  },
+  {
+    "Drv func": "i5k_channel_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L460 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L463"
+  },
+  {
+    "Drv func": "i5k_amb_hwmon_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L390 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L391"
+  },
+  {
+    "Drv func": "i5k_amb_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L522 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L530 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L535"
+  },
+  {
+    "Drv func": "i5k_find_amb_registers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L431 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L435"
+  },
+  {
+    "Drv func": "i5k_find_amb_registers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L427 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L430"
+  },
+  {
+    "Drv func": "i5k_amb_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L403 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L406"
+  },
+  {
+    "Drv func": "i5k_channel_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L468"
+  }
+]

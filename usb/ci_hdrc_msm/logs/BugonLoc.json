@@ -1,0 +1,42 @@
+[
+  {
+    "Total Bugon": 5,
+    "Controlled Bugon": 5,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L207 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_clk_get_optional->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L207 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_clk_get_optional->__devm_clk_get->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L203 ], [ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L199 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L203 ], [ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L199 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ ci_hdrc_msm_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L181 ], [ ci_hdrc_msm_notify_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L87 ], [ ci_hdrc_msm_notify_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L127 ], [ ci_hdrc_msm_notify_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L132 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  }
+]

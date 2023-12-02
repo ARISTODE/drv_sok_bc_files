@@ -1,0 +1,55 @@
+[
+  {
+    "No. entry": 10
+  },
+  {
+    "Drv func": "udc_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L63 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L72"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L142 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L153"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L143"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L113 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L113"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L93 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L93"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L120 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L120"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L142 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L154"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L112 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L118"
+  },
+  {
+    "Drv func": "udc_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L92 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L99 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L103"
+  },
+  {
+    "Drv func": "udc_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L63 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L71"
+  }
+]

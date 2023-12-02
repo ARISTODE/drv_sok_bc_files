@@ -1,0 +1,10 @@
+[
+  {
+    "No. entry": 1
+  },
+  {
+    "Drv func": "zero_map",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-zero.c#L40 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-zero.c#L38 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-zero.c#L44"
+  }
+]

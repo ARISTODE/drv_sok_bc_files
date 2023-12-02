@@ -1,0 +1,87 @@
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 2,
+    "No.classified fields": 0,
+    "No.unclassified fields": 2,
+    "UNCLASSIFY": 2
+  }
+]
+[
+  {
+    "struct name": "attribute",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 2,
+    "No.classified fields": 1,
+    "No.unclassified fields": 1,
+    "PTR_READ": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "attribute->name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3016",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3019",
+    "drv caller (param)": "[ i5k_amb_hwmon_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L376 ], ",
+    "call path (param)": " [i5k_amb_hwmon_init->device_create_file] ",
+    "drv_update loc (shared field)": "[ (i5k_amb_hwmon_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L315 ], [ (i5k_amb_hwmon_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L285 ], [ (i5k_amb_hwmon_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L331 ], [ (i5k_amb_hwmon_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L363 ], [ (i5k_amb_hwmon_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L347 ], [ (i5k_amb_hwmon_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L300 ], ",
+    "call path (type)": " [hwmon_device_register->__hwmon_device_register->device_register->device_add->device_create_file] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3019 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_dev",
+    "No.Fields": 115,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

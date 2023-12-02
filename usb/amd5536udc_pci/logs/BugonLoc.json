@@ -1,0 +1,50 @@
+[
+  {
+    "Total Bugon": 6,
+    "Controlled Bugon": 5,
+    "Uncontrolled Bugon": 1
+  },
+  {
+    "Drv caller": "[ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L103 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_enable_device->pci_enable_device_flags->pci_enable_bridge->pci_set_master->__pci_set_master->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L154 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_try_set_mwi->pci_set_mwi->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L112 ], ",
+    "Trans func name": "kzalloc.317",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__request_region->alloc_resource->kzalloc.317",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L93 ], [ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L120 ], [ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L113 ], [ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L143 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L153 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "pci_set_master->__pci_set_master->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ udc_pci_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L72 ], [ udc_pci_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/amd5536udc_pci.c#L184 ], ",
+    "Trans func name": "iounmap",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L495",
+    "Check": "No check",
+    "Call Path": "iounmap"
+  }
+]

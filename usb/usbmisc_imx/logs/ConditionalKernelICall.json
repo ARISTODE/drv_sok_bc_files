@@ -1,0 +1,30 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Drv func": "usbmisc_imx7d_set_wakeup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L610 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L610"
+  },
+  {
+    "Drv func": "imx7d_charger_primary_detection",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L820 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L820"
+  },
+  {
+    "Drv func": "imx7d_charger_secondary_detection",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L720 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L720"
+  },
+  {
+    "Drv func": "imx7d_charger_secondary_detection",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L723 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L723"
+  },
+  {
+    "Drv func": "usbmisc_imx6q_set_wakeup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L403 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L403"
+  }
+]

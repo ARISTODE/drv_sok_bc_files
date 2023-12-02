@@ -1,0 +1,95 @@
+[
+  {
+    "No. entry": 18
+  },
+  {
+    "Drv func": "xhci_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L463 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L476"
+  },
+  {
+    "Drv func": "xhci_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L463 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L485"
+  },
+  {
+    "Drv func": "xhci_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L536 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L538"
+  },
+  {
+    "Drv func": "xhci_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L543 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L544"
+  },
+  {
+    "Drv func": "xhci_pci_reinit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L101 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L101"
+  },
+  {
+    "Drv func": "xhci_pci_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L418 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L421"
+  },
+  {
+    "Drv func": "xhci_pci_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L628 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L630"
+  },
+  {
+    "Drv func": "xhci_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L463 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L478 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L487 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L493 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L496"
+  },
+  {
+    "Drv func": "xhci_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L509 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L510"
+  },
+  {
+    "Drv func": "xhci_find_lpm_incapable_ports",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L386 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L387"
+  },
+  {
+    "Drv func": "xhci_pci_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L696 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L697"
+  },
+  {
+    "Drv func": "xhci_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L533 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L534"
+  },
+  {
+    "Drv func": "xhci_pci_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L427 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L427"
+  },
+  {
+    "Drv func": "xhci_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L536 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L537"
+  },
+  {
+    "Drv func": "xhci_find_lpm_incapable_ports",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L389 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L389"
+  },
+  {
+    "Drv func": "xhci_pci_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L623 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L624"
+  },
+  {
+    "Drv func": "xhci_pci_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L411 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L412"
+  },
+  {
+    "Drv func": "xhci_pci_reinit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L103 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L103"
+  }
+]

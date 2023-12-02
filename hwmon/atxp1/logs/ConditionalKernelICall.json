@@ -1,0 +1,45 @@
+[
+  {
+    "No. entry": 8
+  },
+  {
+    "Drv func": "cpu0_vid_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L134 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L135"
+  },
+  {
+    "Drv func": "atxp1_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L254 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L258"
+  },
+  {
+    "Drv func": "cpu0_vid_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L126 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L126"
+  },
+  {
+    "Drv func": "atxp1_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L64"
+  },
+  {
+    "Drv func": "cpu0_vid_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L130 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L131"
+  },
+  {
+    "Drv func": "atxp1_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L60"
+  },
+  {
+    "Drv func": "atxp1_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L63"
+  },
+  {
+    "Drv func": "atxp1_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L57 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/atxp1.c#L61"
+  }
+]

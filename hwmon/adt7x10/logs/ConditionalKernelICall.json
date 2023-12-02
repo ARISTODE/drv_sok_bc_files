@@ -1,0 +1,60 @@
+[
+  {
+    "No. entry": 11
+  },
+  {
+    "Drv func": "adt7x10_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L383 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L386 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L387"
+  },
+  {
+    "Drv func": "adt7x10_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L379 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L379"
+  },
+  {
+    "Drv func": "adt7x10_irq_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L86 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L89 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L90"
+  },
+  {
+    "Drv func": "adt7x10_hyst_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L177 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L182"
+  },
+  {
+    "Drv func": "adt7x10_temp_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L104 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L106 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L108 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L110"
+  },
+  {
+    "Drv func": "adt7x10_irq_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L91 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L92"
+  },
+  {
+    "Drv func": "adt7x10_irq_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L93 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L94"
+  },
+  {
+    "Drv func": "adt7x10_temp_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L105"
+  },
+  {
+    "Drv func": "adt7x10_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L357 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L371 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L372"
+  },
+  {
+    "Drv func": "adt7x10_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L358"
+  },
+  {
+    "Drv func": "adt7x10_temp_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L141 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L141 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7x10.c#L152"
+  }
+]

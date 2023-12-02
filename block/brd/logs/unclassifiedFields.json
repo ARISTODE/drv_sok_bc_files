@@ -1,0 +1,78 @@
+{
+  "id": 0,
+  "acc_path": "gendisk->major",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L573],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L438],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L516],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L467],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L546],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L244], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/brd.c#L401], "
+}
+{
+  "id": 1,
+  "acc_path": "gendisk->first_minor",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L516],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L447],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L244],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L467],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L574],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L546], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/brd.c#L402], "
+}
+{
+  "id": 2,
+  "acc_path": "gendisk->minors",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L439],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L442],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L931],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L447],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L450], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/brd.c#L403], "
+}
+{
+  "id": 4,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "first_index",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/radix-tree.c#L1260 | radix_tree_gang_lookup",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "max_items",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/radix-tree.c#L1260 | radix_tree_gang_lookup",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L567 | debugfs_create_u64",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "major",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L219 | __register_blkdev",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "sectors",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L59 | set_capacity",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "flag",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-core.c#L80 | blk_queue_flag_set",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "flag",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-core.c#L91 | blk_queue_flag_clear",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "major",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L288 | unregister_blkdev",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L332 | blk_queue_physical_block_size",
+  "Drv update": ""
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Drv func": "rmem_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvmem/rmem.c#L40 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvmem/rmem.c#L45"
+  },
+  {
+    "Drv func": "rmem_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvmem/rmem.c#L40 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvmem/rmem.c#L47"
+  }
+]

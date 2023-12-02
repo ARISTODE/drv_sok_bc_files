@@ -1,0 +1,25 @@
+[
+  {
+    "No. entry": 4
+  },
+  {
+    "Drv func": "k10temp_is_visible",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L270 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L272 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L283 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L286"
+  },
+  {
+    "Drv func": "has_erratum_319",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L325 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L329"
+  },
+  {
+    "Drv func": "k10temp_read_temp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L212 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L224"
+  },
+  {
+    "Drv func": "k10temp_get_ccd_support",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L383 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k10temp.c#L384"
+  }
+]

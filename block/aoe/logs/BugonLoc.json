@@ -1,0 +1,1191 @@
+[
+  {
+    "Total Bugon": 162,
+    "Controlled Bugon": 112,
+    "Uncontrolled Bugon": 50
+  },
+  {
+    "Drv caller": "[ ktiocomplete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1097 ], [ ktiocomplete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1095 ], ",
+    "Trans func name": "__skb_pull.1755",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2626",
+    "Check": "No check",
+    "Call Path": "skb_pull->skb_pull_inline->__skb_pull.1755"
+  },
+  {
+    "Drv caller": "[ kthread | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1241 ], [ kthread | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1226 ], [ aoechr_error | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L156 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "complete->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ revalidate | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L111 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "msleep_interruptible->schedule_timeout_interruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ revalidate | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L111 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "msleep_interruptible->schedule_timeout_interruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ revalidate | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L111 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "msleep_interruptible->schedule_timeout_interruptible->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ revalidate | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L111 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "msleep_interruptible->schedule_timeout_interruptible->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L229 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "blk_mq_freeze_queue->blk_freeze_queue->blk_mq_freeze_queue_wait->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L229 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "blk_mq_freeze_queue->blk_freeze_queue->blk_mq_freeze_queue_wait->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L229 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "blk_mq_freeze_queue->blk_freeze_queue->blk_mq_freeze_queue_wait->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L229 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "blk_mq_freeze_queue->blk_freeze_queue->blk_freeze_queue_start->blk_mq_run_hw_queues->blk_mq_run_hw_queue->rcu_read_unlock.287->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ rexmit_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L815 ], [ aoe_end_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1050 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "blk_mq_run_hw_queues->blk_mq_run_hw_queue->rcu_read_unlock.287->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L66 ], ",
+    "Trans func name": "__register_blkdev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__register_blkdev",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L228 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L66 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "__register_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L66 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "__register_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L66 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "__register_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L66 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "__register_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "del_gendisk->blk_mq_exit_queue->blk_mq_del_queue_tag_set->blk_mq_update_tag_set_shared->blk_mq_freeze_queue->blk_freeze_queue->blk_mq_freeze_queue_wait->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "__cpuhp_state_remove_instance",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L2173",
+    "Check": "No check",
+    "Call Path": "del_gendisk->blk_mq_exit_queue->blk_mq_exit_hw_queues->blk_mq_exit_hctx->blk_mq_remove_cpuhp->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance"
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "del_gendisk->blk_mq_exit_queue->blk_mq_del_queue_tag_set->blk_mq_update_tag_set_shared->blk_mq_freeze_queue->blk_freeze_queue->blk_mq_freeze_queue_wait->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "cpuhp_issue_call",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L1989",
+    "Check": "No check",
+    "Call Path": "del_gendisk->blk_mq_exit_queue->blk_mq_exit_hw_queues->blk_mq_exit_hctx->blk_mq_remove_cpuhp->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance->cpuhp_issue_call"
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "panic_on_rcu_stall",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L146",
+    "Call Path": "del_gendisk->blk_mq_quiesce_queue->blk_mq_wait_quiesce_done->synchronize_rcu->synchronize_rcu_expedited->rcu_exp_sel_wait_wake->rcu_exp_wait_wake->synchronize_rcu_expedited_wait->panic_on_rcu_stall",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L142 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L145 | "
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "del_gendisk->blk_mq_exit_queue->blk_mq_del_queue_tag_set->blk_mq_update_tag_set_shared->blk_mq_freeze_queue->blk_freeze_queue->blk_mq_freeze_queue_wait->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "del_gendisk->blk_mq_exit_queue->blk_mq_exit_hw_queues->blk_mq_exit_hctx->blk_mq_remove_cpuhp->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance->cpuhp_issue_call->cpuhp_invoke_ap_callback->__cpuhp_kick_ap->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L230 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "blk_mq_quiesce_queue->blk_mq_wait_quiesce_done->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L230 ], ",
+    "Trans func name": "panic_on_rcu_stall",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L146",
+    "Call Path": "blk_mq_quiesce_queue->blk_mq_wait_quiesce_done->synchronize_rcu->synchronize_rcu_expedited->rcu_exp_sel_wait_wake->rcu_exp_wait_wake->synchronize_rcu_expedited_wait->panic_on_rcu_stall",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L142 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L145 | "
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L230 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "blk_mq_quiesce_queue->blk_mq_wait_quiesce_done->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L230 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "blk_mq_quiesce_queue->blk_mq_wait_quiesce_done->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L230 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "blk_mq_quiesce_queue->blk_mq_wait_quiesce_done->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoedev_downdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L231 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "blk_mq_unquiesce_queue->blk_mq_run_hw_queues->blk_mq_run_hw_queue->rcu_read_unlock.287->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L407 ], ",
+    "Trans func name": "kzalloc.128",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "device_add_disk->device_add->device_private_init->kzalloc.128",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L407 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "device_add_disk->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L407 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "device_add_disk->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L407 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "device_add_disk->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L407 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "device_add_disk->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L34 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "unregister_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L34 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "unregister_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L34 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "unregister_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L34 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "unregister_blkdev->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ kthread | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1236 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ kthread | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1236 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ kthread | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1236 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ kthread | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1236 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L385 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1724 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1722 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L517 ], [ aoechr_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L263 ], [ aoedev_by_aoeaddr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L467 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L515 ], [ grow_targets | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1424 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1747 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1745 ], [ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L384 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1746 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1726 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L385 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1724 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1722 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L517 ], [ aoechr_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L263 ], [ aoedev_by_aoeaddr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L467 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L515 ], [ grow_targets | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1424 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1747 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1745 ], [ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L384 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1746 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1726 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L385 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1724 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1722 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L517 ], [ aoechr_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L263 ], [ aoedev_by_aoeaddr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L467 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L515 ], [ grow_targets | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1424 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1747 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1745 ], [ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L384 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1746 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1726 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L385 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1724 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1722 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L517 ], [ aoechr_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L263 ], [ aoedev_by_aoeaddr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L467 ], [ freetgt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L515 ], [ grow_targets | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1424 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1747 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1745 ], [ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L384 ], [ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1746 ], [ aoecmd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1726 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_ktstart | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1258 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404 ], [ resend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L487 ], [ aoecmd_ata_rw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L398 ], [ probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L614 ], ",
+    "Trans func name": "pskb_expand_head",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1824 |   unreachable",
+    "Check": "No check",
+    "Call Path": "skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head"
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404 ], [ resend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L487 ], [ aoecmd_ata_rw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L398 ], [ probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L614 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404 ], [ resend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L487 ], [ aoecmd_ata_rw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L398 ], [ probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L614 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404 ], [ resend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L487 ], [ aoecmd_ata_rw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L398 ], [ probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L614 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404 ], [ resend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L487 ], [ aoecmd_ata_rw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L398 ], [ probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L614 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ skbfree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L412 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ skbfree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L412 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ skbfree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L412 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ skbfree | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L412 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoechr_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L314 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "device_destroy->device_unregister->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoechr_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L314 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "device_destroy->device_unregister->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoechr_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L314 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "device_destroy->device_unregister->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoechr_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L314 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "device_destroy->device_unregister->device_del->device_remove_attrs->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L301 ], ",
+    "Trans func name": "kzalloc.128",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "device_create->device_create_groups_vargs->kzalloc.128",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L301 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "device_create->device_create_groups_vargs->kzalloc.128->kmalloc_large->__kmalloc_large_node->alloc_pages_node.1363->__alloc_pages_node.1365->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L301 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "device_create->device_create_groups_vargs->kzalloc.128->kmalloc_large->__kmalloc_large_node->alloc_pages_node.1363->__alloc_pages_node.1365->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L301 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "device_create->device_create_groups_vargs->kzalloc.128->kmalloc_large->__kmalloc_large_node->alloc_pages_node.1363->__alloc_pages_node.1365->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L301 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "device_create->device_create_groups_vargs->kzalloc.128->kmalloc_large->__kmalloc_large_node->alloc_pages_node.1363->__alloc_pages_node.1365->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L293 ], ",
+    "Trans func name": "kzalloc.92",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__class_create->__class_register->kzalloc.92",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L293 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "__class_create->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L293 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "__class_create->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L293 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "__class_create->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoechr_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L293 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "__class_create->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "Trans func name": "__pskb_pull_tail",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2389",
+    "Check": "No check",
+    "Call Path": "__pskb_pull_tail"
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "Trans func name": "pskb_expand_head",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1824 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__pskb_pull_tail->skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head"
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "__pskb_pull_tail->skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "__pskb_pull_tail->skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "__pskb_pull_tail->skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "__pskb_pull_tail->skb_clone->skb_orphan_frags.1726->skb_copy_ubufs->skb_unclone->pskb_expand_head->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L146 ], ",
+    "Trans func name": "skb_panic",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L120",
+    "Check": "No check",
+    "Call Path": "skb_push->skb_under_panic->skb_panic"
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1385 ], [ ata_rw_frameinit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L328 ], [ aoecmd_cfg_pkts | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L430 ], ",
+    "Trans func name": "skb_put",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2157",
+    "Check": "No check",
+    "Call Path": "skb_put"
+  },
+  {
+    "Drv caller": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1385 ], [ ata_rw_frameinit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L328 ], [ aoecmd_cfg_pkts | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L430 ], ",
+    "Trans func name": "skb_panic",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L120",
+    "Check": "No check",
+    "Call Path": "skb_put->skb_over_panic->skb_panic"
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L220 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "skb_queue_purge->kfree_skb.1681->kfree_skb_reason->__kfree_skb->skb_release_all->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L220 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "skb_queue_purge->kfree_skb.1681->kfree_skb_reason->__kfree_skb->skb_release_all->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L220 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "skb_queue_purge->kfree_skb.1681->kfree_skb_reason->__kfree_skb->skb_release_all->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L220 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "skb_queue_purge->kfree_skb.1681->kfree_skb_reason->__kfree_skb->skb_release_all->skb_release_data->skb_free_head->skb_free_frag->page_frag_free->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L221 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "dev_remove_pack->synchronize_net->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L221 ], ",
+    "Trans func name": "panic_on_rcu_stall",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L146",
+    "Call Path": "dev_remove_pack->synchronize_net->synchronize_rcu->synchronize_rcu_expedited->rcu_exp_sel_wait_wake->rcu_exp_wait_wake->synchronize_rcu_expedited_wait->panic_on_rcu_stall",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L142 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_stall.h#L145 | "
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L221 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "dev_remove_pack->synchronize_net->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L221 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "dev_remove_pack->synchronize_net->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoenet_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L221 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "dev_remove_pack->synchronize_net->synchronize_rcu->synchronize_rcu_expedited->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L436 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "kmem_cache_destroy->shutdown_cache->schedule_work.1386->queue_work.1387->queue_work_on->__queue_work->insert_work->wake_up_worker->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L442 ], ",
+    "Trans func name": "kmem_cache_create_usercopy",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L348",
+    "Call Path": "kmem_cache_create->kmem_cache_create_usercopy",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L346 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L347 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L442 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "kmem_cache_create->kmem_cache_create_usercopy->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L442 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "kmem_cache_create->kmem_cache_create_usercopy->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L442 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "kmem_cache_create->kmem_cache_create_usercopy->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L442 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "kmem_cache_create->kmem_cache_create_usercopy->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L423 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L288 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "mempool_destroy->mempool_exit->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L423 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L288 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "mempool_destroy->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L423 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L288 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mempool_destroy->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L423 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L288 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "mempool_destroy->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L423 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L288 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "mempool_destroy->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351 ], ",
+    "Trans func name": "mempool_init_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L123",
+    "Call Path": "mempool_create->mempool_create_node->mempool_init_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L179 |   br i1 %31, label %44, label %23, !llvm.loop !218939 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L123 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L202 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "mempool_create->mempool_create_node->mempool_init_node->mempool_exit->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "mempool_create->mempool_create_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mempool_create->mempool_create_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "mempool_create->mempool_create_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "mempool_create->mempool_create_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ nextbuf | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L863 ], ",
+    "Trans func name": "remove_element",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133",
+    "Call Path": "mempool_alloc->remove_element",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempool.c#L133 | "
+  },
+  {
+    "Drv caller": "[ nextbuf | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L863 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mempool_alloc->io_schedule_timeout->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ nextbuf | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L863 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "mempool_alloc->io_schedule_timeout->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ nextbuf | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L863 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "mempool_alloc->io_schedule_timeout->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ nextbuf | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L863 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "mempool_alloc->io_schedule_timeout->schedule_timeout->schedule->__schedule->schedule_debug->__schedule_bug->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ dummy_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L156 ], [ rexmit_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L819 ], [ aoedev_by_aoeaddr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L478 ], ",
+    "Trans func name": "add_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1196",
+    "Check": "No check",
+    "Call Path": "add_timer"
+  },
+  {
+    "Drv caller": "[ dummy_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L156 ], [ rexmit_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L819 ], [ aoedev_by_aoeaddr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L478 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "add_timer->__mod_timer"
+  },
+  {
+    "Drv caller": "[ discover_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L23 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mod_timer->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoedisk_add_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L196 ], ",
+    "Trans func name": "__debugfs_create_file",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/inode.c#L419",
+    "Check": "No check",
+    "Call Path": "debugfs_create_file->__debugfs_create_file"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "single_release->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "single_release->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "single_release->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "single_release->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_debugfs_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L154 ], ",
+    "Trans func name": "single_open",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "single_open",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | "
+  },
+  {
+    "Drv caller": "[ aoe_debugfs_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L154 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "single_open->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoe_debugfs_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L154 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "single_open->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoe_debugfs_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L154 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "single_open->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoe_debugfs_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L154 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "single_open->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1749 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "free_pages->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1749 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "free_pages->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1749 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "free_pages->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoecmd_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1749 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "free_pages->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L39 ], [ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L87 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "destroy_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L39 ], [ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L87 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "destroy_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L39 ], [ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L87 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "destroy_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoe_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L39 ], [ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L87 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "destroy_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 ], [ aoedev_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "__flush_workqueue->complete->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "kzalloc.489",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_workqueue->alloc_workqueue_attrs->kzalloc.489",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "init_pwq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/workqueue.c#L3802",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->alloc_and_link_pwqs->init_pwq"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "kzalloc_node.505",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->kzalloc_node.505",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "kzalloc.128",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_workqueue->workqueue_sysfs_register->device_register->device_add->device_private_init->kzalloc.128",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "alloc_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoe_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L47 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "alloc_workqueue->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L421 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L281 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "blk_mq_free_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L421 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L281 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "blk_mq_free_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L421 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L281 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "blk_mq_free_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L421 ], [ freedev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L281 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "blk_mq_free_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366 ], ",
+    "Trans func name": "blk_mq_update_queue_map",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4387",
+    "Check": "No check",
+    "Call Path": "blk_mq_alloc_tag_set->blk_mq_update_queue_map"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366 ], ",
+    "Trans func name": "kmalloc_array_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "blk_mq_alloc_tag_set->kcalloc_node->kmalloc_array_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L662 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "blk_mq_alloc_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "blk_mq_alloc_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "blk_mq_alloc_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "blk_mq_alloc_tag_set->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "kzalloc_node.37",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__blk_mq_alloc_disk->__alloc_disk_node->kzalloc_node.37",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "blk_mq_map_swqueue",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3867",
+    "Check": "No check",
+    "Call Path": "__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_map_swqueue"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "kzalloc.359",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_alloc_ctxs->kzalloc.359",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "kmalloc_array_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_alloc_and_init_hctx->blk_mq_alloc_hctx->kmalloc_array_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L662 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "kzalloc_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_alloc_and_init_hctx->blk_mq_alloc_hctx->kzalloc_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L567 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "__cpuhp_state_remove_instance",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L2173",
+    "Check": "No check",
+    "Call Path": "__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_exit_hctx->blk_mq_remove_cpuhp->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "__pick_next_task",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L5886",
+    "Check": "No check",
+    "Call Path": "__blk_mq_alloc_disk->__alloc_disk_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->__schedule->pick_next_task->__pick_next_task"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "cpuhp_issue_call",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/cpu.c#L1989",
+    "Check": "No check",
+    "Call Path": "__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_exit_hctx->blk_mq_remove_cpuhp->cpuhp_state_remove_instance_nocalls->__cpuhp_state_remove_instance->cpuhp_issue_call"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "add_taint",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L542",
+    "Call Path": "__blk_mq_alloc_disk->__alloc_disk_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/panic.c#L540 | "
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "__blk_mq_alloc_disk->__alloc_disk_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ aoeblk_gdalloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373 ], ",
+    "Trans func name": "select_fallback_rq",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3485",
+    "Check": "No check",
+    "Call Path": "__blk_mq_alloc_disk->__alloc_disk_node->kfree->free_large_kmalloc->__free_pages->free_the_page->free_unref_page->free_unref_page_prepare->free_pcp_prepare->free_page_is_bad->free_page_is_bad_report->bad_page->add_taint->panic->panic_print_sys_info->show_state->show_state_filter->sched_show_task->rcu_read_unlock.1009->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq"
+  },
+  {
+    "Drv caller": "[ aoe_end_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1046 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "__blk_mq_end_request->__blk_mq_end_request_acct->blk_mq_poll_stats_start->blk_stat_activate_msecs->mod_timer->__mod_timer"
+  }
+]

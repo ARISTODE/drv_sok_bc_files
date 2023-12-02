@@ -1,0 +1,20 @@
+[
+  {
+    "No. entry": 3
+  },
+  {
+    "Drv func": "gl518_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L160"
+  },
+  {
+    "Drv func": "gl518_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L144 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L147"
+  },
+  {
+    "Drv func": "gl518_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L136 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L136 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl518sm.c#L139"
+  }
+]

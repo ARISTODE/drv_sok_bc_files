@@ -1,0 +1,105 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "i7300_init_one(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1124) | i7300_remove_one(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1152) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "edac_mc_del_mc",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]i7300_remove_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1133 )->edac_mc_del_mc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L684 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "edac_mc_del_mc",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [3]i7300_remove_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1133 )->edac_mc_del_mc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L684 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "edac_mc_add_mc_with_groups",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]i7300_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1021 )->edac_mc_add_mc_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L600 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "edac_mc_add_mc_with_groups",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [3]i7300_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1021 )->edac_mc_add_mc_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L600 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "pci_write_config_dword",
+    "risky func": "pci_bus_write_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_process_error_global ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L351 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_process_error_global ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L351 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )( [3]i7300_enable_error_reporting ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L556 )->pci_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L589 )->pci_bus_write_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L71 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "edac_mc_alloc",
+    "risky func": "kzalloc",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [3]i7300_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1021 )->edac_mc_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L334 )->kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "pci_read_config_dword",
+    "risky func": "pci_bus_read_config_dword",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_error_global ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L351 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_error_global ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L351 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_enable_error_reporting ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L556 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_clear_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L519 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L562 )->pci_bus_read_config_dword ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "pci_read_config_word",
+    "risky func": "pci_bus_read_config_word",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_init_csrows ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L745 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_process_fbd_error ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L406 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_init_csrows ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L745 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_init_csrows ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L745 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )( [3]i7300_get_mc_regs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L838 )->pci_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L552 )->pci_bus_read_config_word ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "pci_get_device",
+    "risky func": "pci_get_subsys",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]i7300_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L934 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]i7300_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L934 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )( [3]i7300_get_devices ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L934 )->pci_get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L330 )->pci_get_subsys ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L301 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "pci_enable_device",
+    "Risky API Class": "bus",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "i7300_init_one(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1029) | "
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "pci_unregister_driver",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]i7300_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1198 )->pci_unregister_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1456 )->pci_free_dynids ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L81 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

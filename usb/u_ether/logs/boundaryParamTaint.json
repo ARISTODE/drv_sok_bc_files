@@ -1,0 +1,70 @@
+[
+  {
+    "id": "9",
+    "risky": "val-sen-api (vmalloc)",
+    "acc_path": "sizeof_priv",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethernet/eth.c#L394",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L706",
+    "drv caller (param)": "[ gether_setup_name | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L760 ], ",
+    "call path (param)": " [gether_setup_name->alloc_etherdev_mqs->alloc_netdev_mqs->kvzalloc->kvmalloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_etherdev_mqs->alloc_netdev_mqs->kvzalloc->kvmalloc] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "9",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10579 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10573 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10588 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10646 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "14",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L579",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L446",
+    "drv caller (param)": "[ rx_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L223 ], ",
+    "call path (param)": " [rx_submit->__netdev_alloc_skb->__alloc_skb->kmalloc_reserve] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__netdev_alloc_skb->__alloc_skb->kmalloc_reserve] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "14",
+    "risky": "arr-idx",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L579",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L522",
+    "drv caller (param)": "[ rx_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L223 ], ",
+    "call path (param)": " [rx_submit->__netdev_alloc_skb->__alloc_skb] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__netdev_alloc_skb->__alloc_skb] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L516 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "15",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp_mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L579",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L454",
+    "drv caller (param)": "[ rx_submit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L223 ], ",
+    "call path (param)": " [rx_submit->__netdev_alloc_skb->__alloc_skb->kmalloc_reserve] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__netdev_alloc_skb->__alloc_skb->kmalloc_reserve] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L506 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L449 | ",
+    "isControl": "0"
+  }
+]

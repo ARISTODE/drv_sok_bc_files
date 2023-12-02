@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "gr_free_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L1648) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "devm_request_threaded_irq",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [4]gr_request_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/gr_udc.c#L2117 )->devm_request_threaded_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/devres.c#L51 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

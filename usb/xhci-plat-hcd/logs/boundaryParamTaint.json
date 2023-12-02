@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "num",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L263",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L225",
+    "drv caller (param)": "[ xhci_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L194 ], ",
+    "call path (param)": " [xhci_plat_probe->platform_get_irq->platform_get_irq_optional] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [platform_get_irq->platform_get_irq_optional] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L213 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | ",
+    "isControl": "0"
+  }
+]

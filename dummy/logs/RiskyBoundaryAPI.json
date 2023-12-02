@@ -1,0 +1,226 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "__alloc_percpu_gfp",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [4]dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "__alloc_percpu_gfp",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [4]dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "__alloc_percpu_gfp",
+    "risky func": "kzalloc.144",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [7]dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->pcpu_populate_chunk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L276 )->pcpu_get_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L32 )->pcpu_mem_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L508 )->kzalloc.144 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "netif_carrier_on",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 5,
+    "call path": "( [4]dummy_change_carrier ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L82 )->netif_carrier_on ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L575 )->__netdev_watchdog_up ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L543 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "alloc_netdev_mqs",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [4]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->alloc_netdev_mqs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10557 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "alloc_netdev_mqs",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->alloc_netdev_mqs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10557 )->__alloc_percpu ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1948 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "alloc_netdev_mqs",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [5]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->alloc_netdev_mqs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10557 )->__alloc_percpu ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1948 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "alloc_netdev_mqs",
+    "risky func": "kzalloc.144",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 15,
+    "call path": "( [8]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->alloc_netdev_mqs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10557 )->__alloc_percpu ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1948 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->pcpu_populate_chunk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L276 )->pcpu_get_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L32 )->pcpu_mem_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L508 )->kzalloc.144 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "rtnl_lock",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "call path": "( [3]dummy_init_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L180 )->rtnl_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L72 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "rtnl_link_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 19,
+    "call path": "( [5]dummy_cleanup_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L204 )->rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L517 )->rtnl_lock_unregistering_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L485 )->rtnl_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L72 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "rtnl_link_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 78,
+    "call path": "( [5]dummy_cleanup_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L204 )->rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L517 )->rtnl_lock_unregistering_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L485 )->__rtnl_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L94 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "rtnl_link_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [11]dummy_cleanup_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L204 )->rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L517 )->rtnl_lock_unregistering_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L485 )->__rtnl_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L94 )->kfree_skb.421 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1223 )->kfree_skb_reason ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L885 )->__kfree_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L868 )->skb_release_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L852 )->skb_release_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L766 )->skb_free_head ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L753 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "rtnl_link_unregister",
+    "risky func": "del_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 18,
+    "call path": "( [10]dummy_cleanup_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L204 )->rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L517 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->dev_close_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1532 )->__dev_close_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1479 )->dev_deactivate_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1337 )->dev_watchdog_down ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L561 )->del_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "rtnl_link_unregister",
+    "risky func": "kzalloc.144",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 82,
+    "call path": "( [16]dummy_cleanup_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L204 )->rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L517 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->pcpu_populate_chunk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L276 )->pcpu_get_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L32 )->pcpu_mem_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L508 )->kzalloc.144 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "__rtnl_link_unregister",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [12]dummy_init_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L180 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->kfree_skb.421 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1223 )->kfree_skb_reason ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L885 )->__kfree_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L868 )->skb_release_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L852 )->skb_release_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L766 )->skb_free_head ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L753 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "__rtnl_link_unregister",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 19,
+    "call path": "( [12]dummy_init_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L180 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "__rtnl_link_unregister",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 78,
+    "call path": "( [12]dummy_init_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L180 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "__rtnl_link_unregister",
+    "risky func": "del_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 18,
+    "call path": "( [9]dummy_init_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L180 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->dev_close_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1532 )->__dev_close_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1479 )->dev_deactivate_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1337 )->dev_watchdog_down ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L561 )->del_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "__rtnl_link_unregister",
+    "risky func": "kzalloc.144",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 82,
+    "call path": "( [15]dummy_init_module ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L180 )->__rtnl_link_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L471 )->__rtnl_kill_links ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L451 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->pcpu_populate_chunk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L276 )->pcpu_get_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L32 )->pcpu_mem_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L508 )->kzalloc.144 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "register_netdevice",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 57,
+    "call path": "( [12]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->register_netdevice ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 )->rtmsg_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3976 )->rtmsg_ifinfo_event ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3961 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->kfree_skb.421 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1223 )->kfree_skb_reason ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L885 )->__kfree_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L868 )->skb_release_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L852 )->skb_release_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L766 )->skb_free_head ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L753 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "register_netdevice",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 50,
+    "call path": "( [12]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->register_netdevice ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 )->rtmsg_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3976 )->rtmsg_ifinfo_event ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3961 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "register_netdevice",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 109,
+    "call path": "( [12]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->register_netdevice ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 )->rtmsg_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3976 )->rtmsg_ifinfo_event ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3961 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "register_netdevice",
+    "risky func": "kzalloc.144",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 113,
+    "call path": "( [15]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->register_netdevice ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 )->rtmsg_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3976 )->rtmsg_ifinfo_event ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3961 )->rtmsg_ifinfo_build_skb ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3925 )->rtnl_fill_ifinfo ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1737 )->rtnl_xdp_fill ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1499 )->rtnl_xdp_report_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1475 )->dummy_dev_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L68 )->__alloc_percpu_gfp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1935 )->pcpu_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1722 )->pcpu_populate_chunk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L276 )->pcpu_get_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu-vm.c#L32 )->pcpu_mem_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L508 )->kzalloc.144 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "register_netdevice",
+    "risky func": "del_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 49,
+    "call path": "( [9]dummy_init_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L160 )->register_netdevice ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 )->unregister_netdevice_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10767 )->unregister_netdevice_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 )->dev_close_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1532 )->__dev_close_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1479 )->dev_deactivate_many ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1337 )->dev_watchdog_down ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L561 )->del_timer ( Unknown Loc ) )"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "No. entry": 13
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L254"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L238 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L255 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L261 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L264"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L230"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L332 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L329 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L333"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L189 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L194"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L347 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L360"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L232 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L237"
+  },
+  {
+    "Drv func": "xhci_plat_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L464 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L468 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L473"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L227"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L347 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L348"
+  },
+  {
+    "Drv func": "xhci_plat_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L410 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L411"
+  },
+  {
+    "Drv func": "xhci_plat_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L205 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L207"
+  },
+  {
+    "Drv func": "xhci_plat_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L401 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-plat.c#L402"
+  }
+]

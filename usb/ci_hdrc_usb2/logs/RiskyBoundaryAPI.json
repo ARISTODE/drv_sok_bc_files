@@ -1,0 +1,11 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "devm_clk_get_optional",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [5]ci_hdrc_usb2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 )->devm_clk_get_optional ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L82 )->__devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L22 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  }
+]

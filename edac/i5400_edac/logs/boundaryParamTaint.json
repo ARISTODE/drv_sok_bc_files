@@ -1,0 +1,94 @@
+[
+  {
+    "id": "17",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "vendor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i5400_get_devices | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L805 ], ",
+    "call path (param)": " [i5400_get_devices->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "18",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "device",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i5400_get_devices | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L805 ], ",
+    "call path (param)": " [i5400_get_devices->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "20",
+    "risky": "ptr-write",
+    "acc_path": "val",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L569",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 |   %12 = alloca i32, align 4",
+    "drv caller (param)": "[ i5400_enable_error_reporting | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1235 ], ",
+    "call path (param)": " [i5400_enable_error_reporting->pci_read_config_dword->pci_bus_read_config_dword] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_read_config_dword->pci_bus_read_config_dword] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "22",
+    "risky": "ptr-write",
+    "acc_path": "val",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L558",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67",
+    "drv caller (param)": "[ i5400_get_mc_regs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L1111 ], ",
+    "call path (param)": " [i5400_get_mc_regs->pci_read_config_word->pci_bus_read_config_word] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_read_config_word->pci_bus_read_config_word] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L67 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "31",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "msg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L1085",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L977",
+    "drv caller (param)": "[ i5400_process_nonfatal_error_info | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5400_edac.c#L635 ], ",
+    "call path (param)": " [i5400_process_nonfatal_error_info->i5400_proccess_non_recoverable_info->edac_mc_handle_error] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [edac_mc_handle_error] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L943 |   %54 = getelementptr [24 x i8], [24 x i8]* @.str.43.87, i64 0, i64 0 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_mc.c#L977 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]

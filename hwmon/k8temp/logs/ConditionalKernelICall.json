@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "k8temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L176 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L185"
+  },
+  {
+    "Drv func": "k8temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L176 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L182"
+  },
+  {
+    "Drv func": "k8temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L196 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L198"
+  },
+  {
+    "Drv func": "k8temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L190"
+  },
+  {
+    "Drv func": "k8temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L196 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L199"
+  },
+  {
+    "Drv func": "k8temp_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L176 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/k8temp.c#L189"
+  }
+]

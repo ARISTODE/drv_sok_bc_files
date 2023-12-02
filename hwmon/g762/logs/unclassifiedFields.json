@@ -1,0 +1,102 @@
+{
+  "id": 3,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L1036 | g762_probe",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L867 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L867 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L867 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L867 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L867 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L867 | pwm1_enable_store",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}
+{
+  "id": 20,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/g762.c#L855 | pwm1_enable_show",
+  "Drv update": ""
+}

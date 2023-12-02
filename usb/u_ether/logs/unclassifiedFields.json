@@ -1,0 +1,138 @@
+{
+  "id": 4,
+  "acc_path": "net_device->min_mtu",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1771],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8648], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L864],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L798], "
+}
+{
+  "id": 5,
+  "acc_path": "net_device->max_mtu",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8653],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1772],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8653], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L865],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L799], "
+}
+{
+  "id": 8,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "txqs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/ethernet/eth.c#L391 | alloc_etherdev_mqs",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "rxqs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/ethernet/eth.c#L391 | alloc_etherdev_mqs",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock.c#L192 | _raw_spin_unlock_irqrestore",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/skbuff.c#L2154 | skb_put",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L626 | eth_open",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L475 | eth_start_xmit",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L475 | eth_start_xmit",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L475 | eth_start_xmit",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_ether.c#L475 | eth_start_xmit",
+  "Drv update": ""
+}

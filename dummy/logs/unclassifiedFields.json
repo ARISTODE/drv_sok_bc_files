@@ -1,0 +1,120 @@
+{
+  "id": 1,
+  "acc_path": "net_device->priv_flags",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/netdevice.h#L5008],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8457],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10640],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1154],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethernet/eth.c#L291],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1200],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethernet/eth.c#L369],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L5214],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1195],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L1176],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4215], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L125], "
+}
+{
+  "id": 3,
+  "acc_path": "net_device->features",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1611],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4409],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/net/udp_tunnel.h#L144],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9583],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10936],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L3404],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L955],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1590],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10002],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10021],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9722],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10024],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/net/udp_tunnel.h#L136],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4894],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9748],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/netdevice.h#L4899],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L3556],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4315],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4318],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4264],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4257],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4888],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9589],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4268],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L340],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10028],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9733],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9719],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L346],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11295], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L127],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L129],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L128],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L126], "
+}
+{
+  "id": 4,
+  "acc_path": "net_device->hw_features",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/netdevice.h#L4899],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10031],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10002],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10020],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10025],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10038],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10028],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10039], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L130], "
+}
+{
+  "id": 5,
+  "acc_path": "net_device->hw_enc_features",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10044],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10045],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L3566],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10053], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L131], "
+}
+{
+  "id": 6,
+  "acc_path": "net_device->min_mtu",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8648],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1771], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L134], "
+}
+{
+  "id": 7,
+  "acc_path": "net_device->max_mtu",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8653],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1772],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8653], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L135], "
+}
+{
+  "id": 10,
+  "acc_path": "sizeof_priv",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/dev.c#L10557 | alloc_netdev_mqs",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "name_assign_type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/dev.c#L10557 | alloc_netdev_mqs",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "txqs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/dev.c#L10557 | alloc_netdev_mqs",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "rxqs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/dev.c#L10557 | alloc_netdev_mqs",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L68 | dummy_dev_init",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L68 | dummy_dev_init",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L68 | dummy_dev_init",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L68 | dummy_dev_init",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L68 | dummy_dev_init",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L68 | dummy_dev_init",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L59 | dummy_xmit",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L59 | dummy_xmit",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L59 | dummy_xmit",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "netdev_tx_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/net/dummy.c#L59 | dummy_xmit",
+  "Drv update": ""
+}

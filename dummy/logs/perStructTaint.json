@@ -1,0 +1,265 @@
+[
+  {
+    "struct name": "u64_stats_sync",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "rtnl_link_ops",
+    "No.Fields": 26,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "rtnl_link_stats64",
+    "No.Fields": 25,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "ethtool_ops",
+    "No.Fields": 71,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "netlink_ext_ack",
+    "No.Fields": 7,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "nlattr",
+    "No.Fields": 2,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "sk_buff",
+    "No.Fields": 25,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "net_device_ops",
+    "No.Fields": 76,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "net_device",
+    "No.Fields": 134,
+    "No.Shared fields": 13,
+    "No.KRDU fields": 10,
+    "No.classified fields": 4,
+    "No.unclassified fields": 6,
+    "PTR_READ": 3,
+    "PTR_WRITE": 2,
+    "BRANCH": 4,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 6
+  },
+  {
+    "id": "0",
+    "risky": "val-sen-branch (kfree)",
+    "acc_path": "net_device->flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4243",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4243",
+    "drv_update loc (shared field)": "[ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L123 ], [ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L124 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4226 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4226 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "net_device->netdev_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4420",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4420",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L118 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4417 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4417 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4420 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L4420 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "2",
+    "risky": "ptr-write",
+    "acc_path": "net_device->netdev_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8167",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L8164 |   %6 = alloca %struct.net_device_ops.427*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L118 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-sen-branch (memset)",
+    "acc_path": "net_device->netdev_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10430",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10433",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L118 ], ",
+    "call path (type)": " [rtnl_link_unregister->__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_fill_stats->dev_get_stats] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "8",
+    "risky": "ptr-read",
+    "acc_path": "net_device->ethtool_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9976",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9976",
+    "drv caller (param)": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "call path (param)": " [dummy_init_one->register_netdevice] ",
+    "drv_update loc (shared field)": "[ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L119 ], ",
+    "call path (type)": " [register_netdevice] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "8",
+    "risky": "ptr-sen-branch (memset)",
+    "acc_path": "net_device->ethtool_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L445",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L445",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dummy_setup) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L119 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L445 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L445 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/ethtool/ioctl.c#L445 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "9",
+    "risky": "ptr-read",
+    "acc_path": "net_device->rtnl_link_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5524",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5524",
+    "drv_update loc (shared field)": "[ (dummy_init_one) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L169 ], ",
+    "call path (type)": "",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5482 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5472 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5482 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5497 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "ptr-write",
+    "acc_path": "net_device->rtnl_link_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5524",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L5455 |   %40 = alloca %struct.rtnl_link_ops.3295*, align 8",
+    "drv_update loc (shared field)": "[ (dummy_init_one) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L169 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "ptr-sen-branch (memset)",
+    "acc_path": "net_device->rtnl_link_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11299",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10433",
+    "drv_update loc (shared field)": "[ (dummy_init_one) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L169 ], ",
+    "call path (type)": " [rtnl_link_unregister->__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_fill_stats->dev_get_stats] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "66",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11299 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11299 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1780 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1807 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1765 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3967 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10952 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1792 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1765 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1769 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1768 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1810 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1789 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1750 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10433 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1770 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10936 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10963 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10436 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1240 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1799 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1771 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10940 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1785 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1777 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1822 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1783 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1778 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1794 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1816 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1819 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1788 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1834 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1768 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1787 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1802 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1845 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L3935 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1772 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11290 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1779 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/rtnetlink.c#L1786 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10945 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10963 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10993 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10994 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "ptr-sen-api (memcpy)",
+    "acc_path": "net_device->rtnl_link_ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11299",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev_addr_lists.c#L487",
+    "drv_update loc (shared field)": "[ (dummy_init_one) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L169 ], ",
+    "call path (type)": " [free_netdev->dev_addr_flush->__hw_addr_flush] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "17",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11299 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11299 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11295 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L11290 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10963 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10994 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10945 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10963 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10993 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10936 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10954 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10940 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10952 | ",
+    "isControl": "0"
+  }
+]

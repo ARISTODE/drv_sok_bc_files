@@ -1,0 +1,210 @@
+{
+  "id": 0,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock.c#L192 | _raw_spin_unlock_irqrestore",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "irq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/manage.c#L2018 | free_irq",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "xloops",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/arch/x86/lib/delay.c#L207 | __const_udelay",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L419 | platform_get_resource_byname",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L55 | platform_get_resource",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L55 | platform_get_resource",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1782 | mv_u3d_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1782 | mv_u3d_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1782 | mv_u3d_probe",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1782 | mv_u3d_probe",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1782 | mv_u3d_probe",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1782 | mv_u3d_probe",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1994 | mv_u3d_suspend",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1133 | mv_u3d_vbus_session",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/udc/mv_u3d_core.c#L1133 | mv_u3d_vbus_session",
+  "Drv update": ""
+}

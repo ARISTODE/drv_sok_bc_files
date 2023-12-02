@@ -1,0 +1,744 @@
+{
+  "id": 1,
+  "acc_path": "queue_limits->max_segment_size",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1154], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3629], "
+}
+{
+  "id": 2,
+  "acc_path": "queue_limits->logical_block_size",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1180],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1181], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L3631], "
+}
+{
+  "id": 4,
+  "acc_path": "bvec_iter->bi_size",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L981],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L102],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1211],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L121],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1059],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1343],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1341],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L154],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L167],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1588],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L590],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1276],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L167],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L957],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L907],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L906],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1342],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1341],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm.c#L489],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L116],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L154],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L850],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L590],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L536],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L902],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L136],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1613],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L116],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L501],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L127],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L821], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L102],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L127],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L123],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1154], "
+}
+{
+  "id": 14,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/workqueue.c#L4292 | alloc_workqueue",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "max_active",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/workqueue.c#L4292 | alloc_workqueue",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock.c#L192 | _raw_spin_unlock_irqrestore",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "func",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/ratelimit.c#L27 | ___ratelimit",
+  "Drv update": ""
+}
+{
+  "id": 29,
+  "acc_path": "authsize",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/crypto/aead.c#L64 | crypto_aead_setauthsize",
+  "Drv update": ""
+}
+{
+  "id": 31,
+  "acc_path": "amount",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/percpu_counter.c#L141 | __percpu_counter_init",
+  "Drv update": ""
+}
+{
+  "id": 32,
+  "acc_path": "gfp",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/percpu_counter.c#L141 | __percpu_counter_init",
+  "Drv update": ""
+}
+{
+  "id": 33,
+  "acc_path": "len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L1074 | bio_add_page",
+  "Drv update": ""
+}
+{
+  "id": 35,
+  "acc_path": "gfp_mask",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio-integrity.c#L48 | bio_integrity_alloc",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "nr_vecs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio-integrity.c#L48 | bio_integrity_alloc",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio-integrity.c#L123 | bio_integrity_add_page",
+  "Drv update": ""
+}
+{
+  "id": 38,
+  "acc_path": "offset",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio-integrity.c#L123 | bio_integrity_add_page",
+  "Drv update": ""
+}
+{
+  "id": 39,
+  "acc_path": "data",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/softirq.c#L838 | tasklet_init",
+  "Drv update": ""
+}
+{
+  "id": 40,
+  "acc_path": "n_sectors",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm.c#L1311 | dm_accept_partial_bio",
+  "Drv update": ""
+}
+{
+  "id": 41,
+  "acc_path": "data_size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm.c#L96 | dm_per_bio_data",
+  "Drv update": ""
+}
+{
+  "id": 42,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-zone.c#L110 | dm_report_zones",
+  "Drv update": ""
+}
+{
+  "id": 43,
+  "acc_path": "sector",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-zone.c#L110 | dm_report_zones",
+  "Drv update": ""
+}
+{
+  "id": 44,
+  "acc_path": "nr_zones",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-zone.c#L110 | dm_report_zones",
+  "Drv update": ""
+}
+{
+  "id": 45,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-table.c#L342 | dm_get_device",
+  "Drv update": ""
+}
+{
+  "id": 50,
+  "acc_path": "pool_size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L1679 | bioset_init",
+  "Drv update": ""
+}
+{
+  "id": 51,
+  "acc_path": "front_pad",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L1679 | bioset_init",
+  "Drv update": ""
+}
+{
+  "id": 52,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L1679 | bioset_init",
+  "Drv update": ""
+}
+{
+  "id": 53,
+  "acc_path": "gfp",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L794 | bio_alloc_clone",
+  "Drv update": ""
+}
+{
+  "id": 55,
+  "acc_path": "opf",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L470 | bio_alloc_bioset",
+  "Drv update": ""
+}
+{
+  "id": 56,
+  "acc_path": "gfp_mask",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bio.c#L470 | bio_alloc_bioset",
+  "Drv update": ""
+}
+{
+  "id": 63,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L423 | crypt_iv_lmk_ctr",
+  "Drv update": ""
+}
+{
+  "id": 64,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 64,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 64,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 65,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 65,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 65,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 66,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 66,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 66,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 66,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 66,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L743 | crypt_iv_eboiv_gen",
+  "Drv update": ""
+}
+{
+  "id": 68,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L423 | crypt_iv_lmk_ctr",
+  "Drv update": ""
+}
+{
+  "id": 68,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L727 | crypt_iv_eboiv_ctr",
+  "Drv update": ""
+}
+{
+  "id": 69,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 69,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 69,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 69,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 69,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 70,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L423 | crypt_iv_lmk_ctr",
+  "Drv update": ""
+}
+{
+  "id": 71,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 71,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 71,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 71,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 71,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 72,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 72,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 72,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 72,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 72,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 73,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 73,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 73,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 73,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 73,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 74,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L423 | crypt_iv_lmk_ctr",
+  "Drv update": ""
+}
+{
+  "id": 75,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 75,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 75,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 76,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 76,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 76,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 77,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 77,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 77,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 77,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 77,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 78,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 78,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 78,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 78,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 78,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 79,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 79,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 79,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 79,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 79,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 80,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L423 | crypt_iv_lmk_ctr",
+  "Drv update": ""
+}
+{
+  "id": 81,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 81,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 81,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 82,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 82,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 82,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L456 | crypt_iv_lmk_init",
+  "Drv update": ""
+}
+{
+  "id": 83,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 83,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 83,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 83,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 83,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 84,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 84,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 84,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 84,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 84,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 85,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 85,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 85,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 85,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 85,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 86,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 86,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 86,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 86,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 86,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 87,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 87,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 87,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 87,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}
+{
+  "id": 87,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/md/dm-crypt.c#L527 | crypt_iv_lmk_gen",
+  "Drv update": ""
+}

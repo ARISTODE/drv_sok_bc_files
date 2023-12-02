@@ -1,0 +1,36 @@
+{
+  "id": 0,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2910 | regmap_read",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L3158 | regmap_bulk_read",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "val_count",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L3158 | regmap_bulk_read",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/ltc4222.c#L180 | ltc4222_probe",
+  "Drv update": ""
+}

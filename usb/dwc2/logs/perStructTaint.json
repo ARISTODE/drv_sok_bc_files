@@ -1,0 +1,407 @@
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 7,
+    "No.KRDU fields": 3,
+    "No.classified fields": 3,
+    "No.unclassified fields": 0,
+    "PTR_READ": 2,
+    "PTR_WRITE": 1,
+    "BRANCH": 2,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "device->dma_mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L535",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L535",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dwc2_driver_probe) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/platform.c#L421 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "1",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "device->archdata",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1449",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1449",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dwc2_hsotg_udc_start) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L4549 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "device->of_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5099",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5099",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dwc2_hsotg_udc_start) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L4549 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->of_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1449",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1449",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (dwc2_hsotg_udc_start) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L4549 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-write",
+    "acc_path": "device->of_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/property.c#L23",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/property.c#L20 |   %3 = alloca %struct.device_node.1229*, align 8",
+    "drv caller (param)": "[ dwc2_drd_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/drd.c#L175 ], ",
+    "call path (param)": " [dwc2_drd_init->device_property_read_bool->device_property_present->dev_fwnode] ",
+    "drv_update loc (shared field)": "[ (dwc2_hsotg_udc_start) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L4549 ], ",
+    "call path (type)": " [dev_fwnode] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "fwnode_handle",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "inode",
+    "No.Fields": 50,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dentry",
+    "No.Fields": 16,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "of_device_id",
+    "No.Fields": 4,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_driver",
+    "No.Fields": 19,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "acpi_device_id",
+    "No.Fields": 4,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_node",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dev_archdata",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "property",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "clk",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "seq_file",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "workqueue_struct",
+    "No.Fields": 21,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "work_struct",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "timer_list",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "debugfs_reg32",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "debugfs_regset32",
+    "No.Fields": 4,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 3,
+    "No.classified fields": 3,
+    "No.unclassified fields": 0,
+    "PTR_READ": 2,
+    "BRANCH": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "3",
+    "risky": "ptr-read",
+    "acc_path": "debugfs_regset32->regs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1147",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1147",
+    "drv_update loc (shared field)": "[ (dwc2_debugfs_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L795 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "4",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "debugfs_regset32->nregs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1147",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1129",
+    "drv_update loc (shared field)": "[ (dwc2_debugfs_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L796 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1147 ] -> [ ACTUAL_IN || PARAMETER_INint ] -> [ FORMAL_IN || PARAMETER_INnregs ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1129 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "5",
+    "risky": "ptr-read",
+    "acc_path": "debugfs_regset32->base",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1147",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/file.c#L1147",
+    "drv_update loc (shared field)": "[ (dwc2_debugfs_init) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L797 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]

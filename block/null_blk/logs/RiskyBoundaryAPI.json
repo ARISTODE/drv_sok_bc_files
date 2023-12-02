@@ -1,0 +1,736 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "io_schedule",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 17,
+    "call path": "( [20]alloc_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L756 )->io_schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8777 )->io_schedule_prepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8746 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "io_schedule",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 70,
+    "call path": "( [27]alloc_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L756 )->io_schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8777 )->io_schedule_prepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8746 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->null_handle_flush ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1189 )->null_make_cache_space ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1036 )->null_flush_cache_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L987 )->null_insert_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L952 )->null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "io_schedule",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 77,
+    "call path": "( [27]alloc_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L756 )->io_schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8777 )->io_schedule_prepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8746 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->null_handle_flush ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1189 )->null_make_cache_space ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1036 )->null_flush_cache_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L987 )->null_insert_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L952 )->null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "io_schedule",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 64,
+    "call path": "( [17]alloc_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L756 )->io_schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8777 )->io_schedule_prepare ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L8746 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->null_handle_flush ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1189 )->null_make_cache_space ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1036 )->null_flush_cache_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L987 )->null_free_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L831 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "kvfree",
+    "risky func": "vfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 0,
+    "No. path cond": 1,
+    "call path": "( [3]null_free_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L183 )->kvfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/util.c#L622 )->vfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/vmalloc.h#L163 ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "kvfree",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]null_free_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L183 )->kvfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/util.c#L622 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "cleanup_queue(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1699) | setup_commands(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1833) | null_add_dev(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2160) | null_alloc_page(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L823) | null_alloc_dev(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L662) | cleanup_queues(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1709) | null_free_dev(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L703) | nullb_device_badblocks_store(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L521) | null_del_dev(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1786) | null_free_page(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L837) | "
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "kstrndup",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 31,
+    "call path": "( [12]nullb_device_badblocks_store ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L480 )->kstrndup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/util.c#L98 )->__kmalloc_node_track_caller ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L972 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "kstrndup",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 24,
+    "call path": "( [12]nullb_device_badblocks_store ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L480 )->kstrndup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/util.c#L98 )->__kmalloc_node_track_caller ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L972 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "blk_mq_end_request",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [7]end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "configfs_register_subsystem",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 6,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_register_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1849 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "configfs_register_subsystem",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_register_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1849 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "configfs_register_subsystem",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 10,
+    "call path": "( [9]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_register_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1849 )->configfs_attach_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L846 )->configfs_attach_item ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L811 )->configfs_create_dir ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L282 )->configfs_remove_dirent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L260 )->configfs_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/configfs_internal.h#L153 )->release_configfs_dirent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/configfs_internal.h#L135 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "configfs_register_subsystem",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [7]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_register_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1849 )->link_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L777 )->link_obj ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L744 )->config_group_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/configfs.h#L95 )->config_item_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L101 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "configfs_register_subsystem",
+    "risky func": "kref_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [6]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_register_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1849 )->unlink_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L766 )->unlink_obj ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L725 )->config_item_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L146 )->kref_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "ida_free",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [3]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->ida_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L487 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->ida_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L487 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "ida_alloc_range",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [3]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->ida_alloc_range ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L380 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "ida_alloc_range",
+    "risky func": "kzalloc.681",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 8,
+    "call path": "( [3]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->ida_alloc_range ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L380 )->kzalloc.681 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "ida_alloc_range",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 46,
+    "call path": "( [13]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->ida_alloc_range ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L380 )->kzalloc.681 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "ida_alloc_range",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 39,
+    "call path": "( [13]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->ida_alloc_range ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L380 )->kzalloc.681 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "kmalloc_large",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 29,
+    "call path": "( [11]null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )( [11]kmalloc_array ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )( [11]kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "kmalloc_large",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 22,
+    "call path": "( [11]null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )( [11]kmalloc_array ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )( [11]kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "__kmalloc",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 30,
+    "call path": "( [11]null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )( [11]kmalloc_array ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )( [11]kmalloc_array ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )( [11]kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "__kmalloc",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 23,
+    "call path": "( [11]null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )( [11]kmalloc_array ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )( [11]kmalloc_array ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )( [11]kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->__kmalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L966 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "alloc_pages",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 29,
+    "call path": "( [8]null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempolicy.c#L2262 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 25,
+    "kernel boundary func name": "alloc_pages",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 22,
+    "call path": "( [8]null_alloc_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L813 )->alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/mempolicy.c#L2262 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 26,
+    "kernel boundary func name": "bitmap_free",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "call path": "( [3]cleanup_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1696 )->bitmap_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1412 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 27,
+    "kernel boundary func name": "bitmap_zalloc",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 30,
+    "call path": "( [14]setup_commands ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1822 )->bitmap_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1393 )->bitmap_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1386 )->kmalloc_array.82 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 28,
+    "kernel boundary func name": "bitmap_zalloc",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 23,
+    "call path": "( [14]setup_commands ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1822 )->bitmap_zalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1393 )->bitmap_alloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1386 )->kmalloc_array.82 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L597 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 29,
+    "kernel boundary func name": "__blk_alloc_disk",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1443 )->__alloc_disk_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1384 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 30,
+    "kernel boundary func name": "__blk_alloc_disk",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1443 )->blk_put_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L266 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 31,
+    "kernel boundary func name": "__blk_alloc_disk",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 33,
+    "call path": "( [14]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1443 )->__alloc_disk_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1384 )->kzalloc_node.153 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L698 )->__kmalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L960 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 32,
+    "kernel boundary func name": "__blk_alloc_disk",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [14]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1443 )->__alloc_disk_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1384 )->kzalloc_node.153 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L698 )->__kmalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L960 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 33,
+    "kernel boundary func name": "badblocks_exit",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]null_free_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L696 )->badblocks_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L591 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 34,
+    "kernel boundary func name": "badblocks_init",
+    "risky func": "kzalloc.302",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [4]null_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L652 )->badblocks_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L573 )->__badblocks_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L542 )->kzalloc.302 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 35,
+    "kernel boundary func name": "badblocks_init",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 35,
+    "call path": "( [14]null_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L652 )->badblocks_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L573 )->__badblocks_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L542 )->kzalloc.302 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 36,
+    "kernel boundary func name": "badblocks_init",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 28,
+    "call path": "( [14]null_alloc_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L652 )->badblocks_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L573 )->__badblocks_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/badblocks.c#L542 )->kzalloc.302 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 )->kmalloc_large ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1111 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 37,
+    "kernel boundary func name": "config_item_put",
+    "risky func": "kref_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]nullb_group_drop_item ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L594 )->config_item_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L146 )->kref_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 38,
+    "kernel boundary func name": "config_item_init_type_name",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]nullb_group_make_item ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L577 )->config_item_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L82 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 39,
+    "kernel boundary func name": "configfs_unregister_subsystem",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->mutex_lock ( Unknown Loc ) )( [3]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 40,
+    "kernel boundary func name": "configfs_unregister_subsystem",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->mutex_unlock ( Unknown Loc ) )( [3]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 41,
+    "kernel boundary func name": "configfs_unregister_subsystem",
+    "risky func": "kref_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 5,
+    "call path": "( [6]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->unlink_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L766 )->unlink_obj ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L725 )->config_item_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L146 )->kref_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )( [6]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->unlink_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L766 )->unlink_obj ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L725 )->config_item_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L146 )->kref_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L62 ) )"
+  },
+  {
+    "id": 42,
+    "kernel boundary func name": "configfs_unregister_subsystem",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [8]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->configfs_detach_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L886 )->configfs_detach_item ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L840 )->detach_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L551 )->configfs_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/configfs_internal.h#L153 )->release_configfs_dirent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/configfs_internal.h#L135 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [8]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->configfs_unregister_subsystem ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1909 )->configfs_detach_group ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L886 )->configfs_detach_item ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L840 )->detach_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L551 )->configfs_put ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/configfs_internal.h#L153 )->release_configfs_dirent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/configfs_internal.h#L135 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 43,
+    "kernel boundary func name": "__register_blkdev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->__register_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L219 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 44,
+    "kernel boundary func name": "__register_blkdev",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 26,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->__register_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L219 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 45,
+    "kernel boundary func name": "__register_blkdev",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 33,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->__register_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L219 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 46,
+    "kernel boundary func name": "del_gendisk",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 10,
+    "call path": "( [3]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->del_gendisk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L615 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 47,
+    "kernel boundary func name": "del_gendisk",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [3]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->del_gendisk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L615 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 48,
+    "kernel boundary func name": "del_gendisk",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [3]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->del_gendisk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L615 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 49,
+    "kernel boundary func name": "del_gendisk",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 36,
+    "call path": "( [27]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->del_gendisk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L615 )->blk_mq_exit_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4278 )->blk_mq_del_queue_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3943 )->blk_mq_update_tag_set_shared ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3929 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 50,
+    "kernel boundary func name": "del_gendisk",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 83,
+    "call path": "( [24]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->del_gendisk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L615 )->blk_mq_exit_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4278 )->blk_mq_del_queue_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3943 )->blk_mq_update_tag_set_shared ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3929 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->null_handle_flush ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1189 )->null_make_cache_space ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1036 )->null_flush_cache_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L987 )->null_free_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L831 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 51,
+    "kernel boundary func name": "unregister_blkdev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->unregister_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L288 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->unregister_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L288 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 52,
+    "kernel boundary func name": "unregister_blkdev",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->unregister_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L288 )->mutex_lock ( Unknown Loc ) )( [3]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->unregister_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L288 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 53,
+    "kernel boundary func name": "unregister_blkdev",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->unregister_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L288 )->mutex_unlock ( Unknown Loc ) )( [3]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->unregister_blkdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L288 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 54,
+    "kernel boundary func name": "blk_revalidate_disk_zones",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 74,
+    "call path": "( [3]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->blk_revalidate_disk_zones ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L554 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 55,
+    "kernel boundary func name": "blk_revalidate_disk_zones",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 80,
+    "call path": "( [5]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->blk_revalidate_disk_zones ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L554 )->null_report_zones ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L189 )->null_lock_zone ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L43 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 56,
+    "kernel boundary func name": "blk_revalidate_disk_zones",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 87,
+    "call path": "( [5]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->blk_revalidate_disk_zones ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L554 )->null_report_zones ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L189 )->null_unlock_zone ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L52 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 57,
+    "kernel boundary func name": "blk_revalidate_disk_zones",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 27,
+    "call path": "( [24]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->blk_revalidate_disk_zones ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L554 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 58,
+    "kernel boundary func name": "disk_set_zoned",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 70,
+    "call path": "( [5]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->disk_set_zoned ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L912 )->disk_clear_zone_settings ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L621 )->disk_free_zone_bitmaps ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L448 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 59,
+    "kernel boundary func name": "disk_set_zoned",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 76,
+    "call path": "( [7]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->disk_set_zoned ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L912 )->disk_clear_zone_settings ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L621 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_freeze_queue_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L164 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 60,
+    "kernel boundary func name": "disk_set_zoned",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 83,
+    "call path": "( [7]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->disk_set_zoned ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L912 )->disk_clear_zone_settings ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L621 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_freeze_queue_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L164 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 61,
+    "kernel boundary func name": "disk_set_zoned",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 23,
+    "call path": "( [25]null_register_zoned_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L157 )->disk_set_zoned ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L912 )->disk_clear_zone_settings ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L621 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 62,
+    "kernel boundary func name": "blk_mq_update_nr_hw_queues",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [3]nullb_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L345 )->blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4750 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 63,
+    "kernel boundary func name": "blk_mq_update_nr_hw_queues",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 39,
+    "call path": "( [3]nullb_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L345 )->blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4750 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 64,
+    "kernel boundary func name": "blk_mq_update_nr_hw_queues",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 69,
+    "call path": "( [22]nullb_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L345 )->blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4750 )->__blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4678 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->null_handle_flush ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1189 )->null_make_cache_space ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1036 )->null_flush_cache_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L987 )->null_free_page ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L831 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 65,
+    "kernel boundary func name": "blk_mq_update_nr_hw_queues",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 18,
+    "call path": "( [6]nullb_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L345 )->blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4750 )->__blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4678 )->blk_mq_realloc_hw_ctxs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4158 )->blk_mq_alloc_and_init_hctx ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4124 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 66,
+    "kernel boundary func name": "blk_mq_update_nr_hw_queues",
+    "risky func": "vfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 0,
+    "No. path cond": 25,
+    "call path": "( [9]nullb_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L345 )->blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4750 )->__blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4678 )->blk_mq_realloc_hw_ctxs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4158 )->blk_mq_alloc_and_init_hctx ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4124 )->blk_mq_alloc_hctx ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3659 )->sbitmap_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/sbitmap.h#L180 )->kvfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/util.c#L622 )->vfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/vmalloc.h#L163 ) )"
+  },
+  {
+    "id": 67,
+    "kernel boundary func name": "blk_mq_update_nr_hw_queues",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 22,
+    "call path": "( [25]nullb_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L345 )->blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4750 )->__blk_mq_update_nr_hw_queues ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4678 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 68,
+    "kernel boundary func name": "blk_mq_free_tag_set",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [3]null_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2209 )->blk_mq_free_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4525 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->blk_mq_free_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4525 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]null_del_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1758 )->blk_mq_free_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4525 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]null_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2293 )->blk_mq_free_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4525 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 69,
+    "kernel boundary func name": "blk_mq_alloc_tag_set",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 13,
+    "call path": "( [3]null_init_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1906 )->blk_mq_alloc_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4427 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 70,
+    "kernel boundary func name": "blk_mq_alloc_tag_set",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 41,
+    "call path": "( [14]null_init_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1906 )->blk_mq_alloc_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4427 )->kcalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L669 )->kmalloc_array_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L657 )->__kmalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L960 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 71,
+    "kernel boundary func name": "blk_mq_alloc_tag_set",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 34,
+    "call path": "( [14]null_init_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1906 )->blk_mq_alloc_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4427 )->kcalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L669 )->kmalloc_array_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L657 )->__kmalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L960 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 72,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 75,
+    "call path": "( [4]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->__alloc_disk_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1384 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 73,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [5]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->blk_mq_init_queue_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4037 )->blk_put_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L266 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 74,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 81,
+    "call path": "( [14]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->__alloc_disk_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1384 )->kzalloc_node.153 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L698 )->__kmalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L960 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 75,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 88,
+    "call path": "( [14]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->__alloc_disk_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L1384 )->kzalloc_node.153 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L698 )->__kmalloc_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L960 )->__kmalloc_large_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L1086 )->alloc_pages_node.821 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L254 )->__alloc_pages_node.823 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L232 )->__alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5523 )->__alloc_pages_slowpath ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L5024 )->__alloc_pages_direct_reclaim ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L4772 )->drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3323 )->__drain_all_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/page_alloc.c#L3250 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 76,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "kzalloc.56",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 6,
+    "call path": "( [6]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->blk_mq_init_queue_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4037 )->blk_mq_init_allocated_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4212 )->blk_mq_alloc_ctxs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3981 )->kzalloc.56 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 77,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "vfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 0,
+    "No. path cond": 24,
+    "call path": "( [10]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->blk_mq_init_queue_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4037 )->blk_mq_init_allocated_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4212 )->blk_mq_realloc_hw_ctxs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4158 )->blk_mq_alloc_and_init_hctx ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4124 )->blk_mq_alloc_hctx ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3659 )->sbitmap_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/sbitmap.h#L180 )->kvfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/util.c#L622 )->vfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/vmalloc.h#L163 ) )"
+  },
+  {
+    "id": 78,
+    "kernel boundary func name": "__blk_mq_alloc_disk",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 28,
+    "call path": "( [28]null_add_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L2028 )->__blk_mq_alloc_disk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4090 )->blk_mq_init_queue_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4037 )->blk_mq_init_allocated_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4212 )->blk_mq_add_queue_tag_set ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3959 )->blk_mq_update_tag_set_shared ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3929 )->blk_mq_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L210 )->blk_freeze_queue ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L197 )->blk_mq_freeze_queue_wait ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L178 )->schedule ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6623 )->sched_submit_work ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L6580 )->blk_flush_plug.554 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1025 )->__blk_flush_plug ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L1139 )->blk_mq_flush_plug_list ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2748 )->blk_mq_plug_issue_direct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2670 )->blk_mq_request_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2665 )->__blk_mq_try_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2598 )->__blk_mq_issue_directly ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2565 )->null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->null_handle_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1433 )->nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 79,
+    "kernel boundary func name": "blk_mq_requeue_request",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 11,
+    "call path": "( [11]null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->blk_mq_requeue_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1416 )->blk_mq_sched_requeue_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq-sched.h#L66 )->null_complete_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 80,
+    "kernel boundary func name": "blk_mq_start_request",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 15,
+    "call path": "( [10]null_queue_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647 )->blk_mq_start_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1230 )->null_complete_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 81,
+    "kernel boundary func name": "blk_mq_complete_request",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [10]null_timeout_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1614 )->blk_mq_complete_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1215 )->null_complete_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )( [10]nullb_complete_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1379 )->blk_mq_complete_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1215 )->null_complete_rq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808 )->end_cmd ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L777 )->blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1033 )->__blk_mq_end_request ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1018 )->__blk_mq_end_request_acct ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1007 )->blk_mq_poll_stats_start ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4767 )->blk_stat_activate_msecs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-stat.h#L163 )->mod_timer ( Unknown Loc ) )"
+  }
+]

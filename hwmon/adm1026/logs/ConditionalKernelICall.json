@@ -1,0 +1,135 @@
+[
+  {
+    "No. entry": 26
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1763 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1763"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1742 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1742"
+  },
+  {
+    "Drv func": "adm1026_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L295 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L297"
+  },
+  {
+    "Drv func": "adm1026_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1587 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1587"
+  },
+  {
+    "Drv func": "adm1026_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1608 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1608"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1731 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1731"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1757 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1757"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1734 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1734"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1754 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1754"
+  },
+  {
+    "Drv func": "adm1026_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1593 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1593"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1806 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1806"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1745 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1745"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1724 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1724"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1761 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1761"
+  },
+  {
+    "Drv func": "adm1026_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L331 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L331"
+  },
+  {
+    "Drv func": "adm1026_print_gpio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1635 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1635"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1749 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1749"
+  },
+  {
+    "Drv func": "cpu0_vid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1075 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1075"
+  },
+  {
+    "Drv func": "adm1026_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L381 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L381"
+  },
+  {
+    "Drv func": "adm1026_print_gpio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1626 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1626"
+  },
+  {
+    "Drv func": "adm1026_print_gpio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1623 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1623"
+  },
+  {
+    "Drv func": "adm1026_print_gpio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1646 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1646"
+  },
+  {
+    "Drv func": "adm1026_print_gpio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1631 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1631"
+  },
+  {
+    "Drv func": "adm1026_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1738 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1738"
+  },
+  {
+    "Drv func": "adm1026_print_gpio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1641 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L1641"
+  },
+  {
+    "Drv func": "adm1026_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1026.c#L311"
+  }
+]

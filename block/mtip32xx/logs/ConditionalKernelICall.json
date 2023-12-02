@@ -1,0 +1,375 @@
+[
+  {
+    "No. entry": 74
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3411 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3427"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3486"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3484"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3489"
+  },
+  {
+    "Drv func": "mtip_check_surprise_removal",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L142 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L145"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3483"
+  },
+  {
+    "Drv func": "mtip_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3892 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3892 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3892 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3892 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3892 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3893"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3498"
+  },
+  {
+    "Drv func": "mtip_service_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2533 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2534"
+  },
+  {
+    "Drv func": "mtip_exec_internal_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L966 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L971 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L974"
+  },
+  {
+    "Drv func": "mtip_exec_internal_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L987 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L1006"
+  },
+  {
+    "Drv func": "mtip_disable_link_opts",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3642 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3643"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3482"
+  },
+  {
+    "Drv func": "mtip_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3724 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3731 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3737 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3751"
+  },
+  {
+    "Drv func": "mtip_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3920 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3921"
+  },
+  {
+    "Drv func": "mtip_block_compat_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "mtip_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L4054 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L4056"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_block_shutdown",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3564 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3564 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3565"
+  },
+  {
+    "Drv func": "mtip_block_compat_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "exec_drive_taskfile",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_queue_rq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3320 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3323 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3326"
+  },
+  {
+    "Drv func": "exec_drive_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3501"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3434"
+  },
+  {
+    "Drv func": "mtip_check_surprise_removal",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L137 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L141"
+  },
+  {
+    "Drv func": "mtip_service_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2515 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_hw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2773 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2773"
+  },
+  {
+    "Drv func": "mtip_get_identify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_quiesce_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L912 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L899 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L899 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L899 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L900"
+  },
+  {
+    "Drv func": "mtip_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3846 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3847"
+  },
+  {
+    "Drv func": "mtip_hw_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_restart_port",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L393 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L393"
+  },
+  {
+    "Drv func": "mtip_hw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_restart_port",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L408 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_restart_port",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_exec_internal_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L1039 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L1039 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L1043"
+  },
+  {
+    "Drv func": "exec_drive_taskfile",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L4054 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L4055"
+  },
+  {
+    "Drv func": "mtip_hw_read_flags",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_ftl_rebuild_poll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_handle_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L764 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L766 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L767"
+  },
+  {
+    "Drv func": "mtip_service_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2519 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2519"
+  },
+  {
+    "Drv func": "is_se_active",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_hw_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2278 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2287"
+  },
+  {
+    "Drv func": "mtip_hba_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L183 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L183"
+  },
+  {
+    "Drv func": "mtip_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_restart_port",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_service_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492"
+  },
+  {
+    "Drv func": "mtip_hba_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3717 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3723"
+  },
+  {
+    "Drv func": "mtip_quiesce_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3487"
+  },
+  {
+    "Drv func": "mtip_pci_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3882 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3881"
+  },
+  {
+    "Drv func": "mtip_complete_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L483 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L484"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3521"
+  },
+  {
+    "Drv func": "mtip_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L4039 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L4046"
+  },
+  {
+    "Drv func": "mtip_hw_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2274 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2277"
+  },
+  {
+    "Drv func": "mtip_hw_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2278 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2286"
+  },
+  {
+    "Drv func": "mtip_quiesce_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L912 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L914"
+  },
+  {
+    "Drv func": "mtip_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3774 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3774"
+  },
+  {
+    "Drv func": "mtip_cmd_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3364 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3368"
+  },
+  {
+    "Drv func": "mtip_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3717 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3724 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3730"
+  },
+  {
+    "Drv func": "mtip_quiesce_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L912 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L899 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L899 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L899 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L898 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L904"
+  },
+  {
+    "Drv func": "mtip_block_initialize",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3467 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3478 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3485"
+  },
+  {
+    "Drv func": "mtip_service_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L2492"
+  },
+  {
+    "Drv func": "mtip_hw_read_registers",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "mtip_cmd_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3372 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L3378"
+  },
+  {
+    "Drv func": "mtip_handle_tfe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L551 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/mtip32xx/mtip32xx.c#L551"
+  }
+]

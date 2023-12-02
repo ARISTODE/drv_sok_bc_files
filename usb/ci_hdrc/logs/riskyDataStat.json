@@ -1,0 +1,17 @@
+{
+  "Num kernel  boundary func": 40,
+  "Num boundary parameters": 72,
+  "Num non-struct boundary parameters": 37,
+  "Num drv callbacks": 19,
+  "Num shared struct": 19,
+  "Shared fields": 20,
+  "KRDU fields": 2,
+  "ptr fields": 2,
+  "func ptr fields": 1,
+  "data ptr fields": 1,
+  "UNCLASSIFY": 1,
+  "RISKY_KERNEL_FUNC": 1,
+  "BRANCH": 1,
+  "PTR_WRITE": 1,
+  "PTR_READ": 1
+}

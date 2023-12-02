@@ -1,0 +1,30 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Drv func": "ltc4261_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L67 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L70"
+  },
+  {
+    "Drv func": "ltc4261_bool_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L147 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L148"
+  },
+  {
+    "Drv func": "ltc4261_value_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L129 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L133"
+  },
+  {
+    "Drv func": "ltc4261_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L203"
+  },
+  {
+    "Drv func": "ltc4261_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L72 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L72"
+  }
+]

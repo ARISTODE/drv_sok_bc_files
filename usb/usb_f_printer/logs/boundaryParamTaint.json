@@ -1,0 +1,94 @@
+[
+  {
+    "id": "8",
+    "risky": "val-sen-api (kzalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "drv caller (param)": "[ gprinter_get_minor | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1319 ], ",
+    "call path (param)": " [gprinter_get_minor->ida_alloc_range] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ida_alloc_range] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "9",
+    "risky": "ptr-sen-api (copy_to_user)",
+    "acc_path": "to",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/uaccess_64.h#L37",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/instrumented.h#L121",
+    "drv caller (param)": "[ printer_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169 ], ",
+    "call path (param)": " [printer_read->_copy_to_user] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [_copy_to_user] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L37 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L39 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L39 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L37 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "10",
+    "risky": "ptr-sen-api (copy_to_user)",
+    "acc_path": "from",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/uaccess_64.h#L37",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/instrumented.h#L121",
+    "drv caller (param)": "[ printer_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169 ], ",
+    "call path (param)": " [printer_read->_copy_to_user] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [_copy_to_user] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L37 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L39 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L39 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L37 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "19",
+    "risky": "val-sen-branch (kzalloc)",
+    "acc_path": "baseminor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L240",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L110",
+    "drv caller (param)": "[ gprinter_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1530 ], ",
+    "call path (param)": " [gprinter_setup->alloc_chrdev_region->__register_chrdev_region] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_chrdev_region->__register_chrdev_region] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "20",
+    "risky": "val-sen-branch (kzalloc)",
+    "acc_path": "count",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L240",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L110",
+    "drv caller (param)": "[ gprinter_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_printer.c#L1530 ], ",
+    "call path (param)": " [gprinter_setup->alloc_chrdev_region->__register_chrdev_region] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_chrdev_region->__register_chrdev_region] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "isControl": "0"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "No. entry": 9
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L497",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L44",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_exp.h#L348",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_exp.h#L353",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/ptp/ptp_clock.c#L52",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/ptp/ptp_clock.c#L54",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1732",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1743",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L875",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L56",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L979",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L76",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L124",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L76",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L395",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L28",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L776",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "loop form": "list iteration/container_of"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "i2c_register_driver",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]mcp3021_driver_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L205 )->i2c_register_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1846 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "i2c_register_driver",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]mcp3021_driver_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L205 )->i2c_register_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1846 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "i2c_del_driver",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "call path": "( [4]mcp3021_driver_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L205 )->i2c_del_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1887 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "i2c_del_driver",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "call path": "( [4]mcp3021_driver_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L205 )->i2c_del_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1887 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "devm_hwmon_device_register_with_info",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 20,
+    "call path": "( [4]mcp3021_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L122 )->devm_hwmon_device_register_with_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1038 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "devm_hwmon_device_register_with_info",
+    "risky func": "kzalloc",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [5]mcp3021_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L122 )->devm_hwmon_device_register_with_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1038 )->hwmon_device_register_with_info ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L905 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  }
+]

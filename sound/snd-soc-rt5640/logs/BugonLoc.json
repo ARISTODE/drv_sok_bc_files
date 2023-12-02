@@ -1,0 +1,412 @@
+[
+  {
+    "Total Bugon": 56,
+    "Controlled Bugon": 43,
+    "Uncontrolled Bugon": 13
+  },
+  {
+    "Drv caller": "[ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2690 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2682 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_new_controls->snd_soc_dapm_new_control_unlocked->dev_err_probe->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2690 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2682 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_new_controls->snd_soc_dapm_new_control_unlocked->devm_clk_get->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2690 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2682 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_new_controls->snd_soc_dapm_new_control_unlocked->devm_clk_get->__devm_clk_get->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2633 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2693 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2685 ], ",
+    "Trans func name": "kzalloc.1200",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "snd_soc_dapm_add_routes->snd_soc_dapm_add_route->snd_soc_dapm_add_path->kzalloc.1200",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2633 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2693 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2685 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_add_routes->snd_soc_dapm_add_route->snd_soc_dapm_add_path->dapm_connect_mux->soc_dapm_read->snd_soc_component_read->soc_component_read_no_lock->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_disable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2479 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2372 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2355 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2342 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2247 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2239 ], ",
+    "Trans func name": "pop_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "snd_soc_jack_report->snd_soc_dapm_sync->snd_soc_dapm_sync_unlocked->dapm_power_widgets->dapm_seq_check_event->pop_dbg",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/soc-dapm.c#L168 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ rt5640_disable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2479 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2372 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2355 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2342 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2247 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2239 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "snd_soc_jack_report->snd_soc_dapm_sync->snd_soc_dapm_sync_unlocked->dapm_power_widgets->dapm_seq_run->dapm_seq_run_coalesced->pop_wait->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ rt5640_disable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2479 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2372 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2355 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2342 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2247 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2239 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_jack_report->snd_soc_dapm_sync->snd_soc_dapm_sync_unlocked->dapm_power_widgets->dapm_seq_run->dapm_seq_run_coalesced->soc_dapm_update_bits->snd_soc_component_update_bits->regmap_update_bits_check->regmap_update_bits_base->_regmap_update_bits->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2110 ], [ rt5640_disable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2125 ], ",
+    "Trans func name": "pop_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "snd_soc_dapm_sync_unlocked->dapm_power_widgets->dapm_seq_check_event->pop_dbg",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/soc-dapm.c#L168 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ rt5640_enable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2110 ], [ rt5640_disable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2125 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_sync_unlocked->dapm_power_widgets->dapm_seq_run->dapm_seq_run_coalesced->pop_wait->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2110 ], [ rt5640_disable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2125 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_sync_unlocked->dapm_power_widgets->dapm_seq_run->dapm_seq_run_coalesced->soc_dapm_update_bits->snd_soc_component_update_bits->regmap_update_bits_check->regmap_update_bits_base->_regmap_update_bits->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2565 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2621 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_request_threaded_irq->devres_free"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2565 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2621 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_request_threaded_irq->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2565 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2621 ], ",
+    "Trans func name": "kzalloc.679",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_request_threaded_irq->request_threaded_irq->kzalloc.679",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2565 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2621 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "devm_request_threaded_irq->request_threaded_irq->__setup_irq->__irq_set_trigger->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1908 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "rl6231_pll_calc->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ set_dmic_clk | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L467 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "rl6231_get_pre_div->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3029 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2595 ], [ rt5640_set_bias_level | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1974 ], [ rt5640_set_bias_level | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1972 ], [ rt5640_lout_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1003 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2672 ], [ rt5640_hw_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1764 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2711 ], [ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2836 ], [ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2822 ], [ rt5640_hw_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1756 ], [ rt5640_set_dai_sysclk | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1857 ], [ rt5640_set_dai_fmt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1826 ], [ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2827 ], [ rt5640_hw_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1762 ], [ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1900 ], [ rt5640_hw_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1754 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2610 ], [ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1885 ], [ rt5640_sel_asrc_clk_src | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2092 ], [ rt5640_set_dai_fmt | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1821 ], [ rt5640_set_bias_level | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1982 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2673 ], [ rt5640_set_bias_level | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1963 ], [ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1892 ], [ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2530 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2715 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2674 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2336 ], [ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1896 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2719 ], [ rt5640_set_dai_sysclk | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1859 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2600 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2603 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2607 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2612 ], [ rt5640_enable_hda_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2616 ], [ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2496 ], [ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2522 ], [ rt5640_disable_micbias1_ovcd_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2143 ], [ rt5640_set_ovcd_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2439 ], [ rt5640_set_ovcd_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2452 ], [ rt5640_lout_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1001 ], [ rt5640_enable_micbias1_ovcd_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2134 ], [ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2504 ], [ rt5640_sel_asrc_clk_src | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2089 ], [ set_dmic_clk | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L473 ], [ rt5640_lout_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1008 ], [ rt5640_lout_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1011 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2324 ], [ rt5640_clear_micbias1_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2150 ], [ rt5640_sel_asrc_clk_src | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2084 ], [ rt5640_enable_jack_detect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2500 ], [ rt5640_set_bias_level | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1969 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_component_update_bits->regmap_update_bits_check->regmap_update_bits_base->_regmap_update_bits->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2319 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2331 ], [ get_sdp_info | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1655 ], [ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2676 ], [ rt5640_jack_inserted | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2172 ], [ rt5640_sel_asrc_clk_src | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2087 ], [ rt5640_micbias1_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2158 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_component_read->soc_component_read_no_lock->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_micbias1_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2159 ], [ rt5640_detect_headset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2295 ], [ rt5640_detect_headset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2289 ], [ rt5640_hw_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1726 ], [ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1881 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2357 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2246 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2371 ], [ rt5640_set_dai_sysclk | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1864 ], [ rt5640_set_dai_pll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1914 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2333 ], [ rt5640_button_press_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2238 ], [ rt5640_hw_params | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1724 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2374 ], [ rt5640_jack_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2321 ], [ rt5640_jack_inserted | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2174 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ rt5640_detect_headset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2272 ], [ rt5640_hp_post_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L1047 ], [ rt5640_hp_event | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L983 ], [ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2814 ], [ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3026 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2664 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ rt5640_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2664 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_driver_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3070 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_register_driver->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_driver_exit | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3070 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "i2c_del_driver->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->devres_free"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_register_dais->snd_soc_unregister_dais->snd_soc_unregister_dai->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "kzalloc.1021",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_try_rebind_card->snd_soc_bind_card->snd_soc_add_pcm_runtime->soc_new_pcm_runtime->kzalloc.1021",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "kzalloc.1200",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_try_rebind_card->snd_soc_bind_card->soc_probe_link_components->soc_probe_component->snd_soc_dapm_add_routes->snd_soc_dapm_add_route->snd_soc_dapm_add_path->kzalloc.1200",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "pop_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_del_component_unlocked->snd_soc_unbind_card->soc_cleanup_card_resources->snd_soc_dapm_shutdown->soc_dapm_shutdown_dapm->dapm_seq_run->dapm_seq_run_coalesced->dapm_seq_check_event->pop_dbg",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/soc-dapm.c#L168 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "kmalloc_array.1213",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_try_rebind_card->snd_soc_bind_card->snd_soc_dapm_new_widgets->kcalloc.1182->kmalloc_array.1213",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_del_component_unlocked->snd_soc_unbind_card->soc_cleanup_card_resources->snd_soc_remove_pcm_runtime->soc_free_pcm_runtime->device_unregister->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "remove_nodes",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L432 |   unreachable",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_del_component_unlocked->snd_soc_unbind_card->soc_cleanup_card_resources->snd_soc_remove_pcm_runtime->soc_free_pcm_runtime->device_unregister->device_del->devres_release_all->remove_nodes"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "kzalloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_try_rebind_card->snd_soc_bind_card->snd_soc_add_pcm_runtime->soc_new_pcm_runtime->device_register->device_add->device_private_init->kzalloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_del_component_unlocked->snd_soc_unbind_card->soc_cleanup_card_resources->snd_soc_dapm_shutdown->soc_dapm_shutdown_dapm->dapm_seq_run->dapm_seq_run_coalesced->pop_wait->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3056 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "devm_snd_soc_register_component->snd_soc_register_component->snd_soc_add_component->snd_soc_del_component_unlocked->snd_soc_unbind_card->soc_cleanup_card_resources->snd_soc_dapm_shutdown->soc_dapm_shutdown_dapm->dapm_seq_run->dapm_seq_run_coalesced->soc_dapm_update_bits->snd_soc_component_update_bits->regmap_update_bits_check->regmap_update_bits_base->_regmap_update_bits->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_enable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2109 ], [ rt5640_enable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2106 ], [ rt5640_enable_micbias1_for_ovcd | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2105 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_force_enable_pin_unlocked->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "pop_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "snd_soc_dapm_put_enum_double->soc_dapm_mux_update_power->dapm_power_widgets->dapm_seq_check_event->pop_dbg",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/soc-dapm.c#L168 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_put_enum_double->soc_dapm_mux_update_power->dapm_power_widgets->dapm_seq_run->dapm_seq_run_coalesced->pop_wait->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_put_enum_double->soc_dapm_test_bits->snd_soc_component_test_bits->snd_soc_component_read->soc_component_read_no_lock->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_get_enum_double->soc_dapm_read->snd_soc_component_read->soc_component_read_no_lock->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "pop_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "snd_soc_dapm_put_volsw->soc_dapm_mixer_update_power->dapm_power_widgets->dapm_seq_check_event->pop_dbg",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/soc-dapm.c#L168 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_put_volsw->soc_dapm_mixer_update_power->dapm_power_widgets->dapm_seq_run->dapm_seq_run_coalesced->pop_wait->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_put_volsw->soc_dapm_test_bits->snd_soc_component_test_bits->snd_soc_component_read->soc_component_read_no_lock->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "snd_soc_dapm_get_volsw->soc_dapm_read->snd_soc_component_read->soc_component_read_no_lock->regmap_read->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3009 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "__devm_regmap_init_i2c->__devm_regmap_init->devres_free"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3009 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "__devm_regmap_init_i2c->__devm_regmap_init->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3009 ], ",
+    "Trans func name": "kzalloc.198",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "__devm_regmap_init_i2c->__devm_regmap_init->__regmap_init->kzalloc.198",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3038 ], ",
+    "Trans func name": "kzalloc.198",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "regmap_register_patch->_regmap_multi_reg_write->_regmap_range_multi_paged_reg_write->_regmap_raw_multi_reg_write->kzalloc.198",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3038 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "regmap_register_patch->_regmap_multi_reg_write->fsleep->msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  },
+  {
+    "Drv caller": "[ rt5640_i2c_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L3038 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "regmap_register_patch->_regmap_multi_reg_write->_regmap_range_multi_paged_reg_write->_regmap_select_page->_regmap_update_bits->_regmap_read->regcache_read"
+  },
+  {
+    "Drv caller": "[ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2818 ], ",
+    "Trans func name": "regcache_sync",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L355",
+    "Check": "No check",
+    "Call Path": "regcache_sync"
+  },
+  {
+    "Drv caller": "[ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2818 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "regcache_sync->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ rt5640_resume | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rt5640.c#L2818 ], ",
+    "Trans func name": "regcache_read",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regcache.c#L247",
+    "Check": "No check",
+    "Call Path": "regcache_sync->regcache_default_sync->regcache_read"
+  }
+]

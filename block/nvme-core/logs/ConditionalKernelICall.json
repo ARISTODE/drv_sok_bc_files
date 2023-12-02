@@ -1,0 +1,1020 @@
+[
+  {
+    "No. entry": 203
+  },
+  {
+    "Drv func": "nvme_mpath_remove_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L859 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L862"
+  },
+  {
+    "Drv func": "nvme_map_user_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L134 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L135"
+  },
+  {
+    "Drv func": "nvme_uring_task_meta_cb",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L408 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L409"
+  },
+  {
+    "Drv func": "nvme_unfreeze",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5303 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5304"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2058 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2061"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2033 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2034"
+  },
+  {
+    "Drv func": "nvme_mpath_remove_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L859 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L864"
+  },
+  {
+    "Drv func": "nvme_alloc_ns_head",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4155 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4156"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2058 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2070 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2078"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2033 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2035"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5461 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5466 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5456 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5469"
+  },
+  {
+    "Drv func": "nvme_map_user_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L102 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L106 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L108"
+  },
+  {
+    "Drv func": "nvme_mpath_start_freeze",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L78 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L79 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L80"
+  },
+  {
+    "Drv func": "nvme_init_identify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3303 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3309"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5461 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5466 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5477 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5482"
+  },
+  {
+    "Drv func": "nvme_map_user_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L102 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L104"
+  },
+  {
+    "Drv func": "nvme_stop_keep_alive",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1316 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1319"
+  },
+  {
+    "Drv func": "nvme_ns_head_chr_uring_cmd_iopoll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L817 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L817 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L817 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L817 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L817 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L817 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L819"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2033 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2040"
+  },
+  {
+    "Drv func": "nvme_kick_requeue_lists",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L123 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L122 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L125"
+  },
+  {
+    "Drv func": "nvme_mpath_unfreeze",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L58 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L59 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L60"
+  },
+  {
+    "Drv func": "nvme_uring_task_cb",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L420 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L421"
+  },
+  {
+    "Drv func": "nvme_init_subsystem",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3013 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3022"
+  },
+  {
+    "Drv func": "nvme_init_subsystem",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3009"
+  },
+  {
+    "Drv func": "nvme_init_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5177 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5183 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5187"
+  },
+  {
+    "Drv func": "nvme_wait_freeze",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5329 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5330"
+  },
+  {
+    "Drv func": "nvme_init_subsystem",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3008"
+  },
+  {
+    "Drv func": "nvme_free_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5129 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5132"
+  },
+  {
+    "Drv func": "nvme_sysfs_delete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3601 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3604"
+  },
+  {
+    "Drv func": "nvme_init_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5204"
+  },
+  {
+    "Drv func": "nvme_release_subsystem",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2811 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2812"
+  },
+  {
+    "Drv func": "nvme_mpath_shutdown_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L848 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L850"
+  },
+  {
+    "Drv func": "nvme_aen_uevent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4762 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4766 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4768"
+  },
+  {
+    "Drv func": "nvme_aen_uevent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4762 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4765"
+  },
+  {
+    "Drv func": "nvme_class_uevent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4725 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4728 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4729"
+  },
+  {
+    "Drv func": "nvme_finish_user_metadata",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "nvme_set_chunk_sectors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2005 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2008 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2015 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2022"
+  },
+  {
+    "Drv func": "nvme_set_queue_dying",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5265 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5271"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2082 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2095"
+  },
+  {
+    "Drv func": "nvme_mpath_set_live",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L546 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L547"
+  },
+  {
+    "Drv func": "nvme_alloc_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4373 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4381"
+  },
+  {
+    "Drv func": "nvme_stop_ns_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5249 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5252"
+  },
+  {
+    "Drv func": "nvme_start_admin_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5379 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5380"
+  },
+  {
+    "Drv func": "nvme_start_ns_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5243 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5244"
+  },
+  {
+    "Drv func": "nvme_stop_ns_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5249 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5250"
+  },
+  {
+    "Drv func": "nvme_sync_io_queues",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5389 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5390"
+  },
+  {
+    "Drv func": "nvme_start_freeze",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5341"
+  },
+  {
+    "Drv func": "nvme_mpath_alloc_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L498 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L502 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L517 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L519"
+  },
+  {
+    "Drv func": "nvme_mpath_alloc_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L498 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L509"
+  },
+  {
+    "Drv func": "nvme_update_zone_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L72 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L79 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L88 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L95 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L113"
+  },
+  {
+    "Drv func": "nvme_mpath_add_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L837 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L838"
+  },
+  {
+    "Drv func": "nvme_alloc_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4328 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4336 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4336 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4337"
+  },
+  {
+    "Drv func": "nvme_mpath_shutdown_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L851 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L853"
+  },
+  {
+    "Drv func": "nvme_mpath_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L745 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L748"
+  },
+  {
+    "Drv func": "nvme_dev_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L893 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L910"
+  },
+  {
+    "Drv func": "nvme_dev_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L893 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L901"
+  },
+  {
+    "Drv func": "nvme_alloc_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4373 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4376"
+  },
+  {
+    "Drv func": "nvme_submit_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "nvme_add_user_metadata",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "nvme_zns_alloc_report_buffer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L140 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L141"
+  },
+  {
+    "Drv func": "nvme_ctrl_loss_tmo_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3690 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3691"
+  },
+  {
+    "Drv func": "cntrltype_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3784 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3787"
+  },
+  {
+    "Drv func": "cntrltype_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3784 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3784 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3785"
+  },
+  {
+    "Drv func": "nvme_sync_queues",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5398 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5399"
+  },
+  {
+    "Drv func": "nvme_ctrl_fast_io_fail_tmo_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3749 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3750"
+  },
+  {
+    "Drv func": "dctype_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3801 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3801 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3802"
+  },
+  {
+    "Drv func": "nvme_stop_admin_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5370 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5371"
+  },
+  {
+    "Drv func": "wwid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3460"
+  },
+  {
+    "Drv func": "nvme_add_user_metadata",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L32 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L36 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L36 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L39"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2082 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2093"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2058 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2072 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2070 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2073"
+  },
+  {
+    "Drv func": "nvme_mpath_clear_ctrl_paths",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L165 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L167"
+  },
+  {
+    "Drv func": "nvme_free_cels",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5106 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5108"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5461 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5466 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5470 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5476"
+  },
+  {
+    "Drv func": "nvme_passthru_end",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1166 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1168"
+  },
+  {
+    "Drv func": "nvme_cancel_admin_tagset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L483 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L484"
+  },
+  {
+    "Drv func": "nvme_cancel_tagset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L473 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L474"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5461 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5464"
+  },
+  {
+    "Drv func": "nvme_set_max_append",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L28 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L36 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L37"
+  },
+  {
+    "Drv func": "nvme_alloc_admin_tag_set",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4963 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4966"
+  },
+  {
+    "Drv func": "nvme_aen_uevent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4762 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4766 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4769"
+  },
+  {
+    "Drv func": "nvme_scan_ns_sequential",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4605 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4608"
+  },
+  {
+    "Drv func": "nvme_ns_chr_uring_cmd_iopoll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L714 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L715"
+  },
+  {
+    "Drv func": "nvme_cancel_tagset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L473 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L476"
+  },
+  {
+    "Drv func": "nvme_config_discard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1770 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1776 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1777"
+  },
+  {
+    "Drv func": "nvme_identify_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1361 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1366 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1367"
+  },
+  {
+    "Drv func": "nvme_setup_discard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L814 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L817"
+  },
+  {
+    "Drv func": "__nvme_submit_sync_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1045 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1046"
+  },
+  {
+    "Drv func": "nvme_reset_ctrl_sync",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L201 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L202"
+  },
+  {
+    "Drv func": "nvme_revalidate_zones",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L16 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L17"
+  },
+  {
+    "Drv func": "nvme_fw_act_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4822 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "nvme_alloc_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4327"
+  },
+  {
+    "Drv func": "nvme_init_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5236"
+  },
+  {
+    "Drv func": "nvme_stop_failfast_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L178 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L181"
+  },
+  {
+    "Drv func": "nvme_stop_admin_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5370 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5373"
+  },
+  {
+    "Drv func": "__nvme_submit_sync_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1045 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1048"
+  },
+  {
+    "Drv func": "nvme_get_effects_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3084 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3080 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3089 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3090"
+  },
+  {
+    "Drv func": "nvme_ctrl_reconnect_delay_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3722 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3724"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5461 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5466 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5484 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5487"
+  },
+  {
+    "Drv func": "nvme_log_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L314 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L329"
+  },
+  {
+    "Drv func": "nvme_keep_alive_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1282 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1282 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1290"
+  },
+  {
+    "Drv func": "nvme_get_fw_slot_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "nvme_uring_cmd_end_io_meta",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L466 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L466 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L469"
+  },
+  {
+    "Drv func": "nvme_ctrl_fast_io_fail_tmo_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3749 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3751"
+  },
+  {
+    "Drv func": "nvme_ns_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4429"
+  },
+  {
+    "Drv func": "nvme_init_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5206"
+  },
+  {
+    "Drv func": "nvme_cleanup_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L950 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L953 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L956"
+  },
+  {
+    "Drv func": "nvme_ns_head_submit_bio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L354 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L359 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L364"
+  },
+  {
+    "Drv func": "dctype_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3801 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3801 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3804"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2033 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2037"
+  },
+  {
+    "Drv func": "nvme_config_discard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1759 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1760"
+  },
+  {
+    "Drv func": "nvme_change_ctrl_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L567 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L569"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "nvme_uring_cmd_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L527 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L529 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "nvme_read_ana_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L683 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L690 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L704 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L707"
+  },
+  {
+    "Drv func": "nvme_add_user_metadata",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nvme_cancel_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L461 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L466"
+  },
+  {
+    "Drv func": "nvme_disable_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2336 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2340"
+  },
+  {
+    "Drv func": "__nvme_find_path",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L216 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L217"
+  },
+  {
+    "Drv func": "__nvme_submit_sync_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1055 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1055 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1056"
+  },
+  {
+    "Drv func": "nvme_alloc_ns_head",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4116 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4123"
+  },
+  {
+    "Drv func": "nvme_fw_act_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4831 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4837"
+  },
+  {
+    "Drv func": "nvme_cdev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4054 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4062"
+  },
+  {
+    "Drv func": "wwid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3453 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3454"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2082 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2091"
+  },
+  {
+    "Drv func": "nvme_update_ana_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L654 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L657"
+  },
+  {
+    "Drv func": "nvme_configure_host_options",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2487 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2487 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2491 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2498"
+  },
+  {
+    "Drv func": "nvme_alloc_admin_tag_set",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4963 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4967 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4972 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4973"
+  },
+  {
+    "Drv func": "nvme_ns_info_from_id_cs_indep",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "nvme_cancel_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L457 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L457 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L457"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5456 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5459"
+  },
+  {
+    "Drv func": "nvme_init_identify",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3306 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3303 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3307"
+  },
+  {
+    "Drv func": "nvme_update_ana_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L647 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L647"
+  },
+  {
+    "Drv func": "nvme_mpath_alloc_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L498 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L501"
+  },
+  {
+    "Drv func": "nvme_wait_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L615 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L615 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L615"
+  },
+  {
+    "Drv func": "nvme_cancel_admin_tagset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L483 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L486"
+  },
+  {
+    "Drv func": "nvme_mpath_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L745 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L747"
+  },
+  {
+    "Drv func": "nvme_user_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L276 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "nvme_configure_apst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2585 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2585"
+  },
+  {
+    "Drv func": "nvme_keep_alive_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1283 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1283"
+  },
+  {
+    "Drv func": "nvme_shutdown_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2440 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2441 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2444"
+  },
+  {
+    "Drv func": "nvme_free_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5120 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5120 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5121"
+  },
+  {
+    "Drv func": "nvme_config_discard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1770 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1774"
+  },
+  {
+    "Drv func": "nvme_cancel_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L457 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L457"
+  },
+  {
+    "Drv func": "nvme_requeue_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L475 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L479"
+  },
+  {
+    "Drv func": "nvme_fw_act_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4822 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "nvme_submit_user_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L175 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L176"
+  },
+  {
+    "Drv func": "uuid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3490 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3495"
+  },
+  {
+    "Drv func": "nvme_mpath_wait_freeze",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L68 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L69 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L70"
+  },
+  {
+    "Drv func": "nvme_user_cmd64",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L320 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L322 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "nvme_ns_head_chr_uring_cmd_iopoll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L813 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/rcupdate.h#L745"
+  },
+  {
+    "Drv func": "nvme_configure_apst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2646 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2646"
+  },
+  {
+    "Drv func": "nvme_cdev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4054 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4060"
+  },
+  {
+    "Drv func": "nvme_wait_freeze_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5314 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5315"
+  },
+  {
+    "Drv func": "nvme_get_effects_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3084 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3080 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3089 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3094"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2082 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2096"
+  },
+  {
+    "Drv func": "nvme_mpath_remove_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L859 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L863"
+  },
+  {
+    "Drv func": "nvme_dev_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L893 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L906"
+  },
+  {
+    "Drv func": "nvme_map_user_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L98 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L98 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L110"
+  },
+  {
+    "Drv func": "nvme_subsys_show_type",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2885 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2887"
+  },
+  {
+    "Drv func": "nvme_update_ns_info_block",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2082 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2089"
+  },
+  {
+    "Drv func": "nvme_log_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L314 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L315"
+  },
+  {
+    "Drv func": "nvme_remove_admin_tag_set",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4996 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4997"
+  },
+  {
+    "Drv func": "nvme_remove_io_tag_set",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5045 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5046"
+  },
+  {
+    "Drv func": "nvme_kick_requeue_lists",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L123 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L126 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L122 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L127"
+  },
+  {
+    "Drv func": "nvme_uring_cmd_end_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L444 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L444"
+  },
+  {
+    "Drv func": "nvme_uring_cmd_end_io_meta",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L466 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L466"
+  },
+  {
+    "Drv func": "nvme_free_cels",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5106 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5107"
+  },
+  {
+    "Drv func": "nvme_uring_cmd_end_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L444 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L444 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L447"
+  },
+  {
+    "Drv func": "nvme_keep_alive_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1282 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1292 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1282 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1303"
+  },
+  {
+    "Drv func": "nvme_execute_rq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1027 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1029 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1031"
+  },
+  {
+    "Drv func": "nvme_identify_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nvme_cdev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4054 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4059"
+  },
+  {
+    "Drv func": "nvme_add_user_metadata",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "nvme_identify_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nvme_identify_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nvme_get_fw_slot_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nvme_ns_info_from_id_cs_indep",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "nvme_sysfs_show_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3635 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3635 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3639"
+  },
+  {
+    "Drv func": "nvme_read_ana_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L683 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L690 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L704 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L705"
+  },
+  {
+    "Drv func": "nvme_mpath_alloc_disk",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L498 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L510"
+  },
+  {
+    "Drv func": "nvme_alloc_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4373 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4378"
+  },
+  {
+    "Drv func": "nvme_init_subsystem",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2995 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3013 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3014"
+  },
+  {
+    "Drv func": "nvme_configure_apst",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2648 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2648"
+  },
+  {
+    "Drv func": "nvme_user_cmd64",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "nvme_alloc_ns",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4342"
+  },
+  {
+    "Drv func": "nvme_wait_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L615 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L615 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L615"
+  },
+  {
+    "Drv func": "nvme_user_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "nvme_ctrl_reconnect_delay_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3722 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3723"
+  },
+  {
+    "Drv func": "nvme_cdev_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4054 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4063 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4064"
+  },
+  {
+    "Drv func": "nvme_identify_ctrl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "nvme_ctrl_loss_tmo_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3690 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3692"
+  },
+  {
+    "Drv func": "nvme_core_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5451 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5454"
+  },
+  {
+    "Drv func": "nvme_subsys_show_type",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2885 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2889"
+  },
+  {
+    "Drv func": "nvme_config_discard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1770 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1773"
+  },
+  {
+    "Drv func": "wwid_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3453 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3456 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3457"
+  },
+  {
+    "Drv func": "nvme_set_queue_dying",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5265 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5268"
+  },
+  {
+    "Drv func": "nvme_alloc_io_tag_set",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5025 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5022 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5026"
+  },
+  {
+    "Drv func": "nvme_uring_cmd_io",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L539 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L540 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L539 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L542"
+  },
+  {
+    "Drv func": "nvme_sysfs_show_state",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3635 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3635 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3637"
+  },
+  {
+    "Drv func": "nvme_update_zone_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L72 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L79 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L88 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L95 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L112"
+  },
+  {
+    "Drv func": "nvme_subsys_show_type",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2885 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2891"
+  }
+]

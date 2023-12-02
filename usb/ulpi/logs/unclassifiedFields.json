@@ -1,0 +1,54 @@
+{
+  "id": 4,
+  "acc_path": "device->archdata",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5120],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L863],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5099],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5100], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/common/ulpi.c#L198], "
+}
+{
+  "id": 6,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/inode.c#L482 | debugfs_create_file",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "clk_supplier",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/clk/clk-conf.c#L139 | of_clk_set_defaults",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "wait",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/kmod.c#L124 | __request_module",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/common/ulpi.c#L73 | ulpi_probe",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/common/ulpi.c#L73 | ulpi_probe",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/common/ulpi.c#L73 | ulpi_probe",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/common/ulpi.c#L73 | ulpi_probe",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/common/ulpi.c#L103 | modalias_show",
+  "Drv update": ""
+}

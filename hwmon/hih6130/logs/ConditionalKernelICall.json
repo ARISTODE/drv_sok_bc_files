@@ -1,0 +1,15 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Drv func": "hih6130_update_measurements",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L127"
+  },
+  {
+    "Drv func": "hih6130_update_measurements",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hih6130.c#L125"
+  }
+]

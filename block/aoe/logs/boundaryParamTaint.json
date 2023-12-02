@@ -1,0 +1,214 @@
+[
+  {
+    "id": "25",
+    "risky": "arr-idx",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2197",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2628",
+    "drv caller (param)": "[ ktiocomplete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1097 ], ",
+    "call path (param)": " [ktiocomplete->skb_pull->skb_pull_inline->__skb_pull.1755] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_pull->skb_pull_inline->__skb_pull.1755] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2620 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L2633 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "26",
+    "risky": "ptr-sen-api (copy_to_user)",
+    "acc_path": "from",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/uaccess_64.h#L37",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/instrumented.h#L121",
+    "drv caller (param)": "[ aoechr_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169 ], ",
+    "call path (param)": " [aoechr_read->_copy_to_user] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [_copy_to_user] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L37 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L39 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L39 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L37 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "28",
+    "risky": "ptr-sen-api (memset)",
+    "acc_path": "to",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/uaccess_64.h#L37",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L27",
+    "drv caller (param)": "[ set_aoe_iflist | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161 ], ",
+    "call path (param)": " [set_aoe_iflist->_copy_from_user] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [_copy_from_user] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L26 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L15 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L15 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/usercopy.c#L26 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "30",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L59",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L25",
+    "drv caller (param)": "[ aoe_devnode | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L278 ], ",
+    "call path (param)": " [aoe_devnode->kasprintf->kvasprintf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kasprintf->kvasprintf] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "42",
+    "risky": "val-sen-api (kmem_cache_alloc)",
+    "acc_path": "gfp_mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1660",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1660",
+    "drv caller (param)": "[ aoecmd_ata_id | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404 ], ",
+    "call path (param)": " [aoecmd_ata_id->skb_clone] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [skb_clone] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "46",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "delta",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2389",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2555",
+    "drv caller (param)": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "call path (param)": " [aoenet_rcv->__pskb_pull_tail->skb_copy_bits] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__pskb_pull_tail->skb_copy_bits] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2551 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2573 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2551 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "46",
+    "risky": "arr-idx",
+    "acc_path": "delta",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2389",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2562",
+    "drv caller (param)": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "call path (param)": " [aoenet_rcv->__pskb_pull_tail->skb_copy_bits] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__pskb_pull_tail->skb_copy_bits] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2559 | ",
+    "cond_num": "9",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2543 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2578 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2576 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2573 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2559 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "46",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "delta",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2389",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2551",
+    "drv caller (param)": "[ aoenet_rcv | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 ], ",
+    "call path (param)": " [aoenet_rcv->__pskb_pull_tail->skb_copy_bits] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__pskb_pull_tail->skb_copy_bits] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2536 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2543 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2578 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2576 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2573 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "47",
+    "risky": "arr-idx",
+    "acc_path": "offset",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2529",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4052",
+    "drv caller (param)": "[ bvcpy | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1022 ], ",
+    "call path (param)": " [bvcpy->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__pskb_pull_tail->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "47",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "offset",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L2529",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L4052",
+    "drv caller (param)": "[ bvcpy | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1022 ], ",
+    "call path (param)": " [bvcpy->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__pskb_pull_tail->skb_copy_bits->skb_copy_from_linear_data_offset] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "57",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "expires",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "drv caller (param)": "[ discover_timer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L23 ], ",
+    "call path (param)": " [discover_timer->mod_timer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [mod_timer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "63",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "nr_bytes",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L896",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L772",
+    "drv caller (param)": "[ aoe_end_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1044 ], ",
+    "call path (param)": " [aoe_end_request->blk_update_request->blk_account_io_completion] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [blk_update_request->blk_account_io_completion] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L772 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L772 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L772 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L772 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L772 | ",
+    "isControl": "0"
+  }
+]

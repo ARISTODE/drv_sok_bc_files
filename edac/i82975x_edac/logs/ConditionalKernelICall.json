@@ -1,0 +1,70 @@
+[
+  {
+    "No. entry": 13
+  },
+  {
+    "Drv func": "i82975x_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L654 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L657 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L658"
+  },
+  {
+    "Drv func": "i82975x_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L596 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L601 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L602"
+  },
+  {
+    "Drv func": "i82975x_exit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L692 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L694"
+  },
+  {
+    "Drv func": "i82975x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L272"
+  },
+  {
+    "Drv func": "pci_write_bits16",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L118 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L121"
+  },
+  {
+    "Drv func": "i82975x_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L315 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L316"
+  },
+  {
+    "Drv func": "i82975x_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L615 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L619 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L620"
+  },
+  {
+    "Drv func": "i82975x_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L482 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L488 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L532 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L532 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L546"
+  },
+  {
+    "Drv func": "i82975x_process_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L286 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L289 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L290"
+  },
+  {
+    "Drv func": "i82975x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L269"
+  },
+  {
+    "Drv func": "i82975x_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L482 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L487"
+  },
+  {
+    "Drv func": "i82975x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L270"
+  },
+  {
+    "Drv func": "i82975x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L271"
+  }
+]

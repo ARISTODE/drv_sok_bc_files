@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/mcp3021.c#L122 | mcp3021_probe",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/mcp3021.c#L92 | mcp3021_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/mcp3021.c#L92 | mcp3021_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/mcp3021.c#L60 | mcp3021_read",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/mcp3021.c#L60 | mcp3021_read",
+  "Drv update": ""
+}

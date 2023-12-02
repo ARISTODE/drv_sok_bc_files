@@ -1,0 +1,129 @@
+[
+  {
+    "Total Bugon": 17,
+    "Controlled Bugon": 14,
+    "Uncontrolled Bugon": 3
+  },
+  {
+    "Drv caller": "[ musb_default_write_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L324 ], [ musb_default_read_fifo | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L366 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ musb_handle_intr_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1018 ], [ musb_handle_intr_suspend | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L863 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "mod_timer->__mod_timer"
+  },
+  {
+    "Drv caller": "[ musb_regdump_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L113 ], [ musb_test_mode_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L160 ], [ musb_softconnect_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L260 ], ",
+    "Trans func name": "single_open",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "single_open",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | "
+  },
+  {
+    "Drv caller": "[ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L330 ], [ ep_config_from_table | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1516 ], [ musb_core_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1631 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L355 ], [ ep_config_from_table | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1530 ], [ ep_config_from_table | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1522 ], [ ep_config_from_table | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1536 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L325 ], [ musb_core_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1648 ], [ musb_gadget_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1067 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L337 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L343 ], [ ep_config_from_hw | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1583 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L349 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L315 ], [ ep_config_from_table | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1501 ], [ service_zero_data_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget_ep0.c#L320 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ musb_gadget_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1807 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_unregister->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ musb_gadget_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1807 ], ",
+    "Trans func name": "remove_nodes",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L432 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_unregister->device_del->devres_release_all->remove_nodes"
+  },
+  {
+    "Drv caller": "[ musb_gadget_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1807 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "device_unregister->device_del->device_links_purge->__device_link_del->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ musb_gadget_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1807 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "device_unregister->device_del->device_platform_notify_remove->musb_suspend->pm_runtime_get_sync->__pm_runtime_resume->rpm_resume->rpm_idle->rpm_suspend->rpm_callback->__rpm_callback->musb_resume->musb_run_resume_work->devm_kfree->devres_destroy->devres_free"
+  },
+  {
+    "Drv caller": "[ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L328 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "debugfs_create_dir->start_creating->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L334 ], [ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L332 ], [ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L331 ], ",
+    "Trans func name": "__debugfs_create_file",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/debugfs/inode.c#L419",
+    "Check": "No check",
+    "Call Path": "debugfs_create_file->__debugfs_create_file"
+  },
+  {
+    "Drv caller": "[ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L334 ], [ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L332 ], [ musb_init_debugfs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_debugfs.c#L331 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "debugfs_create_file->__debugfs_create_file->start_creating->__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ map_dma_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L72 ], ",
+    "Trans func name": "dma_sync_single_for_device",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L347",
+    "Call Path": "dma_sync_single_for_device",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L347 | "
+  },
+  {
+    "Drv caller": "[ unmap_dma_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L105 ], ",
+    "Trans func name": "dma_sync_single_for_cpu",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L333",
+    "Call Path": "dma_sync_single_for_cpu",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L333 | "
+  },
+  {
+    "Drv caller": "[ musb_init_controller | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2473 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "pm_runtime_set_autosuspend_delay->update_autosuspend->rpm_idle->rpm_suspend->rpm_callback->__rpm_callback->musb_resume->musb_run_resume_work->devm_kfree->devres_destroy->devres_free"
+  },
+  {
+    "Drv caller": "[ musb_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2616 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "platform_get_irq_byname->dev_err_probe->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ musb_init_controller | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2598 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "dev_err_probe->__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ musb_run_resume_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2235 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_kfree->devres_destroy->devres_free"
+  }
+]

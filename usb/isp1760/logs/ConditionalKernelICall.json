@@ -1,0 +1,425 @@
+[
+  {
+    "No. entry": 84
+  },
+  {
+    "Drv func": "isp1760_udc_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1582 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1583"
+  },
+  {
+    "Drv func": "isp1760_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L548 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L549"
+  },
+  {
+    "Drv func": "isp1761_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L132 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L135"
+  },
+  {
+    "Drv func": "isp1760_init_core",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L36 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L38"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L44 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L49 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L55"
+  },
+  {
+    "Drv func": "isp1760_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L544"
+  },
+  {
+    "Drv func": "isp1760_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L537 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L540"
+  },
+  {
+    "Drv func": "isp1760_ep_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L850 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L850"
+  },
+  {
+    "Drv func": "isp1760_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L560 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L561"
+  },
+  {
+    "Drv func": "isp1760_ep_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L845 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L845"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L361"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L353"
+  },
+  {
+    "Drv func": "isp1760_udc_transmit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L310 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L310"
+  },
+  {
+    "Drv func": "isp1760_ep_tx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L405 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L405"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1401 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1401"
+  },
+  {
+    "Drv func": "isp1760_udc_receive",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L281 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L281"
+  },
+  {
+    "Drv func": "isp1760_udc_request_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L188 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L188"
+  },
+  {
+    "Drv func": "isp1760_udc_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1549 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1552"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L101 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L106"
+  },
+  {
+    "Drv func": "isp1760_ep_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1064 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1064"
+  },
+  {
+    "Drv func": "__isp1760_udc_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L460 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L460"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L76 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L81"
+  },
+  {
+    "Drv func": "isp1760_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L919 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L919"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1417 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1417"
+  },
+  {
+    "Drv func": "isp1760_udc_get_status",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L554 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L554"
+  },
+  {
+    "Drv func": "isp1760_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L910 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L910"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1384"
+  },
+  {
+    "Drv func": "isp1760_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L960 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L960"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L101 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L107 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L121"
+  },
+  {
+    "Drv func": "isp1760_ep_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L791 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L791"
+  },
+  {
+    "Drv func": "isp1760_udc_start",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1303 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1303"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1395 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1395"
+  },
+  {
+    "Drv func": "isp1760_ep0_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L735 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L722 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_ep0_setup_standard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L591 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L596 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L606 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L606 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L611 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "isp1760_udc_set_address",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L561 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L566 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L566 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "isp1760_ep0_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L722 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1389 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1389"
+  },
+  {
+    "Drv func": "isp1760_udc_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1593 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1598"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L351 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_ep_tx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L385 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L385 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L398 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_udc_ctrl_send_stall",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L213"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L928 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L928"
+  },
+  {
+    "Drv func": "isp1760_ep_set_wedge",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1080 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1080"
+  },
+  {
+    "Drv func": "__isp1760_udc_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L464"
+  },
+  {
+    "Drv func": "isp1760_ep0_setup_standard",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L591 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L640 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L650 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L650 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L655 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1406"
+  },
+  {
+    "Drv func": "isp1760_udc_connect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "isp1761_pci_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L132 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L135 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L139 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L142"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L344 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_udc_set_address",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L561 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L566 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L566 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_ep_tx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L385 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L392 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L398 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L385 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_udc_vbus_poll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1433 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "isp1760_udc_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1315 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1315"
+  },
+  {
+    "Drv func": "isp1760_udc_set_address",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L568 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L568"
+  },
+  {
+    "Drv func": "isp1760_udc_start",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1290 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1290"
+  },
+  {
+    "Drv func": "__isp1760_ep_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1022 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1022"
+  },
+  {
+    "Drv func": "isp1760_ep_tx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L418 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L418"
+  },
+  {
+    "Drv func": "isp1760_ep_tx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L385 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L385 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "isp1760_udc_wakeup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1239 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1239"
+  },
+  {
+    "Drv func": "__isp1760_ep_set_halt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1030 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1030"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1367"
+  },
+  {
+    "Drv func": "isp1760_ep_rx_ready",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L346 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L346"
+  },
+  {
+    "Drv func": "isp1760_udc_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1139 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1139"
+  },
+  {
+    "Drv func": "isp1760_udc_set_address",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L562 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L562"
+  },
+  {
+    "Drv func": "isp1760_udc_receive",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L245 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L245"
+  },
+  {
+    "Drv func": "isp1760_ep_queue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L946 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L946"
+  },
+  {
+    "Drv func": "isp1760_udc_irq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1375 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1375"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L44 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L56 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L63"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L101 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L107 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L120"
+  },
+  {
+    "Drv func": "isp1760_ep0_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L754 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L754"
+  },
+  {
+    "Drv func": "isp1760_ep_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L811 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L811"
+  },
+  {
+    "Drv func": "isp1760_udc_start",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1280 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "isp1760_ep_tx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L387 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L387"
+  },
+  {
+    "Drv func": "isp1760_ep_disable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L849 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "isp1760_ep0_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L737 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L737"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L56 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L64 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L44 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L66 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L67"
+  },
+  {
+    "Drv func": "isp1760_ep_dequeue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L985 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L985"
+  },
+  {
+    "Drv func": "isp1760_udc_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1593 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1599"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L44 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L56 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L49 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L64 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L65"
+  },
+  {
+    "Drv func": "isp1761_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L44 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L49"
+  },
+  {
+    "Drv func": "isp1760_ep_enable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L781 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L781"
+  },
+  {
+    "Drv func": "isp1760_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L548 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-core.c#L556"
+  }
+]

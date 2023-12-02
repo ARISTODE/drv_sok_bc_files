@@ -1,0 +1,150 @@
+[
+  {
+    "No. entry": 29
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L373 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L392"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L373 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L389"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L128"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L102 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L102"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L131"
+  },
+  {
+    "Drv func": "temp_max_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L207 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L208"
+  },
+  {
+    "Drv func": "adm1021_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L452 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L456"
+  },
+  {
+    "Drv func": "temp_min_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L233 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L234"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L124"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L341 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L341"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L109"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L427 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L427"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L346"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L134"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L337"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L347"
+  },
+  {
+    "Drv func": "low_power_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L264 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L265"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L104 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L111 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L113"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L359"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L126"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L334"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L330 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L330"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L373 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L390"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L373 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L382"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L386 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L373 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L391"
+  },
+  {
+    "Drv func": "low_power_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L264 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L268"
+  },
+  {
+    "Drv func": "adm1021_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L106"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L335"
+  },
+  {
+    "Drv func": "adm1021_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L352 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L373 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L349 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L329 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L340 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L383"
+  }
+]

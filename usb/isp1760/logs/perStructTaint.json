@@ -1,0 +1,320 @@
+[
+  {
+    "struct name": "regmap",
+    "No.Fields": 75,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "reg_field",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "regmap_field",
+    "No.Fields": 6,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_node",
+    "No.Fields": 12,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "dev_archdata",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "irq_common_data",
+    "No.Fields": 6,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "irq_data",
+    "No.Fields": 8,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "platform_device",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "regmap_config",
+    "No.Fields": 54,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_device_id",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 2,
+    "No.classified fields": 2,
+    "No.unclassified fields": 0,
+    "PTR_READ": 2,
+    "PTR_WRITE": 2,
+    "BRANCH": 2,
+    "RISKY_KERNEL_FUNC": 2,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L273",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L273",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-write",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L529",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L115",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": " [devm_ioremap_resource->__devm_ioremap_resource->__devm_release_region->devres_destroy->devres_remove->list_del_init.20->__list_del_entry.28->__list_del.31] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L447 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L443 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L529",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L92",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L90 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L92 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L443 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L90 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L447 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-api (kobject_put)",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1250",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3772",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "cond_num": "12",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1247 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1242 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1222 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L100",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": " [_raw_spin_unlock->__raw_spin_unlock->do_raw_spin_unlock->debug_spin_unlock] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "20",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L99 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L521 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-read",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/sched.h#L1568",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": " [_raw_spin_lock->__raw_spin_lock->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump->task_pid_nr] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "27",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L87 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L85 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L74 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L86 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L521 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-write",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L115",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": " [devm_ioremap_resource->__devm_ioremap_resource->__devm_release_region->devres_destroy->devres_remove->list_del_init.20->__list_del_entry.28->__list_del.31] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "24",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L443 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L134 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L521 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L447 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "1",
+    "risky": "ptr-sen-api (kobject_put)",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3772",
+    "drv_update loc (shared field)": "[ (isp1760_ep_disable) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L842 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "cond_num": "9",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3771 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "resource",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "pci_dev",
+    "No.Fields": 115,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "timer_list",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

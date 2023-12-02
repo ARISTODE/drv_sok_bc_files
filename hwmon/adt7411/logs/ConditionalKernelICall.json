@@ -1,0 +1,65 @@
+[
+  {
+    "No. entry": 12
+  },
+  {
+    "Drv func": "adt7411_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L686 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L692"
+  },
+  {
+    "Drv func": "adt7411_init_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L604 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L615"
+  },
+  {
+    "Drv func": "adt7411_read_10_bit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L125 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L129"
+  },
+  {
+    "Drv func": "adt7411_read_in_vdd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L243"
+  },
+  {
+    "Drv func": "adt7411_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L579 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L579"
+  },
+  {
+    "Drv func": "adt7411_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L587 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L587"
+  },
+  {
+    "Drv func": "adt7411_init_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L620 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L636"
+  },
+  {
+    "Drv func": "adt7411_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L574 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L577"
+  },
+  {
+    "Drv func": "adt7411_read_in_vdd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L249"
+  },
+  {
+    "Drv func": "adt7411_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L578 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L578 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L585"
+  },
+  {
+    "Drv func": "adt7411_update_vref",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L267 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L268"
+  },
+  {
+    "Drv func": "adt7411_init_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L604 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L616 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7411.c#L619"
+  }
+]

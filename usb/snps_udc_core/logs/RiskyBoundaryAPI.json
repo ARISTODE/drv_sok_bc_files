@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "gadget_release(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L3027) | udc_alloc_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L538) | udc_free_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L603) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "add_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "udc_data_out_isr(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2237) | udc_control_out_isr(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2516) | udc_set_halt(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1345) | udc_ep0_set_rde(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L2048) | udc_pollstall_timer_function(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1810) | udc_timer_function(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1743) | udc_timer_function(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1730) | "
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "mod_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "udc_set_rde(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1038) | udc_queue(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1140) | activate_control_endpoints(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1889) | udc_basic_init(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1470) | activate_control_endpoints(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1885) | udc_basic_init(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/snps_udc_core.c#L1466) | "
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "No. entry": 4
+  },
+  {
+    "Drv func": "disable_ep",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L301 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L301"
+  },
+  {
+    "Drv func": "enable_loopback",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L396 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L396"
+  },
+  {
+    "Drv func": "source_sink_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L561 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L561"
+  },
+  {
+    "Drv func": "enable_source_sink",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L734 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L734"
+  }
+]

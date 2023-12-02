@@ -1,0 +1,126 @@
+[
+  {
+    "id": "13",
+    "risky": "val-sen-api (kzalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "drv caller (param)": "[ hidg_get_minor | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1027 ], ",
+    "call path (param)": " [hidg_get_minor->ida_alloc_range] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ida_alloc_range] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "14",
+    "risky": "val-sen-branch (kzalloc)",
+    "acc_path": "baseminor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L240",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L110",
+    "drv caller (param)": "[ ghid_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1334 ], ",
+    "call path (param)": " [ghid_setup->alloc_chrdev_region->__register_chrdev_region] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_chrdev_region->__register_chrdev_region] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "15",
+    "risky": "val-sen-branch (kzalloc)",
+    "acc_path": "count",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L240",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L110",
+    "drv caller (param)": "[ ghid_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1334 ], ",
+    "call path (param)": " [ghid_setup->alloc_chrdev_region->__register_chrdev_region] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_chrdev_region->__register_chrdev_region] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L104 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "18",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1079",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1079",
+    "drv caller (param)": "[ hidg_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1290 ], ",
+    "call path (param)": " [hidg_alloc->devm_kmemdup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_kmemdup] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1078 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1078 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "18",
+    "risky": "val-sen-branch (memset)",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1077",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L821",
+    "drv caller (param)": "[ hidg_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1290 ], ",
+    "call path (param)": " [hidg_alloc->devm_kmemdup->devm_kmalloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_kmemdup->devm_kmalloc] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "19",
+    "risky": "val-sen-branch (memset)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1077",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L121",
+    "drv caller (param)": "[ hidg_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1290 ], ",
+    "call path (param)": " [hidg_alloc->devm_kmemdup->devm_kmalloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_kmemdup->devm_kmalloc] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L821 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L117 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L117 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L821 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "19",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L1077",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L116",
+    "drv caller (param)": "[ hidg_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1290 ], ",
+    "call path (param)": " [hidg_alloc->devm_kmemdup->devm_kmalloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_kmemdup->devm_kmalloc] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L821 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L113 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L113 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L821 | ",
+    "isControl": "0"
+  }
+]

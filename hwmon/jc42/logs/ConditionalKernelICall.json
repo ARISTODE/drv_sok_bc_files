@@ -1,0 +1,90 @@
+[
+  {
+    "No. entry": 17
+  },
+  {
+    "Drv func": "jc42_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L563 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L569"
+  },
+  {
+    "Drv func": "jc42_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L542 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L546 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L548"
+  },
+  {
+    "Drv func": "jc42_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L336 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L346"
+  },
+  {
+    "Drv func": "jc42_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L336 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L338"
+  },
+  {
+    "Drv func": "jc42_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L336 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L342"
+  },
+  {
+    "Drv func": "jc42_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L336 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L350"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L310"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L285"
+  },
+  {
+    "Drv func": "jc42_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L512 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L515"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L253"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L275"
+  },
+  {
+    "Drv func": "jc42_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L541"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L246"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L267"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L260"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L296"
+  },
+  {
+    "Drv func": "jc42_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L244 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/jc42.c#L303"
+  }
+]

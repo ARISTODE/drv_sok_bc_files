@@ -1,0 +1,15 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Drv func": "adt7410_reg_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7410.c#L32 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7410.c#L40"
+  },
+  {
+    "Drv func": "adt7410_reg_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7410.c#L54 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7410.c#L62"
+  }
+]

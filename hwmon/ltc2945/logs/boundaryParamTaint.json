@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "reg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2449",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558",
+    "drv caller (param)": "[ ltc2945_value_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L265 ], ",
+    "call path (param)": " [ltc2945_value_store->regmap_bulk_write->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.8] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_bulk_write->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.8] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "14",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2121 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1694 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "val-sen-branch (kmalloc)",
+    "acc_path": "reg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2449",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545",
+    "drv caller (param)": "[ ltc2945_value_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L265 ], ",
+    "call path (param)": " [ltc2945_value_store->regmap_bulk_write->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.8] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_bulk_write->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.8] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "14",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2121 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1694 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "arr-idx",
+    "acc_path": "reg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2449",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1743",
+    "drv caller (param)": "[ ltc2945_value_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L265 ], ",
+    "call path (param)": " [ltc2945_value_store->regmap_bulk_write->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_bulk_write->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | ",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2121 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1694 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | ",
+    "isControl": "0"
+  }
+]

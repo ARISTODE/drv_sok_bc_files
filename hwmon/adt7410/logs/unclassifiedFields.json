@@ -1,0 +1,78 @@
+{
+  "id": 1,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L78 | adt7410_i2c_probe",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L16 | adt7410_regmap_is_volatile",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L27 | adt7410_reg_read",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L27 | adt7410_reg_read",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L49 | adt7410_reg_write",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adt7410.c#L49 | adt7410_reg_write",
+  "Drv update": ""
+}

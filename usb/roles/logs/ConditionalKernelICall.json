@@ -1,0 +1,45 @@
+[
+  {
+    "No. entry": 8
+  },
+  {
+    "Drv func": "usb_role_switch_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L172 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L174"
+  },
+  {
+    "Drv func": "usb_role_switch_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L349 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L350"
+  },
+  {
+    "Drv func": "usb_role_switch_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L368 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L369"
+  },
+  {
+    "Drv func": "usb_role_switch_is_parent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L109 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L115"
+  },
+  {
+    "Drv func": "usb_role_switch_match",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L95 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L95"
+  },
+  {
+    "Drv func": "fwnode_usb_role_switch_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L154 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L155"
+  },
+  {
+    "Drv func": "usb_role_switch_set_role",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L46 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L52 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L54"
+  },
+  {
+    "Drv func": "usb_role_switch_is_parent",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L109 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L110"
+  }
+]

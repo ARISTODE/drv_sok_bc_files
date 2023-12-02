@@ -1,0 +1,45 @@
+[
+  {
+    "No. entry": 8
+  },
+  {
+    "Drv func": "it87_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3270 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3274 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3279"
+  },
+  {
+    "Drv func": "it87_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3270 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3273"
+  },
+  {
+    "Drv func": "it87_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3266 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3269"
+  },
+  {
+    "Drv func": "it87_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3156 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3158"
+  },
+  {
+    "Drv func": "it87_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3270 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3281 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3286"
+  },
+  {
+    "Drv func": "it87_check_tachometers_16bit_mode",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L2894 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L2894"
+  },
+  {
+    "Drv func": "it87_find",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L2470 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L2470"
+  },
+  {
+    "Drv func": "it87_resume_sio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3205 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/it87.c#L3205"
+  }
+]

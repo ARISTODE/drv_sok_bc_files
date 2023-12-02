@@ -1,0 +1,45 @@
+[
+  {
+    "No. entry": 8
+  },
+  {
+    "Drv func": "dell_smm_init_cdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L967 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L970"
+  },
+  {
+    "Drv func": "dell_smm_init_cdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L967 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L971 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L976 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L977"
+  },
+  {
+    "Drv func": "i8k_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1448 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1455"
+  },
+  {
+    "Drv func": "dell_smm_init_hwmon",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1030 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1032 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L1034"
+  },
+  {
+    "Drv func": "devm_kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L216 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L219"
+  },
+  {
+    "Drv func": "i8k_smm_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L197"
+  },
+  {
+    "Drv func": "i8k_smm_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L196"
+  },
+  {
+    "Drv func": "i8k_get_temp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L360 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L361"
+  }
+]

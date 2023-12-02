@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L59",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L25",
+    "drv caller (param)": "[ composite_default_mfr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/composite.c#L2569 ], ",
+    "call path (param)": " [composite_default_mfr->kasprintf->kvasprintf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kasprintf->kvasprintf] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "12",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "inlen",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L142",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L74",
+    "drv caller (param)": "[ os_desc_qw_sign_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L867 ], ",
+    "call path (param)": " [os_desc_qw_sign_store->utf8s_to_utf16s->utf8_to_utf32] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [utf8s_to_utf16s->utf8_to_utf32] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L64 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L66 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L64 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "14",
+    "risky": "ptr-write",
+    "acc_path": "pwcs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L127",
+    "drv caller (param)": "[ os_desc_qw_sign_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/configfs.c#L867 ], ",
+    "call path (param)": " [os_desc_qw_sign_store->utf8s_to_utf16s->put_utf16] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [utf8s_to_utf16s->put_utf16] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L119 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L149 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L141 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/nls/nls_base.c#L119 | ",
+    "isControl": "0"
+  }
+]

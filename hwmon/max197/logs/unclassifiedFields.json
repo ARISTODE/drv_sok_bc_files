@@ -1,0 +1,42 @@
+{
+  "id": 0,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max197.c#L258 | max197_probe",
+  "Drv update": ""
+}
+{
+  "id": 0,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max197.c#L258 | max197_probe",
+  "Drv update": ""
+}
+{
+  "id": 0,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max197.c#L258 | max197_probe",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max197.c#L258 | max197_probe",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max197.c#L258 | max197_probe",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/max197.c#L258 | max197_probe",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon.c#L70 | name_show.7",
+  "Drv update": ""
+}

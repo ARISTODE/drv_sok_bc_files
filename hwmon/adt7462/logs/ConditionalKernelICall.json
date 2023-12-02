@@ -1,0 +1,100 @@
+[
+  {
+    "No. entry": 19
+  },
+  {
+    "Drv func": "adt7462_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1770 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1773"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L752 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L752"
+  },
+  {
+    "Drv func": "force_pwm_max_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1068 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1072"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L734 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L735"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L755 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L762"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L741 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L742"
+  },
+  {
+    "Drv func": "pwm_tmax_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1234 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1240 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1248"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L734 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L737"
+  },
+  {
+    "Drv func": "adt7462_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1770 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1778 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1781"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L745 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L748 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L748"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L692"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L755 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L756"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L690"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L755 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L758"
+  },
+  {
+    "Drv func": "adt7462_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1770 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1774 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L1777"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L755 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L760"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L707 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L708"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L711 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L713 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L716"
+  },
+  {
+    "Drv func": "adt7462_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L703 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7462.c#L704"
+  }
+]

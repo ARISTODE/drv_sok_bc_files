@@ -1,0 +1,48 @@
+{
+  "id": 0,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/devres.c#L817 | devm_kmalloc",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "gfp",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/devres.c#L817 | devm_kmalloc",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 | ci_hdrc_usb2_probe",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 | ci_hdrc_usb2_probe",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 | ci_hdrc_usb2_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 | ci_hdrc_usb2_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 | ci_hdrc_usb2_probe",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/chipidea/ci_hdrc_usb2.c#L49 | ci_hdrc_usb2_probe",
+  "Drv update": ""
+}

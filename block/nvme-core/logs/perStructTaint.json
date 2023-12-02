@@ -1,0 +1,1605 @@
+[
+  {
+    "struct name": "device",
+    "No.Fields": 44,
+    "No.Shared fields": 8,
+    "No.KRDU fields": 5,
+    "No.classified fields": 3,
+    "No.unclassified fields": 2,
+    "PTR_READ": 3,
+    "PTR_WRITE": 2,
+    "BRANCH": 2,
+    "RISKY_KERNEL_FUNC": 2,
+    "UNCLASSIFY": 2
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3584",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L100",
+    "drv caller (param)": "[ nvme_init_subsystem | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3022 ], ",
+    "call path (param)": " [nvme_init_subsystem->kzalloc->kmalloc_large->__kmalloc_large_node->alloc_pages_node.2012->__alloc_pages_node.2014->__alloc_pages->get_page_from_freelist->rmqueue->_raw_spin_unlock_irqrestore->__raw_spin_unlock_irqrestore->do_raw_spin_unlock->debug_spin_unlock] ",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5192 ], [ (nvme_add_ns_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4094 ], [ (nvme_add_ns_head_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L455 ], ",
+    "call path (type)": " [__wake_up->__wake_up_common_lock->_raw_spin_unlock_irqrestore->__raw_spin_unlock_irqrestore->do_raw_spin_unlock->debug_spin_unlock] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "82",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3554 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3557 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3590 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3600 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3632 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3613 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L870 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L99 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3235 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3233 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L831 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3609 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L865 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2237 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-write",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3584",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L54 |   %24 = alloca i32, align 4",
+    "drv caller (param)": "[ nvme_init_subsystem | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3022 ], ",
+    "call path (param)": " [nvme_init_subsystem->kzalloc->kmalloc_large->__kmalloc_large_node->alloc_pages_node.2012->__alloc_pages_node.2014->__alloc_pages->get_page_from_freelist->rmqueue->_raw_spin_lock_irqsave->__raw_spin_lock_irqsave->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump] ",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5192 ], [ (nvme_add_ns_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4094 ], [ (nvme_add_ns_head_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L455 ], ",
+    "call path (type)": " [__wake_up->__wake_up_common_lock->_raw_spin_lock_irqsave->__raw_spin_lock_irqsave->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "88",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3554 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3557 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3590 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3632 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L831 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L102 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L74 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3600 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L101 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3609 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L99 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3613 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L870 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L100 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3233 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3235 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L865 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2237 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-read",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3584",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L63",
+    "drv caller (param)": "[ nvme_init_subsystem | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3022 ], ",
+    "call path (param)": " [nvme_init_subsystem->kzalloc->kmalloc_large->__kmalloc_large_node->alloc_pages_node.2012->__alloc_pages_node.2014->__alloc_pages->get_page_from_freelist->rmqueue->_raw_spin_lock_irqsave->__raw_spin_lock_irqsave->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump] ",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5192 ], [ (nvme_add_ns_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4094 ], [ (nvme_add_ns_head_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L455 ], ",
+    "call path (type)": " [__wake_up->__wake_up_common_lock->_raw_spin_lock_irqsave->__raw_spin_lock_irqsave->do_raw_spin_lock->debug_spin_lock_before->spin_bug->spin_dump] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "87",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3554 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3557 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3590 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3632 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L102 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L74 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3600 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L101 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3609 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L99 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3613 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L870 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/locking/spinlock_debug.c#L100 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3233 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3235 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L831 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L865 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2237 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "0",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "device->parent",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3584",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2934",
+    "drv caller (param)": "[ nvme_init_subsystem | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3022 ], ",
+    "call path (param)": " [nvme_init_subsystem->device_add->device_remove_attrs] ",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5192 ], [ (nvme_add_ns_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4094 ], [ (nvme_add_ns_head_cdev) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L455 ], ",
+    "call path (type)": " [destroy_workqueue->workqueue_sysfs_unregister->device_unregister->device_del->device_remove_attrs] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2932 | ",
+    "cond_num": "35",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3671 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3609 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3687 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3671 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3685 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2945 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3671 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3674 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3557 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2932 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3554 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3600 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3590 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3632 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3695 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3613 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-read",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5191 ], [ (nvme_init_subsystem) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3005 ], [ (nvme_cdev_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4057 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2489 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-write",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2862",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2860 |   %4 = alloca %struct.class.6362*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5191 ], [ (nvme_init_subsystem) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3005 ], [ (nvme_cdev_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4057 ], ",
+    "call path (type)": " [device_add_disk->device_add->device_add_attrs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "2",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3438",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3428",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5191 ], [ (nvme_init_subsystem) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3005 ], [ (nvme_cdev_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4057 ], ",
+    "call path (type)": " [destroy_workqueue->workqueue_sysfs_unregister->device_unregister->device_del->device_remove_class_symlinks] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3428 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3428 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "2",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "device->class",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3682",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3719",
+    "drv caller (param)": "[ nvme_init_subsystem | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3022 ], ",
+    "call path (param)": " [nvme_init_subsystem->device_add] ",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5191 ], [ (nvme_init_subsystem) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3005 ], [ (nvme_cdev_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4057 ], ",
+    "call path (type)": " [device_add_disk->device_add] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "20",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3557 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3554 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3671 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3671 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3600 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3609 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3613 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3622 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "3",
+    "risky": "ptr-read",
+    "acc_path": "device->groups",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2916",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2916",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5196 ], [ (nvme_init_subsystem) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L3007 ], [ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5194 ], ",
+    "call path (type)": " [device_add_disk->device_add->device_add_attrs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "bio_list",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "hlist_node",
+    "No.Fields": 2,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "file",
+    "No.Fields": 19,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_integrity",
+    "No.Fields": 5,
+    "No.Shared fields": 5,
+    "No.KRDU fields": 4,
+    "No.classified fields": 2,
+    "No.unclassified fields": 2,
+    "PTR_READ": 1,
+    "ARR_IDX": 1,
+    "BRANCH": 2,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 2
+  },
+  {
+    "id": "5",
+    "risky": "ptr-read",
+    "acc_path": "blk_integrity->profile",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L153",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L153",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1712 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1730 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1725 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1707 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1720 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1702 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1735 ], ",
+    "call path (type)": "",
+    "num condition checks": 9,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L126 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L129 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L132 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L126 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L139 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L129 | ",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L129 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L146 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L139 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L126 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L132 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L129 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L126 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "ptr-sen-branch (memset)",
+    "acc_path": "blk_integrity->profile",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L431",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-integrity.c#L431",
+    "drv caller (param)": "[ nvme_update_disk_info | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1929 ], ",
+    "call path (param)": " [nvme_update_disk_info->blk_integrity_unregister] ",
+    "drv_update loc (shared field)": "[ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1712 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1730 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1725 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1707 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1720 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1702 ], [ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1735 ], ",
+    "call path (type)": " [blk_integrity_unregister] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "7",
+    "risky": "arr-idx",
+    "acc_path": "blk_integrity->tuple_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L187",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L210",
+    "drv_update loc (shared field)": "[ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1739 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "7",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "blk_integrity->tuple_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L230",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L260",
+    "drv_update loc (shared field)": "[ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1739 ], ",
+    "call path (type)": " [bio_split_to_limits->__bio_split_to_limits->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->blk_mq_submit_bio->bio_integrity_prep] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L267 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L264 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L260 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L279 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L273 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L233 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "7",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "blk_integrity->tuple_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio-integrity.c#L230",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546",
+    "drv_update loc (shared field)": "[ (nvme_init_integrity) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1739 ], ",
+    "call path (type)": " [bio_split_to_limits->__bio_split_to_limits->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->blk_mq_submit_bio->bio_integrity_prep] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "block_device_operations",
+    "No.Fields": 19,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "bio_vec",
+    "No.Fields": 3,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "queue_limits",
+    "No.Fields": 29,
+    "No.Shared fields": 8,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "bio_integrity_payload",
+    "No.Fields": 9,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "bvec_iter",
+    "No.Fields": 4,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 2,
+    "No.classified fields": 2,
+    "No.unclassified fields": 0,
+    "BRANCH": 2,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "10",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "bvec_iter->bi_sector",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L519",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L519",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_add_user_metadata) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L46 ], ",
+    "call path (type)": " [bio_split_to_limits->__bio_split_to_limits->submit_bio_noacct->bio_check_eod] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L518 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L518 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L517 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "11",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "bvec_iter->bi_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_add_user_metadata) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L45 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "gendisk",
+    "No.Fields": 33,
+    "No.Shared fields": 10,
+    "No.KRDU fields": 3,
+    "No.classified fields": 2,
+    "No.unclassified fields": 1,
+    "PTR_READ": 1,
+    "BRANCH": 1,
+    "UNCLASSIFY": 1
+  },
+  {
+    "id": "12",
+    "risky": "ptr-read",
+    "acc_path": "gendisk->fops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L201",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L201",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_ns) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4330 ], [ (nvme_mpath_alloc_disk) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L504 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L198 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L198 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "13",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "gendisk->flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L365",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_update_ns_info_block) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2106 ], [ (nvme_alloc_ns) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4364 ], [ (nvme_update_ns_info_generic) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2044 ], [ (nvme_update_ns_info_generic) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L2039 ], ",
+    "call path (type)": " [device_add_disk->disk_scan_partitions] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "page",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_tag_set",
+    "No.Fields": 15,
+    "No.Shared fields": 11,
+    "No.KRDU fields": 10,
+    "No.classified fields": 7,
+    "No.unclassified fields": 3,
+    "PTR_READ": 2,
+    "ARR_IDX": 3,
+    "DIV_BY_ZERO": 1,
+    "BRANCH": 4,
+    "RISKY_KERNEL_FUNC": 3,
+    "UNCLASSIFY": 3
+  },
+  {
+    "id": "15",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "blk_mq_tag_set->nr_maps",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3829",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3829",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5020 ], ",
+    "call path (type)": " [__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_map_swqueue] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3829 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "16",
+    "risky": "ptr-read",
+    "acc_path": "blk_mq_tag_set->ops",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3241",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3241",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4950 ], [ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5009 ], ",
+    "call path (type)": " [blk_mq_free_tag_set->__blk_mq_free_map_and_rqs->blk_mq_free_map_and_rqs->blk_mq_free_rqs] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3236 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3239 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3239 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3236 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3241 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3241 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "17",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "blk_mq_tag_set->nr_hw_queues",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4711",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4406",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5018 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4960 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_tag_set_tags->blk_mq_realloc_tag_set_tags] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4397 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4402 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4405 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4405 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4402 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4397 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "17",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "blk_mq_tag_set->nr_hw_queues",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4711",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4397",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5018 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4960 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_tag_set_tags->blk_mq_realloc_tag_set_tags] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "17",
+    "risky": "arr-idx",
+    "acc_path": "blk_mq_tag_set->nr_hw_queues",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4710",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3802",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5018 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4960 ], ",
+    "call path (type)": " [blk_mq_free_tag_set->__blk_mq_free_map_and_rqs] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3801 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4721 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4718 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3801 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "18",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "blk_mq_tag_set->queue_depth",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3783",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L671",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5010 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4951 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->kcalloc_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3316 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3310 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "18",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "blk_mq_tag_set->queue_depth",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3783",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5010 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4951 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3761 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3403 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "20",
+    "risky": "arr-idx",
+    "acc_path": "blk_mq_tag_set->cmd_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3414",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4958 ], [ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5016 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3409 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "20",
+    "risky": "div-by-zero",
+    "acc_path": "blk_mq_tag_set->cmd_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3402",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4958 ], [ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5016 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "20",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "blk_mq_tag_set->cmd_size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3365",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3405",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4958 ], [ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5016 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3403 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3390 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "21",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "blk_mq_tag_set->numa_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3674",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L579",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5012 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4954 ], ",
+    "call path (type)": " [__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_alloc_and_init_hctx->blk_mq_alloc_hctx->kzalloc_node.185] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3669 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3666 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L564 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "21",
+    "risky": "arr-idx",
+    "acc_path": "blk_mq_tag_set->numa_node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3357",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5012 ], [ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4954 ], ",
+    "call path (type)": " [blk_mq_alloc_tag_set->blk_mq_alloc_set_map_and_rqs->__blk_mq_alloc_rq_maps->__blk_mq_alloc_map_and_rqs->blk_mq_alloc_map_and_rqs->blk_mq_alloc_rqs->alloc_pages_node->__alloc_pages_node->warn_if_node_offline->node_state] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "cond_num": "12",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3356 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3388 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/gfp.h#L217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/nodemask.h#L423 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "24",
+    "risky": "ptr-read",
+    "acc_path": "blk_mq_tag_set->driver_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3635",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3635",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_alloc_admin_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4959 ], [ (nvme_alloc_io_tag_set) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5017 ], ",
+    "call path (type)": " [__blk_mq_alloc_disk->blk_mq_init_queue_data->blk_mq_init_allocated_queue->blk_mq_realloc_hw_ctxs->blk_mq_alloc_and_init_hctx->blk_mq_init_hctx] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3634 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3634 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "bio",
+    "No.Fields": 21,
+    "No.Shared fields": 7,
+    "No.KRDU fields": 3,
+    "No.classified fields": 3,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "ARR_IDX": 1,
+    "BRANCH": 3,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "25",
+    "risky": "ptr-read",
+    "acc_path": "bio->bi_next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bvec.h#L149",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_requeue_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L477 ], ",
+    "call path (type)": " [bio_split_to_limits->__bio_split_to_limits->bio_split_rw->bio_advance_iter_single.130->bvec_iter_advance_single.131] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L115 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "25",
+    "risky": "ptr-sen-branch (memcpy)",
+    "acc_path": "bio->bi_next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_requeue_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L477 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L543 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "25",
+    "risky": "ptr-sen-api (memcpy)",
+    "acc_path": "bio->bi_next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_requeue_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L477 ], ",
+    "call path (type)": "",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525 ] -> [ INST || DATA_ALIAS || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L526 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "25",
+    "risky": "ptr-write",
+    "acc_path": "bio->bi_next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L525",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-merge.c#L516 |   %6 = alloca %struct.bio.2726*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_requeue_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L477 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "26",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "bio->bi_opf",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L727",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L727",
+    "drv caller (param)": "[ nvme_requeue_work | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L479 ], ",
+    "call path (param)": " [nvme_requeue_work->submit_bio_noacct] ",
+    "drv_update loc (shared field)": "[ (nvme_failover_req) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L106 ], [ (nvme_uring_cmd_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L547 ], [ (nvme_ns_head_submit_bio) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L361 ], ",
+    "call path (type)": " [bio_split_to_limits->__bio_split_to_limits->submit_bio_noacct] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L727 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L727 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "27",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "bio->bi_cookie",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L845",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L855",
+    "drv caller (param)": "[ nvme_ns_chr_uring_cmd_iopoll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L715 ], ",
+    "call path (param)": " [nvme_ns_chr_uring_cmd_iopoll->bio_poll] ",
+    "drv_update loc (shared field)": "[ (nvme_failover_req) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L107 ], ",
+    "call path (type)": " [bio_poll] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L851 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L851 | ",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L845 ] -> [ INST || UNKNOWN Edge Type || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L845 ] -> [ INST || UNKNOWN Edge Type || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L855 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "27",
+    "risky": "arr-idx",
+    "acc_path": "bio->bi_cookie",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L845",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blk-mq.h#L768",
+    "drv caller (param)": "[ nvme_ns_chr_uring_cmd_iopoll | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L715 ], ",
+    "call path (param)": " [nvme_ns_chr_uring_cmd_iopoll->bio_poll->blk_mq_poll->blk_mq_poll_hybrid->blk_qc_to_rq->blk_mq_tag_to_rq] ",
+    "drv_update loc (shared field)": "[ (nvme_failover_req) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/multipath.c#L107 ], ",
+    "call path (type)": " [blk_execute_rq->blk_rq_poll_completion->blk_mq_poll->blk_mq_poll_hybrid->blk_qc_to_rq->blk_mq_tag_to_rq] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blk-mq.h#L767 | ",
+    "cond_num": "17",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L869 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L851 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blk-mq.h#L767 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4919 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L84 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L867 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4919 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "io_comp_batch",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobject",
+    "No.Fields": 12,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "block_device",
+    "No.Fields": 23,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "xarray",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_queue_map",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_integrity_profile",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_ops",
+    "No.Fields": 18,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "request_queue",
+    "No.Fields": 62,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_ctx",
+    "No.Fields": 7,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "blk_mq_hw_ctx",
+    "No.Fields": 32,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "request",
+    "No.Fields": 32,
+    "No.Shared fields": 16,
+    "No.KRDU fields": 6,
+    "No.classified fields": 4,
+    "No.unclassified fields": 2,
+    "PTR_READ": 2,
+    "PTR_WRITE": 2,
+    "BRANCH": 4,
+    "RISKY_KERNEL_FUNC": 1,
+    "UNCLASSIFY": 2
+  },
+  {
+    "id": "28",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "request->cmd_flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-map.c#L249",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-map.c#L249",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_request) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L684 ], [ (nvme_init_request) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L686 ], [ (nvme_add_user_metadata) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L54 ], ",
+    "call path (type)": " [blk_rq_map_user_io->blk_rq_map_user_iov->blk_rq_map_user_bvec->blk_rq_map_bio_alloc] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "29",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "request->rq_flags",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L889",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L889",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_request) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L688 ], [ (nvme_setup_discard) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L830 ], [ (nvme_clear_nvme_request) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L670 ], ",
+    "call path (type)": " [alloc_pages->alloc_page_interleave->__alloc_pages->get_page_from_freelist->rmqueue->rmqueue_pcplist->__rmqueue_pcplist->rmqueue_bulk->check_pcp_refill->check_new_pages->check_new_page->check_new_page_bad->bad_page->add_taint->panic->console_unblank->console_lock->msleep->schedule_timeout_uninterruptible->schedule_timeout->schedule->sched_submit_work->blk_flush_plug.1400->__blk_flush_plug->blk_mq_flush_plug_list->blk_mq_plug_issue_direct->blk_mq_end_request->blk_update_request] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L889 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "31",
+    "risky": "ptr-read",
+    "acc_path": "request->bio",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3138",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3138",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_uring_cmd_end_io_meta) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L459 ], [ (nvme_uring_cmd_end_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L433 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "31",
+    "risky": "ptr-write",
+    "acc_path": "request->bio",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L191",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L344 |   %2 = alloca %struct.bio_integrity_payload.5366*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_uring_cmd_end_io_meta) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L459 ], [ (nvme_uring_cmd_end_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L433 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bio.h#L346 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "31",
+    "risky": "ptr-sen-branch (memcpy)",
+    "acc_path": "request->bio",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L191",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L191",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_uring_cmd_end_io_meta) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L459 ], [ (nvme_uring_cmd_end_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L433 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/t10-pi.c#L191 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "31",
+    "risky": "ptr-sen-api (memcpy)",
+    "acc_path": "request->bio",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-map.c#L536",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-map.c#L533",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_uring_cmd_end_io_meta) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L459 ], [ (nvme_uring_cmd_end_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L433 ], ",
+    "call path (type)": " [blk_revalidate_disk_zones->nvme_ns_head_report_zones->nvme_ns_report_zones->nvme_submit_sync_cmd->__nvme_submit_sync_cmd->blk_rq_map_kern->blk_rq_append_bio] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-map.c#L539 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-map.c#L536 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "33",
+    "risky": "ptr-read",
+    "acc_path": "request->end_io_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1330",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/find_bit.c#L133",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_keep_alive_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1302 ], [ (nvme_uring_cmd_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L553 ], ",
+    "call path (type)": " [flush_work->__flush_work->start_flush_work->rcu_read_unlock.722->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->select_task_rq->select_fallback_rq->find_next_bit.1380->_find_next_bit] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "17",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/swait.c#L25 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4194 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4093 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L52 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4194 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L52 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/find.h#L52 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3529 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4138 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4228 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "33",
+    "risky": "ptr-write",
+    "acc_path": "request->end_io_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1330",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/sched.h#L2074 |   %3 = alloca i32, align 4",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_keep_alive_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1302 ], [ (nvme_uring_cmd_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L553 ], ",
+    "call path (type)": " [flush_work->__flush_work->start_flush_work->rcu_read_unlock.722->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->ttwu_runnable->__task_rq_lock->task_on_rq_migrating] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "13",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4228 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4093 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L3732 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/swait.c#L25 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4138 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "33",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "request->end_io_data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1330",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/sched.h#L1941",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_keep_alive_work) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L1302 ], [ (nvme_uring_cmd_io) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/ioctl.c#L553 ], ",
+    "call path (type)": " [flush_work->__flush_work->start_flush_work->rcu_read_unlock.722->__rcu_read_unlock->rcu_read_unlock_special->rcu_preempt_deferred_qs_irqrestore->rcu_report_exp_rdp->rcu_report_exp_cpu_mult->__rcu_report_exp_rnp->swake_up_one->swake_up_locked->wake_up_process->try_to_wake_up->set_task_cpu->__set_task_cpu->set_task_rq] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "15",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/swait.c#L25 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4093 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4211 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4194 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4194 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4138 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/sched/core.c#L4228 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "blk_zone",
+    "No.Fields": 10,
+    "No.Shared fields": 4,
+    "No.KRDU fields": 4,
+    "No.classified fields": 1,
+    "No.unclassified fields": 3,
+    "BRANCH": 1,
+    "UNCLASSIFY": 3
+  },
+  {
+    "id": "34",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "blk_zone->start",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L504",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L504",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_zone_parse_entry) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/zns.c#L168 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L504 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "struct name": "inode",
+    "No.Fields": 50,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "thread_info",
+    "No.Fields": 4,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute",
+    "No.Fields": 2,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "attribute_group",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kobj_uevent_env",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "class",
+    "No.Fields": 15,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "device_attribute",
+    "No.Fields": 3,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "cdev",
+    "No.Fields": 6,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 1,
+    "No.classified fields": 1,
+    "No.unclassified fields": 0,
+    "PTR_READ": 1,
+    "PTR_WRITE": 1,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "38",
+    "risky": "ptr-read",
+    "acc_path": "cdev->owner",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L566",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5205 ], [ (nvme_cdev_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4061 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L353 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L634 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "38",
+    "risky": "ptr-write",
+    "acc_path": "cdev->owner",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L348 |   %4 = alloca %struct.module.1317*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_init_ctrl) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L5205 ], [ (nvme_cdev_add) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4061 ], ",
+    "call path (type)": "",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "file_operations",
+    "No.Fields": 34,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "iov_iter",
+    "No.Fields": 8,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "io_uring_cmd",
+    "No.Fields": 6,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kernel_param",
+    "No.Fields": 7,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "rw_semaphore",
+    "No.Fields": 5,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "srcu_struct",
+    "No.Fields": 25,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "module",
+    "No.Fields": 48,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "work_struct",
+    "No.Fields": 3,
+    "No.Shared fields": 3,
+    "No.KRDU fields": 1,
+    "No.classified fields": 0,
+    "No.unclassified fields": 1,
+    "UNCLASSIFY": 1
+  }
+]
+[
+  {
+    "struct name": "delayed_work",
+    "No.Fields": 4,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "spinlock",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "task_struct",
+    "No.Fields": 211,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_head",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "mutex",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "kref",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "wait_queue_entry",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "list_head",
+    "No.Fields": 2,
+    "No.Shared fields": 2,
+    "No.KRDU fields": 2,
+    "No.classified fields": 2,
+    "No.unclassified fields": 0,
+    "PTR_READ": 2,
+    "PTR_WRITE": 2,
+    "BRANCH": 2,
+    "RISKY_KERNEL_FUNC": 2,
+    "UNCLASSIFY": 0
+  },
+  {
+    "id": "40",
+    "risky": "ptr-write",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L72",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], [ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], ",
+    "call path (type)": " [device_add_disk->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->device_link_add->device_reorder_to_tail->devices_kset_move_last->list_move_tail.310->list_add_tail.485->__list_add.486] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | ",
+    "cond_num": "19",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2229 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "40",
+    "risky": "ptr-read",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L378",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], [ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], ",
+    "call path (type)": " [device_add_disk->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->fw_devlink_create_devlink->device_link_add->device_is_dependent] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L371 | ",
+    "cond_num": "27",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2229 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L375 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L368 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "40",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L720",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], [ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], ",
+    "call path (type)": " [bio_split_to_limits->__bio_split_to_limits->submit_bio_noacct->submit_bio_noacct_nocheck->__submit_bio_noacct_mq->__submit_bio->nvme_ns_head_submit_bio->_dev_warn->__dev_printk->dev_driver_string->dev_bus_name] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "31",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L720 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2229 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/device.h#L720 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L817 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L805 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L831 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L816 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "40",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "list_head->next",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L128",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], [ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], ",
+    "call path (type)": " [device_add_disk->device_add->fw_devlink_link_device->__fw_devlink_link_to_consumers->__fwnode_link_del] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "79",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2212 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2229 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2051 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2070 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2059 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2090 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L775 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3609 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3554 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3594 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3568 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2075 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3616 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3582 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3557 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3590 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L782 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L774 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3600 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2175 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2175 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3619 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3641 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L776 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2153 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3574 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2237 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L874 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3659 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L831 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L781 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3632 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2170 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L773 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L865 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3613 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L870 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L850 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L840 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L835 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L806 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "41",
+    "risky": "ptr-read",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1687",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L557",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], [ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], ",
+    "call path (type)": " [destroy_workqueue->workqueue_sysfs_unregister->device_unregister->device_del->kobject_uevent->kobject_uevent_env] ",
+    "num condition checks": 9,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L543 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L540 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L547 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L556 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L556 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L525 | ",
+    "cond_num": "36",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L556 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L556 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L543 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L540 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L485 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L503 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L547 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L503 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L496 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L589 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3869 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "41",
+    "risky": "ptr-write",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1687",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L457 |   %26 = alloca %struct.kset_uevent_ops.14522*, align 8",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], [ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], ",
+    "call path (type)": " [destroy_workqueue->workqueue_sysfs_unregister->device_unregister->device_del->kobject_uevent->kobject_uevent_env] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "22",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L485 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3869 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L589 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "41",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1687",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L548",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], [ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], ",
+    "call path (type)": " [destroy_workqueue->workqueue_sysfs_unregister->device_unregister->device_del->kobject_uevent->kobject_uevent_env] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "40",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L503 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L540 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L485 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L496 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L512 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L607 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L599 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L505 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L530 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L599 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L516 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L503 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L525 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L537 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L497 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L589 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3869 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L517 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L486 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "41",
+    "risky": "ptr-sen-api (kfree)",
+    "acc_path": "list_head->prev",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1687",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2934",
+    "drv caller (param)": "",
+    "call path (param)": "",
+    "drv_update loc (shared field)": "[ (nvme_remove_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4684 ], [ (nvme_remove_invalid_namespaces) https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/nvme/host/core.c#L4540 ], ",
+    "call path (type)": " [destroy_workqueue->workqueue_sysfs_unregister->device_unregister->device_del->device_remove_attrs] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2932 | ",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L972 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3832 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2932 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2945 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3894 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1673 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3842 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3844 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3837 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3830 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3825 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3818 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "struct name": "static_key",
+    "No.Fields": 2,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "timer_list",
+    "No.Fields": 4,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "refcount_struct",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "ida",
+    "No.Fields": 1,
+    "No.Shared fields": 1,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]
+[
+  {
+    "struct name": "workqueue_struct",
+    "No.Fields": 0,
+    "No.Shared fields": 0,
+    "No.KRDU fields": 0,
+    "No.classified fields": 0,
+    "No.unclassified fields": 0,
+    "UNCLASSIFY": 0
+  }
+]

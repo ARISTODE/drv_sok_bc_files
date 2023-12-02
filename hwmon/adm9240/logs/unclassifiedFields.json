@@ -1,0 +1,162 @@
+{
+  "id": 1,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon-vid.c#L69 | vid_from_reg",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "vrm",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/hwmon-vid.c#L69 | vid_from_reg",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2910 | regmap_read",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L3158 | regmap_bulk_read",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "val_count",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L3158 | regmap_bulk_read",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2938 | regmap_raw_read",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "val_len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2938 | regmap_raw_read",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L276 | adm9240_detect",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L782 | adm9240_probe",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L214 | cpu0_vid_show",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L214 | cpu0_vid_show",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L248 | aout_output_store",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L656 | adm9240_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L656 | adm9240_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L620 | adm9240_read",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L620 | adm9240_read",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L639 | adm9240_write",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L639 | adm9240_write",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L639 | adm9240_write",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L757 | adm9240_volatile_reg",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L757 | adm9240_volatile_reg",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L757 | adm9240_volatile_reg",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L757 | adm9240_volatile_reg",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L757 | adm9240_volatile_reg",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/adm9240.c#L757 | adm9240_volatile_reg",
+  "Drv update": ""
+}

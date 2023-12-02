@@ -1,0 +1,60 @@
+{
+  "id": 1,
+  "acc_path": "irqnum",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/core/hcd.c#L2815 | usb_add_hcd",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "irqflags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/core/hcd.c#L2815 | usb_add_hcd",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "rev",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/acpi/utils.c#L690 | acpi_evaluate_dsm",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "func",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/acpi/utils.c#L690 | acpi_evaluate_dsm",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "index",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/core/usb-acpi.c#L59 | usb_acpi_port_lpm_incapable",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L542 | pci_read_config_byte",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/host/xhci-pci.c#L447 | xhci_pci_probe",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/host/xhci-pci.c#L404 | xhci_pci_setup",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/host/xhci-pci.c#L404 | xhci_pci_setup",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/host/xhci-pci.c#L404 | xhci_pci_setup",
+  "Drv update": ""
+}

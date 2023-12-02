@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 5
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L497",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L44",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L371",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L373",
+    "loop form": "Loop"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L395",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/asm-generic/bitops/instrumented-non-atomic.h#L28",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L312",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L316",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L782",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L783",
+    "loop form": "list iteration/container_of"
+  }
+]

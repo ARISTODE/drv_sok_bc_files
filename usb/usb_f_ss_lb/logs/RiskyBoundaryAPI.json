@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "lb_free_func(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L232) | sourcesink_free_func(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L460) | source_sink_free_instance(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L1243) | lb_free_instance(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L566) | free_ep_req(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./drivers/usb/gadget/u_f.h#L81) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "config_group_init_type_name",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]source_sink_alloc_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L1246 )->config_group_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L92 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]loopback_alloc_instance ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L569 )->config_group_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L92 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

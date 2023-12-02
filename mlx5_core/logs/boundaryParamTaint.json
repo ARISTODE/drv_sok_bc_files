@@ -1,0 +1,522 @@
+[
+  {
+    "id": "24",
+    "risky": "arr-idx",
+    "acc_path": "filter",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L2022",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/xarray.h#L1697",
+    "drv caller (param)": "[ mlx5_irq_pool_free_irqs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L613 ], ",
+    "call path (param)": " [mlx5_irq_pool_free_irqs->xa_find_after->xas_find_marked->xas_find_chunk] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [xa_find->xas_find_marked->xas_find_chunk] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "39",
+    "risky": "arr-idx",
+    "acc_path": "index",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L1582",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/xarray.h#L1198",
+    "drv caller (param)": "[ mlx5_irq_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L259 ], ",
+    "call path (param)": " [mlx5_irq_alloc->xa_store->__xa_store->xas_store->xas_load->xas_descend->xa_entry.2021] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [xa_find->xas_find_marked->xa_entry.2021] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L207 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "40",
+    "risky": "val-sen-api (kmem_cache_alloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L1582",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L340",
+    "drv caller (param)": "[ mlx5_irq_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L259 ], ",
+    "call path (param)": " [mlx5_irq_alloc->xa_store->__xa_store->__xas_nomem] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [xa_store->__xa_store->__xas_nomem] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L338 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L336 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L332 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L338 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "42",
+    "risky": "val-sen-api (kmem_cache_alloc)",
+    "acc_path": "gfp_mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L1469",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L336",
+    "drv caller (param)": "[ mlx5_fc_create_ex | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L368 ], ",
+    "call path (param)": " [mlx5_fc_create_ex->idr_preload->__radix_tree_preload] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [idr_preload->__radix_tree_preload] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "[ ACTUAL_IN || PARAMETER_INgfp_t ] -> [ FORMAL_IN || PARAMETER_INgfp_mask ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L336 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "43",
+    "risky": "arr-idx",
+    "acc_path": "index",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L1445",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L87",
+    "drv caller (param)": "[ mlx5_eq_del_cq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L422 ], ",
+    "call path (param)": " [mlx5_eq_del_cq->radix_tree_delete->radix_tree_delete_item->__radix_tree_lookup->radix_tree_descend] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [destroy_workqueue->put_pwq_unlocked->put_pwq->schedule_work.154->queue_work.704->queue_work_on->__queue_work->get_work_pool->idr_find->radix_tree_lookup->__radix_tree_lookup->radix_tree_descend] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L760 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "44",
+    "risky": "arr-idx",
+    "acc_path": "index",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L710",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L87",
+    "drv caller (param)": "[ mlx5_eq_add_cq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L410 ], ",
+    "call path (param)": " [mlx5_eq_add_cq->radix_tree_insert->__radix_tree_create->radix_tree_descend] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [destroy_workqueue->put_pwq_unlocked->put_pwq->schedule_work.154->queue_work.704->queue_work_on->__queue_work->get_work_pool->idr_find->radix_tree_lookup->__radix_tree_lookup->radix_tree_descend] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L620 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L618 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "50",
+    "risky": "arr-idx",
+    "acc_path": "index",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L1518",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/xarray.h#L1198",
+    "drv caller (param)": "[ irq_release | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L149 ], ",
+    "call path (param)": " [irq_release->xa_erase->__xa_erase->xas_store->xas_load->xas_descend->xa_entry.2021] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [xa_find->xas_find_marked->xa_entry.2021] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L207 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "53",
+    "risky": "val-sen-api (kzalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L466",
+    "drv caller (param)": "[ mlx5_core_reserved_gid_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L94 ], ",
+    "call path (param)": " [mlx5_core_reserved_gid_alloc->ida_alloc_range] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->create_worker->ida_alloc.409->ida_alloc_range] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "0",
+    "cond_loc": "",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "55",
+    "risky": "ptr-read",
+    "acc_path": "map",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "drv caller (param)": "[ mlx5_dm_sw_icm_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480 ], ",
+    "call path (param)": " [mlx5_dm_sw_icm_alloc->__bitmap_clear] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->create_worker->ida_free->xas_store->xas_squash_marks->__bitmap_clear] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "55",
+    "risky": "ptr-write",
+    "acc_path": "map",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L399",
+    "drv caller (param)": "[ mlx5_dm_sw_icm_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480 ], ",
+    "call path (param)": " [mlx5_dm_sw_icm_alloc->__bitmap_clear] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->create_worker->ida_free->xas_store->xas_squash_marks->__bitmap_clear] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L397 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "60",
+    "risky": "arr-idx",
+    "acc_path": "index",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L817",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L87",
+    "drv caller (param)": "[ mlx5_eq_cq_get | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L97 ], ",
+    "call path (param)": " [mlx5_eq_cq_get->radix_tree_lookup->__radix_tree_lookup->radix_tree_descend] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [destroy_workqueue->put_pwq_unlocked->put_pwq->schedule_work.154->queue_work.704->queue_work_on->__queue_work->get_work_pool->idr_find->radix_tree_lookup->__radix_tree_lookup->radix_tree_descend] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L760 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "63",
+    "risky": "arr-idx",
+    "acc_path": "node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/cpumask.c#L143",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/topology.h#L72",
+    "drv caller (param)": "[ comp_irqs_request | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L837 ], ",
+    "call path (param)": " [comp_irqs_request->cpumask_local_spread->cpumask_of_node.1678] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [cpumask_local_spread->cpumask_of_node.1678] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "65",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "nbits",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1408",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1401",
+    "drv caller (param)": "[ alloc_uars_page | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L116 ], ",
+    "call path (param)": " [alloc_uars_page->bitmap_zalloc_node->bitmap_alloc_node] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [bitmap_zalloc_node->bitmap_alloc_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "67",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "node",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1408",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L577",
+    "drv caller (param)": "[ alloc_uars_page | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L116 ], ",
+    "call path (param)": " [alloc_uars_page->bitmap_zalloc_node->bitmap_alloc_node->kmalloc_array_node] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [bitmap_zalloc_node->bitmap_alloc_node->kmalloc_array_node] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L664 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L662 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "68",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "nbits",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1395",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L1388",
+    "drv caller (param)": "[ mlx5_dm_create | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L52 ], ",
+    "call path (param)": " [mlx5_dm_create->bitmap_zalloc->bitmap_alloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [bitmap_zalloc->bitmap_alloc] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "70",
+    "risky": "ptr-read",
+    "acc_path": "map",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L378",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L378",
+    "drv caller (param)": "[ mlx5_dm_sw_icm_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L464 ], ",
+    "call path (param)": " [mlx5_dm_sw_icm_alloc->__bitmap_set] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__bitmap_set] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L376 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L376 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  },
+  {
+    "id": "70",
+    "risky": "ptr-write",
+    "acc_path": "map",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L378",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L378",
+    "drv caller (param)": "[ mlx5_dm_sw_icm_alloc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L464 ], ",
+    "call path (param)": " [mlx5_dm_sw_icm_alloc->__bitmap_set] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [__bitmap_set] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L376 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L376 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "80",
+    "risky": "ptr-read",
+    "acc_path": "bitmap",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L349 |   %6 = alloca i64, align 8",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L351",
+    "drv caller (param)": "[ slots_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L439 ], ",
+    "call path (param)": " [slots_read->__bitmap_weight] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->wq_clamp_max_active->cpumask_weight->__bitmap_weight] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L351 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L351 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "80",
+    "risky": "ptr-write",
+    "acc_path": "bitmap",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L349 |   %6 = alloca i64, align 8",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/bitmap.c#L349 |   %8 = alloca i64, align 8",
+    "drv caller (param)": "[ slots_read | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L439 ], ",
+    "call path (param)": " [slots_read->__bitmap_weight] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->wq_clamp_max_active->cpumask_weight->__bitmap_weight] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "83",
+    "risky": "arr-idx",
+    "acc_path": "filter",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/xarray.c#L2075",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/xarray.h#L1697",
+    "drv caller (param)": "[ mlx5_irq_pool_free_irqs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L613 ], ",
+    "call path (param)": " [mlx5_irq_pool_free_irqs->xa_find_after->xas_find_marked->xas_find_chunk] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [xa_find->xas_find_marked->xas_find_chunk] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "105",
+    "risky": "arr-idx",
+    "acc_path": "limit",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/devlink/leftover.c#L4474",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/devlink/leftover.c#L4437",
+    "drv caller (param)": "[ mlx5_fw_reset_complete_reload | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L158 ], ",
+    "call path (param)": " [mlx5_fw_reset_complete_reload->devlink_remote_reload_actions_performed->__devlink_reload_stats_update] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devlink_remote_reload_actions_performed->__devlink_reload_stats_update] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/devlink/leftover.c#L4435 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/devlink/leftover.c#L4435 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "109",
+    "risky": "val-sen-api (kmem_cache_alloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L46",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L252",
+    "drv caller (param)": "[ mlx5_fc_create_ex | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L371 ], ",
+    "call path (param)": " [mlx5_fc_create_ex->idr_alloc_u32->idr_get_free->radix_tree_extend->radix_tree_node_alloc] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->worker_pool_assign_id->idr_alloc->idr_alloc_u32->idr_get_free->radix_tree_extend->radix_tree_node_alloc] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L243 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L243 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L1490 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L1487 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L457 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L243 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/radix-tree.c#L243 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "110",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "expires",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "drv caller (param)": "[ poll_sync_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L218 ], ",
+    "call path (param)": " [poll_sync_reset->mod_timer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [alloc_workqueue->alloc_and_link_pwqs->apply_workqueue_attrs->apply_workqueue_attrs_locked->apply_wqattrs_prepare->alloc_unbound_pwq->get_unbound_pool->create_worker->worker_enter_idle->mod_timer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "122",
+    "risky": "ptr-write",
+    "acc_path": "val",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L569",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 |   %12 = alloca i32, align 4",
+    "drv caller (param)": "[ mlx5_vsc_gw_read_fast | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L254 ], ",
+    "call path (param)": " [mlx5_vsc_gw_read_fast->mlx5_vsc_gw_read->mlx5_vsc_wait_on_flag->pci_read_config_dword->pci_bus_read_config_dword] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pcie_print_link_status->__pcie_print_link_status->pcie_bandwidth_capable->pcie_get_speed_cap->pcie_capability_read_dword->pci_read_config_dword->pci_bus_read_config_dword] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "123",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "phys_addr",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ mlx5_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L891 ], ",
+    "call path (param)": " [mlx5_pci_init->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devlink_health_report->devlink_health_reporter_recover->mlx5_fw_fatal_reporter_recover->mlx5_health_try_recover->mlx5_recover_device->mlx5_load_one_devl_locked->mlx5_load->mlx5_get_uars_page->alloc_uars_page->ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "124",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ mlx5_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L891 ], ",
+    "call path (param)": " [mlx5_pci_init->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devlink_health_report->devlink_health_reporter_recover->mlx5_fw_fatal_reporter_recover->mlx5_health_try_recover->mlx5_recover_device->mlx5_load_one_devl_locked->mlx5_load->mlx5_get_uars_page->alloc_uars_page->ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "126",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "phys_addr",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L400",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ alloc_uars_page | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L138 ], ",
+    "call path (param)": " [alloc_uars_page->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devlink_health_report->devlink_health_reporter_recover->mlx5_fw_fatal_reporter_recover->mlx5_health_try_recover->mlx5_recover_device->mlx5_load_one_devl_locked->mlx5_load->mlx5_get_uars_page->alloc_uars_page->ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "127",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L400",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ alloc_uars_page | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L138 ], ",
+    "call path (param)": " [alloc_uars_page->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devlink_health_report->devlink_health_reporter_recover->mlx5_fw_fatal_reporter_recover->mlx5_health_try_recover->mlx5_recover_device->mlx5_load_one_devl_locked->mlx5_load->mlx5_get_uars_page->alloc_uars_page->ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]

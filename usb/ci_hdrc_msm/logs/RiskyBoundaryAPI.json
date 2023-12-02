@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "devm_clk_get_optional",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [5]ci_hdrc_msm_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L172 )->devm_clk_get_optional ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L82 )->__devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L22 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "devm_clk_get",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [5]ci_hdrc_msm_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L172 )->devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L63 )->__devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L22 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )( [5]ci_hdrc_msm_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_msm.c#L172 )->devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L63 )->__devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L22 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  }
+]

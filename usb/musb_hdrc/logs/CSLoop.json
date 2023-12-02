@@ -1,0 +1,17 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1282",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_gadget.c#L1284",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2224",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L2225",
+    "loop form": "list iteration/container_of"
+  }
+]

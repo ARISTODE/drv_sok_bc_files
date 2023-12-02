@@ -1,0 +1,96 @@
+{
+  "id": 3,
+  "acc_path": "attribute->mode",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3016],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3019],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L101],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1308], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L316],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L332],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L286],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L364],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L348],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/i5k_amb.c#L301], "
+}
+{
+  "id": 4,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1217 | __request_region",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1251 | __release_region",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/resource.c#L1251 | __release_region",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L576 | platform_device_alloc",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L562 | pci_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L552 | pci_read_config_word",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L498 | i5k_amb_probe",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L498 | i5k_amb_probe",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L498 | i5k_amb_probe",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L498 | i5k_amb_probe",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L498 | i5k_amb_probe",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L498 | i5k_amb_probe",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/i5k_amb.c#L104 | name_show",
+  "Drv update": ""
+}

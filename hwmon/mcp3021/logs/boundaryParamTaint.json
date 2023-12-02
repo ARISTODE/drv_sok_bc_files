@@ -1,0 +1,18 @@
+[
+  {
+    "id": "0",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1052",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L763",
+    "drv caller (param)": "[ mcp3021_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/mcp3021.c#L172 ], ",
+    "call path (param)": " [mcp3021_probe->devm_hwmon_device_register_with_info->hwmon_device_register_with_info->__hwmon_device_register] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_hwmon_device_register_with_info->hwmon_device_register_with_info->__hwmon_device_register] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L913 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L910 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L910 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L910 | ",
+    "isControl": "0"
+  }
+]

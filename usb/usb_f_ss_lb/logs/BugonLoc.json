@@ -1,0 +1,14 @@
+[
+  {
+    "Total Bugon": 1,
+    "Controlled Bugon": 1,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ loopback_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L214 ], [ enable_loopback | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_loopback.c#L396 ], [ source_sink_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L561 ], [ sourcesink_bind | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L439 ], [ enable_source_sink | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L734 ], [ disable_ep | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_sourcesink.c#L301 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  }
+]

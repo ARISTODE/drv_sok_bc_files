@@ -1,0 +1,23 @@
+[
+  {
+    "No. entry": 3
+  },
+  {
+    "Lock Name": "rtnl_lock",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/intel/ixgbe/ixgbe_main.c#L7971",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_exp.h#L348",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/rcu/tree_exp.h#L353",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/ptp/ptp_clock.c#L52",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/ptp/ptp_clock.c#L54",
+    "loop form": "list iteration/container_of"
+  }
+]

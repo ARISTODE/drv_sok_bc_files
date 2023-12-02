@@ -1,0 +1,36 @@
+[
+  {
+    "id": "2",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "phys_addr",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "call path (param)": " [mv_u3d_probe->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "3",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "call path (param)": " [mv_u3d_probe->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]

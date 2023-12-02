@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/iomem.c#L71 | memremap",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/iomem.c#L71 | memremap",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "available",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/libfs.c#L827 | memory_read_from_buffer",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/nvmem/rmem.c#L52 | rmem_probe",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/nvmem/rmem.c#L52 | rmem_probe",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/nvmem/rmem.c#L52 | rmem_probe",
+  "Drv update": ""
+}

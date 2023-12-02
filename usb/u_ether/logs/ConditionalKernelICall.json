@@ -1,0 +1,100 @@
+[
+  {
+    "No. entry": 19
+  },
+  {
+    "Drv func": "gether_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1064 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1067"
+  },
+  {
+    "Drv func": "gether_register_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L886 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L886"
+  },
+  {
+    "Drv func": "gether_setup_name",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L807 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L807"
+  },
+  {
+    "Drv func": "rx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L268 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L282"
+  },
+  {
+    "Drv func": "rx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L290 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L288 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L297"
+  },
+  {
+    "Drv func": "gether_set_ifname",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1037 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1041"
+  },
+  {
+    "Drv func": "gether_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1064 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1068"
+  },
+  {
+    "Drv func": "gether_register_netdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L877 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L884"
+  },
+  {
+    "Drv func": "gether_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "gether_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "gether_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1064 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1069"
+  },
+  {
+    "Drv func": "rx_fill",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L413 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "rx_fill",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L413 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "rx_submit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L193 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "eth_start_xmit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L530 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "gether_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1187 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "rx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L289 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L290 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L288 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L304"
+  },
+  {
+    "Drv func": "rx_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L262 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L266"
+  },
+  {
+    "Drv func": "gether_disconnect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_ether.c#L1200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "No. entry": 38
+  },
+  {
+    "Drv func": "e752x_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1274 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1293"
+  },
+  {
+    "Drv func": "do_process_ue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L397 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L403 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L406"
+  },
+  {
+    "Drv func": "do_process_ce",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L342 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L366"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L887 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L888"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L932 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L933"
+  },
+  {
+    "Drv func": "e752x_init_error_reporting_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1243"
+  },
+  {
+    "Drv func": "do_process_ded_retry",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L471 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L472"
+  },
+  {
+    "Drv func": "e752x_get_devs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1180 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1181"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L901 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L902 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L907"
+  },
+  {
+    "Drv func": "e752x_init_mem_map_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1147 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1148"
+  },
+  {
+    "Drv func": "e752x_init_csrows",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1093 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1099"
+  },
+  {
+    "Drv func": "e752x_init_csrows",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1078 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1080"
+  },
+  {
+    "Drv func": "e752x_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1410"
+  },
+  {
+    "Drv func": "e752x_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1411"
+  },
+  {
+    "Drv func": "e752x_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1274 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1282"
+  },
+  {
+    "Drv func": "e752x_init_error_reporting_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1242"
+  },
+  {
+    "Drv func": "pci_write_bits16",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L118 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/edac_pci.h#L121"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L849 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L850 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L855"
+  },
+  {
+    "Drv func": "e752x_init_sysbus_parity_mask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1226 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1229"
+  },
+  {
+    "Drv func": "e752x_init_error_reporting_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1240"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L875 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L876"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L883 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L884"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L879 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L880"
+  },
+  {
+    "Drv func": "e752x_get_devs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1186 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1193"
+  },
+  {
+    "Drv func": "e752x_get_devs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1180 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1183"
+  },
+  {
+    "Drv func": "e752x_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1311 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1312"
+  },
+  {
+    "Drv func": "e752x_init_sysbus_parity_mask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1226 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1227"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L901 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L902 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L903"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L920 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L921"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L928 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L929"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L924 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L925"
+  },
+  {
+    "Drv func": "do_process_ue",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L422 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L425"
+  },
+  {
+    "Drv func": "set_sdram_scrub_rate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1008 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1011"
+  },
+  {
+    "Drv func": "e752x_probe1",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1274 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1274 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1280"
+  },
+  {
+    "Drv func": "e752x_init_error_reporting_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1238 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1239"
+  },
+  {
+    "Drv func": "e752x_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1412"
+  },
+  {
+    "Drv func": "e752x_init_mem_map_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1147 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1150 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1161"
+  },
+  {
+    "Drv func": "e752x_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L849 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L850 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L851"
+  }
+]

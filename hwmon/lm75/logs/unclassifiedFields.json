@@ -1,0 +1,210 @@
+{
+  "id": 0,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2910 | regmap_read",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L573 | lm75_probe",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L808 | lm75_detect",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L902 | lm75_suspend",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L486 | lm75_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "umode_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L486 | lm75_is_visible",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L342 | lm75_read",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L342 | lm75_read",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L472 | lm75_write",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L472 | lm75_write",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L472 | lm75_write",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/lm75.c#L534 | lm75_is_writeable_reg",
+  "Drv update": ""
+}

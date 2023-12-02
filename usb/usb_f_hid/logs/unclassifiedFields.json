@@ -1,0 +1,102 @@
+{
+  "id": 0,
+  "acc_path": "device->devt",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L541],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3488],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L550],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L5132],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L544],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L4876],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/char_dev.c#L574],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3501],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2952], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_hid.c#L1277], "
+}
+{
+  "id": 3,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L296 | init_wait_entry",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "state",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L305 | prepare_to_wait_event",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L157 | __wake_up",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "nr_exclusive",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L157 | __wake_up",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/usercopy.c#L34 | _copy_to_user",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/usercopy.c#L11 | _copy_from_user",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L487 | ida_free",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "min",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L380 | ida_alloc_range",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "max",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L380 | ida_alloc_range",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "from",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/char_dev.c#L311 | unregister_chrdev_region",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "count",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/char_dev.c#L311 | unregister_chrdev_region",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/f_hid.c#L402 | f_hidg_read",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/f_hid.c#L402 | f_hidg_read",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/f_hid.c#L402 | f_hidg_read",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/f_hid.c#L402 | f_hidg_read",
+  "Drv update": ""
+}

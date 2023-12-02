@@ -1,0 +1,102 @@
+[
+  {
+    "id": "9",
+    "risky": "arr-idx",
+    "acc_path": "status",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L36",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L109",
+    "drv caller (param)": "[ read_capabilities | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L773 ], ",
+    "call path (param)": " [read_capabilities->acpi_format_exception->acpi_ut_validate_exception] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [hwmon_device_unregister->device_unregister->device_del->device_platform_notify_remove->acpi_power_meter_resume->read_capabilities->acpi_format_exception->acpi_ut_validate_exception] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L108 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "9",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "status",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L36",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L87",
+    "drv caller (param)": "[ read_capabilities | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L773 ], ",
+    "call path (param)": " [read_capabilities->acpi_format_exception->acpi_ut_validate_exception] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [hwmon_device_unregister->device_unregister->device_del->device_platform_notify_remove->acpi_power_meter_resume->read_capabilities->acpi_format_exception->acpi_ut_validate_exception] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "10",
+    "risky": "ptr-read",
+    "acc_path": "data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L273",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L271",
+    "drv caller (param)": "[ update_meter | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L326 ], ",
+    "call path (param)": " [update_meter->acpi_evaluate_integer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [acpi_evaluate_integer] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L255 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L261 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L266 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L261 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L255 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "10",
+    "risky": "ptr-write",
+    "acc_path": "data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L273",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L271",
+    "drv caller (param)": "[ update_meter | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L326 ], ",
+    "call path (param)": " [update_meter->acpi_evaluate_integer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [acpi_evaluate_integer] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L255 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L261 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L266 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L261 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L255 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "11",
+    "risky": "arr-idx",
+    "acc_path": "status",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L575",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L109",
+    "drv caller (param)": "[ update_avg_interval | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L116 ], ",
+    "call path (param)": " [update_avg_interval->acpi_evaluate_integer->acpi_util_eval_error->acpi_format_exception->acpi_ut_validate_exception] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [hwmon_device_unregister->device_unregister->device_del->device_platform_notify_remove->acpi_power_meter_resume->read_capabilities->acpi_format_exception->acpi_ut_validate_exception] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L108 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "11",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "status",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/utils.c#L575",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L87",
+    "drv caller (param)": "[ update_avg_interval | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/acpi_power_meter.c#L116 ], ",
+    "call path (param)": " [update_avg_interval->acpi_evaluate_integer->acpi_util_eval_error->acpi_format_exception->acpi_ut_validate_exception] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [hwmon_device_unregister->device_unregister->device_del->device_platform_notify_remove->acpi_power_meter_resume->read_capabilities->acpi_format_exception->acpi_ut_validate_exception] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/acpica/utexcep.c#L77 | ",
+    "isControl": "0"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "0",
+    "risky": "arr-idx",
+    "acc_path": "cpu",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/smp.c#L1249",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L207",
+    "drv caller (param)": "[ i8k_smm | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L217 ], ",
+    "call path (param)": " [i8k_smm->smp_call_on_cpu->cpu_online.440] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [smp_call_on_cpu->cpu_online.440] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L239 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "2",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L59",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L25",
+    "drv caller (param)": "[ dell_smm_init_cdev | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/dell-smm-hwmon.c#L966 ], ",
+    "call path (param)": " [dell_smm_init_cdev->kasprintf->kvasprintf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kasprintf->kvasprintf] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

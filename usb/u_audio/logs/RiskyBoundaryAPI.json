@@ -1,0 +1,342 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "g_audio_setup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1404) | g_audio_cleanup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1429) | g_audio_setup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1405) | free_ep_fback(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L482) | u_audio_iso_fback_complete(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L290) | g_audio_setup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1407) | g_audio_cleanup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1427) | g_audio_cleanup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1431) | g_audio_setup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1408) | g_audio_cleanup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1428) | g_audio_setup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1406) | g_audio_cleanup(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1430) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "snd_pcm_new",
+    "risky func": "kzalloc.270",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L775 )->_snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L705 )->kzalloc.270 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "snd_pcm_new",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L775 )->_snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L705 )->snd_pcm_new_stream ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L638 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "snd_pcm_new",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 10,
+    "call path": "( [7]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L775 )->_snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L705 )->snd_pcm_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L864 )->snd_pcm_free_stream ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L824 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "snd_pcm_new",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L775 )->_snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L705 )->snd_pcm_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L864 )->snd_pcm_lib_preallocate_free_for_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L145 )->snd_pcm_lib_preallocate_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L134 )->do_free_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L88 )->decrease_allocated_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L46 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "snd_pcm_new",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 10,
+    "call path": "( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L775 )->_snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L705 )->snd_pcm_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L864 )->snd_pcm_lib_preallocate_free_for_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L145 )->snd_pcm_lib_preallocate_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L134 )->do_free_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L88 )->decrease_allocated_size ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L46 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "snd_pcm_new",
+    "risky func": "kzalloc.204",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 15,
+    "call path": "( [11]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L775 )->_snd_pcm_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L705 )->snd_pcm_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L864 )->snd_pcm_free_stream ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L824 )->free_chmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L812 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_notify_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L201 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [3]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [3]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 15,
+    "call path": "( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 33,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 48,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3758 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "kzalloc.64",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->device_private_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3506 )->kzalloc.64 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "snd_card_register",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 53,
+    "call path": "( [8]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L881 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "snd_card_free",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 3,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L643 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "snd_card_free",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 18,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L643 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->snd_card_disconnect ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L492 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 16,
+    "kernel boundary func name": "snd_card_free",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L643 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->snd_card_disconnect ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L492 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 17,
+    "kernel boundary func name": "snd_card_free",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 16,
+    "call path": "( [7]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L643 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->snd_card_disconnect ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L492 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 18,
+    "kernel boundary func name": "snd_card_free_when_closed",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 2,
+    "call path": "( [4]g_audio_cleanup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1414 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 19,
+    "kernel boundary func name": "snd_card_free_when_closed",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 17,
+    "call path": "( [4]g_audio_cleanup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1414 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->snd_card_disconnect ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L492 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 20,
+    "kernel boundary func name": "snd_card_free_when_closed",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [4]g_audio_cleanup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1414 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->snd_card_disconnect ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L492 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 21,
+    "kernel boundary func name": "snd_card_free_when_closed",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 15,
+    "call path": "( [6]g_audio_cleanup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1414 )->snd_card_free_when_closed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L620 )->snd_card_disconnect ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L492 )->device_del ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3807 )->device_remove_attrs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2927 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 22,
+    "kernel boundary func name": "snd_pcm_stream_unlock",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]u_audio_iso_complete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L149 )->snd_pcm_stream_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L120 )->snd_pcm_group_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L96 )->mutex_unlock ( Unknown Loc ) )( [4]u_audio_iso_complete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L149 )->snd_pcm_stream_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L120 )->snd_pcm_group_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L96 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 23,
+    "kernel boundary func name": "snd_pcm_stream_lock",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]u_audio_iso_complete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L149 )->snd_pcm_stream_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L108 )->snd_pcm_group_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L95 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 24,
+    "kernel boundary func name": "snd_pcm_set_managed_buffer_all",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [7]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_set_managed_buffer_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L405 )->preallocate_pages_for_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L301 )->preallocate_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L265 )->preallocate_pcm_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L103 )->do_alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L54 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 25,
+    "kernel boundary func name": "snd_pcm_set_managed_buffer_all",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 7,
+    "call path": "( [7]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_pcm_set_managed_buffer_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L405 )->preallocate_pages_for_all ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L301 )->preallocate_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L265 )->preallocate_pcm_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L103 )->do_alloc_pages ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L54 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 26,
+    "kernel boundary func name": "snd_ctl_new1",
+    "risky func": "kzalloc.204",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_new1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L262 )->snd_ctl_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L230 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_new1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L262 )->snd_ctl_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L230 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_new1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L262 )->snd_ctl_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L230 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_new1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L262 )->snd_ctl_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L230 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_new1 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L262 )->snd_ctl_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L230 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 27,
+    "kernel boundary func name": "snd_ctl_add",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [8]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_free_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L325 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [8]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_free_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L325 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [8]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_free_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L325 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [8]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_free_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L325 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [8]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_free_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L325 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 28,
+    "kernel boundary func name": "snd_ctl_add",
+    "risky func": "kzalloc.204",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 11,
+    "call path": "( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_notify_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L201 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_notify_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L201 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_notify_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L201 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_notify_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L201 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [9]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_ctl_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L544 )->snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L507 )->__snd_ctl_add_replace ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L460 )->snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L603 )->__snd_ctl_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L572 )->snd_ctl_notify_one ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L201 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 29,
+    "kernel boundary func name": "snd_ctl_notify",
+    "risky func": "kzalloc.204",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 2,
+    "call path": "( [3]set_active ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L494 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [3]u_audio_set_volume ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L788 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [3]u_audio_set_mute ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L835 )->snd_ctl_notify ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/control.c#L149 )->kzalloc.204 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 30,
+    "kernel boundary func name": "snd_pcm_period_elapsed",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 31,
+    "call path": "( [4]u_audio_iso_complete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L149 )->snd_pcm_period_elapsed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L1841 )->_snd_pcm_stream_lock_irqsave ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L164 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 31,
+    "kernel boundary func name": "snd_pcm_period_elapsed",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 37,
+    "call path": "( [11]u_audio_iso_complete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L149 )->snd_pcm_period_elapsed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L1841 )->snd_pcm_period_elapsed_under_stream_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L1808 )->snd_pcm_update_hw_ptr0 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L258 )->__snd_pcm_xrun ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L143 )->snd_pcm_stop ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1535 )->snd_pcm_action ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1353 )->snd_pcm_stream_group_ref ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1318 )->snd_pcm_group_unref ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1300 )->snd_pcm_group_unlock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L96 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 32,
+    "kernel boundary func name": "snd_pcm_period_elapsed",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 30,
+    "call path": "( [10]u_audio_iso_complete ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L149 )->snd_pcm_period_elapsed ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L1841 )->snd_pcm_period_elapsed_under_stream_lock ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L1808 )->snd_pcm_update_hw_ptr0 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L258 )->__snd_pcm_xrun ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L143 )->snd_pcm_stop ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1535 )->snd_pcm_action ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1353 )->snd_pcm_stream_group_ref ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1318 )->snd_pcm_group_unref ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L1300 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 33,
+    "kernel boundary func name": "snd_card_new",
+    "risky func": "kzalloc.264",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [3]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L163 )->kzalloc.264 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 34,
+    "kernel boundary func name": "snd_card_new",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L163 )->snd_card_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L268 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 35,
+    "kernel boundary func name": "snd_card_new",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L163 )->snd_card_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L268 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 36,
+    "kernel boundary func name": "snd_card_new",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L163 )->snd_card_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L268 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 37,
+    "kernel boundary func name": "snd_card_new",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 13,
+    "call path": "( [5]g_audio_setup ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1155 )->snd_card_new ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L163 )->snd_card_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L268 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  }
+]

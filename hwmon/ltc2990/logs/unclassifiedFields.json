@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "acc_path": "nval",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/property.c#L142 | device_property_read_u32_array",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/i2c/i2c-core-smbus.c#L158 | i2c_smbus_write_byte_data",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/ltc2990.c#L203 | ltc2990_i2c_probe",
+  "Drv update": ""
+}

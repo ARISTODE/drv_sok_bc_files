@@ -1,0 +1,50 @@
+[
+  {
+    "No. entry": 9
+  },
+  {
+    "Drv func": "max6650_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L441 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L447"
+  },
+  {
+    "Drv func": "max6650_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L434 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L440"
+  },
+  {
+    "Drv func": "max6650_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L434 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L441 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L454"
+  },
+  {
+    "Drv func": "max6650_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L166 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L180"
+  },
+  {
+    "Drv func": "max6650_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L166 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L167"
+  },
+  {
+    "Drv func": "max6650_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L427 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L433"
+  },
+  {
+    "Drv func": "max6650_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L786 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L789"
+  },
+  {
+    "Drv func": "max6650_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L779 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L780"
+  },
+  {
+    "Drv func": "max6650_set_operating_mode",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6650.c#L211"
+  }
+]

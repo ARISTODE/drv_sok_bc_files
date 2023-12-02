@@ -1,0 +1,92 @@
+[
+  {
+    "Total Bugon": 11,
+    "Controlled Bugon": 3,
+    "Uncontrolled Bugon": 8
+  },
+  {
+    "Drv caller": "[ mv_u3d_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1770 ], [ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1982 ], ",
+    "Trans func name": "iounmap",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L495",
+    "Check": "No check",
+    "Call Path": "iounmap"
+  },
+  {
+    "Drv caller": "[ mv_u3d_remove | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1770 ], [ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1982 ], ",
+    "Trans func name": "__vunmap_range_noflush",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L429",
+    "Call Path": "iounmap->remove_vm_area->free_unmap_vmap_area->vunmap_range_noflush->__vunmap_range_noflush",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L429 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "free_vm_area",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L3688",
+    "Call Path": "ioremap->__ioremap_caller->free_vm_area",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L3688 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "__get_vm_area_node",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L2489",
+    "Call Path": "ioremap->__ioremap_caller->get_vm_area_caller->__get_vm_area_node",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L2489 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "vmap_range_noflush",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L297",
+    "Call Path": "ioremap->__ioremap_caller->ioremap_page_range->vmap_range_noflush",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L297 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "alloc_vmap_area",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L1590 |   unreachable",
+    "Check": "No check",
+    "Call Path": "ioremap->__ioremap_caller->get_vm_area_caller->__get_vm_area_node->alloc_vmap_area"
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "__vunmap_range_noflush",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L429",
+    "Call Path": "ioremap->__ioremap_caller->free_vm_area->remove_vm_area->free_unmap_vmap_area->vunmap_range_noflush->__vunmap_range_noflush",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L429 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "vmap_pte_range",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L114",
+    "Call Path": "ioremap->__ioremap_caller->ioremap_page_range->vmap_range_noflush->vmap_p4d_range->vmap_pud_range->vmap_pmd_range->vmap_pte_range",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L129 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L111 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L114 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1823 ], ",
+    "Trans func name": "free_vmap_block",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L2006",
+    "Call Path": "ioremap->__ioremap_caller->get_vm_area_caller->__get_vm_area_node->alloc_vmap_area->purge_vmap_area_lazy->purge_fragmented_blocks_allcpus->purge_fragmented_blocks->free_vmap_block",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/vmalloc.c#L2006 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1809 ], ",
+    "Trans func name": "kzalloc.74",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "clk_get->clk_hw_create_clk->alloc_clk->kzalloc.74",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | "
+  },
+  {
+    "Drv caller": "[ mv_u3d_ep_set_stall | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L925 ], [ mv_u3d_ep_dequeue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L882 ], [ mv_u3d_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L836 ], [ mv_u3d_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L832 ], [ mv_u3d_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L794 ], [ mv_u3d_ep_queue | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L789 ], [ mv_u3d_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L574 ], [ mv_u3d_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L565 ], [ mv_u3d_pullup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1201 ], [ mv_u3d_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L549 ], [ mv_u3d_ep_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L555 ], [ mv_u3d_irq | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1700 ], [ mv_u3d_vbus_session | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1144 ], [ mv_u3d_done | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L180 ], [ mv_u3d_disable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1125 ], [ mv_u3d_ep_fifo_flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L757 ], [ mv_u3d_controller_start | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1056 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1409 ], [ mv_u3d_ep_fifo_flush | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L735 ], [ mv_u3d_handle_setup_packet | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1521 ], [ mv_u3d_enable | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1105 ], [ mv_u3d_done | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L206 ], [ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1962 ], [ mv_u3d_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1829 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1430 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1441 ], [ mv_u3d_irq_process_tr_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1670 ], [ mv_u3d_ch9setaddress | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1480 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1446 ], [ mv_u3d_controller_stop | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1030 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1449 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1424 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1452 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1412 ], [ mv_u3d_irq_process_tr_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1621 ], [ mv_u3d_irq_process_tr_complete | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1641 ], [ mv_u3d_handle_setup_packet | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1576 ], [ mv_u3d_ep0_stall | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L98 ], [ mv_u3d_irq_process_link_change | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L1436 ], [ mv_u3d_build_trb_chain | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/mv_u3d_core.c#L387 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  }
+]

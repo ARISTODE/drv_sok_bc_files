@@ -1,0 +1,180 @@
+[
+  {
+    "No. entry": 35
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1166 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1170 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1204 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1230"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1166 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1170 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1243 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1232 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1250"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L272 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L273"
+  },
+  {
+    "Drv func": "u_audio_set_volume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L808 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L809"
+  },
+  {
+    "Drv func": "set_active",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L501 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L503"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1166 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1243 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1170 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1251"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1346 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1359"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1375 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1383"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1263"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1315 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1321"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1338 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1344"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1294 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1393"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L208 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L208"
+  },
+  {
+    "Drv func": "u_audio_iso_fback_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L303 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L303"
+  },
+  {
+    "Drv func": "u_audio_volume_tlv",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "u_audio_set_capture_srate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L517 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L517"
+  },
+  {
+    "Drv func": "u_audio_start_capture",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L599 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L599"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1166 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1170 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1179 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1204 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1241"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1281 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1289"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1279"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L237 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L237"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1294 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1396"
+  },
+  {
+    "Drv func": "u_audio_iso_fback_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L289 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L290"
+  },
+  {
+    "Drv func": "free_ep_fback",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L477 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L480 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L481 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L482"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L176 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L176"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1262 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1265 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1273"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L185"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L235"
+  },
+  {
+    "Drv func": "g_audio_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1419 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1425"
+  },
+  {
+    "Drv func": "u_audio_iso_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L182 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L188 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L188 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L189"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1323 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1331"
+  },
+  {
+    "Drv func": "u_audio_set_mute",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L857 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L858"
+  },
+  {
+    "Drv func": "u_audio_set_playback_srate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L556 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L556"
+  },
+  {
+    "Drv func": "u_audio_start_playback",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L695 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L695"
+  },
+  {
+    "Drv func": "g_audio_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1315 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1338 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1374"
+  }
+]

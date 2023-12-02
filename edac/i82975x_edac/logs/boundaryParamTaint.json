@@ -1,0 +1,72 @@
+[
+  {
+    "id": "23",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "phys_addr",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ i82975x_probe1 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L487 ], ",
+    "call path (param)": " [i82975x_probe1->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "24",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ i82975x_probe1 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L487 ], ",
+    "call path (param)": " [i82975x_probe1->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "31",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "vendor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i82975x_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L658 ], ",
+    "call path (param)": " [i82975x_init->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "32",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "device",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i82975x_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i82975x_edac.c#L658 ], ",
+    "call path (param)": " [i82975x_init->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

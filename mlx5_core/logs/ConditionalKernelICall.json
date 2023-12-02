@@ -1,0 +1,2060 @@
+[
+  {
+    "No. entry": 411
+  },
+  {
+    "Drv func": "add_adev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L305 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L316"
+  },
+  {
+    "Drv func": "add_adev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L305 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L322"
+  },
+  {
+    "Drv func": "mlx5_pci_slot_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1848 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1856"
+  },
+  {
+    "Drv func": "mlx5_pci_vsc_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L55 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L58"
+  },
+  {
+    "Drv func": "mlx5_pci_slot_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1848 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1855"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L376 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L378"
+  },
+  {
+    "Drv func": "alloc_uars_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L137 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L144"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L231 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L238"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_set_space",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L147"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_lock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L105 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L73 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L80 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L83 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L92"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_set_space",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L151 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L155 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L155 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L155 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L156 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L157"
+  },
+  {
+    "Drv func": "mlx5_vsc_sem_set_space",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L290 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L295 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L297"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_lock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L80 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L83 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L93 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L73 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L97 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L105 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L100"
+  },
+  {
+    "Drv func": "mlx5_vsc_wait_on_flag",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L178 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L181"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_read_fast",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L251 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L254"
+  },
+  {
+    "Drv func": "mlx5_pci_disable_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L286 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L287"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L305 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L306"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L348 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L342"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L359"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L207 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L210"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L206"
+  },
+  {
+    "Drv func": "mlx5_irq_table_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L695 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L702"
+  },
+  {
+    "Drv func": "set_rmap",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L1038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L1040"
+  },
+  {
+    "Drv func": "mlx5_irq_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L231 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L233"
+  },
+  {
+    "Drv func": "mlx5_perout_configure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L590 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L593 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L597"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L217"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L226 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L230"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L215"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L211"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L212"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L213"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L219"
+  },
+  {
+    "Drv func": "mlx5_handle_changeupper_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L970 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L970"
+  },
+  {
+    "Drv func": "mlx5_handle_changeinfodata_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1063 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1063"
+  },
+  {
+    "Drv func": "mlx5_cleanup_clock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L1020 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L1021"
+  },
+  {
+    "Drv func": "mlx5_rsc_dump_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/rsc_dump.c#L255 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/rsc_dump.c#L255"
+  },
+  {
+    "Drv func": "dump_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L884 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L884"
+  },
+  {
+    "Drv func": "mlx5_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L888 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L888"
+  },
+  {
+    "Drv func": "mlx5_try_fast_unload",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1910 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1910"
+  },
+  {
+    "Drv func": "mlx5_try_fast_unload",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1904 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1904"
+  },
+  {
+    "Drv func": "dump_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L873 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L873"
+  },
+  {
+    "Drv func": "sensor_fw_synd_rfr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L121 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L121"
+  },
+  {
+    "Drv func": "irq_pools_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L554 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L554"
+  },
+  {
+    "Drv func": "mlx5_is_roce_on",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L510 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L510"
+  },
+  {
+    "Drv func": "handle_hca_cap",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L556 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L556"
+  },
+  {
+    "Drv func": "wait_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1141 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1141"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L941 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L941"
+  },
+  {
+    "Drv func": "mlx5_core_reserved_gid_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L100 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L100"
+  },
+  {
+    "Drv func": "forward_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L339 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L339"
+  },
+  {
+    "Drv func": "any_notifier",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L151 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L151"
+  },
+  {
+    "Drv func": "mlx5_cmd_force_teardown_hca",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L328 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L328"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_handle_traces",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L675 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L675"
+  },
+  {
+    "Drv func": "mlx5_cleanup_clock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L1008 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L1012 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L1013"
+  },
+  {
+    "Drv func": "gather_async_events_mask",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L551 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L551"
+  },
+  {
+    "Drv func": "cmd_work_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1017 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1017"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L982 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L982"
+  },
+  {
+    "Drv func": "async_eq_depth_devlink_param_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L632 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L632"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L965 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L965"
+  },
+  {
+    "Drv func": "mlx5_eq_del_cq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L432 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L432"
+  },
+  {
+    "Drv func": "mlx5_cmd_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2240 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2240"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_start",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L809 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L809"
+  },
+  {
+    "Drv func": "mlx5_nic_vport_update_local_lb",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L862 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L862"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_start",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L791 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L791"
+  },
+  {
+    "Drv func": "mlx5_tracer_read_strings_db",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L319 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L319"
+  },
+  {
+    "Drv func": "dump_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L845 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L845"
+  },
+  {
+    "Drv func": "mlx5_wait_for_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L794 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L794"
+  },
+  {
+    "Drv func": "mlx5_cmd_invoke",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1221 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1221"
+  },
+  {
+    "Drv func": "req_pages_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L626 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L626"
+  },
+  {
+    "Drv func": "release_all_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L454 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L454"
+  },
+  {
+    "Drv func": "mlx5_eq_del_cq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L426 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L426"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L305 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L313"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1069 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1069"
+  },
+  {
+    "Drv func": "mlx5_core_sriov_configure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L198 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L198"
+  },
+  {
+    "Drv func": "mlx5_try_fast_unload",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1903 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1903"
+  },
+  {
+    "Drv func": "give_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L410 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L410"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1050 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1050"
+  },
+  {
+    "Drv func": "mlx5_try_fast_unload",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1928 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1928"
+  },
+  {
+    "Drv func": "mlx5_wait_for_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L781 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L781"
+  },
+  {
+    "Drv func": "fw_tracer_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1147 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1147"
+  },
+  {
+    "Drv func": "comp_eq_depth_devlink_param_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L877 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L877"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_ownership_change",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L822 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L822"
+  },
+  {
+    "Drv func": "mlx5_tracer_read_strings_db",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L298 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L298"
+  },
+  {
+    "Drv func": "mlx5_core_unreserve_gids",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L83 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L83"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L716 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L716"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L709 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L709"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L715 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L715"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L698 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L698"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L697 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L697"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L706 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L706"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L686 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L686"
+  },
+  {
+    "Drv func": "mlx5_tracer_handle_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L658 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L658"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L696 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L696"
+  },
+  {
+    "Drv func": "dump_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L882 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L882"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L688 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L688"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L701 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L701"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L692 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L692"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L711 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L711"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L710 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L710"
+  },
+  {
+    "Drv func": "mlx5_tracer_handle_string_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L612 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L612"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L687 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L687"
+  },
+  {
+    "Drv func": "mlx5_fc_counters_lookup_next",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L119"
+  },
+  {
+    "Drv func": "poll_sync_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L209 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L218"
+  },
+  {
+    "Drv func": "mlx5_fc_create_ex",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L371"
+  },
+  {
+    "Drv func": "probe_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1694 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1699"
+  },
+  {
+    "Drv func": "create_map_eq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L329"
+  },
+  {
+    "Drv func": "mlx5_fc_create_ex",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "mlx5_eq_async_int_lock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L175 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "mlx5_dm_sw_icm_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L200 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "mlx5_packet_reformat_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3480 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3484 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3491 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3492"
+  },
+  {
+    "Drv func": "mlx5_fc_stats_bulk_query_size_increase",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L244 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L250 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L260"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_lock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L105 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L73 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L79"
+  },
+  {
+    "Drv func": "mlx5_lag_dev_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L254 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L257"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_free_strings_db",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L224 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L225"
+  },
+  {
+    "Drv func": "mlx5_get_next_dev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L618 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L622 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L625"
+  },
+  {
+    "Drv func": "free_match_list",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1810 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1814"
+  },
+  {
+    "Drv func": "mlx5_devlink_trap_fini",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L256 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L261"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L515"
+  },
+  {
+    "Drv func": "page_root_per_function",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L101 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L109 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L105 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L110"
+  },
+  {
+    "Drv func": "mlx5_packet_reformat_dealloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3506 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3509"
+  },
+  {
+    "Drv func": "alloc_flow_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L823 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L827 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L828"
+  },
+  {
+    "Drv func": "mlx5_destroy_match_definer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3552 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3556"
+  },
+  {
+    "Drv func": "add_res_tree",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L481 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L483"
+  },
+  {
+    "Drv func": "alloc_cmd_box",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "request_bar",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L297 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L302"
+  },
+  {
+    "Drv func": "mlx5_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L2099 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L2103 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L2106"
+  },
+  {
+    "Drv func": "outlen_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1489 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1489 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1492"
+  },
+  {
+    "Drv func": "mlx5_lag_remove_mdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1228 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1230"
+  },
+  {
+    "Drv func": "mlx5_init_timer_clock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L954 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L957"
+  },
+  {
+    "Drv func": "mlx5_core_reserve_gids",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L70 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L70"
+  },
+  {
+    "Drv func": "wait_vital",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1821 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1823 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1823 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1832"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L209"
+  },
+  {
+    "Drv func": "alloc_cmd_box",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1343 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1343"
+  },
+  {
+    "Drv func": "mlx5_events_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L391"
+  },
+  {
+    "Drv func": "mlx5_hca_caps_free",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1558 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1560"
+  },
+  {
+    "Drv func": "mlx5_sriov_blocking_notifier_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L322 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L326"
+  },
+  {
+    "Drv func": "mlx5_cmd_trigger_completions",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1747 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1747"
+  },
+  {
+    "Drv func": "mlx5_irq_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L446 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L446"
+  },
+  {
+    "Drv func": "mlx5_devlink_eth_param_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L637 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L640"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L689 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L689"
+  },
+  {
+    "Drv func": "mlx5_health_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L922 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L928"
+  },
+  {
+    "Drv func": "data_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1427 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1433"
+  },
+  {
+    "Drv func": "mlx5_error_sw_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L265 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L261 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L264"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L703 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L703"
+  },
+  {
+    "Drv func": "add_adev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L305 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L318"
+  },
+  {
+    "Drv func": "mlx5_cmdif_debugfs_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L203 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L207"
+  },
+  {
+    "Drv func": "mlx5_sriov_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L300 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L303"
+  },
+  {
+    "Drv func": "dump_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L850 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L850"
+  },
+  {
+    "Drv func": "wait_fw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_dm_sw_icm_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L200 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L476 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L475 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L474 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480"
+  },
+  {
+    "Drv func": "mlx5_tracer_handle_string_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L606 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L606"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L693 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L693"
+  },
+  {
+    "Drv func": "mlx5_db_free",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L224 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L228"
+  },
+  {
+    "Drv func": "mlx5_rl_table_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/rl.c#L206 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/rl.c#L209"
+  },
+  {
+    "Drv func": "mlx5_ldev_free",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L228 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L229"
+  },
+  {
+    "Drv func": "mlx5_cmd_allowed_opcode",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1568 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1569"
+  },
+  {
+    "Drv func": "mlx5_cmd_comp_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1681 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1681"
+  },
+  {
+    "Drv func": "outlen_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1473 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1476"
+  },
+  {
+    "Drv func": "cmd_status_log",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1900 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1900 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "alloc_uars_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L108 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L112"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L501 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L504"
+  },
+  {
+    "Drv func": "mlx5_devlink_info_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L81 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L83"
+  },
+  {
+    "Drv func": "mlx5_aso_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L337 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L342"
+  },
+  {
+    "Drv func": "clean_debug_files",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1534 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1538"
+  },
+  {
+    "Drv func": "max_uc_list_get_devlink_param",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L493 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L493"
+  },
+  {
+    "Drv func": "mlx5_events_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L356 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/events.c#L357"
+  },
+  {
+    "Drv func": "mlx5_fw_fatal_reporter_dump",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L639 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L643 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L646 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L649 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L657"
+  },
+  {
+    "Drv func": "mlx5_query_mtrc_caps",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L56 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L56"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L713 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L713"
+  },
+  {
+    "Drv func": "mlx5_cmd_comp_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1645 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1645 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1645 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1645 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1645 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1645 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1649 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1644 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1660 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1660"
+  },
+  {
+    "Drv func": "mlx5_health_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L922 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L927"
+  },
+  {
+    "Drv func": "mlx5_devlink_info_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L50 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L53"
+  },
+  {
+    "Drv func": "poll_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L940 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L946 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L949"
+  },
+  {
+    "Drv func": "mlx5_init_fc_stats",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L438 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L442"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_err_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L597 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L602 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L607 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L608"
+  },
+  {
+    "Drv func": "mlx5_fw_fatal_reporter_err_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L685 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L686"
+  },
+  {
+    "Drv func": "mlx5_alloc_db_pgdir",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L140 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L143"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L343 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L345 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L347"
+  },
+  {
+    "Drv func": "alloc_uars_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L137 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L138"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_ctx_pairs_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L482 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L484"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_recreate_strings_db",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1095 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L1095"
+  },
+  {
+    "Drv func": "mlx5_cmd_flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1776 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1777"
+  },
+  {
+    "Drv func": "mlx5_query_nic_vport_node_guid",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L456"
+  },
+  {
+    "Drv func": "mlx5_fw_fatal_reporter_err_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L685 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L678 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L694"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "mlx5_modify_header_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3439 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3443 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3449 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3450"
+  },
+  {
+    "Drv func": "mlx5_core_destroy_cq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cq.c#L177 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cq.c#L180"
+  },
+  {
+    "Drv func": "mlx5_core_modify_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L1034 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L1034"
+  },
+  {
+    "Drv func": "mlx5_devlink_trap_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L232 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L239 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L240"
+  },
+  {
+    "Drv func": "reclaim_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L537 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L537"
+  },
+  {
+    "Drv func": "mlx5_cq_tasklet_cb",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "add_res_tree",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L472 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/debugfs.c#L479"
+  },
+  {
+    "Drv func": "mlx5_lag_dev_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L254 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L258 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L259"
+  },
+  {
+    "Drv func": "mlx5_extts_configure",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L397 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L397 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L397 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L397 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L408 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L416"
+  },
+  {
+    "Drv func": "wait_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1124 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1124 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1125"
+  },
+  {
+    "Drv func": "mlx5_devlink_fmsg_fill_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L876 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L879"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L327 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L331"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L543"
+  },
+  {
+    "Drv func": "create_comp_eqs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L925 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L925"
+  },
+  {
+    "Drv func": "mlx5_fw_reset_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L519 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L522 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L523"
+  },
+  {
+    "Drv func": "mlx5_health_log_ts_update",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L327 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L332 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L334 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_fw_reporters_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L756 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L757"
+  },
+  {
+    "Drv func": "mlx5_cmd_invoke",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1205 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1214 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "mlx5_wait_for_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "dump_buf",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L290 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L290"
+  },
+  {
+    "Drv func": "mlx5_devcom_unregister_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L151 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L155"
+  },
+  {
+    "Drv func": "mlx5_start_health_poll",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_fw_reset_wait_reset_done",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_irqs_release",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L379 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L380"
+  },
+  {
+    "Drv func": "mlx5_create_ttc_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L562 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L564"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L559 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L556 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L552 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L548 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L561"
+  },
+  {
+    "Drv func": "mlx5_health_wait_pci_up",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L325 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L326 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L328"
+  },
+  {
+    "Drv func": "mlx5_devcom_get_peer_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L252"
+  },
+  {
+    "Drv func": "mlx5_error_sw_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L548 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L552 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L554"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_trigger_core_dump_general",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L858 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L861"
+  },
+  {
+    "Drv func": "mlx5_devlink_vnet_param_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L714 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L718 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L722"
+  },
+  {
+    "Drv func": "wait_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_pci_enable_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L271 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L272"
+  },
+  {
+    "Drv func": "mlx5_create_inner_ttc_table_groups",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L481 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L485"
+  },
+  {
+    "Drv func": "wait_func_handle_exec_timeout",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_devlink_fmsg_fill_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L872 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L875"
+  },
+  {
+    "Drv func": "mlx5_device_enable_sriov",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L119"
+  },
+  {
+    "Drv func": "mlx5_lag_add_mdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1253 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1254"
+  },
+  {
+    "Drv func": "mlx5_dm_sw_icm_dealloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L256 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "mlx5_modify_header_dealloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L3467"
+  },
+  {
+    "Drv func": "mlx5_irq_table_free_irqs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L709 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L713"
+  },
+  {
+    "Drv func": "build_match_list",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1833 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "mlx5_irq_attach_nb",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L281 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L286"
+  },
+  {
+    "Drv func": "mlx5_eq_async_int_unlock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L185 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L526"
+  },
+  {
+    "Drv func": "mlx5_reclaim_startup_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L715 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L719"
+  },
+  {
+    "Drv func": "alloc_flow_group",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L760 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L763"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_set_space",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L137 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L142"
+  },
+  {
+    "Drv func": "mlx5_fw_reset_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L519 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L521"
+  },
+  {
+    "Drv func": "mlx5_alloc_db_pgdir",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L144 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L153 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L154"
+  },
+  {
+    "Drv func": "mlx5_core_create_mkey",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/mr.c#L54 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/mr.c#L54"
+  },
+  {
+    "Drv func": "mlx5_fc_single_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L323 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L327 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L328"
+  },
+  {
+    "Drv func": "mlx5_alloc_db_pgdir",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L145"
+  },
+  {
+    "Drv func": "down_write_ref_node",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L376 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L375 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L377"
+  },
+  {
+    "Drv func": "mlx5_db_free",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L224 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L229"
+  },
+  {
+    "Drv func": "nested_down_read_ref_node",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L359"
+  },
+  {
+    "Drv func": "data_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1450 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1453"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L700 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L700"
+  },
+  {
+    "Drv func": "mlx5_dm_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L35 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L46 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L52"
+  },
+  {
+    "Drv func": "mlx5_eq_comp_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L136 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L136 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L136"
+  },
+  {
+    "Drv func": "mlx5_devlink_max_uc_list_param_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L804 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L807"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L323 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L325"
+  },
+  {
+    "Drv func": "mlx5_devlink_trap_report",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L353"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L319"
+  },
+  {
+    "Drv func": "mlx5_create_cq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cq.c#L134 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cq.c#L134"
+  },
+  {
+    "Drv func": "mapping_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L129 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L130 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L133"
+  },
+  {
+    "Drv func": "irq_pool_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L515 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L515"
+  },
+  {
+    "Drv func": "mlx5_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1391 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1387 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1395"
+  },
+  {
+    "Drv func": "mlx5_devlink_fmsg_fill_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L884 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L888 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L891"
+  },
+  {
+    "Drv func": "cmd_work_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L704 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L704"
+  },
+  {
+    "Drv func": "tout_convert_reg_field_to_ms",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/tout.c#L70 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/tout.c#L71"
+  },
+  {
+    "Drv func": "get_next_poll_jiffies",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L376 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L377"
+  },
+  {
+    "Drv func": "mlx5_reclaim_root_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_create_ttc_table_groups",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L301 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L304 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L305"
+  },
+  {
+    "Drv func": "alloc_flow_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L823 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L826"
+  },
+  {
+    "Drv func": "destroy_flow_handle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1412 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1415"
+  },
+  {
+    "Drv func": "mlx5_eq_destroy_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L756 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L760 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L763"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L605"
+  },
+  {
+    "Drv func": "mlx5_eq_async_int_unlock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L185 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "mlx5_fw_reset_complete_reload",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L150 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L150 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L150 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L150 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L150 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L151"
+  },
+  {
+    "Drv func": "flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L92 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L95"
+  },
+  {
+    "Drv func": "mlx5_create_inner_ttc_table_groups",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L443 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L446 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L447"
+  },
+  {
+    "Drv func": "mlx5_core_destroy_cq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cq.c#L177 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cq.c#L182"
+  },
+  {
+    "Drv func": "mlx5_devlink_trap_report",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L347 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L352 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L357"
+  },
+  {
+    "Drv func": "mlx5_cmd_fast_teardown_hca",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L357 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L357"
+  },
+  {
+    "Drv func": "mlx5_pagealloc_stop",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L766"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L519"
+  },
+  {
+    "Drv func": "mlx5_device_enable_sriov",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L89 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L93"
+  },
+  {
+    "Drv func": "mlx5_fsm_reactivate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "build_match_list",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1833 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L1839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "mlx5_tout_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "mlx5_mdev_uninit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1670 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1671"
+  },
+  {
+    "Drv func": "kzalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "alloc_uars_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L151 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L151"
+  },
+  {
+    "Drv func": "kmalloc_array",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L601 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L603 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "mlx5_health_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "mlx5_tout_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "mlx5_cmd_invoke",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1205 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1214 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "mlx5_mdev_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1618 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1612 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1626 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1630 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1638"
+  },
+  {
+    "Drv func": "alloc_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1793 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "mlx5_device_disable_sriov",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L132 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L133 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L138"
+  },
+  {
+    "Drv func": "mlx5_fw_reporters_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L753 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L754"
+  },
+  {
+    "Drv func": "alloc_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1793 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1796 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "mlx5_cmd_change_mod",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1577 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1578"
+  },
+  {
+    "Drv func": "mlx5_cmd_allowed_opcode",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1561 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1562"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L501 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L505 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L507"
+  },
+  {
+    "Drv func": "nested_down_write_ref_node",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L368"
+  },
+  {
+    "Drv func": "mlx5_devcom_send_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L202 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L206"
+  },
+  {
+    "Drv func": "mlx5_devcom_unregister_component",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L184 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L188"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_pkey",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L638 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L638"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L501 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L505 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L508 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L510"
+  },
+  {
+    "Drv func": "up_write_ref_node",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L391 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_core.c#L392"
+  },
+  {
+    "Drv func": "mlx5_handle_changeinfodata_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/lag.c#L1059 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/rcupdate.h#L745"
+  },
+  {
+    "Drv func": "mlx5_dm_sw_icm_dealloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L472 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L474 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L256 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L476 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L475 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L470 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L474 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L480"
+  },
+  {
+    "Drv func": "mlx5_cmd_comp_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1716"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L685"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L317 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L318"
+  },
+  {
+    "Drv func": "mlx5_cmd_exec_cb_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2042 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2043"
+  },
+  {
+    "Drv func": "mlx5_devcom_unregister_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L138 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L145"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L690 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L690"
+  },
+  {
+    "Drv func": "mlx5_fsm_reactivate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L682 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L674 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L678 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L681"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L707 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L707"
+  },
+  {
+    "Drv func": "mlx5_pci_link_toggle",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L365 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L360 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L362 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L364"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L530"
+  },
+  {
+    "Drv func": "port_sel_mode_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L51 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L54"
+  },
+  {
+    "Drv func": "mlx5_devlink_vnet_param_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L732 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L735"
+  },
+  {
+    "Drv func": "mlx5_health_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "mlx5_aso_create_cq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L148"
+  },
+  {
+    "Drv func": "mlx5_create_ttc_table_groups",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L342 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L346"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_gid",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L532 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L532"
+  },
+  {
+    "Drv func": "wait_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1120"
+  },
+  {
+    "Drv func": "mlx5_irq_table_cleanup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L646 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L649"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L522"
+  },
+  {
+    "Drv func": "mlx5_query_nic_vport_qkey_viol_cntr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L502 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L510"
+  },
+  {
+    "Drv func": "mlx5_vsc_gw_lock",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L105 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L73 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L80 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L83 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L93 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/pci_vsc.c#L96"
+  },
+  {
+    "Drv func": "mlx5_cmd_change_mod",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1584 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1585"
+  },
+  {
+    "Drv func": "mlx5_fc_bulk_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L592 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L598"
+  },
+  {
+    "Drv func": "mlx5_eq_create_generic",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L743 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L744"
+  },
+  {
+    "Drv func": "mlx5_core_reserved_gid_free",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L107 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/gid.c#L107"
+  },
+  {
+    "Drv func": "create_map_eq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L334 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L337"
+  },
+  {
+    "Drv func": "wait_fw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_create_inner_ttc_table",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L509 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c#L511"
+  },
+  {
+    "Drv func": "members_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L147 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L148 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L150"
+  },
+  {
+    "Drv func": "flags_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L92 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L96"
+  },
+  {
+    "Drv func": "mapping_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L129 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L130 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L131"
+  },
+  {
+    "Drv func": "type_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L30 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lag/debugfs.c#L32"
+  },
+  {
+    "Drv func": "comp_irqs_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L836 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L837"
+  },
+  {
+    "Drv func": "set_rmap",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L1038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L1039"
+  },
+  {
+    "Drv func": "mlx5_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L880 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L885"
+  },
+  {
+    "Drv func": "mlx5_get_next_dev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L618 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/dev.c#L621"
+  },
+  {
+    "Drv func": "mlx5_dm_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L61 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L67"
+  },
+  {
+    "Drv func": "mlx5_dm_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L35 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L41"
+  },
+  {
+    "Drv func": "mlx5_dm_sw_icm_alloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L454 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L458 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L454 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L456 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L459 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/dm.c#L184 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L458 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L464"
+  },
+  {
+    "Drv func": "poll_sync_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L204 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw_reset.c#L218"
+  },
+  {
+    "Drv func": "mlx5_ptp_adjtime_real_time",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L297 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L297 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L303"
+  },
+  {
+    "Drv func": "mlx5_pps_event",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L844 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.c#L847"
+  },
+  {
+    "Drv func": "ptp_read_system_postts",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ptp_clock_kernel.h#L410 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ptp_clock_kernel.h#L411"
+  },
+  {
+    "Drv func": "mlx5_devlink_info_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L54 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L50 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L58 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L64"
+  },
+  {
+    "Drv func": "ptp_read_system_prets",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ptp_clock_kernel.h#L404 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/ptp_clock_kernel.h#L405"
+  },
+  {
+    "Drv func": "mlx5_timecounter_cyc2time",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.h#L75 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/clock.h#L74"
+  },
+  {
+    "Drv func": "mlx5_eq_comp_int",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L136 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/eq.c#L136"
+  },
+  {
+    "Drv func": "mlx5_devlink_fmsg_fill_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L880 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L883"
+  },
+  {
+    "Drv func": "mlx5_devcom_get_peer_data",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L253 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L254"
+  },
+  {
+    "Drv func": "slots_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L439"
+  },
+  {
+    "Drv func": "mlx5_satisfy_startup_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L654 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L654"
+  },
+  {
+    "Drv func": "mlx5_fc_bulk_get_free_fcs_amount",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L437 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/bitmap.h#L439"
+  },
+  {
+    "Drv func": "data_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1427 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1430"
+  },
+  {
+    "Drv func": "mlx5_alloc_db_pgdir",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L140 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L144 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L153 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/alloc.c#L155"
+  },
+  {
+    "Drv func": "alloc_uars_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L113 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/uar.c#L116"
+  },
+  {
+    "Drv func": "mlx5_fc_stats_bulk_query_size_increase",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_rsc_dump_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/rsc_dump.c#L267 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/rsc_dump.c#L269"
+  },
+  {
+    "Drv func": "mlx5_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L872 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L877"
+  },
+  {
+    "Drv func": "mlx5_pci_slot_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1848 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1854"
+  },
+  {
+    "Drv func": "alloc_msg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1791 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1793 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1796 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "alloc_system_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L323 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L324"
+  },
+  {
+    "Drv func": "mlx5_function_setup",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1105"
+  },
+  {
+    "Drv func": "mlx5_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L885 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L886 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L887"
+  },
+  {
+    "Drv func": "mlx5_pci_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L866 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L885 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L886"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L548 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L552 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L556 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L558"
+  },
+  {
+    "Drv func": "wait_func",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1124 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1124 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L1126"
+  },
+  {
+    "Drv func": "cmd_work_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L964 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L971"
+  },
+  {
+    "Drv func": "reclaim_pages_cmd",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L487 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L495"
+  },
+  {
+    "Drv func": "alloc_system_page",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L320 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L321"
+  },
+  {
+    "Drv func": "mlx5_devlink_traps_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L850 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L853"
+  },
+  {
+    "Drv func": "mlx5_devlink_eth_param_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L637 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L641 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L645"
+  },
+  {
+    "Drv func": "mlx5_init_fc_stats",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L438 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L443 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_devlink_max_uc_list_param_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L804 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L808 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L812"
+  },
+  {
+    "Drv func": "mlx5_devlink_eth_param_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L655 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L658"
+  },
+  {
+    "Drv func": "mlx5_devlink_max_uc_list_param_unregister",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L823 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L826"
+  },
+  {
+    "Drv func": "mlx5_devlink_vnet_param_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L714 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L717"
+  },
+  {
+    "Drv func": "mlx5_cmd_fast_teardown_hca",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L366 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fw.c#L370 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_devlink_fmsg_fill_trace",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L876 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L880 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L884 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L887"
+  },
+  {
+    "Drv func": "mlx5_health_wait_pci_up",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "alloc_cmd_box",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "mlx5_cq_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/mlx5/cq.h#L182 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/mlx5/cq.h#L183"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L537"
+  },
+  {
+    "Drv func": "mlx5_cmd_exec_cb",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2057 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2061 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2061 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2062"
+  },
+  {
+    "Drv func": "mlx5_query_hca_vport_context",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L695 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/vport.c#L695"
+  },
+  {
+    "Drv func": "mlx5_fc_create_ex",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L368"
+  },
+  {
+    "Drv func": "mlx5_cmd_cleanup_async_ctx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2029 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L2030"
+  },
+  {
+    "Drv func": "mlx5_fc_create_ex",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "mlx5_sriov_blocking_notifier_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L348 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L352"
+  },
+  {
+    "Drv func": "mlx5_get_max_vfs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L256 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L262 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/sriov.c#L266"
+  },
+  {
+    "Drv func": "dump_command",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L841 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L841"
+  },
+  {
+    "Drv func": "mlx5_aso_create_sq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L296 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/aso.c#L296"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L540"
+  },
+  {
+    "Drv func": "dump_buf",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L283 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/cmd.c#L283"
+  },
+  {
+    "Drv func": "mlx5_reclaim_startup_pages",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L715 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pagealloc.c#L718"
+  },
+  {
+    "Drv func": "mlx5_irq_table_create",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L685 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/pci_irq.c#L686"
+  },
+  {
+    "Drv func": "wait_fw_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "mlx5_fc_bulk_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L592 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/fs_counters.c#L599"
+  },
+  {
+    "Drv func": "mlx5_devlink_register",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L879 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L885 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L893 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L889 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L896 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L897"
+  },
+  {
+    "Drv func": "mlx5_pci_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1881 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/main.c#L1882"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_err_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L602 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L597 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L603"
+  },
+  {
+    "Drv func": "mlx5_fw_tracer_get_saved_traces_objects",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L920 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/diag/fw_tracer.c#L928"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_diagnose",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L464 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L464 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L466"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L548 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L550"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L533"
+  },
+  {
+    "Drv func": "mlx5_devcom_register_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L105 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L118 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/lib/devcom.c#L120"
+  },
+  {
+    "Drv func": "mlx5_fw_reporter_heath_buffer_data_put",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L520 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L524 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L514 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L528 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L531 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L534 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/health.c#L547"
+  },
+  {
+    "Drv func": "mlx5_devlink_info_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L54 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L50 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L58 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L65 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/ethernet/mellanox/mlx5/core/devlink.c#L67"
+  }
+]

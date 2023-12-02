@@ -1,0 +1,147 @@
+[
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L1338",
+    "Drv func": "nullb_group_make_item",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L577"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L933",
+    "Drv func": "nullb_group_drop_item",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L594"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/dir.c#L910",
+    "Drv func": "nullb_group_drop_item",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L594"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-core.c#L592",
+    "Drv func": "null_submit_bio",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1502"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L156",
+    "Drv func": "null_report_zones",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L189"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L201",
+    "Drv func": "null_report_zones",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L189"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-zoned.c#L577",
+    "Drv func": "null_report_zones",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/zoned.c#L189"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L400",
+    "Drv func": "null_complete_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1218",
+    "Drv func": "null_complete_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1250",
+    "Drv func": "null_complete_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq-sched.h#L73",
+    "Drv func": "null_complete_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1113",
+    "Drv func": "null_complete_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L706",
+    "Drv func": "null_complete_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L808"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3635",
+    "Drv func": "null_init_hctx",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1729"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3652",
+    "Drv func": "null_exit_hctx",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1712"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3597",
+    "Drv func": "null_exit_hctx",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1712"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4385",
+    "Drv func": "null_map_queues",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1530"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L2580",
+    "Drv func": "null_queue_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1647"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L1535",
+    "Drv func": "null_timeout_rq",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1614"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4896",
+    "Drv func": "null_poll",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L1583"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L128",
+    "Drv func": "nullb_device_release",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L558"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L484",
+    "Drv func": "null_set_irqmode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L178"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L446",
+    "Drv func": "null_set_irqmode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L178"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L585",
+    "Drv func": "null_set_irqmode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L178"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L567",
+    "Drv func": "null_set_irqmode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L178"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L484",
+    "Drv func": "null_set_queue_mode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L135"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L446",
+    "Drv func": "null_set_queue_mode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L135"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L585",
+    "Drv func": "null_set_queue_mode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L135"
+  },
+  {
+    "Ret loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/params.c#L567",
+    "Drv func": "null_set_queue_mode",
+    "Drv func loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/null_blk/main.c#L135"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "id": 1,
+  "acc_path": "devfn",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L71 | pci_bus_write_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "pos",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L71 | pci_bus_write_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L71 | pci_bus_write_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "where",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L562 | pci_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "devfn",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L68 | pci_bus_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "pos",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/pci/access.c#L68 | pci_bus_read_config_dword",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "m",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/time.c#L552 | __msecs_to_jiffies",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L446 | fam15h_power_probe",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L377 | fam15h_power_resume",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L255 | power1_average_interval_show",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L264 | power1_average_interval_store",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L255 | power1_average_interval_show",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L255 | power1_average_interval_show",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/hwmon/fam15h_power.c#L255 | power1_average_interval_show",
+  "Drv update": ""
+}

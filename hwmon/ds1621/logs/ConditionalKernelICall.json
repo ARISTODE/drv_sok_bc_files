@@ -1,0 +1,20 @@
+[
+  {
+    "No. entry": 3
+  },
+  {
+    "Drv func": "ds1621_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds1621.c#L156 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds1621.c#L157"
+  },
+  {
+    "Drv func": "ds1621_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds1621.c#L211 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds1621.c#L212"
+  },
+  {
+    "Drv func": "ds1621_update_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds1621.c#L197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ds1621.c#L197"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "No. entry": 26
+  },
+  {
+    "Drv func": "adt7470_temp_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L571 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L581"
+  },
+  {
+    "Drv func": "adt7470_temp_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L571 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L575"
+  },
+  {
+    "Drv func": "adt7470_read_temperatures",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L225 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L231 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L216 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L239"
+  },
+  {
+    "Drv func": "adt7470_read_temperatures",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L216 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L219 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L223"
+  },
+  {
+    "Drv func": "adt7470_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1231 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1234"
+  },
+  {
+    "Drv func": "adt7470_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1231 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1238"
+  },
+  {
+    "Drv func": "adt7470_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1262 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1267"
+  },
+  {
+    "Drv func": "adt7470_update_thread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L293 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L298 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "adt7470_update_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L332 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L355 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L359"
+  },
+  {
+    "Drv func": "adt7470_read_temperatures",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L216 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L218"
+  },
+  {
+    "Drv func": "adt7470_update_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L321 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L328"
+  },
+  {
+    "Drv func": "adt7470_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1280 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1284"
+  },
+  {
+    "Drv func": "adt7470_read_temperatures",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L258 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L262"
+  },
+  {
+    "Drv func": "adt7470_update_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L341 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L345"
+  },
+  {
+    "Drv func": "adt7470_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L384 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L385"
+  },
+  {
+    "Drv func": "adt7470_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L1230"
+  },
+  {
+    "Drv func": "adt7470_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L384 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L386 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L389"
+  },
+  {
+    "Drv func": "adt7470_read_temperatures",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L258 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L263 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L265"
+  },
+  {
+    "Drv func": "pwm1_freq_get",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L737 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L739"
+  },
+  {
+    "Drv func": "adt7470_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L406 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L407"
+  },
+  {
+    "Drv func": "adt7470_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L406 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L408 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L411"
+  },
+  {
+    "Drv func": "adt7470_update_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L332 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L354"
+  },
+  {
+    "Drv func": "adt7470_update_limits",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L406 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L408 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L412 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L415"
+  },
+  {
+    "Drv func": "adt7470_update_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L332 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L355 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L360 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L363 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L364"
+  },
+  {
+    "Drv func": "adt7470_update_sensors",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L316"
+  },
+  {
+    "Drv func": "adt7470_read_temperatures",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L269 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L258 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L263 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L266 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L273 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adt7470.c#L276"
+  }
+]

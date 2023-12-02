@@ -1,0 +1,25 @@
+[
+  {
+    "No. entry": 4
+  },
+  {
+    "Drv func": "gl520_write_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L103 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L103 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L106"
+  },
+  {
+    "Drv func": "gl520_read_value",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L95 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L95 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L98"
+  },
+  {
+    "Drv func": "gl520_detect",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L810 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L810"
+  },
+  {
+    "Drv func": "gl520_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L119 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/gl520sm.c#L119"
+  }
+]

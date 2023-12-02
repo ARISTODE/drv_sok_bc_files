@@ -1,0 +1,105 @@
+[
+  {
+    "No. entry": 20
+  },
+  {
+    "Drv func": "i5000_process_nonfatal_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L586 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L627"
+  },
+  {
+    "Drv func": "i5000_get_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L854 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L870 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L872"
+  },
+  {
+    "Drv func": "i5000_get_mc_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1190 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1191"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L434"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L410"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L406"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L438"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L432"
+  },
+  {
+    "Drv func": "i5000_get_mc_regs",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1181 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1184"
+  },
+  {
+    "Drv func": "i5000_put_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L910 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L911"
+  },
+  {
+    "Drv func": "i5000_process_nonfatal_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L658 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L681"
+  },
+  {
+    "Drv func": "calculate_dimm_size",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "calculate_dimm_size",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "i5000_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1511 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L1516"
+  },
+  {
+    "Drv func": "i5000_process_nonfatal_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L687 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L692 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L693 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L727"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L442"
+  },
+  {
+    "Drv func": "i5000_process_fatal_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L492 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L528"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L408"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L428 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L436"
+  },
+  {
+    "Drv func": "i5000_get_error_info",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L402 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i5000_edac.c#L414"
+  }
+]

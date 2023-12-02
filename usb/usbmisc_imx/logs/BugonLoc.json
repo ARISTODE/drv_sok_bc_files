@@ -1,0 +1,28 @@
+[
+  {
+    "Total Bugon": 3,
+    "Controlled Bugon": 3,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ usbmisc_imx7d_set_wakeup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L610 ], [ imx7d_charger_secondary_detection | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L720 ], [ imx7d_charger_secondary_detection | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L723 ], [ imx7d_charger_primary_detection | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L820 ], ",
+    "Trans func name": "__dynamic_dev_dbg",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L877 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_dev_dbg"
+  },
+  {
+    "Drv caller": "[ usbmisc_imx6q_set_wakeup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L403 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  },
+  {
+    "Drv caller": "[ imx7d_charger_secondary_detection | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L711 ], [ imx7d_charger_secondary_detection | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L699 ], [ imx7d_charger_primary_detection | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/usbmisc_imx.c#L815 ], ",
+    "Trans func name": "__mod_timer",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1020",
+    "Check": "No check",
+    "Call Path": "msleep->schedule_timeout_uninterruptible->schedule_timeout->__mod_timer"
+  }
+]

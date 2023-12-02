@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/string_helpers.c#L963 | __sysfs_match_string",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/roles/class.c#L230 | role_show",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/roles/class.c#L238 | role_store",
+  "Drv update": ""
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "5",
+    "risky": "arr-idx",
+    "acc_path": "action",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L642",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kobject_uevent.c#L461",
+    "drv caller (param)": "[ usb_role_switch_set_role | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/roles/class.c#L54 ], ",
+    "call path (param)": " [usb_role_switch_set_role->kobject_uevent->kobject_uevent_env] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [device_unregister->device_del->kobject_uevent->kobject_uevent_env] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "i2c_register_driver",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]ltc4261_driver_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L240 )->i2c_register_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1846 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "i2c_register_driver",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]ltc4261_driver_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L240 )->i2c_register_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1846 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "i2c_del_driver",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "call path": "( [4]ltc4261_driver_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L240 )->i2c_del_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1887 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "i2c_del_driver",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "call path": "( [4]ltc4261_driver_exit ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L240 )->i2c_del_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1887 )->i2c_for_each_dev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-base.c#L1822 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "i2c_smbus_write_byte_data",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 18,
+    "call path": "( [6]ltc4261_bool_show ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L136 )->i2c_smbus_write_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L158 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->kfree ( Unknown Loc ) )( [6]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->i2c_smbus_write_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L158 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "i2c_smbus_write_byte_data",
+    "risky func": "kzalloc.372",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [7]ltc4261_bool_show ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L136 )->i2c_smbus_write_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L158 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->i2c_smbus_try_get_dmabuf ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L302 )->kzalloc.372 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [7]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->i2c_smbus_write_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L158 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->i2c_smbus_try_get_dmabuf ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L302 )->kzalloc.372 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [4]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "kzalloc.60",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 7,
+    "call path": "( [5]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->kzalloc.60 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 24,
+    "call path": "( [6]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 39,
+    "call path": "( [7]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 37,
+    "call path": "( [7]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "kobject_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 1,
+    "No. path cond": 69,
+    "call path": "( [12]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->__fw_devlink_relax_cycles ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L1918 )->get_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3758 )->kobject_get ( Unknown Loc ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "kzalloc",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 0,
+    "No. path cond": 29,
+    "call path": "( [11]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kzalloc ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 13,
+    "kernel boundary func name": "devm_hwmon_device_register_with_groups",
+    "risky func": "kref_get",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 74,
+    "call path": "( [11]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->devm_hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L999 )->hwmon_device_register_with_groups ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L879 )->__hwmon_device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L752 )->device_register ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3743 )->device_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3545 )->fw_devlink_link_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2233 )->__fw_devlink_link_to_consumers ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2132 )->fw_devlink_create_devlink ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L2023 )->device_link_add ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L768 )->kref_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 14,
+    "kernel boundary func name": "i2c_smbus_read_byte_data",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 18,
+    "call path": "( [6]ltc4261_update_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L55 )->i2c_smbus_read_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L137 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->kfree ( Unknown Loc ) )( [6]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->i2c_smbus_read_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L137 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->kfree ( Unknown Loc ) )"
+  },
+  {
+    "id": 15,
+    "kernel boundary func name": "i2c_smbus_read_byte_data",
+    "risky func": "kzalloc.372",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 12,
+    "call path": "( [7]ltc4261_update_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L55 )->i2c_smbus_read_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L137 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->i2c_smbus_try_get_dmabuf ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L302 )->kzalloc.372 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [7]ltc4261_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc4261.c#L193 )->i2c_smbus_read_byte_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L137 )->i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L535 )->__i2c_smbus_xfer ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L553 )->i2c_smbus_xfer_emulated ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L322 )->i2c_smbus_try_get_dmabuf ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L302 )->kzalloc.372 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  }
+]

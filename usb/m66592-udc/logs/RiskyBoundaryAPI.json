@@ -1,0 +1,97 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "m66592_probe(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1681) | m66592_free_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1347) | m66592_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1529) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "mod_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "m66592_udc_start(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1466) | m66592_irq(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1237) | m66592_timer(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1291) | m66592_timer(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1285) | "
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "clk_get",
+    "risky func": "kref_get.68",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 8,
+    "call path": "( [4]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clkdev.c#L100 )->clk_hw_create_clk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L3923 )->kref_get.68 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/kref.h#L43 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "clk_get",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [5]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clkdev.c#L100 )->of_clk_get_hw ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L5041 )->of_clk_get_hw_from_clkspec ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L5004 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "clk_get",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 11,
+    "call path": "( [5]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clkdev.c#L100 )->of_clk_get_hw ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L5041 )->of_clk_get_hw_from_clkspec ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L5004 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "clk_get",
+    "risky func": "kzalloc.74",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 6,
+    "call path": "( [5]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clkdev.c#L100 )->clk_hw_create_clk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L3923 )->alloc_clk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L3881 )->kzalloc.74 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "clk_get",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [5]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clkdev.c#L100 )->clk_hw_create_clk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L3923 )->free_clk ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk.c#L3905 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "free_irq",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [3]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]m66592_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1515 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "free_irq",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [4]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_lock ( Unknown Loc ) )( [4]m66592_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1515 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "free_irq",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 13,
+    "call path": "( [4]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_unlock ( Unknown Loc ) )( [4]m66592_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1515 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "iounmap",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 6,
+    "call path": "( [3]m66592_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1537 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]m66592_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/m66592-udc.c#L1515 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "5",
+    "risky": "arr-idx",
+    "acc_path": "state",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1463",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/pci.h#L185",
+    "drv caller (param)": "[ xhci_pci_shutdown | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L697 ], ",
+    "call path (param)": " [xhci_pci_shutdown->pci_set_power_state->pci_set_full_power_state->pci_power_name.268] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_set_power_state->pci_set_full_power_state->pci_power_name.268] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  },
+  {
+    "id": "5",
+    "risky": "val-sen-api (pci_platform_power_transition)",
+    "acc_path": "state",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1465",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1465",
+    "drv caller (param)": "[ xhci_pci_shutdown | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/host/xhci-pci.c#L697 ], ",
+    "call path (param)": " [xhci_pci_shutdown->pci_set_power_state] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_set_power_state] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1436 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1439 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1446 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1446 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1449 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1446 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1446 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1439 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci.c#L1436 | ",
+    "isControl": "1",
+    "t_trace": "",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]

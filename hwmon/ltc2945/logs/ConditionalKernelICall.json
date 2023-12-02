@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "ltc2945_value_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L229"
+  },
+  {
+    "Drv func": "ltc2945_reg_to_val",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L88 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L101"
+  },
+  {
+    "Drv func": "ltc2945_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L457 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L463"
+  },
+  {
+    "Drv func": "ltc2945_history_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L285 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L292"
+  },
+  {
+    "Drv func": "ltc2945_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L457 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L465"
+  },
+  {
+    "Drv func": "ltc2945_val_to_reg",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L155 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2945.c#L169"
+  }
+]

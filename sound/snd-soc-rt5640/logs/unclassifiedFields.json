@@ -1,0 +1,258 @@
+{
+  "id": 1,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-dapm.c#L3810 | snd_soc_dapm_new_controls",
+  "Drv update": ""
+}
+{
+  "id": 2,
+  "acc_path": "num",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-dapm.c#L3110 | snd_soc_dapm_add_routes",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "status",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-jack.c#L34 | snd_soc_jack_report",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "mask",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-jack.c#L34 | snd_soc_jack_report",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "irq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/devres.c#L51 | devm_request_threaded_irq",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "irqflags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/devres.c#L51 | devm_request_threaded_irq",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "sclk",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L234 | rl6231_get_clk_info",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "rate",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L234 | rl6231_get_clk_info",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "freq_in",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L140 | rl6231_pll_calc",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "freq_out",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L140 | rl6231_pll_calc",
+  "Drv update": ""
+}
+{
+  "id": 11,
+  "acc_path": "rate",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L70 | rl6231_calc_dmic_clk",
+  "Drv update": ""
+}
+{
+  "id": 12,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L26 | rl6231_get_pre_div",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "sft",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rl6231.c#L26 | rl6231_get_pre_div",
+  "Drv update": ""
+}
+{
+  "id": 14,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2910 | regmap_read",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-component.c#L788 | snd_soc_component_update_bits",
+  "Drv update": ""
+}
+{
+  "id": 16,
+  "acc_path": "mask",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-component.c#L788 | snd_soc_component_update_bits",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-component.c#L788 | snd_soc_component_update_bits",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L2012 | regmap_write",
+  "Drv update": ""
+}
+{
+  "id": 20,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-component.c#L708 | snd_soc_component_read",
+  "Drv update": ""
+}
+{
+  "id": 21,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L865 | init_timer_key",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "irq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/irq/manage.c#L2018 | free_irq",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "msecs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L2086 | msleep",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "m",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/time.c#L552 | __msecs_to_jiffies",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "num_controls",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-core.c#L2239 | snd_soc_add_component_controls",
+  "Drv update": ""
+}
+{
+  "id": 26,
+  "acc_path": "num_dai",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-devres.c#L66 | devm_snd_soc_register_component",
+  "Drv update": ""
+}
+{
+  "id": 27,
+  "acc_path": "enable",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regcache.c#L507 | regcache_cache_only",
+  "Drv update": ""
+}
+{
+  "id": 28,
+  "acc_path": "reg",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-component.c#L743 | snd_soc_component_write",
+  "Drv update": ""
+}
+{
+  "id": 29,
+  "acc_path": "val",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/soc-component.c#L743 | snd_soc_component_write",
+  "Drv update": ""
+}
+{
+  "id": 30,
+  "acc_path": "num_regs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/regmap/regmap.c#L3408 | regmap_register_patch",
+  "Drv update": ""
+}
+{
+  "id": 31,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L2989 | rt5640_i2c_probe",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "bool",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/soc/codecs/rt5640.c#L208 | rt5640_readable_register",
+  "Drv update": ""
+}

@@ -1,0 +1,30 @@
+{
+  "id": 4,
+  "acc_path": "attribute->mode",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L101],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3016],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3019],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L1308], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L924],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ibmaem.c#L941], "
+}
+{
+  "id": 5,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L487 | ida_free",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "m",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/time.c#L552 | __msecs_to_jiffies",
+  "Drv update": ""
+}
+{
+  "id": 8,
+  "acc_path": "timeout",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/completion.c#L155 | wait_for_completion_timeout",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/base/platform.c#L576 | platform_device_alloc",
+  "Drv update": ""
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "expires",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "drv caller (param)": "[ musb_handle_intr_reset | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/musb/musb_core.c#L1018 ], ",
+    "call path (param)": " [musb_handle_intr_reset->mod_timer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [mod_timer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

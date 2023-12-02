@@ -1,0 +1,122 @@
+[
+  {
+    "id": "11",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "playback_count",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L778",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L650",
+    "drv caller (param)": "[ g_audio_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1241 ], ",
+    "call path (param)": " [g_audio_setup->snd_pcm_new->_snd_pcm_new->snd_pcm_new_stream] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_pcm_new->_snd_pcm_new->snd_pcm_new_stream] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "12",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "capture_count",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L778",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L667",
+    "drv caller (param)": "[ g_audio_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1241 ], ",
+    "call path (param)": " [g_audio_setup->snd_pcm_new->_snd_pcm_new->snd_pcm_new_stream] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_pcm_new->_snd_pcm_new->snd_pcm_new_stream] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm.c#L738 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "14",
+    "risky": "arr-idx",
+    "acc_path": "var",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_lib.c#L1223",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/sound/pcm.h#L260",
+    "drv caller (param)": "[ uac_pcm_open | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L421 ], ",
+    "call path (param)": " [uac_pcm_open->snd_pcm_hw_constraint_integer->constrs_interval] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_pcm_hw_constraint_integer->constrs_interval] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "16",
+    "risky": "val-sen-branch (alloc_pages)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L409",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L119",
+    "drv caller (param)": "[ g_audio_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1393 ], ",
+    "call path (param)": " [g_audio_setup->snd_pcm_set_managed_buffer_all->preallocate_pages_for_all->preallocate_pages->preallocate_pcm_pages] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_pcm_set_managed_buffer_all->preallocate_pages_for_all->preallocate_pages->preallocate_pcm_pages] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L271 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L116 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L114 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L277 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "16",
+    "risky": "val-sen-api (alloc_pages)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L409",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L113",
+    "drv caller (param)": "[ g_audio_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1393 ], ",
+    "call path (param)": " [g_audio_setup->snd_pcm_set_managed_buffer_all->preallocate_pages_for_all->preallocate_pages->preallocate_pcm_pages] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_pcm_set_managed_buffer_all->preallocate_pages_for_all->preallocate_pages->preallocate_pcm_pages] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L119 | ",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L308 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L283 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L271 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L116 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L114 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_memory.c#L119 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "21",
+    "risky": "arr-idx",
+    "acc_path": "idx",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L180",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L56",
+    "drv caller (param)": "[ g_audio_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1230 ], ",
+    "call path (param)": " [g_audio_setup->snd_card_new->snd_card_init] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_card_new->snd_card_init] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L54 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L285 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./arch/x86/include/asm/bitops.h#L54 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L294 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "21",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "idx",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L180",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L289",
+    "drv caller (param)": "[ g_audio_setup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L1230 ], ",
+    "call path (param)": " [g_audio_setup->snd_card_new->snd_card_init] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [snd_card_new->snd_card_init] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L287 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L285 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/init.c#L287 | ",
+    "isControl": "0"
+  }
+]

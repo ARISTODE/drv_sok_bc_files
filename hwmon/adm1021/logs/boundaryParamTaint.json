@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "command",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L164",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L314",
+    "drv caller (param)": "[ temp_min_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L234 ], ",
+    "call path (param)": " [temp_min_store->i2c_smbus_write_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [i2c_smbus_write_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L542 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "2",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "command",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L143",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L314",
+    "drv caller (param)": "[ low_power_store | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L265 ], ",
+    "call path (param)": " [low_power_store->i2c_smbus_read_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [i2c_smbus_write_byte_data->i2c_smbus_xfer->__i2c_smbus_xfer->i2c_smbus_xfer_emulated->i2c_smbus_try_get_dmabuf] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L542 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L586 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/i2c/i2c-core-smbus.c#L308 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "3",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L1012",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L763",
+    "drv caller (param)": "[ adm1021_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/adm1021.c#L467 ], ",
+    "call path (param)": " [adm1021_probe->devm_hwmon_device_register_with_groups->hwmon_device_register_with_groups->__hwmon_device_register] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_hwmon_device_register_with_groups->hwmon_device_register_with_groups->__hwmon_device_register] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/hwmon.c#L883 | ",
+    "isControl": "0"
+  }
+]

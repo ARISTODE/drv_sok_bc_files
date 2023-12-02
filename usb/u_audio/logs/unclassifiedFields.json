@@ -1,0 +1,264 @@
+{
+  "id": 2,
+  "acc_path": "snd_pcm_hardware->formats",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2631], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L410],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L406], "
+}
+{
+  "id": 3,
+  "acc_path": "snd_pcm_hardware->rate_min",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2646], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L417], "
+}
+{
+  "id": 4,
+  "acc_path": "snd_pcm_hardware->rate_max",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2646], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L418], "
+}
+{
+  "id": 5,
+  "acc_path": "snd_pcm_hardware->channels_min",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2641], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L407],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L411], "
+}
+{
+  "id": 6,
+  "acc_path": "snd_pcm_hardware->channels_max",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2641], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L419], "
+}
+{
+  "id": 7,
+  "acc_path": "snd_pcm_hardware->period_bytes_min",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2661],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/core/pcm_native.c#L2651], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/u_audio.c#L415], "
+}
+{
+  "id": 8,
+  "acc_path": "name",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 9,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 10,
+  "acc_path": "device",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/pcm.c#L775 | snd_pcm_new",
+  "Drv update": ""
+}
+{
+  "id": 13,
+  "acc_path": "n",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/usercopy.c#L34 | _copy_to_user",
+  "Drv update": ""
+}
+{
+  "id": 15,
+  "acc_path": "type",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/pcm_memory.c#L405 | snd_pcm_set_managed_buffer_all",
+  "Drv update": ""
+}
+{
+  "id": 17,
+  "acc_path": "max",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/pcm_memory.c#L405 | snd_pcm_set_managed_buffer_all",
+  "Drv update": ""
+}
+{
+  "id": 18,
+  "acc_path": "private_data",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/control.c#L262 | snd_ctl_new1",
+  "Drv update": ""
+}
+{
+  "id": 19,
+  "acc_path": "mask",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/control.c#L149 | snd_ctl_notify",
+  "Drv update": ""
+}
+{
+  "id": 20,
+  "acc_path": "direction",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/pcm_lib.c#L482 | snd_pcm_set_ops",
+  "Drv update": ""
+}
+{
+  "id": 22,
+  "acc_path": "extra_size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/sound/core/init.c#L163 | snd_card_new",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 23,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 24,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L385 | uac_pcm_open",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 25,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L314 | uac_pcm_trigger",
+  "Drv update": ""
+}
+{
+  "id": 26,
+  "acc_path": "snd_pcm_uframes_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/usb/gadget/function/u_audio.c#L353 | uac_pcm_pointer",
+  "Drv update": ""
+}

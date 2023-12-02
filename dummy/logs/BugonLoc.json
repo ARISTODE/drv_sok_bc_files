@@ -1,0 +1,135 @@
+[
+  {
+    "Total Bugon": 18,
+    "Controlled Bugon": 16,
+    "Uncontrolled Bugon": 2
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L176 ], ",
+    "Trans func name": "free_netdev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10730",
+    "Check": "No check",
+    "Call Path": "free_netdev"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L165 ], ",
+    "Trans func name": "alloc_netdev_mqs",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10566",
+    "Check": "No check",
+    "Call Path": "alloc_netdev_mqs"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L165 ], ",
+    "Trans func name": "netif_alloc_rx_queues",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9858",
+    "Check": "No check",
+    "Call Path": "alloc_netdev_mqs->netif_alloc_rx_queues"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L165 ], ",
+    "Trans func name": "free_netdev",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10730",
+    "Check": "No check",
+    "Call Path": "alloc_netdev_mqs->free_netdev"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L165 ], ",
+    "Trans func name": "__hw_addr_create",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "alloc_netdev_mqs->dev_addr_init->__hw_addr_add->__hw_addr_add_ex->__hw_addr_create",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | "
+  },
+  {
+    "Drv caller": "[ dummy_cleanup_module | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L206 ], ",
+    "Trans func name": "unregister_netdevice_many",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 |   unreachable",
+    "Check": "No check",
+    "Call Path": "rtnl_link_unregister->__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many"
+  },
+  {
+    "Drv caller": "[ dummy_cleanup_module | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L206 ], ",
+    "Trans func name": "skb_orphan",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L3086",
+    "Check": "No check",
+    "Call Path": "rtnl_link_unregister->__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_link_fill->rtnl_link_info_fill->dummy_xmit->skb_tx_timestamp->skb_tstamp_tx->__skb_tstamp_tx->__skb_complete_tx_timestamp->sock_queue_err_skb->skb_orphan"
+  },
+  {
+    "Drv caller": "[ dummy_cleanup_module | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L206 ], ",
+    "Trans func name": "pskb_expand_head",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1824 |   unreachable",
+    "Check": "No check",
+    "Call Path": "rtnl_link_unregister->__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_link_fill->rtnl_link_info_fill->dummy_xmit->skb_tx_timestamp->skb_tstamp_tx->__skb_tstamp_tx->skb_clone->skb_orphan_frags.543->skb_copy_ubufs->skb_unclone->pskb_expand_head"
+  },
+  {
+    "Drv caller": "[ dummy_init_module | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L195 ], ",
+    "Trans func name": "unregister_netdevice_many",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many"
+  },
+  {
+    "Drv caller": "[ dummy_init_module | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L195 ], ",
+    "Trans func name": "skb_orphan",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L3086",
+    "Check": "No check",
+    "Call Path": "__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_link_fill->rtnl_link_info_fill->dummy_xmit->skb_tx_timestamp->skb_tstamp_tx->__skb_tstamp_tx->__skb_complete_tx_timestamp->sock_queue_err_skb->skb_orphan"
+  },
+  {
+    "Drv caller": "[ dummy_init_module | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L195 ], ",
+    "Trans func name": "pskb_expand_head",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1824 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__rtnl_link_unregister->__rtnl_kill_links->unregister_netdevice_many->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_link_fill->rtnl_link_info_fill->dummy_xmit->skb_tx_timestamp->skb_tstamp_tx->__skb_tstamp_tx->skb_clone->skb_orphan_frags.543->skb_copy_ubufs->skb_unclone->pskb_expand_head"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "register_netdevice",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L9960 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdevice"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "dev_get_valid_name",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1130",
+    "Check": "No check",
+    "Call Path": "register_netdevice->dev_get_valid_name"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "unregister_netdevice_many",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10789 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdevice->unregister_netdevice_queue->unregister_netdevice_many"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "dev_alloc_name_ns",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L1100",
+    "Check": "No check",
+    "Call Path": "register_netdevice->dev_get_valid_name->dev_alloc_name_ns"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "netdev_name_node_alloc",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L434",
+    "Call Path": "register_netdevice->netdev_name_node_head_alloc->netdev_name_node_alloc",
+    "Is check controlled": "false",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L419 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L427 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L428 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L429 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L431 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L418 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L417 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L425 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L401 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L415 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L424 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L414 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L423 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L413 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L412 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L421 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L411 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L407 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L426 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L416 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L404 | "
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "skb_orphan",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L3086",
+    "Check": "No check",
+    "Call Path": "register_netdevice->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_link_fill->rtnl_link_info_fill->dummy_xmit->skb_tx_timestamp->skb_tstamp_tx->__skb_tstamp_tx->__skb_complete_tx_timestamp->sock_queue_err_skb->skb_orphan"
+  },
+  {
+    "Drv caller": "[ dummy_init_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L170 ], ",
+    "Trans func name": "pskb_expand_head",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1824 |   unreachable",
+    "Check": "No check",
+    "Call Path": "register_netdevice->rtmsg_ifinfo->rtmsg_ifinfo_event->rtmsg_ifinfo_build_skb->rtnl_fill_ifinfo->rtnl_link_fill->rtnl_link_info_fill->dummy_xmit->skb_tx_timestamp->skb_tstamp_tx->__skb_tstamp_tx->skb_clone->skb_orphan_frags.543->skb_copy_ubufs->skb_unclone->pskb_expand_head"
+  }
+]

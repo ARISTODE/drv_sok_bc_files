@@ -1,0 +1,206 @@
+[
+  {
+    "id": "8",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L59",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L25",
+    "drv caller (param)": "[ isp1760_udc_register | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1552 ], ",
+    "call path (param)": " [isp1760_udc_register->kasprintf->kvasprintf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kasprintf->kvasprintf] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "12",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "num",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L263",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L225",
+    "drv caller (param)": "[ isp1760_plat_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L200 ], ",
+    "call path (param)": " [isp1760_plat_probe->platform_get_irq->platform_get_irq_optional] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [platform_get_irq->platform_get_irq_optional] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L213 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "17",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "phys_addr",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ isp1761_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L106 ], ",
+    "call path (param)": " [isp1761_pci_init->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_ioremap_resource->__devm_ioremap_resource->__devm_ioremap->ioremap->__ioremap_caller] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "18",
+    "risky": "val-sen-branch (memcpy)",
+    "acc_path": "size",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L350",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L195",
+    "drv caller (param)": "[ isp1761_pci_init | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-if.c#L106 ], ",
+    "call path (param)": " [isp1761_pci_init->ioremap->__ioremap_caller] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [devm_ioremap_resource->__devm_ioremap_resource->__devm_ioremap->ioremap->__ioremap_caller] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "21",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "expires",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "drv caller (param)": "[ isp1760_udc_connect | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L1130 ], ",
+    "call path (param)": " [isp1760_udc_connect->mod_timer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [mod_timer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "23",
+    "risky": "val-sen-branch (kmalloc)",
+    "acc_path": "reg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1694 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "23",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "reg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "11",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1694 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "23",
+    "risky": "arr-idx",
+    "acc_path": "reg",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1743",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1726 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1704 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1694 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "24",
+    "risky": "val-sen-branch (kmalloc)",
+    "acc_path": "val_len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl->kzalloc.158] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "7",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "24",
+    "risky": "val-sen-api (memcpy)",
+    "acc_path": "val_len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1861",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write->_regmap_raw_write_impl] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1856 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2092 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1738 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1856 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L1853 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "24",
+    "risky": "arr-idx",
+    "acc_path": "val_len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2087",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2083 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "24",
+    "risky": "div-by-zero",
+    "acc_path": "val_len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2126",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2077",
+    "drv caller (param)": "[ isp1760_udc_write_raw16 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/isp1760/isp1760-udc.c#L89 ], ",
+    "call path (param)": " [isp1760_udc_write_raw16->regmap_raw_write->_regmap_raw_write] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [regmap_raw_write->_regmap_raw_write] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2083 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/regmap/regmap.c#L2081 | ",
+    "isControl": "0"
+  }
+]

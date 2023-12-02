@@ -1,0 +1,34 @@
+[
+  {
+    "id": "4",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "sig",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1640",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043",
+    "drv caller (param)": "[ __raise_exception | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L381 ], ",
+    "call path (param)": " [__raise_exception->send_sig_info->do_send_sig_info->send_signal_locked->__send_signal_locked->complete_signal] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [send_sig_info->do_send_sig_info->send_signal_locked->__send_signal_locked->complete_signal] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | ",
+    "cond_num": "4",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1299 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "4",
+    "risky": "arr-idx",
+    "acc_path": "sig",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1640",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043",
+    "drv caller (param)": "[ __raise_exception | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_mass_storage.c#L381 ], ",
+    "call path (param)": " [__raise_exception->send_sig_info->do_send_sig_info->send_signal_locked->__send_signal_locked->complete_signal] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [send_sig_info->do_send_sig_info->send_signal_locked->__send_signal_locked->complete_signal] ",
+    "num condition checks": 3,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | ",
+    "cond_num": "5",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1299 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/signal.c#L1043 | ",
+    "isControl": "0"
+  }
+]

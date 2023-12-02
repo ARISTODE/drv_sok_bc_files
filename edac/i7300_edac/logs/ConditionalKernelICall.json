@@ -1,0 +1,135 @@
+[
+  {
+    "No. entry": 26
+  },
+  {
+    "Drv func": "i7300_get_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L988 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L996"
+  },
+  {
+    "Drv func": "i7300_get_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L943 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L947 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L949 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L951"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L423 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L430"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L469"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L480"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L466"
+  },
+  {
+    "Drv func": "i7300_init_csrows",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L790 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L791"
+  },
+  {
+    "Drv func": "i7300_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558"
+  },
+  {
+    "Drv func": "i7300_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L546"
+  },
+  {
+    "Drv func": "i7300_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1038 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1051"
+  },
+  {
+    "Drv func": "i7300_init_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1063 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1064"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L474"
+  },
+  {
+    "Drv func": "i7300_process_error_global",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L364 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L380 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L388"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L488"
+  },
+  {
+    "Drv func": "i7300_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1152"
+  },
+  {
+    "Drv func": "i7300_init_csrows",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L776 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L780"
+  },
+  {
+    "Drv func": "i7300_init_csrows",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L767 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L770"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L423 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L435"
+  },
+  {
+    "Drv func": "i7300_process_error_global",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L364 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L378"
+  },
+  {
+    "Drv func": "i7300_put_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L917 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L918"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L459 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L496"
+  },
+  {
+    "Drv func": "i7300_process_error_global",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L364 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L372"
+  },
+  {
+    "Drv func": "i7300_get_devices",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L943 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L947 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L954 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L956"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L423 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L449"
+  },
+  {
+    "Drv func": "i7300_process_fbd_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L423 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L442"
+  },
+  {
+    "Drv func": "i7300_remove_one",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7300_edac.c#L1153"
+  }
+]

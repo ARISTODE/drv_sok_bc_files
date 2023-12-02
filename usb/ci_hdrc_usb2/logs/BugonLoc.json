@@ -1,0 +1,28 @@
+[
+  {
+    "Total Bugon": 3,
+    "Controlled Bugon": 3,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ ci_hdrc_usb2_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_usb2.c#L58 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_kmalloc->devres_add->add_dr"
+  },
+  {
+    "Drv caller": "[ ci_hdrc_usb2_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_usb2.c#L74 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_clk_get_optional->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ ci_hdrc_usb2_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_usb2.c#L74 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_clk_get_optional->__devm_clk_get->devres_add->add_dr"
+  }
+]

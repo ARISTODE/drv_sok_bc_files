@@ -1,0 +1,42 @@
+{
+  "id": 0,
+  "acc_path": "inner",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/locking/spinlock_debug.c#L16 | __raw_spin_lock_init",
+  "Drv update": ""
+}
+{
+  "id": 1,
+  "acc_path": "len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/skbuff.c#L2234 | skb_trim",
+  "Drv update": ""
+}
+{
+  "id": 3,
+  "acc_path": "headroom",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/skbuff.c#L1913 | skb_realloc_headroom",
+  "Drv update": ""
+}
+{
+  "id": 4,
+  "acc_path": "len",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/core/skbuff.c#L2175 | skb_push",
+  "Drv update": ""
+}
+{
+  "id": 5,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L487 | ida_free",
+  "Drv update": ""
+}
+{
+  "id": 6,
+  "acc_path": "min",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L380 | ida_alloc_range",
+  "Drv update": ""
+}
+{
+  "id": 7,
+  "acc_path": "max",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L380 | ida_alloc_range",
+  "Drv update": ""
+}

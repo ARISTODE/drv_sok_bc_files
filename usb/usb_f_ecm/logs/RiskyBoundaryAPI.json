@@ -1,0 +1,36 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "ecm_free_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L868) | ecm_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L918) | ecm_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L815) | ecm_alloc(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L941) | ecm_alloc_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L883) | ecm_free(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L899) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]ecm_free_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L859 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [4]ecm_free_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L859 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "config_group_init_type_name",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]ecm_alloc_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_ecm.c#L871 )->config_group_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L92 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

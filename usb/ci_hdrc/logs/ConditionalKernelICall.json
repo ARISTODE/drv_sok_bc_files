@@ -1,0 +1,350 @@
+[
+  {
+    "No. entry": 69
+  },
+  {
+    "Drv func": "ci_ulpi_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ulpi.c#L101 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ulpi.c#L102 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ulpi.c#L104"
+  },
+  {
+    "Drv func": "ci_registers_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L328 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L330"
+  },
+  {
+    "Drv func": "ci_registers_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L323"
+  },
+  {
+    "Drv func": "ci_role_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L254 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L255"
+  },
+  {
+    "Drv func": "ci_ulpi_wait",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ulpi.c#L23 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ulpi.c#L24 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ulpi.c#L27"
+  },
+  {
+    "Drv func": "ci_requests_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L161 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L162"
+  },
+  {
+    "Drv func": "ci_runtime_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1426 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1426"
+  },
+  {
+    "Drv func": "ci_hdrc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1104 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1111"
+  },
+  {
+    "Drv func": "ci_qheads_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L127 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L128"
+  },
+  {
+    "Drv func": "ci_requests_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L176 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L177"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L210"
+  },
+  {
+    "Drv func": "ci_otg_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L213 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L214"
+  },
+  {
+    "Drv func": "ci_registers_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L314"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L212"
+  },
+  {
+    "Drv func": "ci_requests_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L169 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L170"
+  },
+  {
+    "Drv func": "ci_registers_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L320"
+  },
+  {
+    "Drv func": "ci_role_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L278 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L282"
+  },
+  {
+    "Drv func": "ci_hdrc_add_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L855 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L858"
+  },
+  {
+    "Drv func": "ci_qheads_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L133 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L137"
+  },
+  {
+    "Drv func": "ci_qheads_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L139 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L140"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L224"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L216"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L214"
+  },
+  {
+    "Drv func": "hw_controller_reset",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L465 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L466"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L206"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L240"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L198"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L232"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L218"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L202"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L204"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L244"
+  },
+  {
+    "Drv func": "dbg_create_files",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L354 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L355"
+  },
+  {
+    "Drv func": "ci_registers_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L326"
+  },
+  {
+    "Drv func": "ci_controller_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1333 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1333"
+  },
+  {
+    "Drv func": "ci_registers_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L317"
+  },
+  {
+    "Drv func": "hw_wait_vbus_lower_bsv",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L156 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L157 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L162"
+  },
+  {
+    "Drv func": "ci_hdrc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1184 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1206 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1202 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1209 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1211"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L226"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L220"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L222"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L228"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L230"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L234"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L238"
+  },
+  {
+    "Drv func": "ci_irq_handler",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L525 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L526"
+  },
+  {
+    "Drv func": "ci_get_otg_capable",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L945 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L945"
+  },
+  {
+    "Drv func": "ci_otg_queue_work",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.h#L20 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.h#L21"
+  },
+  {
+    "Drv func": "hw_device_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L256 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L256"
+  },
+  {
+    "Drv func": "ci_hdrc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1019 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1025"
+  },
+  {
+    "Drv func": "ci_controller_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1357"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L208"
+  },
+  {
+    "Drv func": "ci_hdrc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1184 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1206 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1202 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1209 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1212"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L242"
+  },
+  {
+    "Drv func": "ci_hdrc_add_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L859 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L872 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L863 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L876 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L879"
+  },
+  {
+    "Drv func": "ci_hdrc_otg_destroy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L261 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L262"
+  },
+  {
+    "Drv func": "ci_handle_id_switch",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L175 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/otg.c#L175"
+  },
+  {
+    "Drv func": "ci_resume",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1409 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1412 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1415"
+  },
+  {
+    "Drv func": "ci_hdrc_add_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L859 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L863 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L872 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L875"
+  },
+  {
+    "Drv func": "hw_wait_vbus_lower_bsv",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "ci_hdrc_add_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L859 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L862"
+  },
+  {
+    "Drv func": "ci_role_write",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L278 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L278 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L285"
+  },
+  {
+    "Drv func": "role_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L980 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L985 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L991"
+  },
+  {
+    "Drv func": "ci_otg_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L192 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/debug.c#L236"
+  },
+  {
+    "Drv func": "ci_hdrc_add_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L859 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L863 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L871"
+  },
+  {
+    "Drv func": "ci_hdrc_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1019 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1024"
+  },
+  {
+    "Drv func": "ci_hdrc_add_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L855 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L859 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L863 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L869"
+  },
+  {
+    "Drv func": "ci_usb_role_switch_set",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L628 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L633 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L633 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L634"
+  },
+  {
+    "Drv func": "ci_suspend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1371 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/core.c#L1372"
+  }
+]

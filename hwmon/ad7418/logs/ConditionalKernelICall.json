@@ -1,0 +1,40 @@
+[
+  {
+    "No. entry": 7
+  },
+  {
+    "Drv func": "ad7418_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L64 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L78 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L81"
+  },
+  {
+    "Drv func": "ad7418_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L64 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L69"
+  },
+  {
+    "Drv func": "ad7418_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L92 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L95 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L98"
+  },
+  {
+    "Drv func": "ad7418_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L92 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L93"
+  },
+  {
+    "Drv func": "ad7418_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L64 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L76"
+  },
+  {
+    "Drv func": "ad7418_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L255 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L258"
+  },
+  {
+    "Drv func": "ad7418_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ad7418.c#L228"
+  }
+]

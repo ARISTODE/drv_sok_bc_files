@@ -1,0 +1,23 @@
+[
+  {
+    "No. entry": 3
+  },
+  {
+    "Lock Name": "rtnl_lock",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L185",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/net/dummy.c#L190",
+    "loop form": "Loop"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1780",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L1803",
+    "loop form": "list iteration/container_of"
+  },
+  {
+    "Lock Name": "_raw_spin_lock_irqsave",
+    "Lock loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L2277",
+    "Loop loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/percpu.c#L2295",
+    "loop form": "Loop"
+  }
+]

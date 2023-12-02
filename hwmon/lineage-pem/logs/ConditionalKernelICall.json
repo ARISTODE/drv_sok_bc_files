@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "pem_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L445 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L448"
+  },
+  {
+    "Drv func": "pem_bool_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L279 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L283"
+  },
+  {
+    "Drv func": "pem_input_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L309 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L315"
+  },
+  {
+    "Drv func": "pem_fan_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L325 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L331"
+  },
+  {
+    "Drv func": "pem_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L157 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L164 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L157 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L170 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L181 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L191"
+  },
+  {
+    "Drv func": "pem_data_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L293 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/lineage-pem.c#L299"
+  }
+]

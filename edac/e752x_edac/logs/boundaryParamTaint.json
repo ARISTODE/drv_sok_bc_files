@@ -1,0 +1,90 @@
+[
+  {
+    "id": "18",
+    "risky": "ptr-write",
+    "acc_path": "val",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L569",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68",
+    "drv caller (param)": "[ e752x_get_error_info | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L899 ], ",
+    "call path (param)": " [e752x_get_error_info->pci_read_config_dword->pci_bus_read_config_dword] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_read_config_dword->pci_bus_read_config_dword] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "21",
+    "risky": "ptr-write",
+    "acc_path": "val",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L548",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66",
+    "drv caller (param)": "[ e752x_probe1 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1328 ], ",
+    "call path (param)": " [e752x_probe1->e752x_init_csrows->pci_read_config_byte->pci_bus_read_config_byte] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_enable_device->pci_enable_device_flags->do_pci_enable_device->pci_read_config_byte->pci_bus_read_config_byte] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L66 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "24",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "vendor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ e752x_get_devs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1193 ], ",
+    "call path (param)": " [e752x_get_devs->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "25",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "device",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ e752x_get_devs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1193 ], ",
+    "call path (param)": " [e752x_get_devs->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "26",
+    "risky": "val-sen-api (pci_get_slot)",
+    "acc_path": "devfn",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2577",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/probe.c#L2577",
+    "drv caller (param)": "[ e752x_get_devs | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/e752x_edac.c#L1181 ], ",
+    "call path (param)": " [e752x_get_devs->pci_scan_single_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_scan_single_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

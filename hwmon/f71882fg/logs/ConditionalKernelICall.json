@@ -1,0 +1,75 @@
+[
+  {
+    "No. entry": 14
+  },
+  {
+    "Drv func": "f71882fg_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2622 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2626"
+  },
+  {
+    "Drv func": "f71882fg_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2351 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2354"
+  },
+  {
+    "Drv func": "f71882fg_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2627 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2631 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2638 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2643"
+  },
+  {
+    "Drv func": "f71882fg_create_sysfs_files",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2111 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2112"
+  },
+  {
+    "Drv func": "f71882fg_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2363 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2373"
+  },
+  {
+    "Drv func": "f71882fg_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2430 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2431 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2432"
+  },
+  {
+    "Drv func": "f71882fg_find",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2522 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2522"
+  },
+  {
+    "Drv func": "f71882fg_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2235"
+  },
+  {
+    "Drv func": "f71882fg_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2363 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2367 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2374 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2377 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2447 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2498"
+  },
+  {
+    "Drv func": "f71882fg_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2279 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2280 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2281"
+  },
+  {
+    "Drv func": "f71882fg_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2627 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2631 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2636"
+  },
+  {
+    "Drv func": "f71882fg_remove_sysfs_files",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2124 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2125"
+  },
+  {
+    "Drv func": "f71882fg_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2676 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2679"
+  },
+  {
+    "Drv func": "f71882fg_device_add",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2622 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2627 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f71882fg.c#L2630"
+  }
+]

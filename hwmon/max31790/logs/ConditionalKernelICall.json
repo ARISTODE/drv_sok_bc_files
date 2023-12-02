@@ -1,0 +1,45 @@
+[
+  {
+    "No. entry": 8
+  },
+  {
+    "Drv func": "max31790_read_fan",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L171 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L174 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L197 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L200"
+  },
+  {
+    "Drv func": "max31790_write_fan",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L259 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L260"
+  },
+  {
+    "Drv func": "max31790_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L488 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L489"
+  },
+  {
+    "Drv func": "max31790_init_client",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L488 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L491 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L495"
+  },
+  {
+    "Drv func": "max31790_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L528 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L531"
+  },
+  {
+    "Drv func": "max31790_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L80 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L80 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L81"
+  },
+  {
+    "Drv func": "max31790_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L80 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L80 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L83 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L87"
+  },
+  {
+    "Drv func": "max31790_write_pwm",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L375 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max31790.c#L376"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "hidg_plat_driver_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/hid.c#L249) | hid_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/hid.c#L217) | hid_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/legacy/hid.c#L197) | "
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "afunc_free_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2139) | afunc_notify_complete(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1354) | afunc_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1340) | f_uac2_opts_p_srate_store(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2074) | afunc_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2210) | afunc_notify(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1408) | f_uac2_opts_c_srate_store(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2078) | afunc_free(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2193) | afunc_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1342) | afunc_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2208) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "config_group_init_type_name",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]afunc_alloc_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L2142 )->config_group_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L92 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

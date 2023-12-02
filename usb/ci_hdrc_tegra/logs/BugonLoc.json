@@ -1,0 +1,21 @@
+[
+  {
+    "Total Bugon": 2,
+    "Controlled Bugon": 2,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ tegra_usb_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L297 ], ",
+    "Trans func name": "devres_free",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L225",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_free"
+  },
+  {
+    "Drv caller": "[ tegra_usb_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/chipidea/ci_hdrc_tegra.c#L297 ], ",
+    "Trans func name": "add_dr",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L132",
+    "Check": "No check",
+    "Call Path": "devm_clk_get->__devm_clk_get->devres_add->add_dr"
+  }
+]

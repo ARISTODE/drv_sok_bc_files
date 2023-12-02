@@ -1,0 +1,90 @@
+[
+  {
+    "id": "14",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "gfp",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L59",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/kasprintf.c#L25",
+    "drv caller (param)": "[ i7core_register_mci | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L2168 ], ",
+    "call path (param)": " [i7core_register_mci->kasprintf->kvasprintf] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [kasprintf->kvasprintf] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "16",
+    "risky": "ptr-write",
+    "acc_path": "val",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L569",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68",
+    "drv caller (param)": "[ get_dimm_config | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L502 ], ",
+    "call path (param)": " [get_dimm_config->pci_read_config_dword->pci_bus_read_config_dword] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_read_config_dword->pci_bus_read_config_dword] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/access.c#L68 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "20",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "busn",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/pci/legacy.c#L43",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L121",
+    "drv caller (param)": "[ i7core_xeon_pci_fixup | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1274 ], ",
+    "call path (param)": " [i7core_xeon_pci_fixup->pcibios_scan_specific_bus->pci_find_bus->pci_do_find_bus] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pcibios_scan_specific_bus->pci_find_bus->pci_do_find_bus] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L147 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L146 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "21",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "vendor",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i7core_get_onedevice | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1333 ], ",
+    "call path (param)": " [i7core_get_onedevice->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "22",
+    "risky": "val-sen-api (pci_get_subsys)",
+    "acc_path": "device",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/search.c#L333",
+    "drv caller (param)": "[ i7core_get_onedevice | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/edac/i7core_edac.c#L1333 ], ",
+    "call path (param)": " [i7core_get_onedevice->pci_get_device] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [pci_get_device] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Total Bugon": 1,
+    "Controlled Bugon": 1,
+    "Uncontrolled Bugon": 0
+  },
+  {
+    "Drv caller": "[ rl6231_pll_calc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rl6231.c#L217 ], [ rl6231_pll_calc | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rl6231.c#L162 ], ",
+    "Trans func name": "__dynamic_pr_debug",
+    "Bugon loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/dynamic_debug.c#L857 |   unreachable",
+    "Check": "No check",
+    "Call Path": "__dynamic_pr_debug"
+  }
+]

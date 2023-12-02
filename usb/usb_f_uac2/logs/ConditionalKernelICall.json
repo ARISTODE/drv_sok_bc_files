@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "out_rq_cur_complete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1726 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1726"
+  },
+  {
+    "Drv func": "in_rq_range",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1632 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1632"
+  },
+  {
+    "Drv func": "uac2_cs_control_sam_freq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1704 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1704"
+  },
+  {
+    "Drv func": "in_rq_range",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1626 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1626"
+  },
+  {
+    "Drv func": "out_rq_cur",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1777 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L1777"
+  },
+  {
+    "Drv func": "set_ep_max_packet_size_bint",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L764 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_uac2.c#L764"
+  }
+]

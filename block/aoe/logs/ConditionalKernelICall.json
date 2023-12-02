@@ -1,0 +1,500 @@
+[
+  {
+    "No. entry": 99
+  },
+  {
+    "Drv func": "aoeblk_gdalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L353 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L366"
+  },
+  {
+    "Drv func": "freedev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L273 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L277 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L281"
+  },
+  {
+    "Drv func": "aoe_debugfs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L145"
+  },
+  {
+    "Drv func": "aoedisk_show_netif",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L85 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L86"
+  },
+  {
+    "Drv func": "aoedisk_show_mac",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L52 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L53"
+  },
+  {
+    "Drv func": "ktiocomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1086 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1079 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1088 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1098 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1138 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1145 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "aoechr_exit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L313 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L314"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L243 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoeblk_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L314 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L314 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L324"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L372 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L359 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L328 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  },
+  {
+    "Drv func": "aoedev_downdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L229"
+  },
+  {
+    "Drv func": "newtframe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L234 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L244"
+  },
+  {
+    "Drv func": "aoeblk_gdalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L348 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L353 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L367 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L373"
+  },
+  {
+    "Drv func": "aoeblk_queue_rq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L257 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L258"
+  },
+  {
+    "Drv func": "aoenet_rcv",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L138 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L142 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L144 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L146"
+  },
+  {
+    "Drv func": "aoeblk_open",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoedev_exit",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L523"
+  },
+  {
+    "Drv func": "skbfree",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L411 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L412"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoecmd_sleepwork",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L896 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "aoedev_downdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L230"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L229 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "aoedisk_show_mac",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L52 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L54"
+  },
+  {
+    "Drv func": "aoedev_downdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L231"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L229 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L237"
+  },
+  {
+    "Drv func": "aoecmd_sleepwork",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L896 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L897"
+  },
+  {
+    "Drv func": "aoe_debugfs_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L131 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L133"
+  },
+  {
+    "Drv func": "ktiocomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1086 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1079 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1088 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1098 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1138 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1145 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "aoe_end_request",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1049 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1050"
+  },
+  {
+    "Drv func": "rexmit_timer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L813 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L813 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L815"
+  },
+  {
+    "Drv func": "aoedev_downdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L227 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L232"
+  },
+  {
+    "Drv func": "ktcomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1277 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "skb_share_check",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1986 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1987"
+  },
+  {
+    "Drv func": "aoeblk_gdalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L391 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L392"
+  },
+  {
+    "Drv func": "freetgt",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L511 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L515"
+  },
+  {
+    "Drv func": "aoe_ktstart",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1259 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1262"
+  },
+  {
+    "Drv func": "grow_targets",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1420 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1424"
+  },
+  {
+    "Drv func": "freedev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L273 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L277 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L279"
+  },
+  {
+    "Drv func": "aoedev_downdev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L236"
+  },
+  {
+    "Drv func": "aoecmd_ata_rw",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L399 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L400"
+  },
+  {
+    "Drv func": "ktiocomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1086 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1079 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1095"
+  },
+  {
+    "Drv func": "ktiocomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1086 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1079 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1088 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1097"
+  },
+  {
+    "Drv func": "revalidate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L111 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L111"
+  },
+  {
+    "Drv func": "skbfree",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L413 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L422"
+  },
+  {
+    "Drv func": "aoeblk_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L445 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L447"
+  },
+  {
+    "Drv func": "revalidate",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "rexmit_timer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L749 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoechr_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L143 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L155 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L156"
+  },
+  {
+    "Drv func": "aoe_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L52 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L55 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L58 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L48 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L61 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L64 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoemain.c#L66"
+  },
+  {
+    "Drv func": "aoeblk_ioctl",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L383 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L384"
+  },
+  {
+    "Drv func": "aoeblk_release",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L242 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "set_aoe_iflist",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L160 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L161"
+  },
+  {
+    "Drv func": "probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L615 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L616"
+  },
+  {
+    "Drv func": "resend",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L488 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L490"
+  },
+  {
+    "Drv func": "aoechr_error",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L137 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L143 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "freedev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L273 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L276"
+  },
+  {
+    "Drv func": "aoecmd_ata_id",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1376 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1405 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1406"
+  },
+  {
+    "Drv func": "aoedev_by_aoeaddr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L448 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L460 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L463 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L466 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L467"
+  },
+  {
+    "Drv func": "aoecmd_cfg_pkts",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L420 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L422 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L426 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L430"
+  },
+  {
+    "Drv func": "tx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L63 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L63"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L359 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L362 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoeblk_release",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L242 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoecmd_ata_rsp",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1317 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1324 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoecmd_ata_id",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1376 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1385"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L227 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L229 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L405"
+  },
+  {
+    "Drv func": "aoedev_by_aoeaddr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L448 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L451 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "nextbuf",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L851 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L854"
+  },
+  {
+    "Drv func": "bvcpy",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1020 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1022"
+  },
+  {
+    "Drv func": "freedev",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L273 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L277 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L280"
+  },
+  {
+    "Drv func": "dummy_timer",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L153 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L156"
+  },
+  {
+    "Drv func": "aoedev_by_aoeaddr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L451 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L359 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L362 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L361 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "flush",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L359 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L361 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L362 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L390"
+  },
+  {
+    "Drv func": "aoecmd_sleepwork",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L896 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "ktio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1193 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "tx",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L60 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "ktiocomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1086 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1079 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1088 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1098 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1108 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "ktio",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1191 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1204 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "kthread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1240 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L375"
+  },
+  {
+    "Drv func": "aoeblk_queue_rq",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L257 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L400"
+  },
+  {
+    "Drv func": "ktiocomplete",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1086 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1079 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1088 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1108 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1111 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1119 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1098 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1120"
+  },
+  {
+    "Drv func": "aoecmd_ata_id",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1376 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1404"
+  },
+  {
+    "Drv func": "aoechr_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L300 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoechr.c#L301"
+  },
+  {
+    "Drv func": "aoenet_rcv",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L138 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L142 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L144 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L148 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L150"
+  },
+  {
+    "Drv func": "aoe_ktstart",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1258 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1258"
+  },
+  {
+    "Drv func": "aoechr_read",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L168 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/uaccess.h#L169"
+  },
+  {
+    "Drv func": "nextbuf",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L843 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L848 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L845 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L863"
+  },
+  {
+    "Drv func": "kthread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1236"
+  },
+  {
+    "Drv func": "aoenet_init",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L210 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoenet.c#L212"
+  },
+  {
+    "Drv func": "aoeblk_gdalloc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L348 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoeblk.c#L351"
+  },
+  {
+    "Drv func": "kthread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1237"
+  },
+  {
+    "Drv func": "kthread",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1240 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1230 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoecmd.c#L1231"
+  },
+  {
+    "Drv func": "aoedev_by_aoeaddr",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L449 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/aoe/aoedev.c#L448 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/spinlock.h#L350"
+  }
+]

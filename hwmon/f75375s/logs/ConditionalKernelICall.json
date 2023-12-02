@@ -1,0 +1,25 @@
+[
+  {
+    "No. entry": 4
+  },
+  {
+    "Drv func": "f75375_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L839 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L852"
+  },
+  {
+    "Drv func": "f75375_write16",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L161 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L163"
+  },
+  {
+    "Drv func": "f75375_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L836 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L840"
+  },
+  {
+    "Drv func": "f75375_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L836 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L839 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L843 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/f75375s.c#L845"
+  }
+]

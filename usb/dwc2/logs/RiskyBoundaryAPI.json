@@ -1,0 +1,99 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "dwc2_hsotg_handle_unaligned_buf_complete(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L1334) | dwc2_hsotg_ep_free_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L1543) | "
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "acpi_match_device",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [6]dwc2_init_params ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/params.c#L915 )->acpi_match_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L897 )->acpi_companion_match ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L719 )->acpi_primary_dev_companion ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L673 )->acpi_get_first_physical_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L652 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "acpi_match_device",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [6]dwc2_init_params ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/params.c#L915 )->acpi_match_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L897 )->acpi_companion_match ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L719 )->acpi_primary_dev_companion ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L673 )->acpi_get_first_physical_node ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/acpi/bus.c#L652 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "mod_timer",
+    "Risky API Class": "timer",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "dwc2_handle_wakeup_detected_intr(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/core_intr.c#L442) | "
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "seq_read",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "seq_read",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "seq_lseek",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "seq_lseek",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "dmam_free_coherent",
+    "risky func": "dma_free_coherent",
+    "Risky API Class": "dma",
+    "Is Controlled Path": 1,
+    "call path": "( [3]dwc2_hsotg_ep_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L4005 )->dmam_free_coherent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L61 )->dma_free_coherent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/dma-mapping.h#L427 ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "dmam_free_coherent",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [5]dwc2_hsotg_ep_enable ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/gadget.c#L4005 )->dmam_free_coherent ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/dma/mapping.c#L61 )->devres_destroy ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L387 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "single_release",
+    "risky func": "kfree",
+    "Risky API Class": "memory"
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "single_open",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [3]ep_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L281 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]fifo_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L210 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]testmode_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L103 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]state_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L173 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]params_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L725 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]dr_mode_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L771 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]hw_params_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/debugfs.c#L760 )->single_open ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/seq_file.c#L572 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 12,
+    "kernel boundary func name": "devm_clk_get_optional",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 4,
+    "call path": "( [5]dwc2_lowlevel_hw_init ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/platform.c#L183 )->devm_clk_get_optional ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L82 )->__devm_clk_get ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/clk/clk-devres.c#L22 )->devres_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/devres.c#L220 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

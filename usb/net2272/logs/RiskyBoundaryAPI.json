@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "__release_region",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [4]net2272_rdk2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2400 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_rdk1_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2315 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_rdk1_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2500 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_rdk1_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2315 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_plat_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2674 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_rdk2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2400 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_rdk2_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2522 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2606 )->__release_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1251 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "__request_region",
+    "risky func": "alloc_resource",
+    "Risky API Class": "bus",
+    "Is Controlled Path": 1,
+    "call path": "( [3]net2272_rdk2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2400 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 ) )( [3]net2272_rdk1_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2315 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 ) )( [3]net2272_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2606 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "__request_region",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [4]net2272_rdk2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2400 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_rdk1_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2315 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [4]net2272_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2606 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->free_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L153 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "__request_region",
+    "risky func": "kzalloc.318",
+    "Risky API Class": "",
+    "Is Controlled Path": 1,
+    "call path": "( [4]net2272_rdk2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2400 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 )->kzalloc.318 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]net2272_rdk1_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2315 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 )->kzalloc.318 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )( [4]net2272_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2606 )->__request_region ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L1217 )->alloc_resource ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/resource.c#L165 )->kzalloc.318 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "net2272_gadget_release(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2214) | net2272_free_request(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L342) | "
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "iounmap",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 6,
+    "call path": "( [3]net2272_rdk2_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2400 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_rdk1_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2315 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_rdk2_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2522 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_rdk1_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2500 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_rdk1_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2500 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2220 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_plat_probe ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2606 )->iounmap ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/arch/x86/mm/ioremap.c#L451 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "free_irq",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 13,
+    "call path": "( [3]net2272_probe_fin ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2259 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]net2272_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2220 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "free_irq",
+    "risky func": "mutex_lock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 4,
+    "call path": "( [4]net2272_probe_fin ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2259 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_lock ( Unknown Loc ) )( [4]net2272_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2220 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_lock ( Unknown Loc ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "free_irq",
+    "risky func": "mutex_unlock",
+    "Risky API Class": "concurrency",
+    "Is Controlled Path": 0,
+    "No. path cond": 13,
+    "call path": "( [4]net2272_probe_fin ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2259 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_unlock ( Unknown Loc ) )( [4]net2272_remove ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2220 )->free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L2018 )->__free_irq ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/irq/manage.c#L1866 )->mutex_unlock ( Unknown Loc ) )"
+  },
+  {
+    "id": 9,
+    "kernel boundary func name": "pci_enable_device",
+    "Risky API Class": "bus",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "net2272_pci_probe(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2468) | "
+  },
+  {
+    "id": 10,
+    "kernel boundary func name": "pci_disable_device",
+    "Risky API Class": "bus",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "net2272_pci_remove(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2553) | net2272_pci_probe(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2492) | "
+  },
+  {
+    "id": 11,
+    "kernel boundary func name": "pci_unregister_driver",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 1,
+    "call path": "( [4]net2272_pci_unregister ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/udc/net2272.c#L2593 )->pci_unregister_driver ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L1456 )->pci_free_dynids ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/pci/pci-driver.c#L81 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

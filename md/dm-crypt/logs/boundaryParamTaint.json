@@ -1,0 +1,454 @@
+[
+  {
+    "id": "19",
+    "risky": "ptr-sen-api (memcpy)",
+    "acc_path": "data",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L131",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L113",
+    "drv caller (param)": "[ crypt_iv_lmk_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L511 ], ",
+    "call path (param)": " [crypt_iv_lmk_one->crypto_shash_update->shash_update_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_shash_update->shash_update_unaligned] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L128 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "20",
+    "risky": "arr-idx",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L129",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L118",
+    "drv caller (param)": "[ crypt_iv_lmk_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L511 ], ",
+    "call path (param)": " [crypt_iv_lmk_one->crypto_shash_update->shash_update_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_shash_update->shash_update_unaligned] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L117 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L107 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L117 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "20",
+    "risky": "val-sen-api (memset)",
+    "acc_path": "len",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L129",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L115",
+    "drv caller (param)": "[ crypt_iv_lmk_one | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L511 ], ",
+    "call path (param)": " [crypt_iv_lmk_one->crypto_shash_update->shash_update_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_shash_update->shash_update_unaligned] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L110 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L107 | ",
+    "isControl": "1",
+    "t_trace": "[ ACTUAL_IN || PARAMETER_INunsigned int ] -> [ FORMAL_IN || PARAMETER_INlen ] -> [ INST || PARAMETER_IN || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L111 ] -> [ INST || UNKNOWN Edge Type || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L115 ] -> [ INST || DATA_DEF_USE || https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L115 ] -> ",
+    "isTrue": "-",
+    "atk_reason": "",
+    "defense": ""
+  }
+]
+[
+  {
+    "id": "21",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "type",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L520",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], ",
+    "call path (param)": " [crypt_iv_lmk_ctr->crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "22",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/shash.c#L520",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_iv_lmk_ctr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L433 ], ",
+    "call path (param)": " [crypt_iv_lmk_ctr->crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "23",
+    "risky": "ptr-read",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/ahash.c#L558",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L566",
+    "drv caller (param)": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "call path (param)": " [crypt_ctr_auth_cipher->crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_mod_get->try_module_get->module_is_live] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_mod_get->try_module_get->module_is_live] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L221 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L41 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L215 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L223 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "23",
+    "risky": "ptr-write",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/ahash.c#L558",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L72",
+    "drv caller (param)": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "call path (param)": " [crypt_ctr_auth_cipher->crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->list_add.172->__list_add.173] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->list_add.172->__list_add.173] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | ",
+    "cond_num": "21",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "23",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/ahash.c#L558",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L71",
+    "drv caller (param)": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "call path (param)": " [crypt_ctr_auth_cipher->crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "24",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "type",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/ahash.c#L558",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "call path (param)": " [crypt_ctr_auth_cipher->crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "25",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/ahash.c#L558",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_ctr_auth_cipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2837 ], ",
+    "call path (param)": " [crypt_ctr_auth_cipher->crypto_alloc_ahash->crypto_alloc_tfm.147->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "26",
+    "risky": "ptr-read",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L216",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L566",
+    "drv caller (param)": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "call path (param)": " [crypt_alloc_tfms_aead->crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_mod_get->try_module_get->module_is_live] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_mod_get->try_module_get->module_is_live] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L221 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L41 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L215 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L223 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "26",
+    "risky": "ptr-write",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L216",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L72",
+    "drv caller (param)": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "call path (param)": " [crypt_alloc_tfms_aead->crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->list_add.172->__list_add.173] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->list_add.172->__list_add.173] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | ",
+    "cond_num": "21",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "26",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L216",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L71",
+    "drv caller (param)": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "call path (param)": " [crypt_alloc_tfms_aead->crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "27",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "type",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L216",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "call path (param)": " [crypt_alloc_tfms_aead->crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "28",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L216",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_alloc_tfms_aead | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2325 ], ",
+    "call path (param)": " [crypt_alloc_tfms_aead->crypto_alloc_aead->crypto_alloc_tfm->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "30",
+    "risky": "val-sen-api (memset)",
+    "acc_path": "keylen",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L50",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L38",
+    "drv caller (param)": "[ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2400 ], ",
+    "call path (param)": " [crypt_setkey->crypto_aead_setkey->setkey_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_aead_setkey->setkey_unaligned] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L32 | ",
+    "cond_num": "1",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L32 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "30",
+    "risky": "val-sen-branch (kmalloc)",
+    "acc_path": "keylen",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/aead.c#L50",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545",
+    "drv caller (param)": "[ crypt_setkey | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2400 ], ",
+    "call path (param)": " [crypt_setkey->crypto_aead_setkey->setkey_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_aead_setkey->setkey_unaligned] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "34",
+    "risky": "arr-idx",
+    "acc_path": "offset",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L1079",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L873",
+    "drv caller (param)": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1693 ], ",
+    "call path (param)": " [crypt_alloc_buffer->bio_add_page->__bio_try_merge_page->page_is_mergeable] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [bio_add_page->__bio_try_merge_page->page_is_mergeable] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L898 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L895 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "46",
+    "risky": "ptr-read",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L756",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L566",
+    "drv caller (param)": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], ",
+    "call path (param)": " [crypt_alloc_tfms_skcipher->crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_mod_get->try_module_get->module_is_live] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_wait->crypto_mod_get->try_module_get->module_is_live] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L338 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L219 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L333 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L208 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L221 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L41 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L226 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/module.h#L634 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L215 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L223 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L223 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "46",
+    "risky": "ptr-write",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L756",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L72",
+    "drv caller (param)": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], ",
+    "call path (param)": " [crypt_alloc_tfms_skcipher->crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->list_add.172->__list_add.173] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_larval_add->list_add.172->__list_add.173] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | ",
+    "cond_num": "21",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/list.h#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "46",
+    "risky": "ptr-sen-branch (buffer)",
+    "acc_path": "alg_name",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L756",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L71",
+    "drv caller (param)": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], ",
+    "call path (param)": " [crypt_alloc_tfms_skcipher->crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "cond_num": "18",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L287 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L277 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L284 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L70 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L259 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L248 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L69 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "47",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "type",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L756",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], ",
+    "call path (param)": " [crypt_alloc_tfms_skcipher->crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "10",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L538 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "48",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "mask",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L756",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L66",
+    "drv caller (param)": "[ crypt_alloc_tfms_skcipher | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L2298 ], ",
+    "call path (param)": " [crypt_alloc_tfms_skcipher->crypto_alloc_skcipher->crypto_alloc_tfm.223->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_alloc_shash->crypto_alloc_tfm.193->crypto_alloc_tfm_node->crypto_find_alg->crypto_alg_mod_lookup->crypto_larval_lookup->crypto_alg_lookup->__crypto_alg_lookup] ",
+    "num condition checks": 2,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | ",
+    "cond_num": "8",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L296 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L294 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L131 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L63 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/api.c#L60 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "49",
+    "risky": "val-sen-api (kmalloc)",
+    "acc_path": "keylen",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L605",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L558",
+    "drv caller (param)": "[ crypt_iv_elephant_wipe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1051 ], ",
+    "call path (param)": " [crypt_iv_elephant_wipe->crypto_skcipher_setkey->skcipher_setkey_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_skcipher_setkey->skcipher_setkey_unaligned] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "isControl": "0"
+  },
+  {
+    "id": "49",
+    "risky": "val-sen-branch (kmalloc)",
+    "acc_path": "keylen",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/crypto/skcipher.c#L605",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L545",
+    "drv caller (param)": "[ crypt_iv_elephant_wipe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1051 ], ",
+    "call path (param)": " [crypt_iv_elephant_wipe->crypto_skcipher_setkey->skcipher_setkey_unaligned] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [crypto_skcipher_setkey->skcipher_setkey_unaligned] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "cond_num": "2",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L541 | ",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "54",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "nr_vecs",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L543",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L55",
+    "drv caller (param)": "[ crypt_alloc_buffer | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/md/dm-crypt.c#L1675 ], ",
+    "call path (param)": " [crypt_alloc_buffer->dm_crypt_integrity_io_alloc->bio_integrity_alloc->bvec_alloc->biovec_slab] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [bio_integrity_alloc->bvec_alloc->biovec_slab] ",
+    "num condition checks": 1,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L46 | ",
+    "cond_num": "3",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/bio.c#L46 | ",
+    "isControl": "0"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "No. entry": 2
+  },
+  {
+    "Drv func": "rl6231_pll_calc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rl6231.c#L162 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rl6231.c#L162"
+  },
+  {
+    "Drv func": "rl6231_pll_calc",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rl6231.c#L217 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/sound/soc/codecs/rl6231.c#L217"
+  }
+]

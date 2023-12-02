@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "asc7621_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1110 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1118"
+  },
+  {
+    "Drv func": "asc7621_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1110 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1112"
+  },
+  {
+    "Drv func": "asc7621_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1127 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1128"
+  },
+  {
+    "Drv func": "asc7621_remove",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1175 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1176"
+  },
+  {
+    "Drv func": "asc7621_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1026 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1027 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1029"
+  },
+  {
+    "Drv func": "asc7621_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1012 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1013 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/asc7621.c#L1015"
+  }
+]

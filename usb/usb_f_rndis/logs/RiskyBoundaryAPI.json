@@ -1,0 +1,81 @@
+[
+  {
+    "id": 0,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 5,
+    "call path": "( [3]rndis_borrow_net ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L837 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )( [3]rndis_free_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L898 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 1,
+    "kernel boundary func name": "free_netdev",
+    "risky func": "kobject_put",
+    "Risky API Class": "refCount",
+    "Is Controlled Path": 0,
+    "No. path cond": 9,
+    "call path": "( [4]rndis_borrow_net ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L837 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )( [4]rndis_free_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L898 )->free_netdev ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/dev.c#L10687 )->put_device ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/core.c#L3768 )->kobject_put ( Unknown Loc ) )"
+  },
+  {
+    "id": 2,
+    "kernel boundary func name": "kfree",
+    "Risky API Class": "memory",
+    "Direct Risky Kernel API": 1,
+    "driver callers": "rndis_free_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L910) | rndis_free_response(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L1024) | rndis_free_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L911) | rndis_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L978) | rndis_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L824) | rndis_deregister(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L953) | rndis_unbind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L974) | rndis_alloc(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L1022) | rndis_alloc_inst(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L931) | rndis_bind(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L828) | rndis_free(https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L964) | "
+  },
+  {
+    "id": 3,
+    "kernel boundary func name": "skb_realloc_headroom",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 8,
+    "call path": "( [10]rndis_add_header ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L370 )->skb_realloc_headroom ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1913 )->skb_clone ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1641 )->skb_orphan_frags.610 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L3099 )->skb_copy_ubufs ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1545 )->skb_unclone ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/skbuff.h#L1890 )->pskb_expand_head ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L1824 )->skb_release_data ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L766 )->skb_free_head ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/skbuff.c#L753 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 4,
+    "kernel boundary func name": "netif_carrier_on",
+    "risky func": "mod_timer",
+    "Risky API Class": "timer",
+    "Is Controlled Path": 0,
+    "No. path cond": 5,
+    "call path": "( [4]gen_ndis_set_resp ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L484 )->netif_carrier_on ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L575 )->__netdev_watchdog_up ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/sched/sch_generic.c#L543 )->mod_timer ( Unknown Loc ) )"
+  },
+  {
+    "id": 5,
+    "kernel boundary func name": "ida_free",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 12,
+    "call path": "( [3]rndis_put_nr ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L875 )->ida_free ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L487 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 6,
+    "kernel boundary func name": "ida_alloc_range",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 9,
+    "call path": "( [3]rndis_get_nr ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L870 )->ida_alloc_range ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L380 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  },
+  {
+    "id": 7,
+    "kernel boundary func name": "ida_alloc_range",
+    "risky func": "kzalloc.356",
+    "Risky API Class": "",
+    "Is Controlled Path": 0,
+    "No. path cond": 8,
+    "call path": "( [3]rndis_get_nr ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/rndis.c#L870 )->ida_alloc_range ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/lib/idr.c#L380 )->kzalloc.356 ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/slab.h#L687 ) )"
+  },
+  {
+    "id": 8,
+    "kernel boundary func name": "config_group_init_type_name",
+    "risky func": "kfree",
+    "Risky API Class": "memory",
+    "Is Controlled Path": 1,
+    "No. path cond": 3,
+    "call path": "( [4]rndis_alloc_inst ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/gadget/function/f_rndis.c#L914 )->config_group_init_type_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L92 )->config_item_set_name ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/fs/configfs/item.c#L49 )->kfree ( https://github.com/ksplit/lvd-linux/tree/ksplit-latest/mm/slab_common.c#L988 ) )"
+  }
+]

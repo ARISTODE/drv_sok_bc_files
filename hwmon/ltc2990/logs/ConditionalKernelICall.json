@@ -1,0 +1,35 @@
+[
+  {
+    "No. entry": 6
+  },
+  {
+    "Drv func": "ltc2990_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L242 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L247"
+  },
+  {
+    "Drv func": "ltc2990_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L219 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L230"
+  },
+  {
+    "Drv func": "ltc2990_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L214 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L219 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L220"
+  },
+  {
+    "Drv func": "ltc2990_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L209 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L214 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L219"
+  },
+  {
+    "Drv func": "ltc2990_value_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L147 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L150"
+  },
+  {
+    "Drv func": "ltc2990_i2c_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L242 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L248 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/ltc2990.c#L253"
+  }
+]

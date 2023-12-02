@@ -1,0 +1,95 @@
+[
+  {
+    "No. entry": 18
+  },
+  {
+    "Drv func": "max6697_init_chip",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L654 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L657"
+  },
+  {
+    "Drv func": "offset_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L352 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L353"
+  },
+  {
+    "Drv func": "max6697_init_chip",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L654 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L659 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L662"
+  },
+  {
+    "Drv func": "max6697_init_chip",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L671 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L673"
+  },
+  {
+    "Drv func": "offset_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L364"
+  },
+  {
+    "Drv func": "max6697_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L193 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L365 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/jiffies.h#L370"
+  },
+  {
+    "Drv func": "max6697_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L199 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L217 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L223 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L224"
+  },
+  {
+    "Drv func": "max6697_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L235 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L236"
+  },
+  {
+    "Drv func": "max6697_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L698 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L705 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L702 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L708"
+  },
+  {
+    "Drv func": "max6697_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L199 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L209"
+  },
+  {
+    "Drv func": "max6697_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L199 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L200"
+  },
+  {
+    "Drv func": "max6697_update_device",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L198 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L210 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L199 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L216"
+  },
+  {
+    "Drv func": "offset_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L338 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L342"
+  },
+  {
+    "Drv func": "offset_show",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L381 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L383 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L384"
+  },
+  {
+    "Drv func": "max6697_init_chip",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L671 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L675 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L677"
+  },
+  {
+    "Drv func": "offset_store",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L351 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L358 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L359"
+  },
+  {
+    "Drv func": "max6697_probe",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L714 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L717"
+  },
+  {
+    "Drv func": "max6697_init_chip",
+    "Cond loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L608 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L608 | ",
+    "Call site loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/hwmon/max6697.c#L609"
+  }
+]

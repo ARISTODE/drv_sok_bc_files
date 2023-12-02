@@ -1,0 +1,474 @@
+{
+  "id": 0,
+  "acc_path": "sock->sk_sndtimeo",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/net/sock.h#L2649],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/net/sock.h#L2649],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/sock.c#L1285], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1208], "
+}
+{
+  "id": 2,
+  "acc_path": "gendisk->major",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L244],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L438],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L546],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L516],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L467],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L573], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1823], "
+}
+{
+  "id": 4,
+  "acc_path": "gendisk->minors",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L450],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L442],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L439],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L931],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/genhd.c#L447], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1825], "
+}
+{
+  "id": 11,
+  "acc_path": "blk_mq_tag_set->timeout",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4243],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4243], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1335],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1449], "
+}
+{
+  "id": 12,
+  "acc_path": "blk_mq_tag_set->flags",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3776],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3801],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3969],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3681],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3968],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3228],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4043],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq-tag.c#L441],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4532],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3973],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4215],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4292],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L4312],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-mq.c#L3951], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1761], "
+}
+{
+  "id": 20,
+  "acc_path": "msghdr->msg_namelen",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/netlink/af_netlink.c#L1816],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/netlink/af_netlink.c#L1818], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L519], "
+}
+{
+  "id": 21,
+  "acc_path": "msghdr->msg_flags",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/sock.c#L3607],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/socket.c#L1111],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/net/scm.h#L129],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/socket.c#L1091],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/netlink/af_netlink.c#L1927],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/netlink/af_netlink.c#L1874],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/sock.c#L3619],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/netlink/af_netlink.c#L1804], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L522], "
+}
+{
+  "id": 22,
+  "acc_path": "msghdr->msg_controllen",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/sock.c#L2801],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/net/core/sock.c#L2802],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/socket.h#L164],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/net/scm.h#L87], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L521], "
+}
+{
+  "id": 23,
+  "acc_path": "queue_limits->max_sectors",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L318],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L651],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L552],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L552],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/./include/linux/blkdev.h#L1129],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk.h#L174], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1813], "
+}
+{
+  "id": 24,
+  "acc_path": "queue_limits->discard_granularity",
+  "Kernel read": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L673],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L673],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L662],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L659],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L676],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L661],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/block/blk-settings.c#L656], ",
+  "Drv update": " [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1336],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L1808],  [https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/block/nbd.c#L338], "
+}
+{
+  "id": 25,
+  "acc_path": "timeout",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/time/timer.c#L1896 | schedule_timeout",
+  "Drv update": ""
+}
+{
+  "id": 26,
+  "acc_path": "how",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/socket.c#L3604 | kernel_sock_shutdown",
+  "Drv update": ""
+}
+{
+  "id": 27,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/socket.c#L1014 | sock_recvmsg",
+  "Drv update": ""
+}
+{
+  "id": 28,
+  "acc_path": "fd",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/socket.c#L528 | sockfd_lookup",
+  "Drv update": ""
+}
+{
+  "id": 29,
+  "acc_path": "err",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/socket.c#L528 | sockfd_lookup",
+  "Drv update": ""
+}
+{
+  "id": 31,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/nlattr.c#L776 | nla_strdup",
+  "Drv update": ""
+}
+{
+  "id": 33,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L894 | iov_iter_advance",
+  "Drv update": ""
+}
+{
+  "id": 34,
+  "acc_path": "direction",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L1012 | iov_iter_bvec",
+  "Drv update": ""
+}
+{
+  "id": 35,
+  "acc_path": "nr_segs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L1012 | iov_iter_bvec",
+  "Drv update": ""
+}
+{
+  "id": 36,
+  "acc_path": "count",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L1012 | iov_iter_bvec",
+  "Drv update": ""
+}
+{
+  "id": 37,
+  "acc_path": "name",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/inode.c#L588 | debugfs_create_dir",
+  "Drv update": ""
+}
+{
+  "id": 38,
+  "acc_path": "name",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/inode.c#L482 | debugfs_create_file",
+  "Drv update": ""
+}
+{
+  "id": 39,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/inode.c#L482 | debugfs_create_file",
+  "Drv update": ""
+}
+{
+  "id": 40,
+  "acc_path": "data",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/inode.c#L482 | debugfs_create_file",
+  "Drv update": ""
+}
+{
+  "id": 41,
+  "acc_path": "start",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L79 | idr_alloc",
+  "Drv update": ""
+}
+{
+  "id": 42,
+  "acc_path": "end",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L79 | idr_alloc",
+  "Drv update": ""
+}
+{
+  "id": 44,
+  "acc_path": "func",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/ratelimit.c#L27 | ___ratelimit",
+  "Drv update": ""
+}
+{
+  "id": 45,
+  "acc_path": "error",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-mq.c#L1033 | blk_mq_end_request",
+  "Drv update": ""
+}
+{
+  "id": 46,
+  "acc_path": "name",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L567 | debugfs_create_u64",
+  "Drv update": ""
+}
+{
+  "id": 47,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L567 | debugfs_create_u64",
+  "Drv update": ""
+}
+{
+  "id": 48,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L567 | debugfs_create_u64",
+  "Drv update": ""
+}
+{
+  "id": 49,
+  "acc_path": "name",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L530 | debugfs_create_u32",
+  "Drv update": ""
+}
+{
+  "id": 50,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L530 | debugfs_create_u32",
+  "Drv update": ""
+}
+{
+  "id": 51,
+  "acc_path": "value",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/fs/debugfs/file.c#L530 | debugfs_create_u32",
+  "Drv update": ""
+}
+{
+  "id": 52,
+  "acc_path": "read_only",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L1501 | set_disk_ro",
+  "Drv update": ""
+}
+{
+  "id": 53,
+  "acc_path": "major",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L219 | __register_blkdev",
+  "Drv update": ""
+}
+{
+  "id": 54,
+  "acc_path": "sectors",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L59 | set_capacity",
+  "Drv update": ""
+}
+{
+  "id": 55,
+  "acc_path": "kill_dirty",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/bdev.c#L1001 | __invalidate_device",
+  "Drv update": ""
+}
+{
+  "id": 56,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L172 | idr_find",
+  "Drv update": ""
+}
+{
+  "id": 57,
+  "acc_path": "cap",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/capability.c#L448 | capable",
+  "Drv update": ""
+}
+{
+  "id": 58,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L296 | init_wait_entry",
+  "Drv update": ""
+}
+{
+  "id": 59,
+  "acc_path": "state",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L305 | prepare_to_wait_event",
+  "Drv update": ""
+}
+{
+  "id": 60,
+  "acc_path": "mode",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L157 | __wake_up",
+  "Drv update": ""
+}
+{
+  "id": 61,
+  "acc_path": "nr_exclusive",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/sched/wait.c#L157 | __wake_up",
+  "Drv update": ""
+}
+{
+  "id": 63,
+  "acc_path": "id",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L152 | idr_remove",
+  "Drv update": ""
+}
+{
+  "id": 64,
+  "acc_path": "data",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/idr.c#L195 | idr_for_each",
+  "Drv update": ""
+}
+{
+  "id": 65,
+  "acc_path": "direction",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L996 | iov_iter_kvec",
+  "Drv update": ""
+}
+{
+  "id": 66,
+  "acc_path": "nr_segs",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L996 | iov_iter_kvec",
+  "Drv update": ""
+}
+{
+  "id": 67,
+  "acc_path": "count",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/lib/iov_iter.c#L996 | iov_iter_kvec",
+  "Drv update": ""
+}
+{
+  "id": 68,
+  "acc_path": "cap",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/netlink/af_netlink.c#L901 | netlink_capable",
+  "Drv update": ""
+}
+{
+  "id": 69,
+  "acc_path": "portid",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/netlink/genetlink.c#L513 | genlmsg_put",
+  "Drv update": ""
+}
+{
+  "id": 70,
+  "acc_path": "seq",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/netlink/genetlink.c#L513 | genlmsg_put",
+  "Drv update": ""
+}
+{
+  "id": 71,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/netlink/genetlink.c#L513 | genlmsg_put",
+  "Drv update": ""
+}
+{
+  "id": 72,
+  "acc_path": "cmd",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/net/netlink/genetlink.c#L513 | genlmsg_put",
+  "Drv update": ""
+}
+{
+  "id": 73,
+  "acc_path": "flags",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/workqueue.c#L4292 | alloc_workqueue",
+  "Drv update": ""
+}
+{
+  "id": 74,
+  "acc_path": "max_active",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/kernel/workqueue.c#L4292 | alloc_workqueue",
+  "Drv update": ""
+}
+{
+  "id": 75,
+  "acc_path": "flag",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-core.c#L80 | blk_queue_flag_set",
+  "Drv update": ""
+}
+{
+  "id": 76,
+  "acc_path": "flag",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-core.c#L91 | blk_queue_flag_clear",
+  "Drv update": ""
+}
+{
+  "id": 77,
+  "acc_path": "major",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L288 | unregister_blkdev",
+  "Drv update": ""
+}
+{
+  "id": 78,
+  "acc_path": "name",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L288 | unregister_blkdev",
+  "Drv update": ""
+}
+{
+  "id": 79,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/genhd.c#L74 | set_capacity_and_notify",
+  "Drv update": ""
+}
+{
+  "id": 80,
+  "acc_path": "wc",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L825 | blk_queue_write_cache",
+  "Drv update": ""
+}
+{
+  "id": 81,
+  "acc_path": "fua",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L825 | blk_queue_write_cache",
+  "Drv update": ""
+}
+{
+  "id": 82,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L332 | blk_queue_physical_block_size",
+  "Drv update": ""
+}
+{
+  "id": 83,
+  "acc_path": "size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L303 | blk_queue_logical_block_size",
+  "Drv update": ""
+}
+{
+  "id": 84,
+  "acc_path": "max_size",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L278 | blk_queue_max_segment_size",
+  "Drv update": ""
+}
+{
+  "id": 85,
+  "acc_path": "max_segments",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L241 | blk_queue_max_segments",
+  "Drv update": ""
+}
+{
+  "id": 86,
+  "acc_path": "max_discard_sectors",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L172 | blk_queue_max_discard_sectors",
+  "Drv update": ""
+}
+{
+  "id": 87,
+  "acc_path": "max_hw_sectors",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L122 | blk_queue_max_hw_sectors",
+  "Drv update": ""
+}
+{
+  "id": 88,
+  "acc_path": "timeout",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-settings.c#L21 | blk_queue_rq_timeout",
+  "Drv update": ""
+}
+{
+  "id": 90,
+  "acc_path": "kick_requeue_list",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/block/blk-mq.c#L1416 | blk_mq_requeue_request",
+  "Drv update": ""
+}
+{
+  "id": 91,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L1555 | nbd_open",
+  "Drv update": ""
+}
+{
+  "id": 93,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L234 | backend_show",
+  "Drv update": ""
+}
+{
+  "id": 94,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L1657 | nbd_dbg_flags_open",
+  "Drv update": ""
+}
+{
+  "id": 95,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L1657 | nbd_dbg_flags_open",
+  "Drv update": ""
+}
+{
+  "id": 96,
+  "acc_path": "ssize_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L234 | backend_show",
+  "Drv update": ""
+}
+{
+  "id": 97,
+  "acc_path": "blk_status_t",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L1054 | nbd_queue_rq",
+  "Drv update": ""
+}
+{
+  "id": 98,
+  "acc_path": "blk_eh_timer_return",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L399 | nbd_xmit_timeout",
+  "Drv update": ""
+}
+{
+  "id": 99,
+  "acc_path": "int",
+  "Kernel read": "https://gitlab.flux.utah.edu/xcap/xcap-capability-linux/-/blob/llvm_v4.8/drivers/block/nbd.c#L1729 | nbd_init_request",
+  "Drv update": ""
+}

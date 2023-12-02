@@ -1,0 +1,36 @@
+[
+  {
+    "id": "7",
+    "risky": "val-sen-api (mod_time)",
+    "acc_path": "expires",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/kernel/time/timer.c#L1161",
+    "drv caller (param)": "[ dwc2_handle_wakeup_detected_intr | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/core_intr.c#L442 ], ",
+    "call path (param)": " [dwc2_handle_wakeup_detected_intr->mod_timer] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [mod_timer] ",
+    "num condition checks": 0,
+    "condition checks": "",
+    "cond_num": "1",
+    "cond_loc": "",
+    "isControl": "0"
+  }
+]
+[
+  {
+    "id": "18",
+    "risky": "val-sen-branch (buffer)",
+    "acc_path": "num",
+    "src": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L263",
+    "dst": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L225",
+    "drv caller (param)": "[ dwc2_driver_probe | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/usb/dwc2/platform.c#L441 ], ",
+    "call path (param)": " [dwc2_driver_probe->platform_get_irq->platform_get_irq_optional] ",
+    "drv_update loc (shared field)": "",
+    "call path (type)": " [platform_get_irq->platform_get_irq_optional] ",
+    "num condition checks": 5,
+    "condition checks": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L213 | ",
+    "cond_num": "6",
+    "cond_loc": "https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L213 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L204 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L190 | https://github.com/ksplit/lvd-linux/tree/ksplit-latest/drivers/base/platform.c#L183 | ",
+    "isControl": "0"
+  }
+]

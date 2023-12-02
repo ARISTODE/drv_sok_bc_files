@@ -1,0 +1,7 @@
+{
+  "concurrency": 2,
+  "timer": 2,
+  "": 5,
+  "memory": 9,
+  "bus": 10
+}

@@ -1,0 +1,6 @@
+{
+  "timer": 3,
+  "refCount": 2,
+  "memory": 5,
+  "concurrency": 5
+}
